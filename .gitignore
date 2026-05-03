@@ -1,8 +1,9 @@
-/*
-!04.English/
-04.English/*
-!04.English/GRE/
-04.English/GRE/*
-!04.English/GRE/Voca/
-!04.English/GRE/Voca/**
-!.gitignore
+__pycache__/
+*.pyc
+.env
+.claude/
+ocr_test_output.json
+parse_voca.py
+test_ocr_day7.py
+test_day7_err.txt
+test_day7_log.txt
