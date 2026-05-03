@@ -198,54 +198,57 @@ def render_obsidian_export(wrong_words: list):
 
 
 # ── GitHub sync for Obsidian ──────────────────────────────────────────────────
-# 환경 설정 안내:
-#   1) requirements.txt에 추가: PyGithub>=1.59.0
-#   2) Streamlit Cloud 앱 대시보드 → Settings → Secrets 에 아래 형식으로 입력:
-#        GITHUB_TOKEN = "ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-#        GITHUB_REPO  = "sunny-side-ksi/Voca"   # 선택사항 — 생략하면 기본값 사용
-#   저장 경로: 04.English/GRE/Voca/YYYY-MM-DD_오답노트.md
+# Streamlit Cloud Secrets 설정:
+#   GITHUB_TOKEN = "ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+#   GITHUB_REPO  = "sunny-side-ksi/Voca"   # 선택사항
 
 def push_to_github(wrong_words: list):
-    """오답 목록을 GitHub wrong_notes/ 폴더에 마크다운 파일로 Push (없으면 생성, 있으면 Append)."""
-    from github import Github, GithubException  # PyGithub
+    """GitHub REST API(requests)로 오답 노트를 Push — 외부 라이브러리 불필요."""
+    import base64
+    import requests
 
     try:
         token = st.secrets["GITHUB_TOKEN"]
     except KeyError:
-        st.error("GITHUB_TOKEN이 Streamlit Cloud Secrets에 설정되지 않았습니다.")
-        return
+        raise RuntimeError("GITHUB_TOKEN이 Streamlit Cloud Secrets에 없습니다.")
 
-    repo_name = st.secrets.get("GITHUB_REPO", "sunny-side-ksi/Voca")
+    repo = st.secrets.get("GITHUB_REPO", "sunny-side-ksi/Voca")
     today = date.today().strftime("%Y-%m-%d")
     now = datetime.now().strftime("%H:%M")
-    file_path = f"04.English/GRE/Voca/{today}_오답노트.md"
+    path = f"04.English/GRE/Voca/{today}_오답노트.md"
 
     lines = [f"\n## 퀴즈 오답 기록 ({now})\n"]
     for e in wrong_words:
         lines.append(f"- [{e['time']}] **{e['word']}** — {e['meaning']}")
     new_block = "\n".join(lines)
 
-    g = Github(token)
-    repo = g.get_repo(repo_name)
+    headers = {
+        "Authorization": f"token {token}",
+        "Accept": "application/vnd.github+json",
+    }
+    url = f"https://api.github.com/repos/{repo}/contents/{path}"
 
-    try:
-        existing = repo.get_contents(file_path)
-        old_content = existing.decoded_content.decode("utf-8")
-        repo.update_file(
-            path=file_path,
-            message=f"오답노트 업데이트: {today} {now}",
-            content=old_content + new_block,
-            sha=existing.sha,
-        )
-    except GithubException as exc:
-        if exc.status == 404:
-            repo.create_file(
-                path=file_path,
-                message=f"오답노트 생성: {today} {now}",
-                content=f"# {today} 오답노트" + new_block,
-            )
-        else:
-            raise
+    get_resp = requests.get(url, headers=headers)
+    if get_resp.status_code == 200:
+        data = get_resp.json()
+        old_content = base64.b64decode(data["content"]).decode("utf-8")
+        new_content = old_content + new_block
+        sha = data["sha"]
+        payload = {
+            "message": f"오답노트 업데이트: {today} {now}",
+            "content": base64.b64encode(new_content.encode("utf-8")).decode("ascii"),
+            "sha": sha,
+        }
+    else:
+        new_content = f"# {today} 오답노트" + new_block
+        payload = {
+            "message": f"오답노트 생성: {today} {now}",
+            "content": base64.b64encode(new_content.encode("utf-8")).decode("ascii"),
+        }
+
+    put_resp = requests.put(url, headers=headers, json=payload)
+    if put_resp.status_code not in (200, 201):
+        raise RuntimeError(f"GitHub API 오류 {put_resp.status_code}: {put_resp.json().get('message', '')}")
 
 
 # ── Quiz generators ───────────────────────────────────────────────────────────
