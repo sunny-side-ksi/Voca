@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.claude/
+ocr_test_output.json
+parse_voca.py
+test_day7_err.txt
+test_day7_log.txt
+test_ocr_day7.py
