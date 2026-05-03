@@ -463,17 +463,16 @@ with st.sidebar:
     n_wrong = len(st.session_state.daily_wrong_words)
     st.caption(f"📝 오늘 누적 오답: **{n_wrong}**개 | 내보내기는 결과 화면에서")
 
-    if st.button(
-        "☁️ 오답 노트를 깃허브로 전송",
-        use_container_width=True,
-        disabled=(n_wrong == 0),
-    ):
-        with st.spinner("GitHub에 업로드 중..."):
-            try:
-                push_to_github(st.session_state.daily_wrong_words)
-                st.success("GitHub 전송 완료! 옵시디언에서 Pull 하세요.")
-            except Exception as exc:
-                st.error(f"전송 실패: {exc}")
+    if st.button("☁️ 오답 노트를 깃허브로 전송", use_container_width=True):
+        if n_wrong == 0:
+            st.warning("아직 오답이 없습니다.")
+        else:
+            with st.spinner("GitHub에 업로드 중..."):
+                try:
+                    push_to_github(st.session_state.daily_wrong_words)
+                    st.success("GitHub 전송 완료! 옵시디언에서 Pull 하세요.")
+                except Exception as exc:
+                    st.error(f"전송 실패: {exc}")
 
 
 # ── Main area ─────────────────────────────────────────────────────────────────
