@@ -197,60 +197,6 @@ def render_obsidian_export(wrong_words: list):
     st.caption(f"다운로드 후 옵시디언 볼트 폴더에 넣으세요. (`{filename}`)")
 
 
-# ── GitHub sync for Obsidian ──────────────────────────────────────────────────
-# Streamlit Cloud Secrets 설정:
-#   GITHUB_TOKEN = "ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-#   GITHUB_REPO  = "sunny-side-ksi/Voca"   # 선택사항
-
-def push_to_github(wrong_words: list):
-    """GitHub REST API(requests)로 오답 노트를 Push — 외부 라이브러리 불필요."""
-    import base64
-    import requests
-
-    try:
-        token = st.secrets["GITHUB_TOKEN"]
-    except KeyError:
-        raise RuntimeError("GITHUB_TOKEN이 Streamlit Cloud Secrets에 없습니다.")
-
-    repo = st.secrets.get("GITHUB_REPO", "sunny-side-ksi/Voca")
-    today = date.today().strftime("%Y-%m-%d")
-    now = datetime.now().strftime("%H:%M")
-    path = f"04.English/GRE/Voca/{today}_오답노트.md"
-
-    lines = [f"\n## 퀴즈 오답 기록 ({now})\n"]
-    for e in wrong_words:
-        lines.append(f"- [{e['time']}] **{e['word']}** — {e['meaning']}")
-    new_block = "\n".join(lines)
-
-    headers = {
-        "Authorization": f"token {token}",
-        "Accept": "application/vnd.github+json",
-    }
-    url = f"https://api.github.com/repos/{repo}/contents/{path}"
-
-    get_resp = requests.get(url, headers=headers)
-    if get_resp.status_code == 200:
-        data = get_resp.json()
-        old_content = base64.b64decode(data["content"]).decode("utf-8")
-        new_content = old_content + new_block
-        sha = data["sha"]
-        payload = {
-            "message": f"오답노트 업데이트: {today} {now}",
-            "content": base64.b64encode(new_content.encode("utf-8")).decode("ascii"),
-            "sha": sha,
-        }
-    else:
-        new_content = f"# {today} 오답노트" + new_block
-        payload = {
-            "message": f"오답노트 생성: {today} {now}",
-            "content": base64.b64encode(new_content.encode("utf-8")).decode("ascii"),
-        }
-
-    put_resp = requests.put(url, headers=headers, json=payload)
-    if put_resp.status_code not in (200, 201):
-        raise RuntimeError(f"GitHub API 오류 {put_resp.status_code}: {put_resp.json().get('message', '')}")
-
-
 # ── Quiz generators ───────────────────────────────────────────────────────────
 
 def make_ox_questions(words: list[dict], n: int) -> list[dict]:
@@ -372,7 +318,6 @@ init_state()
 # ── Sidebar ───────────────────────────────────────────────────────────────────
 with st.sidebar:
     st.title("📚 GRE Voca Quiz")
-    st.caption("🔖 v2025-05-03")
     st.markdown("---")
 
     data = load_data()
@@ -451,20 +396,6 @@ with st.sidebar:
         })
         st.rerun()
 
-    st.markdown("---")
-    n_wrong = len(st.session_state.daily_wrong_words)
-    st.caption(f"📝 오늘 누적 오답: {n_wrong}개")
-    if st.button("☁️ 오답 노트를 깃허브로 전송", use_container_width=True):
-        if n_wrong == 0:
-            st.warning("아직 오답이 없습니다.")
-        else:
-            with st.spinner("GitHub에 업로드 중..."):
-                try:
-                    push_to_github(st.session_state.daily_wrong_words)
-                    st.success("GitHub 전송 완료! 옵시디언에서 Pull 하세요.")
-                except Exception as exc:
-                    st.error(f"전송 실패: {exc}")
-
     if st.session_state.quiz_started:
         st.markdown("---")
         total = len(st.session_state.questions)
@@ -476,6 +407,10 @@ with st.sidebar:
         if st.button("🔄 초기화", use_container_width=True):
             st.session_state.quiz_started = False
             st.rerun()
+
+    st.markdown("---")
+    n_wrong = len(st.session_state.daily_wrong_words)
+    st.caption(f"📝 오늘 누적 오답: **{n_wrong}**개 | 내보내기는 결과 화면에서")
 
 
 # ── Main area ─────────────────────────────────────────────────────────────────
