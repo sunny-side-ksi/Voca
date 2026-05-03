@@ -197,6 +197,57 @@ def render_obsidian_export(wrong_words: list):
     st.caption(f"다운로드 후 옵시디언 볼트 폴더에 넣으세요. (`{filename}`)")
 
 
+# ── GitHub sync for Obsidian ──────────────────────────────────────────────────
+# 환경 설정 안내:
+#   1) requirements.txt에 추가: PyGithub>=1.59.0
+#   2) Streamlit Cloud 앱 대시보드 → Settings → Secrets 에 아래 형식으로 입력:
+#        GITHUB_TOKEN = "ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+#        GITHUB_REPO  = "sunny-side-ksi/Voca"   # 선택사항 — 생략하면 기본값 사용
+#   저장 경로: 04.English/GRE/Voca/YYYY-MM-DD_오답노트.md
+
+def push_to_github(wrong_words: list):
+    """오답 목록을 GitHub wrong_notes/ 폴더에 마크다운 파일로 Push (없으면 생성, 있으면 Append)."""
+    from github import Github, GithubException  # PyGithub
+
+    try:
+        token = st.secrets["GITHUB_TOKEN"]
+    except KeyError:
+        st.error("GITHUB_TOKEN이 Streamlit Cloud Secrets에 설정되지 않았습니다.")
+        return
+
+    repo_name = st.secrets.get("GITHUB_REPO", "sunny-side-ksi/Voca")
+    today = date.today().strftime("%Y-%m-%d")
+    now = datetime.now().strftime("%H:%M")
+    file_path = f"04.English/GRE/Voca/{today}_오답노트.md"
+
+    lines = [f"\n## 퀴즈 오답 기록 ({now})\n"]
+    for e in wrong_words:
+        lines.append(f"- [{e['time']}] **{e['word']}** — {e['meaning']}")
+    new_block = "\n".join(lines)
+
+    g = Github(token)
+    repo = g.get_repo(repo_name)
+
+    try:
+        existing = repo.get_contents(file_path)
+        old_content = existing.decoded_content.decode("utf-8")
+        repo.update_file(
+            path=file_path,
+            message=f"오답노트 업데이트: {today} {now}",
+            content=old_content + new_block,
+            sha=existing.sha,
+        )
+    except GithubException as exc:
+        if exc.status == 404:
+            repo.create_file(
+                path=file_path,
+                message=f"오답노트 생성: {today} {now}",
+                content=f"# {today} 오답노트" + new_block,
+            )
+        else:
+            raise
+
+
 # ── Quiz generators ───────────────────────────────────────────────────────────
 
 def make_ox_questions(words: list[dict], n: int) -> list[dict]:
@@ -411,6 +462,18 @@ with st.sidebar:
     st.markdown("---")
     n_wrong = len(st.session_state.daily_wrong_words)
     st.caption(f"📝 오늘 누적 오답: **{n_wrong}**개 | 내보내기는 결과 화면에서")
+
+    if st.button(
+        "☁️ 오답 노트를 깃허브로 전송",
+        use_container_width=True,
+        disabled=(n_wrong == 0),
+    ):
+        with st.spinner("GitHub에 업로드 중..."):
+            try:
+                push_to_github(st.session_state.daily_wrong_words)
+                st.success("GitHub 전송 완료! 옵시디언에서 Pull 하세요.")
+            except Exception as exc:
+                st.error(f"전송 실패: {exc}")
 
 
 # ── Main area ─────────────────────────────────────────────────────────────────
