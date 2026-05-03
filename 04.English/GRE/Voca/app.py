@@ -369,6 +369,7 @@ init_state()
 # ── Sidebar ───────────────────────────────────────────────────────────────────
 with st.sidebar:
     st.title("📚 GRE Voca Quiz")
+    st.caption("🔖 v2025-05-03")
     st.markdown("---")
 
     data = load_data()
