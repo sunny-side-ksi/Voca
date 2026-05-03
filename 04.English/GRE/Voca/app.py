@@ -2,7 +2,7 @@
 import json
 import random
 import re
-from datetime import date, datetime
+
 from pathlib import Path
 
 import streamlit as st
@@ -159,43 +159,6 @@ def best_meaning(entry: dict) -> str:
     return d[:120] if d else "—"
 
 
-# ── Obsidian wrong-word tracking ─────────────────────────────────────────────
-
-def add_to_daily_wrong(word: str, meaning: str):
-    timestamp = datetime.now().strftime("%H:%M")
-    existing = {e["word"] for e in st.session_state.daily_wrong_words}
-    if word not in existing:
-        st.session_state.daily_wrong_words.append({
-            "word": word,
-            "meaning": meaning,
-            "time": timestamp,
-        })
-
-
-def render_obsidian_export(wrong_words: list):
-    today = date.today().strftime("%Y-%m-%d")
-    filename = f"{today}_오답노트.md"
-
-    if not wrong_words:
-        st.button("📥 오답 노트 다운로드", disabled=True, use_container_width=True)
-        st.caption("아직 틀린 단어가 없습니다.")
-        return
-
-    lines = [f"### 퀴즈 오답 기록 ({today})\n"]
-    for e in wrong_words:
-        lines.append(f"- [{e['time']}] **{e['word']}** — {e['meaning']}")
-    content = "\n".join(lines)
-
-    st.download_button(
-        label=f"📥 오답 노트 다운로드 ({len(wrong_words)}개)",
-        data=content.encode("utf-8"),
-        file_name=filename,
-        mime="text/markdown",
-        use_container_width=True,
-        type="primary",
-    )
-    st.caption(f"다운로드 후 옵시디언 볼트 폴더에 넣으세요. (`{filename}`)")
-
 
 # ── Quiz generators ───────────────────────────────────────────────────────────
 
@@ -305,8 +268,6 @@ def init_state():
         "match_selected_idx": None,
         "match_user_pairs": {},       # word → meaning (user's pairs)
         "match_submitted": False,
-        # Obsidian export
-        "daily_wrong_words": [],
     }
     for k, v in defaults.items():
         if k not in st.session_state:
@@ -408,10 +369,6 @@ with st.sidebar:
             st.session_state.quiz_started = False
             st.rerun()
 
-    st.markdown("---")
-    n_wrong = len(st.session_state.daily_wrong_words)
-    st.caption(f"📝 오늘 누적 오답: **{n_wrong}**개 | 내보내기는 결과 화면에서")
-
 
 # ── Main area ─────────────────────────────────────────────────────────────────
 
@@ -473,18 +430,6 @@ if idx >= total or st.session_state.show_result:
             </div>
             """, unsafe_allow_html=True)
 
-    # ── Obsidian export ────────────────────────────────────────────────────────
-    st.markdown("---")
-    daily = st.session_state.daily_wrong_words
-    st.markdown(f"### 📤 옵시디언으로 내보내기  <span style='font-size:1rem;font-weight:400;color:#6c757d;'>({len(daily)}개 누적)</span>", unsafe_allow_html=True)
-    if daily:
-        st.caption(f"볼트 폴더를 선택하면 `{date.today().strftime('%Y-%m-%d')}_오답노트.md` 에 추가됩니다. (Chrome/Edge 전용)")
-    render_obsidian_export(daily)
-    if daily:
-        if st.button("🗑️ 오늘 오답 목록 초기화", use_container_width=True):
-            st.session_state.daily_wrong_words = []
-            st.rerun()
-
     col1, col2 = st.columns(2)
     with col1:
         if st.button("🔄 다시 풀기", use_container_width=True, type="primary"):
@@ -545,8 +490,6 @@ if q["type"] == "ox":
                 st.session_state.last_correct = correct
                 if correct:
                     st.session_state.score += 1
-                else:
-                    add_to_daily_wrong(q["word"], q["correct_meaning"])
                 st.session_state.answers.append({
                     "word": q["word"],
                     "answer": "O" if q["answer"] else "X",
@@ -562,8 +505,6 @@ if q["type"] == "ox":
                 st.session_state.last_correct = correct
                 if correct:
                     st.session_state.score += 1
-                else:
-                    add_to_daily_wrong(q["word"], q["correct_meaning"])
                 st.session_state.answers.append({
                     "word": q["word"],
                     "answer": "O" if q["answer"] else "X",
@@ -622,8 +563,6 @@ elif q["type"] == "choice_meaning":
                 st.session_state["user_choice"] = choice
                 if correct:
                     st.session_state.score += 1
-                else:
-                    add_to_daily_wrong(q["word"], q["answer"])
                 st.session_state.answers.append({
                     "word": q["word"],
                     "answer": q["answer"],
@@ -678,8 +617,6 @@ elif q["type"] == "choice_word":
                 st.session_state["user_choice"] = choice
                 if correct:
                     st.session_state.score += 1
-                else:
-                    add_to_daily_wrong(q["answer"], q["meaning"])
                 st.session_state.answers.append({
                     "meaning": q["meaning"],
                     "answer": q["answer"],
@@ -826,9 +763,6 @@ elif q["type"] == "match":
                 total_in_round = len(left_words)
                 round_perfect = correct_count == total_in_round
                 st.session_state.score += 1 if round_perfect else 0
-                for w, m in user_pairs.items():
-                    if correct_pairs.get(w) != m:
-                        add_to_daily_wrong(w, correct_pairs.get(w, ""))
                 st.session_state.answers.append({
                     "word": f"짝맞추기 라운드 {idx+1}",
                     "answer": f"{total_in_round}/{total_in_round} 완벽",
