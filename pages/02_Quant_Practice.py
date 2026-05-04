@@ -1,19 +1,35 @@
-"""GRE Quantitative Reasoning Practice — QC, MC, Multi-select, Numeric Entry"""
+"""GRE Quantitative Reasoning Practice — QC, MC, MCM, NE"""
 import json
 from pathlib import Path
 
 import streamlit as st
 
-st.set_page_config(page_title="GRE Quant Practice", page_icon="🔢", layout="centered")
+from utils import inject_css, esc
+
+st.set_page_config(page_title="Quant Practice", page_icon="🔢", layout="centered")
+inject_css()
 
 DATA_FILE = Path(__file__).parent.parent / "gre_content" / "practice_questions.json"
 
-DIFFICULTY_LABELS = {"easy": "Easy", "medium": "Medium", "hard": "Hard"}
-TYPE_LABELS = {
-    "quantitative_comparison": "Quantitative Comparison (QC)",
-    "multiple_choice": "Multiple Choice (MC)",
-    "multiple_choice_select_all": "Multiple Choice — Select All (MCM)",
-    "numeric_entry": "Numeric Entry (NE)",
+DIFF_LABEL = {"easy": "Easy", "medium": "Medium", "hard": "Hard"}
+DIFF_CSS   = {"easy": "b-easy", "medium": "b-medium", "hard": "b-hard"}
+TYPE_LABEL = {
+    "quantitative_comparison":   "Quantitative Comparison",
+    "multiple_choice":           "Multiple Choice",
+    "multiple_choice_select_all":"Multiple Choice — Select All",
+    "numeric_entry":             "Numeric Entry",
+}
+TYPE_CSS   = {
+    "quantitative_comparison":   "b-qc",
+    "multiple_choice":           "b-mc",
+    "multiple_choice_select_all":"b-mcm",
+    "numeric_entry":             "b-ne",
+}
+TYPE_SHORT = {
+    "quantitative_comparison":   "QC",
+    "multiple_choice":           "MC",
+    "multiple_choice_select_all":"MCM",
+    "numeric_entry":             "NE",
 }
 
 QC_CHOICES = {
@@ -27,237 +43,247 @@ QC_CHOICES = {
 @st.cache_data
 def load_questions():
     with open(DATA_FILE, encoding="utf-8") as f:
-        data = json.load(f)
-    return data.get("quant", [])
+        return json.load(f)["quant"]
 
 
 def reset_session():
-    for key in list(st.session_state.keys()):
-        if key.startswith("qp_"):
-            del st.session_state[key]
+    for k in list(st.session_state.keys()):
+        if k.startswith("qp_"):
+            del st.session_state[k]
 
 
-# ── Init ───────────────────────────────────────────────────────────────────────
 all_questions = load_questions()
 
 st.title("🔢 Quantitative Reasoning Practice")
 
 # ── Sidebar ────────────────────────────────────────────────────────────────────
 with st.sidebar:
-    st.header("Settings")
+    st.markdown("## 🔢 Quant")
+    st.markdown('<hr class="sdiv">', unsafe_allow_html=True)
 
-    selected_difficulties = st.multiselect(
-        "Difficulty",
-        options=["easy", "medium", "hard"],
+    sel_diff = st.multiselect(
+        "난이도", options=["easy", "medium", "hard"],
         default=["easy", "medium", "hard"],
-        format_func=lambda x: DIFFICULTY_LABELS[x],
+        format_func=lambda x: DIFF_LABEL[x],
     )
-
-    selected_types = st.multiselect(
-        "Question Type",
-        options=["quantitative_comparison", "multiple_choice", "multiple_choice_select_all", "numeric_entry"],
-        default=["quantitative_comparison", "multiple_choice", "multiple_choice_select_all", "numeric_entry"],
-        format_func=lambda x: TYPE_LABELS[x],
+    sel_type = st.multiselect(
+        "문제 유형",
+        options=["quantitative_comparison", "multiple_choice",
+                 "multiple_choice_select_all", "numeric_entry"],
+        default=["quantitative_comparison", "multiple_choice",
+                 "multiple_choice_select_all", "numeric_entry"],
+        format_func=lambda x: TYPE_LABEL[x],
     )
-
-    if st.button("Start / Restart", type="primary", use_container_width=True):
+    st.markdown('<hr class="sdiv">', unsafe_allow_html=True)
+    if st.button("🚀  Start / Restart", type="primary", use_container_width=True):
         reset_session()
-        filtered = [
-            q for q in all_questions
-            if q["difficulty"] in selected_difficulties and q["type"] in selected_types
-        ]
-        st.session_state["qp_questions"] = filtered
-        st.session_state["qp_idx"] = 0
-        st.session_state["qp_answers"] = {}
-        st.session_state["qp_submitted"] = {}
-        st.session_state["qp_score"] = 0
-        st.session_state["qp_done"] = False
+        filtered = [q for q in all_questions
+                    if q["difficulty"] in sel_diff and q["type"] in sel_type]
+        st.session_state.update({
+            "qp_questions": filtered, "qp_idx": 0,
+            "qp_answers": {}, "qp_submitted": {},
+            "qp_score": 0, "qp_done": False,
+        })
         st.rerun()
-
-    st.divider()
-    st.caption("QC: Qty 비교 | MC: 5지선다 | MCM: 복수선택 | NE: 숫자 입력")
+    st.caption("QC: Qty 비교 | MC: 5지선다 | MCM: 복수선택 | NE: 숫자입력")
 
 # ── Guard ──────────────────────────────────────────────────────────────────────
 if "qp_questions" not in st.session_state:
-    st.info("사이드바에서 난이도·유형을 선택하고 **Start**를 눌러 시작하세요.")
+    st.markdown("""
+    <div style="text-align:center; padding:60px 20px;">
+      <div style="font-size:3.5rem;">🔢</div>
+      <h2 style="color:#1E293B; margin-top:12px;">Quantitative Reasoning</h2>
+      <p style="color:#64748B;">사이드바에서 난이도·유형을 선택하고<br><strong>Start</strong>를 눌러 시작하세요.</p>
+    </div>
+    """, unsafe_allow_html=True)
     st.stop()
 
 questions = st.session_state["qp_questions"]
 if not questions:
-    st.warning("선택한 조건에 해당하는 문제가 없습니다. 필터를 조정하세요.")
+    st.warning("선택한 조건에 해당하는 문제가 없습니다.")
     st.stop()
 
-idx = st.session_state["qp_idx"]
+idx   = st.session_state["qp_idx"]
 total = len(questions)
 
 # ── Done screen ────────────────────────────────────────────────────────────────
 if st.session_state.get("qp_done"):
     score = st.session_state["qp_score"]
-    st.success(f"## 완료! 점수: {score} / {total}")
-    st.progress(score / total)
-    pct = round(score / total * 100)
-    st.write(f"정답률 **{pct}%**")
-    if st.button("다시 풀기", use_container_width=True):
+    pct   = round(score / total * 100)
+    wrong = total - score
+    msg   = "완벽해요! 🎉" if pct == 100 else "훌륭합니다!" if pct >= 80 else "잘 하셨어요!" if pct >= 60 else "다시 도전해보세요"
+
+    st.markdown(f"""
+    <div class="result-hero">
+        <div class="rh-pct">{pct}%</div>
+        <div class="rh-score">{score} / {total} 정답</div>
+        <div class="rh-msg">{msg}</div>
+    </div>
+    <div class="stat-row">
+        <div class="stat-box"><div class="stat-val">{score}</div><div class="stat-lbl">정답</div></div>
+        <div class="stat-box"><div class="stat-val">{wrong}</div><div class="stat-lbl">오답</div></div>
+        <div class="stat-box"><div class="stat-val">{total}</div><div class="stat-lbl">전체</div></div>
+    </div>
+    """, unsafe_allow_html=True)
+
+    if st.button("다시 풀기", use_container_width=True, type="primary"):
         reset_session()
         st.rerun()
     st.stop()
 
 # ── Progress ───────────────────────────────────────────────────────────────────
 st.progress(idx / total)
-st.caption(f"문제 {idx + 1} / {total}")
+st.caption(f"문제 {idx + 1} / {total}   ·   점수 {st.session_state['qp_score']}")
 
-q = questions[idx]
-q_id = q["id"]
+q      = questions[idx]
+q_id   = q["id"]
 submitted = st.session_state["qp_submitted"].get(q_id, False)
 
-# ── Badge ──────────────────────────────────────────────────────────────────────
-diff_color = {"easy": "🟢", "medium": "🟡", "hard": "🔴"}
-type_short = {
-    "quantitative_comparison": "QC",
-    "multiple_choice": "MC",
-    "multiple_choice_select_all": "MCM",
-    "numeric_entry": "NE",
-}
+# ── Badge row ──────────────────────────────────────────────────────────────────
+tc = TYPE_CSS.get(q["type"], "b-mc")
+dc = DIFF_CSS.get(q["difficulty"], "b-easy")
+ts = TYPE_SHORT.get(q["type"], q["type"])
+dl = DIFF_LABEL.get(q["difficulty"], q["difficulty"])
 st.markdown(
-    f"{diff_color.get(q['difficulty'], '')} **{type_short.get(q['type'], q['type'])}** "
-    f"· {DIFFICULTY_LABELS.get(q['difficulty'], q['difficulty'])}"
+    f'<div class="badge-row">'
+    f'<span class="badge {tc}">{ts}</span>'
+    f'<span class="badge {dc}">{dl}</span>'
+    f'</div>',
+    unsafe_allow_html=True,
 )
 
-# ── Context block ──────────────────────────────────────────────────────────────
+# ── Context ────────────────────────────────────────────────────────────────────
 if q.get("context"):
-    st.info(q["context"])
+    st.markdown(
+        f'<div class="context-box">📋  {esc(q["context"])}</div>',
+        unsafe_allow_html=True,
+    )
 
-# ── QC-specific layout ─────────────────────────────────────────────────────────
+# ── QC comparison grid ─────────────────────────────────────────────────────────
 if q["type"] == "quantitative_comparison":
-    col_a, col_b = st.columns(2)
-    with col_a:
-        st.markdown("**Quantity A**")
-        st.markdown(f"### {q.get('quantity_a', '')}")
-    with col_b:
-        st.markdown("**Quantity B**")
-        st.markdown(f"### {q.get('quantity_b', '')}")
-    st.markdown("---")
+    qa = esc(q.get("quantity_a", "—"))
+    qb = esc(q.get("quantity_b", "—"))
+    st.markdown(f"""
+    <div class="qc-wrap">
+        <div class="qc-a-cell">
+            <div class="qc-label">Quantity A</div>
+            <div class="qc-val">{qa}</div>
+        </div>
+        <div class="qc-vs-cell">vs</div>
+        <div class="qc-b-cell">
+            <div class="qc-label">Quantity B</div>
+            <div class="qc-val">{qb}</div>
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
 
 # ── Stem ──────────────────────────────────────────────────────────────────────
 if q.get("stem"):
-    st.markdown(f"**{q['stem']}**")
+    st.markdown(f'<div class="stem-box">{esc(q["stem"])}</div>', unsafe_allow_html=True)
 
 
 # ── Answer widgets ─────────────────────────────────────────────────────────────
-def render_answer_widget(q, q_id, submitted):
-    user_answers = st.session_state["qp_answers"].get(q_id, {})
-    q_type = q["type"]
+def render_answer(q, q_id, submitted):
+    ua     = st.session_state["qp_answers"].get(q_id, {})
     blanks = q.get("blanks", [])
+    qt     = q["type"]
 
-    if q_type == "quantitative_comparison":
-        choices = QC_CHOICES
-        prev = user_answers.get("QC")
-        prev_idx = list(choices.keys()).index(prev) if prev in choices else None
-        selected = st.radio(
+    if qt == "quantitative_comparison":
+        keys   = list(QC_CHOICES.keys())
+        prev   = ua.get("QC")
+        prev_i = keys.index(prev) if prev in keys else None
+        sel    = st.radio(
             "정답 선택",
-            options=list(choices.keys()),
-            format_func=lambda k: f"{k}. {choices[k]}",
-            index=prev_idx,
+            options=keys,
+            format_func=lambda k: f"{k}.  {QC_CHOICES[k]}",
+            index=prev_i,
             key=f"{q_id}_QC",
             disabled=submitted,
         )
-        user_answers["QC"] = selected
+        ua["QC"] = sel
 
-    elif q_type == "multiple_choice":
+    elif qt == "multiple_choice":
         choices = blanks[0]["choices"] if blanks else {}
-        option_keys = list(choices.keys())
-        prev = user_answers.get("MC")
-        prev_idx = option_keys.index(prev) if prev in option_keys else None
-        selected = st.radio(
+        keys    = list(choices.keys())
+        prev    = ua.get("MC")
+        prev_i  = keys.index(prev) if prev in keys else None
+        sel     = st.radio(
             "정답 선택",
-            options=option_keys,
-            format_func=lambda k, c=choices: f"{k}. {c[k]}",
-            index=prev_idx,
+            options=keys,
+            format_func=lambda k, c=choices: f"{k}.  {c[k]}",
+            index=prev_i,
             key=f"{q_id}_MC",
             disabled=submitted,
         )
-        user_answers["MC"] = selected
+        ua["MC"] = sel
 
-    elif q_type == "multiple_choice_select_all":
+    elif qt == "multiple_choice_select_all":
         choices = blanks[0]["choices"] if blanks else {}
-        st.caption("해당하는 것을 모두 선택하세요.")
+        st.caption("✏️  해당하는 것을 **모두** 선택하세요.")
         selected = []
         for k, v in choices.items():
-            prev_checked = k in user_answers.get("MCM", [])
-            checked = st.checkbox(
-                f"{k}. {v}",
-                value=prev_checked,
-                key=f"{q_id}_MCM_{k}",
-                disabled=submitted,
-            )
+            prev_c  = k in ua.get("MCM", [])
+            checked = st.checkbox(f"{k}.  {v}", value=prev_c,
+                                  key=f"{q_id}_MCM_{k}", disabled=submitted)
             if checked:
                 selected.append(k)
-        user_answers["MCM"] = selected
+        ua["MCM"] = selected
 
-    elif q_type == "numeric_entry":
-        label = blanks[0].get("label", "Answer") if blanks else "Answer"
-        prev_val = user_answers.get("NE", "")
-        value = st.text_input(
-            label,
-            value=prev_val,
+    elif qt == "numeric_entry":
+        label  = blanks[0].get("label", "Answer") if blanks else "Answer"
+        prev_v = ua.get("NE", "")
+        val    = st.text_input(
+            f"**{label}**", value=prev_v,
             placeholder="숫자를 입력하세요",
-            key=f"{q_id}_NE",
-            disabled=submitted,
+            key=f"{q_id}_NE", disabled=submitted,
         )
-        user_answers["NE"] = value.strip()
+        ua["NE"] = val.strip()
 
-    st.session_state["qp_answers"][q_id] = user_answers
-    return user_answers
-
-
-user_answers = render_answer_widget(q, q_id, submitted)
+    st.session_state["qp_answers"][q_id] = ua
+    return ua
 
 
-def get_user_answer_list(q, user_answers):
-    q_type = q["type"]
-    if q_type == "quantitative_comparison":
-        ans = user_answers.get("QC")
-        return [ans] if ans else []
-    elif q_type == "multiple_choice":
-        ans = user_answers.get("MC")
-        return [ans] if ans else []
-    elif q_type == "multiple_choice_select_all":
-        return sorted(user_answers.get("MCM", []))
-    elif q_type == "numeric_entry":
-        ans = user_answers.get("NE", "").strip()
-        return [ans] if ans else []
+user_answers = render_answer(q, q_id, submitted)
+
+
+def get_user_list(q, ua):
+    qt = q["type"]
+    if qt == "quantitative_comparison":
+        a = ua.get("QC"); return [a] if a else []
+    if qt == "multiple_choice":
+        a = ua.get("MC"); return [a] if a else []
+    if qt == "multiple_choice_select_all":
+        return sorted(ua.get("MCM", []))
+    if qt == "numeric_entry":
+        a = ua.get("NE", "").strip(); return [a] if a else []
     return []
 
 
-def check_correct(q, user_list):
+def is_correct(q, ul):
     correct = q.get("correct", [])
     if q["type"] == "numeric_entry":
         try:
-            user_val = float(user_list[0]) if user_list else None
-            correct_val = float(correct[0]) if correct else None
-            if user_val is None or correct_val is None:
-                return False
-            return abs(user_val - correct_val) < 0.005
+            uv = float(ul[0]) if ul else None
+            cv = float(correct[0]) if correct else None
+            return uv is not None and cv is not None and abs(uv - cv) < 0.005
         except ValueError:
-            return user_list == correct
-    return sorted(user_list) == sorted(correct)
+            return ul == correct
+    return sorted(ul) == sorted(correct)
 
 
 # ── Submit / Next ──────────────────────────────────────────────────────────────
-col1, col2 = st.columns([1, 1])
-
+col1, col2 = st.columns(2)
 with col1:
     if not submitted:
         if st.button("제출 (Submit)", type="primary", use_container_width=True):
-            user_list = get_user_answer_list(q, user_answers)
-            if not user_list or (len(user_list) == 1 and not user_list[0]):
+            ul = get_user_list(q, user_answers)
+            if not ul or (len(ul) == 1 and not ul[0]):
                 st.warning("답을 선택하거나 입력하세요.")
             else:
                 st.session_state["qp_submitted"][q_id] = True
-                if check_correct(q, user_list):
+                if is_correct(q, ul):
                     st.session_state["qp_score"] += 1
                 st.rerun()
-
 with col2:
     if submitted:
         label = "다음 문제 →" if idx + 1 < total else "결과 보기"
@@ -270,24 +296,29 @@ with col2:
 
 # ── Feedback ───────────────────────────────────────────────────────────────────
 if submitted:
-    user_list = get_user_answer_list(q, user_answers)
-    is_correct = check_correct(q, user_list)
+    ul      = get_user_list(q, user_answers)
     correct = q.get("correct", [])
+    ok      = is_correct(q, ul)
+    blanks  = q.get("blanks", [])
 
-    if is_correct:
-        st.success(f"✅ 정답! 정답: **{', '.join(correct)}**")
+    if ok:
+        st.markdown(
+            f'<div class="fb-correct">✅ 정답!<div class="fb-detail">정답: {esc(", ".join(correct))}</div></div>',
+            unsafe_allow_html=True,
+        )
     else:
-        q_type = q["type"]
-        if q_type == "quantitative_comparison":
-            correct_labels = [f"**{k}. {QC_CHOICES.get(k, '')}**" for k in correct]
-        elif q_type in ("multiple_choice", "multiple_choice_select_all"):
-            blanks = q.get("blanks", [])
+        qt = q["type"]
+        if qt == "quantitative_comparison":
+            details = [f"{k}. {QC_CHOICES.get(k, '')}" for k in correct]
+        elif qt in ("multiple_choice", "multiple_choice_select_all"):
             choices = blanks[0]["choices"] if blanks else {}
-            correct_labels = [f"**{k}. {choices.get(k, '')}**" for k in correct]
+            details = [f"{k}. {choices.get(k, '')}" for k in correct]
         else:
-            correct_labels = [f"**{k}**" for k in correct]
+            details = correct
+        st.markdown(
+            f'<div class="fb-wrong">❌ 오답<div class="fb-detail">정답: {esc(", ".join(details))}</div></div>',
+            unsafe_allow_html=True,
+        )
 
-        st.error(f"❌ 오답. 정답: {', '.join(correct_labels)}")
-
-    with st.expander("해설 보기 (Explanation)"):
+    with st.expander("💡 해설 보기"):
         st.write(q.get("explanation", "해설이 없습니다."))

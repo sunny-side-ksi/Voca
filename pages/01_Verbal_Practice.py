@@ -1,166 +1,185 @@
-"""GRE Verbal Reasoning Practice — Text Completion, Sentence Equivalence, Reading Comprehension"""
+"""GRE Verbal Reasoning Practice — TC, SE, RC"""
 import json
 from pathlib import Path
 
 import streamlit as st
 
-st.set_page_config(page_title="GRE Verbal Practice", page_icon="📝", layout="centered")
+from utils import inject_css, esc
+
+st.set_page_config(page_title="Verbal Practice", page_icon="📝", layout="centered")
+inject_css()
 
 DATA_FILE = Path(__file__).parent.parent / "gre_content" / "practice_questions.json"
 
-DIFFICULTY_LABELS = {"easy": "Easy", "medium": "Medium", "hard": "Hard"}
-TYPE_LABELS = {
-    "text_completion": "Text Completion (TC)",
-    "sentence_equivalence": "Sentence Equivalence (SE)",
-    "reading_comprehension": "Reading Comprehension (RC)",
+DIFF_LABEL = {"easy": "Easy", "medium": "Medium", "hard": "Hard"}
+DIFF_CSS   = {"easy": "b-easy", "medium": "b-medium", "hard": "b-hard"}
+TYPE_LABEL = {
+    "text_completion":      "Text Completion",
+    "sentence_equivalence": "Sentence Equivalence",
+    "reading_comprehension":"Reading Comprehension",
 }
+TYPE_CSS = {
+    "text_completion":      "b-tc",
+    "sentence_equivalence": "b-se",
+    "reading_comprehension":"b-rc",
+}
+TYPE_SHORT = {"text_completion": "TC", "sentence_equivalence": "SE", "reading_comprehension": "RC"}
 
 
 @st.cache_data
 def load_questions():
     with open(DATA_FILE, encoding="utf-8") as f:
-        data = json.load(f)
-    return data.get("verbal", [])
+        return json.load(f)["verbal"]
 
 
 def reset_session():
-    for key in list(st.session_state.keys()):
-        if key.startswith("vp_"):
-            del st.session_state[key]
+    for k in list(st.session_state.keys()):
+        if k.startswith("vp_"):
+            del st.session_state[k]
 
 
-# ── Init ───────────────────────────────────────────────────────────────────────
 all_questions = load_questions()
 
 st.title("📝 Verbal Reasoning Practice")
 
-# ── Sidebar filters ────────────────────────────────────────────────────────────
+# ── Sidebar ────────────────────────────────────────────────────────────────────
 with st.sidebar:
-    st.header("Settings")
+    st.markdown("## 📝 Verbal")
+    st.markdown('<hr class="sdiv">', unsafe_allow_html=True)
 
-    selected_difficulties = st.multiselect(
-        "Difficulty",
-        options=["easy", "medium", "hard"],
+    sel_diff = st.multiselect(
+        "난이도", options=["easy", "medium", "hard"],
         default=["easy", "medium", "hard"],
-        format_func=lambda x: DIFFICULTY_LABELS[x],
+        format_func=lambda x: DIFF_LABEL[x],
     )
-
-    selected_types = st.multiselect(
-        "Question Type",
+    sel_type = st.multiselect(
+        "문제 유형",
         options=["text_completion", "sentence_equivalence", "reading_comprehension"],
         default=["text_completion", "sentence_equivalence", "reading_comprehension"],
-        format_func=lambda x: TYPE_LABELS[x],
+        format_func=lambda x: TYPE_LABEL[x],
     )
-
-    if st.button("Start / Restart", type="primary", use_container_width=True):
+    st.markdown('<hr class="sdiv">', unsafe_allow_html=True)
+    if st.button("🚀  Start / Restart", type="primary", use_container_width=True):
         reset_session()
-        filtered = [
-            q for q in all_questions
-            if q["difficulty"] in selected_difficulties and q["type"] in selected_types
-        ]
-        st.session_state["vp_questions"] = filtered
-        st.session_state["vp_idx"] = 0
-        st.session_state["vp_answers"] = {}
-        st.session_state["vp_submitted"] = {}
-        st.session_state["vp_score"] = 0
-        st.session_state["vp_done"] = False
+        filtered = [q for q in all_questions
+                    if q["difficulty"] in sel_diff and q["type"] in sel_type]
+        st.session_state.update({
+            "vp_questions": filtered, "vp_idx": 0,
+            "vp_answers": {}, "vp_submitted": {},
+            "vp_score": 0, "vp_done": False,
+        })
         st.rerun()
-
-    st.divider()
     st.caption("TC: 빈칸 완성 | SE: 문장 등가 | RC: 독해")
 
-# ── Guard: quiz not started ────────────────────────────────────────────────────
+# ── Guard ──────────────────────────────────────────────────────────────────────
 if "vp_questions" not in st.session_state:
-    st.info("사이드바에서 난이도·유형을 선택하고 **Start**를 눌러 시작하세요.")
+    st.markdown("""
+    <div style="text-align:center; padding:60px 20px;">
+      <div style="font-size:3.5rem;">📝</div>
+      <h2 style="color:#1E293B; margin-top:12px;">Verbal Reasoning</h2>
+      <p style="color:#64748B;">사이드바에서 난이도·유형을 선택하고<br><strong>Start</strong>를 눌러 시작하세요.</p>
+    </div>
+    """, unsafe_allow_html=True)
     st.stop()
 
 questions = st.session_state["vp_questions"]
 if not questions:
-    st.warning("선택한 조건에 해당하는 문제가 없습니다. 필터를 조정하세요.")
+    st.warning("선택한 조건에 해당하는 문제가 없습니다.")
     st.stop()
 
-idx = st.session_state["vp_idx"]
+idx   = st.session_state["vp_idx"]
 total = len(questions)
 
 # ── Done screen ────────────────────────────────────────────────────────────────
 if st.session_state.get("vp_done"):
     score = st.session_state["vp_score"]
-    st.success(f"## 완료! 점수: {score} / {total}")
-    pct = round(score / total * 100)
-    st.progress(score / total)
-    st.write(f"정답률 **{pct}%**")
+    pct   = round(score / total * 100)
+    wrong = total - score
+    msg   = "완벽해요! 🎉" if pct == 100 else "훌륭합니다!" if pct >= 80 else "잘 하셨어요!" if pct >= 60 else "다시 도전해보세요"
 
-    if st.button("다시 풀기", use_container_width=True):
+    st.markdown(f"""
+    <div class="result-hero">
+        <div class="rh-pct">{pct}%</div>
+        <div class="rh-score">{score} / {total} 정답</div>
+        <div class="rh-msg">{msg}</div>
+    </div>
+    <div class="stat-row">
+        <div class="stat-box"><div class="stat-val">{score}</div><div class="stat-lbl">정답</div></div>
+        <div class="stat-box"><div class="stat-val">{wrong}</div><div class="stat-lbl">오답</div></div>
+        <div class="stat-box"><div class="stat-val">{total}</div><div class="stat-lbl">전체</div></div>
+    </div>
+    """, unsafe_allow_html=True)
+
+    if st.button("다시 풀기", use_container_width=True, type="primary"):
         reset_session()
         st.rerun()
     st.stop()
 
-# ── Progress bar ───────────────────────────────────────────────────────────────
-st.progress((idx) / total)
-st.caption(f"문제 {idx + 1} / {total}")
+# ── Progress ───────────────────────────────────────────────────────────────────
+st.progress(idx / total)
+st.caption(f"문제 {idx + 1} / {total}   ·   점수 {st.session_state['vp_score']}")
 
-q = questions[idx]
-q_id = q["id"]
+q      = questions[idx]
+q_id   = q["id"]
 submitted = st.session_state["vp_submitted"].get(q_id, False)
 
-# ── Question header badge ──────────────────────────────────────────────────────
-diff_color = {"easy": "🟢", "medium": "🟡", "hard": "🔴"}
-type_short = {"text_completion": "TC", "sentence_equivalence": "SE", "reading_comprehension": "RC"}
+# ── Badge row ──────────────────────────────────────────────────────────────────
+tc = TYPE_CSS.get(q["type"], "b-tc")
+dc = DIFF_CSS.get(q["difficulty"], "b-easy")
+ts = TYPE_SHORT.get(q["type"], q["type"])
+dl = DIFF_LABEL.get(q["difficulty"], q["difficulty"])
 st.markdown(
-    f"{diff_color.get(q['difficulty'], '')} **{type_short.get(q['type'], q['type'])}** "
-    f"· {DIFFICULTY_LABELS.get(q['difficulty'], q['difficulty'])}"
+    f'<div class="badge-row">'
+    f'<span class="badge {tc}">{ts}</span>'
+    f'<span class="badge {dc}">{dl}</span>'
+    f'</div>',
+    unsafe_allow_html=True,
 )
 
 # ── Passage (RC) ───────────────────────────────────────────────────────────────
 if q.get("passage"):
-    with st.expander("지문 보기 (Passage)", expanded=True):
-        st.markdown(q["passage"])
-    st.markdown("---")
+    st.markdown(
+        f'<div class="passage-box">{esc(q["passage"])}</div>',
+        unsafe_allow_html=True,
+    )
 
 # ── Stem ──────────────────────────────────────────────────────────────────────
-st.markdown(f"**{q['stem']}**" if q.get("stem") else "")
+if q.get("stem"):
+    st.markdown(f'<div class="stem-box">{esc(q["stem"])}</div>', unsafe_allow_html=True)
 
 
-# ── Answer widgets by type ─────────────────────────────────────────────────────
-
-def render_answer_widget(q, q_id, submitted):
-    """Render the appropriate answer widget and return user answer dict or list."""
-    q_type = q["type"]
-    blanks = q.get("blanks", [])
+# ── Answer widgets ─────────────────────────────────────────────────────────────
+def render_answer(q, q_id, submitted):
+    blanks       = q.get("blanks", [])
     user_answers = st.session_state["vp_answers"].get(q_id, {})
+    q_type       = q["type"]
 
     if q_type == "text_completion":
         for blank in blanks:
-            label = blank.get("label") or "Blank"
+            label   = blank.get("label") or "Blank"
             choices = blank["choices"]
-            option_keys = list(choices.keys())
-            option_labels = [f"{k}. {v}" for k, v in choices.items()]
-            prev = user_answers.get(label)
-            prev_idx = option_keys.index(prev) if prev in option_keys else None
-
-            selected = st.radio(
-                label,
-                options=option_keys,
-                format_func=lambda k, c=choices: f"{k}. {c[k]}",
-                index=prev_idx,
+            keys    = list(choices.keys())
+            prev    = user_answers.get(label)
+            prev_i  = keys.index(prev) if prev in keys else None
+            sel = st.radio(
+                f"**{label}**",
+                options=keys,
+                format_func=lambda k, c=choices: f"{k}.  {c[k]}",
+                index=prev_i,
                 key=f"{q_id}_{label}",
                 disabled=submitted,
-                horizontal=len(option_keys) <= 3,
+                horizontal=len(keys) <= 3,
             )
-            user_answers[label] = selected
+            user_answers[label] = sel
 
     elif q_type == "sentence_equivalence":
         choices = blanks[0]["choices"] if blanks else {}
-        st.caption("정답 2개를 선택하세요.")
+        st.caption("✏️  정답 **2개**를 선택하세요.")
         selected = []
         for k, v in choices.items():
-            prev_checked = k in user_answers.get("SE", [])
-            checked = st.checkbox(
-                f"{k}. {v}",
-                value=prev_checked,
-                key=f"{q_id}_SE_{k}",
-                disabled=submitted,
-            )
+            prev_c  = k in user_answers.get("SE", [])
+            checked = st.checkbox(f"{k}.  {v}", value=prev_c,
+                                  key=f"{q_id}_SE_{k}", disabled=submitted)
             if checked:
                 selected.append(k)
         user_answers["SE"] = selected
@@ -168,86 +187,68 @@ def render_answer_widget(q, q_id, submitted):
     elif q_type == "reading_comprehension":
         subtype = q.get("subtype", "single_answer")
         choices = blanks[0]["choices"] if blanks else {}
-
         if subtype == "multi_answer":
-            st.caption("해당하는 것을 모두 선택하세요.")
+            st.caption("✏️  해당하는 것을 **모두** 선택하세요.")
             selected = []
             for k, v in choices.items():
-                prev_checked = k in user_answers.get("RC", [])
-                checked = st.checkbox(
-                    f"{k}. {v}",
-                    value=prev_checked,
-                    key=f"{q_id}_RC_{k}",
-                    disabled=submitted,
-                )
+                prev_c  = k in user_answers.get("RC", [])
+                checked = st.checkbox(f"{k}.  {v}", value=prev_c,
+                                      key=f"{q_id}_RC_{k}", disabled=submitted)
                 if checked:
                     selected.append(k)
             user_answers["RC"] = selected
         else:
-            option_keys = list(choices.keys())
-            prev = user_answers.get("RC_single")
-            prev_idx = option_keys.index(prev) if prev in option_keys else None
-            selected = st.radio(
+            keys   = list(choices.keys())
+            prev   = user_answers.get("RC_single")
+            prev_i = keys.index(prev) if prev in keys else None
+            sel    = st.radio(
                 "정답 선택",
-                options=option_keys,
-                format_func=lambda k, c=choices: f"{k}. {c[k]}",
-                index=prev_idx,
+                options=keys,
+                format_func=lambda k, c=choices: f"{k}.  {c[k]}",
+                index=prev_i,
                 key=f"{q_id}_RC_single",
                 disabled=submitted,
             )
-            user_answers["RC_single"] = selected
+            user_answers["RC_single"] = sel
 
     st.session_state["vp_answers"][q_id] = user_answers
     return user_answers
 
 
-user_answers = render_answer_widget(q, q_id, submitted)
+user_answers = render_answer(q, q_id, submitted)
 
 
-def get_user_answer_list(q, user_answers):
-    """Convert user_answers dict to sorted list of selected keys."""
-    q_type = q["type"]
-    if q_type == "text_completion":
-        blanks = q.get("blanks", [])
-        result = []
-        for blank in blanks:
-            label = blank.get("label") or "Blank"
-            ans = user_answers.get(label)
-            if ans:
-                result.append(ans)
-        return result
-    elif q_type == "sentence_equivalence":
-        return sorted(user_answers.get("SE", []))
-    elif q_type == "reading_comprehension":
-        subtype = q.get("subtype", "single_answer")
-        if subtype == "multi_answer":
-            return sorted(user_answers.get("RC", []))
-        else:
-            ans = user_answers.get("RC_single")
-            return [ans] if ans else []
+def get_user_list(q, ua):
+    qt = q["type"]
+    if qt == "text_completion":
+        return [ua.get(b.get("label") or "Blank") for b in q.get("blanks", [])]
+    if qt == "sentence_equivalence":
+        return sorted(ua.get("SE", []))
+    if qt == "reading_comprehension":
+        if q.get("subtype") == "multi_answer":
+            return sorted(ua.get("RC", []))
+        a = ua.get("RC_single")
+        return [a] if a else []
     return []
 
 
-def check_correct(q, user_list):
-    correct = sorted(q.get("correct", []))
-    return sorted(user_list) == correct
+def is_correct(q, user_list):
+    return sorted(u for u in user_list if u) == sorted(q.get("correct", []))
 
 
-# ── Submit / Next buttons ──────────────────────────────────────────────────────
-col1, col2 = st.columns([1, 1])
-
+# ── Submit / Next ──────────────────────────────────────────────────────────────
+col1, col2 = st.columns(2)
 with col1:
     if not submitted:
         if st.button("제출 (Submit)", type="primary", use_container_width=True):
-            user_list = get_user_answer_list(q, user_answers)
-            if not user_list or any(a is None for a in user_list):
+            ul = get_user_list(q, user_answers)
+            if not ul or any(a is None for a in ul):
                 st.warning("모든 빈칸을 선택하세요.")
             else:
                 st.session_state["vp_submitted"][q_id] = True
-                if check_correct(q, user_list):
+                if is_correct(q, ul):
                     st.session_state["vp_score"] += 1
                 st.rerun()
-
 with col2:
     if submitted:
         label = "다음 문제 →" if idx + 1 < total else "결과 보기"
@@ -260,24 +261,26 @@ with col2:
 
 # ── Feedback ───────────────────────────────────────────────────────────────────
 if submitted:
-    user_list = get_user_answer_list(q, user_answers)
-    is_correct = check_correct(q, user_list)
-    correct_keys = q.get("correct", [])
+    ul      = get_user_list(q, user_answers)
+    correct = q.get("correct", [])
+    ok      = is_correct(q, ul)
 
-    if is_correct:
-        st.success(f"✅ 정답! 정답: **{', '.join(correct_keys)}**")
+    if ok:
+        st.markdown(
+            f'<div class="fb-correct">✅ 정답!<div class="fb-detail">정답: {", ".join(correct)}</div></div>',
+            unsafe_allow_html=True,
+        )
     else:
-        blanks = q.get("blanks", [])
-        correct_labels = []
-        for i, key in enumerate(correct_keys):
-            if i < len(blanks):
-                blank = blanks[i]
-                choices = blank.get("choices", {})
-                val = choices.get(key, "")
-                correct_labels.append(f"**{key}. {val}**")
-            else:
-                correct_labels.append(f"**{key}**")
-        st.error(f"❌ 오답. 정답: {', '.join(correct_labels)}")
+        blanks  = q.get("blanks", [])
+        details = []
+        for i, k in enumerate(correct):
+            b = blanks[i] if i < len(blanks) else {}
+            v = b.get("choices", {}).get(k, "")
+            details.append(f"{k}. {v}" if v else k)
+        st.markdown(
+            f'<div class="fb-wrong">❌ 오답<div class="fb-detail">정답: {esc(", ".join(details))}</div></div>',
+            unsafe_allow_html=True,
+        )
 
-    with st.expander("해설 보기 (Explanation)"):
+    with st.expander("💡 해설 보기"):
         st.write(q.get("explanation", "해설이 없습니다."))
