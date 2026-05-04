@@ -1,0 +1,902 @@
+[
+  {
+    "id": "Q0001",
+    "section": "quant",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "stem": "In the figure above, what is the value of xy ++ z 45 ?",
+    "choices": {
+      "A": "2",
+      "B": "3",
+      "D": "5",
+      "E": "6"
+    },
+    "blank_choices": null,
+    "correct": [],
+    "explanation": ""
+  },
+  {
+    "id": "Q0002",
+    "section": "quant",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "stem": "Last year, all purchases of a certain product were made either online or in a store. If 55 percent of the purchases were made online, what was the ratio of the number of purchases made online to the number of purchases made in a store?",
+    "choices": {
+      "A": "11 to 9",
+      "B": "11 to 5",
+      "C": "10 to 9",
+      "D": "9 to 11",
+      "E": "9 to 10"
+    },
+    "blank_choices": null,
+    "correct": [],
+    "explanation": ""
+  },
+  {
+    "id": "Q0003",
+    "section": "quant",
+    "type": "multiple_choice_select_all",
+    "difficulty": "easy",
+    "stem": "The circle graph above shows the distribution of 200,000 physicians by specialty. Which of the following sectors of the circle graph represent more than 40,000 physicians? Indicate all such sectors.",
+    "choices": {
+      "A": "Pediatrics",
+      "B": "Internal Medicine",
+      "C": "Surgery",
+      "D": "Anesthesiology",
+      "E": "Psychiatry"
+    },
+    "blank_choices": null,
+    "correct": [],
+    "explanation": ""
+  },
+  {
+    "id": "Q0004",
+    "section": "quant",
+    "type": "quantitative_comparison",
+    "difficulty": "medium",
+    "stem": "7, and the average of the numbers in list Y is 7.1. List Z contains 120 numbers: the 60 numbers in list X and the 60 numbers in list Y. Quantity A Quantity B The average of the 120 numbers in list Z The median of the 120 numbers in list Z",
+    "choices": {
+      "A": "Quantity A is greater",
+      "B": "Quantity B is greater",
+      "C": "The two quantities are equal",
+      "D": "The relationship cannot be determined from the information given"
+    },
+    "blank_choices": null,
+    "correct": [],
+    "explanation": ""
+  },
+  {
+    "id": "Q0005",
+    "section": "quant",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "stem": "If x ≠ 0, which of the following is equivalent to xx23 () x2 ?",
+    "choices": {
+      "A": "x X 2",
+      "B": "x3",
+      "C": "x X 4",
+      "D": "x X 5",
+      "E": "x X 6"
+    },
+    "blank_choices": null,
+    "correct": [],
+    "explanation": ""
+  },
+  {
+    "id": "Q0006",
+    "section": "quant",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "stem": "The figure above shows the graph of the function f in the xy-plane. What is the value of f( f (−1)) ?",
+    "choices": {
+      "A": "−2",
+      "B": "−1",
+      "C": "0",
+      "D": "1"
+    },
+    "blank_choices": null,
+    "correct": [],
+    "explanation": ""
+  },
+  {
+    "id": "Q0007",
+    "section": "quant",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "stem": "If d − 3n = 1 7nd − , which of the following statements describes d in terms of n ?",
+    "choices": {
+      "A": "d is 4 less than n.",
+      "B": "d is 4 more than n.",
+      "D": "d is 2 times n.",
+      "E": "d is 5 times n."
+    },
+    "blank_choices": null,
+    "correct": [],
+    "explanation": ""
+  },
+  {
+    "id": "Q0008",
+    "section": "quant",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "stem": "By weight, liquid A makes up 8 percent of solution R and 18 percent of solution S. If 3 grams of solution R are mixed with 7 grams of solution S, then liquid A accounts for what percent of the weight of the resulting solution?",
+    "choices": {
+      "A": "10%",
+      "B": "13%",
+      "D": "19%",
+      "E": "26%"
+    },
+    "blank_choices": null,
+    "correct": [],
+    "explanation": ""
+  },
+  {
+    "id": "Q0009",
+    "section": "quant",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "stem": "5",
+    "choices": {
+      "B": "0.6",
+      "C": "0.7"
+    },
+    "blank_choices": null,
+    "correct": [],
+    "explanation": ""
+  },
+  {
+    "id": "Q0010",
+    "section": "quant",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "stem": "8 X",
+    "choices": {
+      "E": "0.9"
+    },
+    "blank_choices": null,
+    "correct": [],
+    "explanation": ""
+  },
+  {
+    "id": "Q0011",
+    "section": "quant",
+    "type": "multiple_choice_select_all",
+    "difficulty": "medium",
+    "stem": "If the lengths of two sides of a triangle are 5 and 9, respectively, which of the following could be the length of the third side of the triangle? Indicate all such lengths.",
+    "choices": {
+      "A": "3",
+      "B": "5",
+      "C": "8",
+      "D": "15"
+    },
+    "blank_choices": null,
+    "correct": [],
+    "explanation": ""
+  },
+  {
+    "id": "Q0012",
+    "section": "quant",
+    "type": "multiple_choice_select_all",
+    "difficulty": "medium",
+    "stem": "On the number line shown above, the tick marks are equally spaced. Which of the following statements about the numbers x, y, and z must be true? Indicate all such statements.",
+    "choices": {
+      "A": "xyz < 0",
+      "B": "x + z = y",
+      "C": "z( y − x) > 0"
+    },
+    "blank_choices": null,
+    "correct": [],
+    "explanation": ""
+  },
+  {
+    "id": "Q0013",
+    "section": "quant",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "stem": "Which of the following could be the graph of all values of x that satisfy the inequality 25 − x ≤ − 65 x − 3 ?",
+    "choices": {
+      "A": "0",
+      "B": "0",
+      "C": "0",
+      "D": "0",
+      "E": "0"
+    },
+    "blank_choices": null,
+    "correct": [],
+    "explanation": ""
+  },
+  {
+    "id": "Q0014",
+    "section": "quant",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "stem": "If 1 + x + x2 + x3 = 60, then the average (arithmetic mean) of x, x2, x3, and x4 is equal to which of the following?",
+    "choices": {
+      "A": "12x",
+      "B": "15x",
+      "C": "20x",
+      "D": "30x",
+      "E": "60x"
+    },
+    "blank_choices": null,
+    "correct": [],
+    "explanation": ""
+  },
+  {
+    "id": "Q0015",
+    "section": "quant",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "stem": "Parallelogram OPQR lies in the xy-plane, as shown in the figure above. The coordinates of point P are (2, 4) and the coordinates of point Q are (8, 6). What are the coordinates of point R ?",
+    "choices": {
+      "A": "(3, 2)",
+      "B": "(3, 3)",
+      "C": "(4, 4)",
+      "D": "(5, 2)",
+      "E": "(6, 2)"
+    },
+    "blank_choices": null,
+    "correct": [],
+    "explanation": ""
+  },
+  {
+    "id": "Q0016",
+    "section": "quant",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "stem": "The relationship between the area A of a circle and its circumference C is given by the formula A = kC2, where k is a constant. What is the value of k?",
+    "choices": {
+      "A": "1",
+      "B": "1",
+      "C": "1",
+      "D": "2p",
+      "E": "4p2"
+    },
+    "blank_choices": null,
+    "correct": [],
+    "explanation": ""
+  },
+  {
+    "id": "Q0017",
+    "section": "quant",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "stem": "The sequence of numbers a1, a2, a3, . . . , an, . . . is defined by 1 1 an = − n n + 2 for each integer n ≥ 1. What is the sum of the first 20 terms of the sequence? A 1 1 1+ − X 2 20",
+    "choices": {
+      "B": "1 1 1 1+ − + X 2 21 22",
+      "C": "1 1 1 X 20 22",
+      "D": "1 1− X 22",
+      "E": "1 1 − X 20 22"
+    },
+    "blank_choices": null,
+    "correct": [],
+    "explanation": ""
+  },
+  {
+    "id": "Q0018",
+    "section": "quant",
+    "type": "multiple_choice_select_all",
+    "difficulty": "hard",
+    "stem": "Let S be the set of all positive integers n such that n2 is a multiple of both 24 and 108. Which of the following integers are divisors of every integer n in S ? Indicate all such integers.",
+    "choices": {
+      "A": "12",
+      "B": "24",
+      "C": "36",
+      "D": "72"
+    },
+    "blank_choices": null,
+    "correct": [],
+    "explanation": ""
+  },
+  {
+    "id": "Q0019",
+    "section": "quant",
+    "type": "multiple_choice_select_all",
+    "difficulty": "hard",
+    "stem": "The penguins currently living on an island are of two types, Chinstrap penguins and Gentoo penguins. The range of the heights of the Chinstrap penguins on the island is 13.2 centimeters, and the range of the heights of the Gentoo penguins on the island is 15.4 centimeters. Which of the following statements individually provide(s) sufficient addi tional information to determine the range of the heights of all the penguins on the island? ­ Indicate all such statements.",
+    "choices": {
+      "A": "The tallest Gentoo penguin on the island is 5.8 centimeters taller than",
+      "B": "The median height of the Gentoo penguins on the island is"
+    },
+    "blank_choices": null,
+    "correct": [],
+    "explanation": ""
+  },
+  {
+    "id": "Q0020",
+    "section": "quant",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "stem": "1 centimeters greater than the median height of the Chinstrap penguins on the island.",
+    "choices": {
+      "C": "The average (arithmetic mean) height of the Gentoo penguins on"
+    },
+    "blank_choices": null,
+    "correct": [],
+    "explanation": ""
+  },
+  {
+    "id": "Q0021",
+    "section": "quant",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "stem": "There are 275 students in the field of engineering at College X. Approximately what is the ratio of the number of students in engineering to the number of faculty in engineering? A 8 to 1 X X B 10 to 1",
+    "choices": {
+      "C": "12 to 1",
+      "D": "14 to 1",
+      "E": "20 to 1"
+    },
+    "blank_choices": null,
+    "correct": [],
+    "explanation": ""
+  },
+  {
+    "id": "Q0022",
+    "section": "quant",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "stem": "Approximately what percent of the faculty in humanities are non-adjunct faculty? XA 35% XB 38%",
+    "choices": {
+      "C": "41%",
+      "D": "45%",
+      "E": "51%"
+    },
+    "blank_choices": null,
+    "correct": [],
+    "explanation": ""
+  },
+  {
+    "id": "Q0023",
+    "section": "quant",
+    "type": "multiple_choice_select_all",
+    "difficulty": "hard",
+    "stem": "For which of the eight years from 2001 to 2008 did exports exceed imports by more than $5 billion? Indicate all such years. wA 2001 wB 2002",
+    "choices": {
+      "C": "2003",
+      "D": "2004"
+    },
+    "blank_choices": null,
+    "correct": [],
+    "explanation": ""
+  },
+  {
+    "id": "Q0024",
+    "section": "quant",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "stem": "Which of the following is closest to the average (arithmetic mean) of the 9 changes in the value of imports between consecutive years from 2000 to 2009? XA $260 million XB $320 million",
+    "choices": {
+      "C": "$400 million",
+      "D": "$480 million",
+      "E": "$640 million"
+    },
+    "blank_choices": null,
+    "correct": [],
+    "explanation": ""
+  },
+  {
+    "id": "Q0025",
+    "section": "quant",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "stem": "In 2008 the value of exports was approximately what percent greater than the value of imports? XA 40% XB 60% XC 70%",
+    "choices": {
+      "D": "120%",
+      "E": "140%"
+    },
+    "blank_choices": null,
+    "correct": [],
+    "explanation": ""
+  },
+  {
+    "id": "Q0026",
+    "section": "quant",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "stem": "If it were discovered that the value of imports shown for 2007 was incorrect and should have been $5 billion instead, then the average (arithmetic mean) value of imports per year for the 10 years shown would have been approximately how much less? XA $200 million XB $50 million",
+    "choices": {
+      "C": "$20 million",
+      "D": "$7 million",
+      "E": "$5 million"
+    },
+    "blank_choices": null,
+    "correct": [],
+    "explanation": ""
+  },
+  {
+    "id": "Q0027",
+    "section": "quant",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "stem": "Choice A: $200 million 33061020100305c06092a864886f70d010701301e060960864801650304012e3011040c4f57cff72f27a3ce4b230c84020110802fdb1b716437ccaf318b0061692159aa69bf4d29883224d5e6606b5dc4c b01036b70d7af9eec14b38d214a5983877b0b) Answers and Explanations For the practice questions in this chapter, use the following directions. Section Directions For each question, indicate the best answer, using the directions given. Notes: All numbers used are real numbers. All figures are assumed to lie in a plane unless otherwise indicated. Geometric figures, such as lines, circles, triangles, and quadrilaterals, are not necessarily drawn to scale. That is, you should not assume that quantities such as lengths and angle measures are as they appear in a figure. You should assume, however, that lines shown as straight are actually straight, points on a line are in the order shown, and more generally, all geometric objects are in the relative positions shown. For questions with geometric figures, you should base your answers on geometric reasoning, not on estimating or comparing quantities by sight or by measurement. Coordinate systems, such as xy-planes and number lines, are drawn to scale; therefore, you can read, estimate, or compare quantities in such figures by sight or by measurement. Graphical data presentations, such as bar graphs, circle graphs, and line graphs, are drawn to scale; therefore, you can read, estimate, or compare data values by sight or by measurement. Directions for Quantitative Comparison questions Compare Quantity A and Quantity B, using additional information centered above the two quantities if such information is given. Select one of the following four answer choices and fill in the corresponding oval to the right of the question.",
+    "choices": {
+      "A": "symbol that appears more than once in a question has the same meaning",
+      "B": "Quantity B is greater.",
+      "C": "The two quantities are equal.",
+      "D": "The relationship cannot be determined from the information given."
+    },
+    "blank_choices": null,
+    "correct": [],
+    "explanation": ""
+  },
+  {
+    "id": "Q0028",
+    "section": "quant",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "stem": "In the figure above, what is the value of xy ++ z 45 ?",
+    "choices": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5",
+      "E": "6"
+    },
+    "blank_choices": null,
+    "correct": [
+      "C",
+      "E"
+    ],
+    "explanation": "The sum of the measures, in degrees, of the three interior angles of any triangle is 180°. As shown in the figure, the three angles of the triangle have measures of x°, y°, and z°, so x + y + z = 180. Therefore, xy ++ z 180 = = 4 45 45 , and the correct answer is Choice C. This explanation uses the following strategy. Strategy 4: Translate from a Figure to an Arithmetic or Algebraic Representation 33061020100305c06092a864886f70d010701301e060960864801650304012e3011040c4f57cff72f27a3ce4b230c84020110802fdb1b716437ccaf318b0061692159aa69bf4d29883224d5e6606b5dc4c b01036b70d7af9eec14b38d214a5983877b0b)"
+  },
+  {
+    "id": "Q0029",
+    "section": "quant",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "stem": "If y = 3x and z = 2y, what is x + y + z in terms of x ?",
+    "choices": {
+      "A": "10x\t X",
+      "B": "9x X",
+      "C": "8x",
+      "D": "6x",
+      "E": "5x"
+    },
+    "blank_choices": null,
+    "correct": [
+      "A",
+      "E"
+    ],
+    "explanation": "It is not necessary to find the individual values of x, y, and z to answer the question. You are asked to rewrite the expression x + y + z as an equivalent expression in terms of x. This means that you need to use the information provided about y and z to express them in terms of the variable x. The variable y is already given in terms of x; that is, y = 3x; and because z = 2y, it follows that z = (2)(3x) = 6x. Using substitution, you can rewrite the expression as follows. x ++yz =+ x (3x)( + 6) x =+ (1 36 + )x = 10x The correct answer is Choice A. This explanation uses the following strategy. Strategy 5: Simplify an Arithmetic or Algebraic Representation 33061020100305c06092a864886f70d010701301e060960864801650304012e3011040c4f57cff72f27a3ce4b230c84020110802fdb1b716437ccaf318b0061692159aa69bf4d29883224d5e6606b5dc4c b01036b70d7af9eec14b38d214a5983877b0b)"
+  },
+  {
+    "id": "Q0030",
+    "section": "quant",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "stem": "Last year, all purchases of a certain product were made either online or in a store. If 55 percent of the purchases were made online, what was the ratio of the number of purchases made online to the number of purchases made in a store?",
+    "choices": {
+      "A": "11 to 9",
+      "B": "11 to 5",
+      "C": "10 to 9",
+      "D": "9 to 11",
+      "E": "9 to 10"
+    },
+    "blank_choices": null,
+    "correct": [
+      "A",
+      "E"
+    ],
+    "explanation": "Note that because 55 percent of the purchases were made online, it follows that 45 percent of the purchases were made in a store. Therefore, the ratio of the number of purchases made online to the number of purchases made in a store is 55 to 45, or 11 to 9, and the correct answer is Choice A. This explanation uses the following strategy. Strategy 1: Translate from Words to an Arithmetic or Algebraic Representation 33061020100305c06092a864886f70d010701301e060960864801650304012e3011040c4f57cff72f27a3ce4b230c84020110802fdb1b716437ccaf318b0061692159aa69bf4d29883224d5e6606b5dc4c b01036b70d7af9eec14b38d214a5983877b0b) Numeric Entry For Questions 12 and 13, use the directions for Numeric Entry questions. S T U R V"
+  },
+  {
+    "id": "Q0031",
+    "section": "quant",
+    "type": "multiple_choice_select_all",
+    "difficulty": "easy",
+    "stem": "The circle graph above shows the distribution of 200,000 physicians by specialty. Which of the following sectors of the circle graph represent more than 40,000 physicians? Indicate all such sectors.",
+    "choices": {
+      "A": "Pediatrics",
+      "B": "Internal Medicine",
+      "C": "Surgery",
+      "D": "Anesthesiology",
+      "E": "Psychiatry"
+    },
+    "blank_choices": null,
+    "correct": [],
+    "explanation": "One approach to solve this problem is to find out what percent of 200,000 is 40,000 and then compare this percent with the percents given in the circle graph. Because 40,000 = 0.2 200,000 , it follows that 40,000 is 20% of 200,000, and any specialty that has more than 20% of the distribution has more than 40,000 physicians. This is true for the specialties of pediatrics, internal medicine, and surgery. The correct answer consists of Choices A, B, and C. This explanation uses the following strategy. Strategy 4: Translate from a Figure to an Arithmetic or Algebraic Representation 33061020100305c06092a864886f70d010701301e060960864801650304012e3011040c4f57cff72f27a3ce4b230c84020110802fdb1b716437ccaf318b0061692159aa69bf4d29883224d5e6606b5dc4c b01036b70d7af9eec14b38d214a5983877b0b)"
+  },
+  {
+    "id": "Q0032",
+    "section": "quant",
+    "type": "quantitative_comparison",
+    "difficulty": "medium",
+    "stem": "7, and the average of the numbers in list Y is 7.1. List Z contains 120 numbers: the 60 numbers in list X and the 60 numbers in list Y. Quantity A Quantity B The average of the 120 numbers in list Z The median of the 120 numbers in list Z",
+    "choices": {
+      "A": "Quantity A is greater",
+      "B": "Quantity B is greater",
+      "C": "The two quantities are equal",
+      "D": "The relationship cannot be determined from the information given"
+    },
+    "blank_choices": null,
+    "correct": [
+      "B",
+      "E"
+    ],
+    "explanation": "In this problem you are asked to compare the average with the median of the 120 numbers in list Z. Since list Z consists of the numbers in lists X and Y combined, it is reasonable to try to use the information about lists X and Y to calculate the average and the median of the numbers in list Z. To determine the average of the 120 numbers in list Z, you can use the information given about the individual averages of the numbers in lists X and Y. Because lists X and Y each contain 60 numbers, the average of the numbers in list Z is the average of the individual averages of the numbers in lists X and Y. Thus, the average of the numbers in list Z is 2.77 + .1 2 , or 4.9. To determine the median of the 120 numbers in list Z, first note that list Z contains an even number of numbers, so the median of the numbers in list Z is the average of the middle two numbers when the numbers are listed in increasing order. If you look at the numbers in the two lists, you will see that the 60 numbers in list X are all less than or equal to 5, and the 60 numbers in list Y are all greater than or equal to 6. Thus, the two middle numbers in list Z are 5 and 6, and the average of these numbers is 56 + 2 or 5.5. Therefore, the median of the numbers in list Z is 5.5, and this is greater than the average of 4.9. The correct answer is Choice B. This explanation uses the following strategies. Strategy 4: Translate from a Figure to an Arithmetic or Algebraic Representation Strategy 8: Search for a Mathematical Relationship 33061020100305c06092a864886f70d010701301e060960864801650304012e3011040c4f57cff72f27a3ce4b230c84020110802fdb1b716437ccaf318b0061692159aa69bf4d29883224d5e6606b5dc4c b01036b70d7af9eec14b38d214a5983877b0b) C B D A 3. In the figure above, the diameter of the circle is 10. Quantity A Quantity B The area of quadrilateral ABCD 40 A B C D Explanation You are given that the circle has a diameter of 10, and from the figure you can assume that points A, B, C, and D lie on the circle in the order shown. However, because figures are not necessarily drawn to scale, you cannot assume anything else about the positions of points A, B, C, and D on the circle. Therefore, to get an idea of how various possible positions of these four points could affect the area of quadrilateral ABCD, it is a good idea to see how the figure can vary but still have points A, B, C, and D in the same order as in the figure above. One way that you might vary the figure is to evenly space the four points along the circle, as shown below. C B D A Another way is to draw points A and C opposite each other, with points B and D close to point C, as shown below. A BC D From these figures you can draw some basic conclusions about the area of ABCD. If points A and C are opposite each other, with points B and D very close to point C, the area of quadrilateral ABCD is very close to 0. Clearly, the area can be less than 40 (Quantity B). If points A, B, C, and D are evenly spaced, the area is not close to 0. How does the area compare with 40? To calculate the area of ABCD, draw the diameters AC and BD in the figure. The two diameters are perpendicular bisectors of each other, so they divide ABCD into four right triangles, as shown. 33061020100305c06092a864886f70d010701301e060960864801650304012e3011040c4f57cff72f27a3ce4b230c84020110802fdb1b716437ccaf318b0061692159aa69bf4d29883224d5e6606b5dc4c b01036b70d7af9eec14b38d214a5983877b0b) C B D 5 5 A The area of each of the right triangles is 1 (5)(5) 2 , or 12.5. Thus, the area of ABCD is (4)(12.5), or 50. Since the area of the quadrilateral in the first figure is less than 40 and the area of the quadrilateral in the second figure is greater than 40, the relationship cannot be determined from the information given. The correct answer is Choice D. This explanation uses the following strategies. Strategy 4: Translate from a Figure to an Arithmetic or Algebraic Representation Strategy 6: Add to a Geometric Figure Strategy 13: Determine Whether a Conclusion Follows from the Information Given 4. x2y > 0 xy2 < 0 Quantity A Quantity B x y A B C D Explanation You are given that x2y > 0, which means that the product of the two numbers x2 and y is positive. Recall that the product of two numbers is positive only if both numbers are positive or both numbers are negative. The square of a number is always greater than or equal to 0. In this case, x2 cannot equal 0 because the product x2y is not 0. Thus, x2 is positive and it follows that y is also positive. You are also given that xy2 < 0, which means that the product of the two numbers x and y2 is negative. The product of two numbers is negative only if one of the numbers is negative and the other number is positive. In this case, y 2 cannot be negative because it is the square of a number, and it cannot be 0 because the product x2y is not 0. Thus, y2 is positive and so x must be negative. Because x is negative and y is positive, y must be greater than x, and the correct answer is Choice B. This explanation uses the following strategy. Strategy 8: Search for a Mathematical Relationship 5. Among the 9,000 people attending a football game at College C, there were x students from College C and y students who were not from College C. Quantity A Quantity B The number of people attending the game who were not students 9,000 − x − y A B C D 33061020100305c06092a864886f70d010701301e060960864801650304012e3011040c4f57cff72f27a3ce4b230c84020110802fdb1b716437ccaf318b0061692159aa69bf4d29883224d5e6606b5dc4c b01036b70d7af9eec14b38d214a5983877b0b) , Explanation In this question you are not told whether all of the 9,000 people attending the game were students. Let z be the number of people attending the game who were not students. The people attending the game can be broken down into three groups: students from College C, students not from College C, and people who were not students. This can be expressed algebraically as 9,000 = x + y + z, where x represents the number of students from College C attending the game and y represents the number of students attending the game who were not from College C. Therefore, 9,000 − x − y = z is the number of people attending the game who were not students. The correct answer is Choice C. This explanation uses the following strategy. Strategy 1: Translate from Words to an Arithmetic or Algebraic Representation Multiple-choice Questions—Select One Answer Choice For Questions 6 to 10, select a single answer choice."
+  },
+  {
+    "id": "Q0033",
+    "section": "quant",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "stem": "If x ≠ 0 which of the following is equivalent to xx() 23 2 x ?",
+    "choices": {
+      "A": "x X 2",
+      "B": "x X 3",
+      "C": "x X 4",
+      "D": "x X 5",
+      "E": "x X 6"
+    },
+    "blank_choices": null,
+    "correct": [
+      "D",
+      "E"
+    ],
+    "explanation": "To simplify 2 xx( 2 x )3 , it can be helpful to write (x2)3 as (x2)(x2)(x2) in the given expression; that is, 2 2 2 2 xx() 3 x x()() x () x = 2 2 x x . Because x ≠ 0, both numerator and denominator can be divided by x2, and the expression simplifies to x(x2)(x2), which, by the rules of exponents, is equal to x5. Another way to simplify the expression using the rules of exponents directly is as follows. 23 6 7 () () x 5 xx xx = = = x 2 2 2 x x x The correct answer is Choice D. This explanation uses the following strategy. Strategy 5: Simplify an Arithmetic or Algebraic Representation 33061020100305c06092a864886f70d010701301e060960864801650304012e3011040c4f57cff72f27a3ce4b230c84020110802fdb1b716437ccaf318b0061692159aa69bf4d29883224d5e6606b5dc4c b01036b70d7af9eec14b38d214a5983877b0b) y O 1 x"
+  },
+  {
+    "id": "Q0034",
+    "section": "quant",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "stem": "The figure above shows the graph of the function f in the xy-plane. What is the value of f( f (−1))?",
+    "choices": {
+      "A": "−2",
+      "B": "−1",
+      "C": "0",
+      "D": "1",
+      "E": "2"
+    },
+    "blank_choices": null,
+    "correct": [
+      "D",
+      "E"
+    ],
+    "explanation": "Note that to find f (f (−1)), you must apply the function f twice, first to find the value of f(−1) and then to find the value of f (f(−1)). To find the value of f(−1), find the point on the graph of the function f whose x-coordinate is x = −1. This point has y-coordinate y = 2. Therefore, the value of f(−1) is 2, and f(f(−1)) = f(2). Next you need to find the value of f(2). To find the value of f(2), find the point on the graph whose x-coordinate is x = 2. This point has y-coordinate y = 1. Therefore, f(2) = 1, and because f (f(−1)) = f(2), you can conclude that f (f(−1)) = 1. The correct answer is Choice D. This explanation uses the following strategies. Strategy 4: Translate from a Figure to an Arithmetic or Algebraic Representation Strategy 12: Adapt Solutions to Related Problems"
+  },
+  {
+    "id": "Q0035",
+    "section": "quant",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "stem": "If d − 3n = 1, 7nd − which of the following statements describes d in terms of n ? X X X X X",
+    "choices": {
+      "A": "d is 4 less than n.",
+      "B": "d is 4 more than n.",
+      "C": "d is 3",
+      "D": "d is 2 times n.",
+      "E": "d is 5 times n."
+    },
+    "blank_choices": null,
+    "correct": [
+      "E"
+    ],
+    "explanation": "To describe d in terms of n, you need to solve the equation d − 3n = 1 7nd − for d. To simplify the equation, you can begin by multiplying both sides by 7n − d and then proceed as follows. (7nd −= )(7) nd − (1) 3 dn nd − − dn −= 37nd − dn =− 10 d 21 dn = 0 dn = 5 The correct answer is Choice E. This explanation uses the following strategy. Strategy 5: Simplify an Arithmetic or Algebraic Representation 33061020100305c06092a864886f70d010701301e060960864801650304012e3011040c4f57cff72f27a3ce4b230c84020110802fdb1b716437ccaf318b0061692159aa69bf4d29883224d5e6606b5dc4c b01036b70d7af9eec14b38d214a5983877b0b)"
+  },
+  {
+    "id": "Q0036",
+    "section": "quant",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "stem": "By weight, liquid A makes up 8 percent of solution R and 18 percent of solution S. If 3 grams of solution R are mixed with 7 grams of solution S, then liquid A accounts for what percent of the weight of the resulting solution?",
+    "choices": {
+      "A": "10%",
+      "B": "13%",
+      "D": "19%",
+      "E": "26%"
+    },
+    "blank_choices": null,
+    "correct": [
+      "C",
+      "E"
+    ],
+    "explanation": "Liquid A makes up 8 percent of the weight of solution R and 18 percent of the weight of solution S. Therefore, 3 grams of solution R contain (0.08)(3), or 0.24 gram of liquid A, and 7 grams of solution S contain (0.18)(7), or 1.26 grams of liquid A. When the two solutions are mixed, the resulting solution weighs 3 + 7, or 10 grams and contains 0.24 + 1.26, or 1.5 grams of liquid A. This means that liquid A makes up 1.5 , 10 or 100, or 15 percent of the weight of the resulting solution. The correct answer is Choice C. This explanation uses the following strategy. Strategy 1: Translate from Words to an Arithmetic or Algebraic Representation"
+  },
+  {
+    "id": "Q0037",
+    "section": "quant",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "stem": "Of the 700 members of a certain organization, 120 are lawyers. Two members of the organization will be selected at random. Which of the following is closest to the probability that neither of the members selected will be a lawyer?",
+    "choices": {
+      "A": "0.5",
+      "B": "0.6",
+      "C": "0.7",
+      "D": "0.8",
+      "E": "0.9"
+    },
+    "blank_choices": null,
+    "correct": [
+      "A",
+      "C"
+    ],
+    "explanation": "The probability that neither of the members selected will be a lawyer is equal to the fraction the numberofways2 memberswho arenot lawyerscan be selected the numberofways2 memberscan be selected where the order of selection does not matter. Since there are 120 members who are lawyers, there must be 700 − 120, or 580 members who are not lawyers. There are 580 ways of selecting a first member who is not a lawyer and 579 ways of selecting a second member who is not a lawyer. Multiplying these two numbers gives the number of ways to select 2 members who are not lawyers. However, in the (580)(579) ways, each group of 2 members who are not lawyers is counted twice. You can see this by considering 2 members, A and B. The 2 members can be chosen in 2 ways: A first, followed by B, and B first, followed by A. To adjust for double counting, you need to divide (580)(579) by 2. 33061020100305c06092a864886f70d010701301e060960864801650304012e3011040c4f57cff72f27a3ce4b230c84020110802fdb1b716437ccaf318b0061692159aa69bf4d29883224d5e6606b5dc4c b01036b70d7af9eec14b38d214a5983877b0b) Similarly, the number of ways 2 members can be selected from among the 700 members is (700)(699) divided by 2. Thus, the desired probability is (580)(579) 2 (580)(579) = (700)(699) (700)(699) Since the answer choices are all tenths, you need to approximate the value of this fraction to the nearest tenth. There are several ways to do this approximation. One way is to use your calculator to convert the fraction to a decimal and round the decimal to the nearest tenth. Another way is to approximate the value of the fraction as follows. (580)(579) (600)(600) 6 2 36 36 ≈ = = ≈ = 0.72 (700)(699) (700)(700) 7 49 50 Either way, the answer choice that is closest to the value of the fraction is 0.7. The correct answer is Choice C. Another approach to this problem is to consider the random selections as two separate but successive events. The probability of selecting a first member who is not a lawyer is 580 700, because there are 580 members out of the 700 members who are not lawyers. For the second selection, there are only 699 members left to select from, because one member has already been selected. If the first member selected is not a lawyer, then there are only 579 members left who are not lawyers. So the probability of selecting a second member who is not a lawyer, given the condition that the first member selected was not a lawyer, is 699. The probability that both members selected will not be lawyers is the product of the two probabilities, or 580 579 , which is approximated above as"
+  },
+  {
+    "id": "Q0038",
+    "section": "quant",
+    "type": "multiple_choice_select_all",
+    "difficulty": "medium",
+    "stem": "If the lengths of two sides of a triangle are 5 and 9, respectively, which of the following could be the length of the third side of the triangle? Indicate all such lengths. wA wB wC",
+    "choices": {
+      "D": "15"
+    },
+    "blank_choices": null,
+    "correct": [],
+    "explanation": "A good way to approach this problem is to think about how much the length of the third side of a triangle with two fixed side lengths can vary. If you think about it a bit, you will see that the smaller the interior angle between the two sides of the triangle is, the smaller the length of the third side is; and the larger the interior angle between the two sides of the triangle is, the larger the length of the third side is. This suggests drawing two triangles, one in which the angle between the two sides is close to 0 degrees and one in which the angle between the two sides is close to 180 degrees, like the triangles below. In the triangle in which the angle between the sides of length 5 and 9 is small, you can see that the length of the third side is a bit greater than 9 − 5, or 4. If it were equal to 4, the triangle would degenerate into a line segment. In the triangle in which the angle between the sides of length 5 and 9 is large, you can see that the length of the third side is a bit less than 9 + 5, or 14. If it were equal to 14, the triangle would degenerate into a line segment. 5 9 9 33061020100305c06092a864886f70d010701301e060960864801650304012e3011040c4f57cff72f27a3ce4b230c84020110802fdb1b716437ccaf318b0061692159aa69bf4d29883224d5e6606b5dc4c b01036b70d7af9eec14b38d214a5983877b0b) Therefore, the length of the third side of the triangle must be greater than 4 and less than 14. Furthermore, it is intuitive that any length between these two numbers can be achieved by some triangle. The correct answer consists of Choices B and C. This explanation uses the following strategies. Strategy 2: Translate from Words to a Figure or Diagram Strategy 11: Divide into Cases x 0 y z"
+  },
+  {
+    "id": "Q0039",
+    "section": "quant",
+    "type": "multiple_choice_select_all",
+    "difficulty": "medium",
+    "stem": "On the number line shown above, the tick marks are equally spaced. Which of the following statements about the numbers x, y, and z must be true? Indicate all such statements.",
+    "choices": {
+      "A": "xyz < 0\t wB x + z = y wC z( y − x) > 0"
+    },
+    "blank_choices": null,
+    "correct": [],
+    "explanation": "You can see from their positions on the number line that x is less than 0 and both y and z are greater than 0. Because the tick marks are equally spaced, you can also see that x = −y and z = 2y. You need to evaluate each answer choice separately to determine whether it must be true. Choice A says that the product of the three numbers x, y, and z is less than 0. Recall that the product of three numbers is negative under either of the following two conditions. b All three numbers are negative. b One of the numbers is negative and the other two numbers are positive. Choice A must be true, since x is negative and y and z are positive. Choice B is the equation x + z = y. To see whether the equation must be true, it is a good idea to express two of the variables in terms of the third (that is, to “get rid of” two of the variables). The equations x = −y and z = 2y give x and z in terms of y, so the equation x + z = y can be rewritten, substituting −y for x and 2y for z, as −y + 2y = y. In this form you can quickly conclude that the equation must be true. Choice C says that the product of the two numbers z and y − x is greater than"
+  },
+  {
+    "id": "Q0040",
+    "section": "quant",
+    "type": "quantitative_comparison",
+    "difficulty": "hard",
+    "stem": "To make the average as small as possible, assume that all of the measurements in each interval are as small as possible. That is to say, all 15 measurements in the measurement interval 1–5 are equal to 1, all 35 measurements in the measurement interval 6–10 are equal to 6, etc. Under this assumption, the average of the 95 measurements is (1)(15)( + 6)(35) + (11)(15) + (16)(12) + (21)(10) + + (26)(5)(31)(3) 1,015 = 95 95 The value of the smallest possible average, 1,015, 95 is greater than 10. Therefore, since the average of the 95 measurements is greater than 10 and the median is in the measurement interval 6–10, it follows that the average is greater than the median, and the correct answer is Choice A. This explanation uses the following strategies. Strategy 4: Translate from a Figure to an Arithmetic or Algebraic Representation Strategy 8: Search for a Mathematical Relationship Strategy 9: Estimate Strategy 11: Divide into Cases 3. x is an integer greater than 1. Quantity A Quantity B 3x+1 4x A B C D",
+    "choices": {
+      "A": "Quantity A is greater",
+      "B": "Quantity B is greater",
+      "C": "The two quantities are equal",
+      "D": "The relationship cannot be determined from the information given"
+    },
+    "blank_choices": null,
+    "correct": [
+      "C",
+      "D"
+    ],
+    "explanation": "One way to approach this question is to plug in numbers for the variables and see what the relationship between the two quantities is for each of the numbers you plug in. If you plug in x = 2, you see that Quantity A is 3x+1 = 33, or 27, and Quantity B is 4x = 42, or 16. In this case, Quantity A is greater than Quantity B. If you plug in x = 3, you see that Quantity A is 3x+1 = 34, or 81, and Quantity B is 4x = 43, or 64. In this case, Quantity A is greater than Quantity B. If you plug in x = 4, you see that Quantity A is 3x+1 = 35, or 243, and Quantity B is 4x = 44, or 256. In this case, Quantity B is greater than Quantity A. Since for x = 2 and for x = 3, Quantity A is greater than Quantity B, and for x = 4, Quantity B is greater than Quantity A, it follows that the relationship between the two quantities cannot be determined. The correct answer is Choice D. Since both quantities are algebraic expressions, another way to approach this problem is to set up a placeholder relationship between the two quantities and simplify it to see what conclusions you can draw. 3 +1 ? 4 3(3) ?4 x 4x 3(3) ? 3x 3x 4 x 3? 3 For any value of x, the value of 3x is positive, so dividing by 3x does not change any inequality that could be put in the placeholder. Since each step in this simplification is reversible, this reduces the problem to comparing 3 with x 4 3 . 33061020100305c06092a864886f70d010701301e060960864801650304012e3011040c4f57cff72f27a3ce4b230c84020110802fdb1b716437ccaf318b0061692159aa69bf4d29883224d5e6606b5dc4c b01036b70d7af9eec14b38d214a5983877b0b) You can see that because 4 3 is greater than 1, the value of x 4 3 becomes greater as x becomes larger. In particular, it is greater than 3 for large enough values of x. For the smallest value of x, x = 2, the relationship is 4 2 16 9 = < 3. Since for x = 2, Quantity A is greater than Quantity B and for large values of x, Quantity B is greater than Quantity A, it follows that the relationship between the two quantities cannot be determined. The correct answer is Choice D. This explanation uses the following strategies. Strategy 10: Trial and Error Strategy 13: Determine Whether a Conclusion Follows from the Information Given 4. A, B, and C are three rectangles. The length and width of rectangle A are 10 percent greater and 10 percent less, respectively, than the length and width of rectangle C. The length and width of rectangle B are 20 percent greater and 20 percent less, respectively, than the length and width of rectangle C. Quantity A Quantity B The area of rectangle A The area of rectangle B A B C D Explanation In this question you are asked to compare the area of rectangle A and the area of rectangle B. Since the information given relates the dimensions of both rectangle A and rectangle B to the corresponding dimensions of rectangle C, you can try to use the relationships to make the desired comparison. If ℓ represents the length of rectangle C and w represents its width, then the length and width of rectangles A and B can be translated into algebraic expressions as follows. b The length of rectangle A is 10 percent greater than the length of rectangle C, or 1.1ℓ. b The width of rectangle A is 10 percent less than the width of rectangle C, or 0.9w. b The length of rectangle B is 20 percent greater than the length of rectangle C, or 1.2ℓ. b The width of rectangle B is 20 percent less than the width of rectangle C, or 0.8w. In terms of ℓ and w, the area of rectangle A is (1.1ℓ)(0.9w), or 0.99ℓw. In terms of ℓ and w, the area of rectangle B is (1.2ℓ)(0.8w), or 0.96ℓw. Since 0.99ℓw is greater than 0.96ℓw, Quantity A is greater than Quantity B, and the correct answer is Choice A. This explanation uses the following strategy. Strategy 1: Translate from Words into an Arithmetic or Algebraic Representation 5. The random variable X is normally distributed. The values 650 and 850 are at the 60th and 90th percentiles of the distribution of X, respectively. Quantity A Quantity B The value at the 75th percentile of the distribution of X 750 A B C D 33061020100305c06092a864886f70d010701301e060960864801650304012e3011040c4f57cff72f27a3ce4b230c84020110802fdb1b716437ccaf318b0061692159aa69bf4d29883224d5e6606b5dc4c b01036b70d7af9eec14b38d214a5983877b0b) Explanation You are given that the distribution of random variable X is normal and that the values 650 and 850 are at the 60th and 90th percentiles of the distribution, respectively. Both of the values 650 and 850 are greater than the mean of the distribution. If you draw a rough sketch of the graph of the normal distribution, the sketch could look something like the one below. Note that it is not necessary to know the exact location of 650 and 850, just that both values are above the mean. 650 850 Mean To say that the value 650 is at the 60th percentile of the distribution means, graphically, that 60 percent of the area between the normal curve and the horizontal axis lies to the left of the vertical line segment at 650. To say that 850 is at the 90th percentile of the distribution means that 90 percent of the area between the normal curve and the horizontal axis lies to the left of the vertical line segment at 850. The value 750 is halfway between 650 and 850. However, because the curve is decreasing in that interval, the area between 650 and 750 is greater than the area between 750 and 850. Since the value at the 75th percentile should divide in half the area between the value at the 60th percentile (650) and the value at the 90th percentile (850), this value is closer to 650 than to 850. Thus you can conclude that Quantity A, the value at the 75th percentile of the distribution of X, is less than Quantity B. The correct answer is Choice B. This explanation uses the following strategies. Strategy 2: Translate from Words to a Figure or Diagram Strategy 8: Search for a Mathematical Relationship Strategy 9: Estimate 6. Set S consists of all positive integers less than 81 that are not equal to the square of an integer. Quantity A Quantity B The number of integers in set S 72 A B C D Explanation Set S consists of all integers from 1 to 80, except those that are equal to the square of an integer. So, Quantity A, the number of integers in set S, is equal to the number of positive integers that are less than 81 minus the number of positive integers less than 81 that are equal to the square of an integer. Clearly, there are 80 positive integers that are less than 81. One way to determine the number of positive integers less than 81 that are squares of integers is by noticing that 81 is equal to 92 and concluding that the squares of the integers from 1 to 8 are all positive integers that are less than 81. You can also draw this conclusion by squaring each of the positive integers, beginning with 1, until you get to an integer n such that n2 is greater than or equal to"
+  },
+  {
+    "id": "Q0041",
+    "section": "quant",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "stem": "Which of the following could be the graph of all values of x that satisfy the inequality 6x − 25 − x ≤ − 3 5?",
+    "choices": {
+      "A": "0",
+      "B": "0",
+      "D": "0"
+    },
+    "blank_choices": null,
+    "correct": [
+      "C",
+      "E"
+    ],
+    "explanation": "To determine which of the graphs is the correct answer, you first need to determine all values of x that satisfy the inequality. To do that you need to simplify the inequality until you isolate x. You can begin by multiplying both sides of the inequality by 3 to obtain (3)(2 − 5x) ≤ − (6x − 5). Note that when you multiply by 3, the right-hand side of the inequality becomes −(6x − 5), not −6x − 5. The rest of the simplification is as follows. (3)(25 − x) ≤ −6x + 5 61− 5x ≤ −6x + 5 −15x ≤ −6x −1 − 9x ≤ −1 x ≥ 9 Note that when an inequality is multiplied (or divided) by a negative number, the direction of the inequality reverses. The graphs in the answer choices are number lines on which only the number 0 is indicated. Therefore, you do not need to locate 1 9 on the number line; it is enough to know that 1 is a positive number. Choice C is the only choice in which the shaded part of the line is equal to or greater than a positive number. Therefore, the correct answer is Choice C. This explanation uses the following strategy. Strategy 3: Translate from an Algebraic to a Graphical Representation"
+  },
+  {
+    "id": "Q0042",
+    "section": "quant",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "stem": "If 1 + x + x2 + x3 = 60, then the average (arithmetic mean) of x, x2, x3, and x 4 is equal to which of the following?",
+    "choices": {
+      "A": "12x",
+      "B": "15x",
+      "D": "30x",
+      "E": "60x"
+    },
+    "blank_choices": null,
+    "correct": [
+      "B",
+      "E"
+    ],
+    "explanation": "A quick inspection of the answer choices shows that it is not necessary to solve the equation 1 + x + x2 + x3 = 60 for x to answer this question. You are being asked to express the average of the four quantities x, x2, x3, and x4 in terms of x. To express this average in terms of x, you need to add the 4 quantities and divide the result by 4; that is, 2 3 4 x + x + x + x 4 . The only information given in the question is that the sum of the 4 quantities, 1 + x + x2 + x3, is 60, so you need to think of a way to use this information to simplify the expression 2 3 4 x + x + x + x 4 . Note that the numerator of the fraction is a sum of 4 quantities, each of which has an x term raised to a power. Thus, the expression in the numerator can be 33061020100305c06092a864886f70d010701301e060960864801650304012e3011040c4f57cff72f27a3ce4b230c84020110802fdb1b716437ccaf318b0061692159aa69bf4d29883224d5e6606b5dc4c b01036b70d7af9eec14b38d214a5983877b0b) factored as x + x2 + x3 + x4 = x(1 + x + x2 + x3). By using the information in the question, you can make the following simplification. 2 3 4 2 3 x x +++ x x x(1++ x x + x ) x(60) = = = 15x 4 4 4 Therefore, the correct answer is Choice B. This explanation uses the following strategy. Strategy 5: Simplify an Arithmetic or Algebraic Representation"
+  },
+  {
+    "id": "Q0043",
+    "section": "quant",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "stem": "Parallelogram OPQR lies in the xy-plane, as shown in the figure above. The coordinates of point P are (2, 4) and the coordinates of point Q are (8, 6). What are the coordinates of point R ?",
+    "choices": {
+      "A": "(3, 2)",
+      "B": "(3, 3)",
+      "D": "(5, 2)",
+      "E": "(6, 2)"
+    },
+    "blank_choices": null,
+    "correct": [
+      "E"
+    ],
+    "explanation": "O x y R N M P (2, 4) Q (8, 6) Since OPQR is a parallelogram, line segments PQ and OR have the same length and the same slope. Therefore, in the figure above, PQM and ORN are congruent right triangles. From the coordinates of P and Q, the lengths of the legs of triangle 33061020100305c06092a864886f70d010701301e060960864801650304012e3011040c4f57cff72f27a3ce4b230c84020110802fdb1b716437ccaf318b0061692159aa69bf4d29883224d5e6606b5dc4c b01036b70d7af9eec14b38d214a5983877b0b) PQM are PM = 8 − 2 = 6 and QM = 6 − 4 = 2. Thus, the lengths of the legs ON and RN of triangle ORN are also 6 and 2, respectively. So the coordinates of point R are (6, 2). The correct answer is Choice E. This explanation uses the following strategies. Strategy 6: Add to a Geometric Figure Strategy 8: Search for a Mathematical Relationship"
+  },
+  {
+    "id": "Q0044",
+    "section": "quant",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "stem": "The relationship between the area A of a circle and its circumference C is given by the formula A = kC2, where k is a constant. What is the value of k? A π",
+    "choices": {
+      "B": "π",
+      "C": "1",
+      "D": "2p",
+      "E": "4p2"
+    },
+    "blank_choices": null,
+    "correct": [
+      "A"
+    ],
+    "explanation": "One way to approach this problem is to realize that the value of the constant k is the same for all circles. Therefore, you can pick a specific circle and substitute the circumference and the area of that particular circle into the formula and calculate the value of k. Say, for example, that you pick a circle with radius 1. The area of the circle is p and the circumference of the circle is 2p. Inserting these values into the formula gives p = k(2p)2. Solving this equation for k gives k = 1 4π , and the correct answer is Choice A. Another way to approach the problem is to express A and C in terms of a common variable and then solve the resulting equation for k. Recall the commonly used formulas for the area and the circumference of a circle: A = pr2 and C = 2pr. Note that in these formulas, both A and C are expressed in terms of the radius r. So, in the formula A = kC2, you can substitute expressions for A and C in terms of r. Substituting pr2 for A and 2pr for C gives pr2 = k(2pr)2. X Now you can determine the value of k by solving the equation for k as follows. πr2 = k(2πr)2 2 2 2 πr = k(4π r ) π = k(4π 2) 1 = k 4π X X X The correct answer is Choice A. This explanation uses the following strategies. Strategy 5: Simplify an Arithmetic or Algebraic Representation Strategy 8: Search for a Mathematical Relationship 33061020100305c06092a864886f70d010701301e060960864801650304012e3011040c4f57cff72f27a3ce4b230c84020110802fdb1b716437ccaf318b0061692159aa69bf4d29883224d5e6606b5dc4c b01036b70d7af9eec14b38d214a5983877b0b)"
+  },
+  {
+    "id": "Q0045",
+    "section": "quant",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "stem": "The sequence of numbers a1, a2, a3, . . . , an, . . . is defined by an = − n n + 2 1 1 for each integer n ≥ 1. What is the sum of the first 20 terms of the sequence?",
+    "choices": {
+      "A": "1 1",
+      "C": "1 1",
+      "D": "1 1− 22",
+      "E": "1 1 − X 20 22"
+    },
+    "blank_choices": null,
+    "correct": [
+      "B",
+      "E"
+    ],
+    "explanation": "This question asks for the sum of the first 20 terms of the sequence. Obviously, it would be very time-consuming to write out the first 20 terms of the sequence and add them together, so it is reasonable to try to find a more efficient way to calculate the sum. Questions involving sequences can often be answered by looking for a pattern. Scanning the answer choices and noting that they contain fractions with denominators 2, 20, 21, and 22, and nothing in between, seems to confirm that looking for a pattern is a good approach to try. To look for a pattern, begin by adding the first two terms of the sequence. 1 1 1 1 1 1 1 1 − + − = + − + 1 3 2 4 1 2 3 4 Now, if you add the first three terms of the sequence, you get 1 1 1 1 1 1 − + − + − 1 3 2 4 3 5 Note that you can simplify the sum by canceling the fraction 3; that is, the sum of positive 3 and negative 3 is 0. 1 1 1 1 1 1 1 1 1 1 − − − − + + + + = 1 2 4 5 1 2 4 5 If you add the first four terms, you get 1 1 1 1 1 1 1 1 − + − + − + − 1 3 2 4 3 5 4 6 Again, you can simplify the sum by canceling. This time, you can cancel the fractions 3 and 4. 1 1 1 1 1 1 1 1 1 1 1 1 − + − + − + − = + − + 1 2 5 6 1 2 5 6 33061020100305c06092a864886f70d010701301e060960864801650304012e3011040c4f57cff72f27a3ce4b230c84020110802fdb1b716437ccaf318b0061692159aa69bf4d29883224d5e6606b5dc4c b01036b70d7af9eec14b38d214a5983877b0b) If you write out the next two sums and simplify them, you will see that they are − and − 1 1 8 + 7 1 1 2 + 1 1 1 7 + 6 1 1 2 + 1 Working with the sums makes it clear that this pattern continues to hold as you add more and more terms of the sequence together and that a formula for the sum of the first k terms of the sequence is 1 1 1 1 + − + 1 2 k +1 k + 2 Therefore, the sum of the first 20 terms of the sequence is equal to 1 1 1 1 1 1 1 + − + = 1+ − + 1 2 20 +1 20 + 2 2 21 22 The correct answer is Choice B. This explanation uses the following strategies. Strategy 5: Simplify an Arithmetic or Algebraic Representation Strategy 7: Find a Pattern Numeric Entry For Question 13, use the directions for Numeric Entry questions. Y Frequency 2 2 4 7 4 8 2 8 4 9"
+  },
+  {
+    "id": "Q0046",
+    "section": "quant",
+    "type": "multiple_choice_select_all",
+    "difficulty": "hard",
+    "stem": "Let S be the set of all positive integers n such that n2 is a multiple of both 24 and 108. Which of the following integers are divisors of every integer n in S ? Indicate all such integers.",
+    "choices": {
+      "A": "12",
+      "B": "24",
+      "C": "36",
+      "D": "72"
+    },
+    "blank_choices": null,
+    "correct": [],
+    "explanation": "To determine which of the integers in the answer choices is a divisor of every positive integer n in S, you must first understand the integers that are in S. Note that in this question you are given information about n2, not about n itself. Therefore, you must use the information about n2 to derive information about n. The fact that n2 is a multiple of both 24 and 108 implies that n2 is a multiple of the least common multiple of 24 and 108. To determine the least common multiple of 24 and 108, factor 24 and 108 into prime factors as (23)(3) and (22)(33), respectively. Because these are prime factorizations, you can conclude that the least common multiple of 24 and 108 is (23)(33). 33061020100305c06092a864886f70d010701301e060960864801650304012e3011040c4f57cff72f27a3ce4b230c84020110802fdb1b716437ccaf318b0061692159aa69bf4d29883224d5e6606b5dc4c b01036b70d7af9eec14b38d214a5983877b0b) Knowing that n2 must be a multiple of (23)(33) does not mean that every multiple of (23)(33) is a possible value of n2, because n2 must be the square of an integer. The prime factorization of a square number must contain only even exponents. Thus, the least multiple of (23)(33) that is a square is (24)(34). This is the least possible value of n2, and so the least possible value of n is (22)(32), or"
+  },
+  {
+    "id": "Q0047",
+    "section": "quant",
+    "type": "multiple_choice_select_all",
+    "difficulty": "hard",
+    "stem": "The penguins currently living on an island are of two types, Chinstrap penguins and Gentoo penguins. The range of the heights of the Chinstrap penguins on the island is 13.2 centimeters, and the range of the heights of the Gentoo penguins on the island is 15.4 centimeters. Which of the following statements individually provide(s) sufficient additional information to determine the range of the heights of all the penguins on the island? Indicate all such statements.",
+    "choices": {
+      "A": "The tallest Gentoo penguin on the island is 5.8 centimeters taller",
+      "B": "The median height of the Gentoo penguins on the island is"
+    },
+    "blank_choices": null,
+    "correct": [],
+    "explanation": ""
+  },
+  {
+    "id": "Q0048",
+    "section": "quant",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "stem": "1 centimeters greater than the median height of the Chinstrap penguins on the island.",
+    "choices": {
+      "C": "The average (arithmetic mean) height of the Gentoo penguins on"
+    },
+    "blank_choices": null,
+    "correct": [],
+    "explanation": "Choice A tells you that the tallest Gentoo penguin is 5.8 centimeters taller than the tallest Chinstrap penguin. You can combine this information with the given information about the Gentoo and Chinstrap height ranges to place four penguins—the shortest Gentoo, the shortest Chinstrap, the tallest Gentoo, and the tallest Chinstrap—in relative order according to height, as shown in the figure below. Shortest Shortest Tallest Tallest"
+  },
+  {
+    "id": "Q0049",
+    "section": "quant",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "stem": "There are 275 students in the field of engineering at College X. Approximately what is the ratio of the number of students in engineering to the number of faculty in engineering?",
+    "choices": {
+      "A": "8 to 1",
+      "B": "10 to 1",
+      "E": "20 to 1"
+    },
+    "blank_choices": null,
+    "correct": [
+      "A",
+      "E"
+    ],
+    "explanation": "According to the graph, 2 percent of the adjunct faculty and 12 percent of the non-adjunct faculty are in the engineering field. To determine the total number of faculty in engineering, you need to add 2 percent of 200, which is 4, to 12 percent of 250, which is 30, to get 34. Thus, the ratio of the numbers of students to faculty in engineering is 275 to 34, which is approximately equal to 280 to 35, or 8 to 1. The correct answer is Choice A. This explanation uses the following strategies. Strategy 4: Translate from a Figure to an Arithmetic or Algebraic Representation Strategy 5: Simplify an Arithmetic or Algebraic Representation Strategy 9: Estimate Field Adjunct Non-adjunct 0 5 10 15 20 25 33061020100305c06092a864886f70d010701301e060960864801650304012e3011040c4f57cff72f27a3ce4b230c84020110802fdb1b716437ccaf318b0061692159aa69bf4d29883224d5e6606b5dc4c b01036b70d7af9eec14b38d214a5983877b0b) Medium Question"
+  },
+  {
+    "id": "Q0050",
+    "section": "quant",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "stem": "Approximately what percent of the faculty in humanities are non-adjunct faculty?",
+    "choices": {
+      "A": "35%",
+      "B": "38%",
+      "C": "41%",
+      "D": "45%",
+      "E": "51%"
+    },
+    "blank_choices": null,
+    "correct": [
+      "E"
+    ],
+    "explanation": "You need to determine the numbers of adjunct and non-adjunct faculty in the humanities field. According to the graph, 17 percent of the 200 adjunct faculty, or 34, and 14 percent of the 250 non-adjunct faculty, or 35, are in humanities. Thus, the fraction of humanities faculty who are non-adjunct faculty is 35 35 = , 34 + 35 69 or approximately 0.507. As a percent, the answer choice that is closest to 0.507 is 51 percent. The correct answer is Choice E. X X X X X This explanation uses the following strategies. Strategy 4: Translate from a Figure to an Arithmetic or Algebraic Representation Strategy 5: Simplify an Arithmetic or Algebraic Representation Strategy 9: Estimate For Question 3, use the directions for Numeric Entry questions. Hard Question"
+  },
+  {
+    "id": "Q0051",
+    "section": "quant",
+    "type": "multiple_choice_select_all",
+    "difficulty": "hard",
+    "stem": "For which of the eight years from 2001 to 2008 did exports exceed imports by more than $5 billion? Indicate all such years. wA 2001 wB 2002 wC 2003 wD 2004 wE 2005",
+    "choices": {
+      "F": "2006"
+    },
+    "blank_choices": null,
+    "correct": [],
+    "explanation": "Note that for all years shown, the dollar value of exports is greater than the dollar value of imports. For each year, the difference between the dollar value of exports and the dollar value of imports can be read directly from the graph. The difference was more than $5 billion for each of the years 2001, 2002, 2003, 2006, 2007, and 2008. The correct answer consists of Choices A, B, C, F, G, and H. This explanation uses the following strategy. Strategy 4: Translate from a Figure to an Arithmetic or Algebraic Representation 33061020100305c06092a864886f70d010701301e060960864801650304012e3011040c4f57cff72f27a3ce4b230c84020110802fdb1b716437ccaf318b0061692159aa69bf4d29883224d5e6606b5dc4c b01036b70d7af9eec14b38d214a5983877b0b) Medium Question"
+  },
+  {
+    "id": "Q0052",
+    "section": "quant",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "stem": "Which of the following is closest to the average (arithmetic mean) of the 9 changes in the value of imports between consecutive years from 2000 to 2009?",
+    "choices": {
+      "A": "$260 million",
+      "B": "$320 million",
+      "C": "$400 million",
+      "D": "$480 million",
+      "E": "$640 million"
+    },
+    "blank_choices": null,
+    "correct": [
+      "E"
+    ],
+    "explanation": "The average of the 9 changes in the value of imports between consecutive years can be represented as follows, where the function v(year) represents the value of imports for the indicated year. (( v v 2001) − (2000))( + v(2002) − v(2001))( + v(2003) − v(2002)) + + (( v 2009) − v(2008)) Note that in the numerator of the fraction, each term, with the exception of v(2000) and v(2009), appears first as positive and then again as negative. The positive and negative pairs sum to 0, and the fraction simplifies to v(2009) − v(2000) Reading the values from the graph, you can approximate the value of the simplified fraction as 9.03 − .2 5.8 = ≈ 0.644 9 9 billion dollars. The answer choice that is closest to $0.644 billion is $640 million. The correct answer is Choice E. This explanation uses the following strategies. Strategy 4: Translate from a Figure to an Arithmetic or Algebraic Representation Strategy 5: Simplify an Arithmetic or Algebraic Representation Strategy 9: Estimate Medium Question"
+  },
+  {
+    "id": "Q0053",
+    "section": "quant",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "stem": "In 2008 the value of exports was approximately what percent greater than the value of imports? XA 40%",
+    "choices": {
+      "B": "60%",
+      "C": "70%",
+      "D": "120%",
+      "E": "140%"
+    },
+    "blank_choices": null,
+    "correct": [
+      "E"
+    ],
+    "explanation": "The difference between the value of exports and the value of imports expressed as a percent of the value of imports is (value of exports) − (value of imports) (100%) valueof imports 33061020100305c06092a864886f70d010701301e060960864801650304012e3011040c4f57cff72f27a3ce4b230c84020110802fdb1b716437ccaf318b0061692159aa69bf4d29883224d5e6606b5dc4c b01036b70d7af9eec14b38d214a5983877b0b) In 2008 the value of imports was approximately $5 billion and the value of exports was approximately $12 billion, so the value of the fraction is approximately 12 − 5 , 5 or 5. Since the fraction is greater than 1, expressing it as a percent will give a percent greater than 100. The fraction is equal to 1.4, or 140 percent. The correct answer is Choice E. This explanation uses the following strategies. Strategy 4: Translate from a Figure to an Arithmetic or Algebraic Representation Strategy 5: Simplify an Arithmetic or Algebraic Representation Hard Question"
+  },
+  {
+    "id": "Q0054",
+    "section": "quant",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "stem": "If it were discovered that the value of imports shown for 2007 was incorrect and should have been $5 billion instead, then the average (arithmetic mean) value of imports per year for the 10 years shown would have been approximately how much less?",
+    "choices": {
+      "A": "$200 million",
+      "B": "$50 million",
+      "C": "$20 million",
+      "D": "$7 million",
+      "E": "$5 million"
+    },
+    "blank_choices": null,
+    "correct": [
+      "A"
+    ],
+    "explanation": "To answer this question, you do not need to compute either of the two 10-year averages referred to in the question; you just need to calculate the difference between the two averages. The average value of imports for the 10 years shown in the graph is found by adding the 10 values and then dividing the sum by 10. The value of imports in 2007 is $7 billion. If that amount were $5 billion instead, then the sum of the values would be $2 billion less. If the sum were $2 billion less than what it was, then the average would decrease by 2 billion divided by 10, or 2,000,000,000 = 200,000,000 10 . The average would therefore be $200 million less, and the correct answer is Choice A. A more algebraic approach to the problem is to let S represent the sum, in billions, of the 10 values of imports in the graph. The average of the 10 values is S . Note that S − 2 represents the sum, in billions, of the 10 values adjusted for the $2 billion correction for 2007. The average of the adjusted sum is S − 2 . The difference between the two averages is 33061020100305c06092a864886f70d010701301e060960864801650304012e3011040c4f57cff72f27a3ce4b230c84020110802fdb1b716437ccaf318b0061692159aa69bf4d29883224d5e6606b5dc4c b01036b70d7af9eec14b38d214a5983877b0b) SS − 2 ( SS −− 2) − = 10 10 10 SS−+ 2 = 10 2 = 10 The difference is 0.2 billion dollars, or $200 million. The correct answer is Choice A. This explanation uses the following strategies. Strategy 4: Translate from a Figure to an Arithmetic or Algebraic Representation Strategy 5: Simplify an Arithmetic or Algebraic Representation 33061020100305c06092a864886f70d010701301e060960864801650304012e3011040c4f57cff72f27a3ce4b230c84020110802fdb1b716437ccaf318b0061692159aa69bf4d29883224d5e6606b5dc4c b01036b70d7af9eec14b38d214a5983877b0b) 7 GRE ®"
+  }
+]

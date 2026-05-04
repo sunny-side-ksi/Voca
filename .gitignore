@@ -7,3 +7,9 @@ parse_voca.py
 test_ocr_day7.py
 test_day7_err.txt
 test_day7_log.txt
+*.pdf
+temppip_cache/
+tmp_*.txt
+extracted_content.txt
+pdf_preview.txt
+search_results.txt

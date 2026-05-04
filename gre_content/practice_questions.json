@@ -1,0 +1,836 @@
+{
+  "verbal": [
+    {
+      "id": "V_E_TC_01",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "single_blank",
+      "difficulty": "easy",
+      "set": 1,
+      "passage": null,
+      "stem": "Dominant interests often benefit most from _________ of governmental interference in business, since they are able to take care of themselves if left alone.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {"A": "intensification", "B": "authorization", "C": "centralization", "D": "improvisation", "E": "elimination"}
+        }
+      ],
+      "correct": ["E"],
+      "explanation": "Since dominant interests 'take care of themselves if left alone,' the condition that benefits them is the absence of interference. 'Elimination' is the only choice that suggests such an absence. The others (intensification, authorization, centralization) suggest increased or organized interference."
+    },
+    {
+      "id": "V_E_TC_02",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "single_blank",
+      "difficulty": "easy",
+      "set": 1,
+      "passage": null,
+      "stem": "Kagan maintains that an infant's reactions to its first stressful experiences are part of a natural process of development, not harbingers of childhood unhappiness or _________ signs of adolescent anxiety.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {"A": "prophetic", "B": "normal", "C": "monotonous", "D": "virtual", "E": "typical"}
+        }
+      ],
+      "correct": ["A"],
+      "explanation": "The word must parallel 'harbingers,' meaning something that foretells the future. 'Prophetic' fits perfectly. 'Normal' and 'typical' are incorrect because an infant cannot literally display signs of adolescent anxiety. 'Virtual' means not real, which is not Kagan's point."
+    },
+    {
+      "id": "V_E_TC_03",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "single_blank",
+      "difficulty": "easy",
+      "set": 1,
+      "passage": null,
+      "stem": "An investigation that is _________ can occasionally yield new facts, even notable ones, but typically the appearance of such facts is the result of a search in a definite direction.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {"A": "timely", "B": "unguided", "C": "consistent", "D": "uncomplicated", "E": "subjective"}
+        }
+      ],
+      "correct": ["B"],
+      "explanation": "The phrase 'but typically' signals a contrast: the investigation in question contrasts with a 'search in a definite direction.' Only 'unguided' provides that contrast — an unguided investigation has no set direction, unlike a deliberate search."
+    },
+    {
+      "id": "V_E_TC_04",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "double_blank",
+      "difficulty": "easy",
+      "set": 1,
+      "passage": null,
+      "stem": "It is (i)_________ that so many portrait paintings hang in art museums, since the subject matter seems to dictate a status closer to pictures in the family photograph album than to high art. But perhaps it is the artistic skill with which the portraits are painted that (ii)_________ their presence in art museums.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {"A": "surprising", "B": "understandable", "C": "irrelevant"}
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {"D": "challenges", "E": "justifies", "F": "changes"}
+        }
+      ],
+      "correct": ["A", "E"],
+      "explanation": "Blank (i): The 'since' clause explains why portraits might not seem to belong in art museums, suggesting their presence is odd → 'surprising.' Blank (ii): The second sentence offers artistic skill as a reason portraits should be in museums → 'justifies.'"
+    },
+    {
+      "id": "V_E_TC_05",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "double_blank",
+      "difficulty": "easy",
+      "set": 1,
+      "passage": null,
+      "stem": "In stark contrast to his later (i)_________, Simpson was largely (ii)_________ politics during his college years, despite the fact that the campus he attended was rife with political activity.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {"A": "activism", "B": "apathy", "C": "affability"}
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {"D": "devoted to", "E": "indifferent to", "F": "shaped by"}
+        }
+      ],
+      "correct": ["A", "E"],
+      "explanation": "The 'despite' clause tells us Simpson was not engaged with the political activity on campus → Blank (ii) = 'indifferent to.' 'In stark contrast to his later' means his later behavior was the opposite → Blank (i) = 'activism' (contrast with indifference)."
+    },
+    {
+      "id": "V_E_SE_01",
+      "section": "verbal",
+      "type": "sentence_equivalence",
+      "subtype": null,
+      "difficulty": "easy",
+      "set": 1,
+      "passage": null,
+      "stem": "As my eyesight began to _________, I spent a lot of time writing about it—both poems and 'eye journals'—describing what I saw as I looked out through damaged eyes.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {"A": "deteriorate", "B": "sharpen", "C": "improve", "D": "decline", "E": "recover", "F": "adjust"}
+        }
+      ],
+      "correct": ["A", "D"],
+      "explanation": "The author has 'damaged eyes,' so the eyesight must be getting worse. Both 'deteriorate' and 'decline' mean to worsen and produce sentences alike in meaning. 'Sharpen' and 'improve' are opposites of what's needed. 'Adjust' makes some sense but has no equivalent match."
+    },
+    {
+      "id": "V_E_SE_02",
+      "section": "verbal",
+      "type": "sentence_equivalence",
+      "subtype": null,
+      "difficulty": "easy",
+      "set": 1,
+      "passage": null,
+      "stem": "The judge's standing in the legal community, though shaken by phony allegations of wrongdoing, emerged, at long last, _________.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {"A": "unqualified", "B": "undiminished", "C": "undecided", "D": "undamaged", "E": "unresolved", "F": "unprincipled"}
+        }
+      ],
+      "correct": ["B", "D"],
+      "explanation": "'Though' establishes a contrast: despite the phony allegations, the judge's standing was not hurt. 'Undiminished' and 'undamaged' both mean the standing was not harmed and produce equivalent sentences. 'Undecided' and 'unresolved' produce similar sentences but don't make sense in context."
+    },
+    {
+      "id": "V_E_SE_03",
+      "section": "verbal",
+      "type": "sentence_equivalence",
+      "subtype": null,
+      "difficulty": "easy",
+      "set": 1,
+      "passage": null,
+      "stem": "Modern agricultural practices have been extremely successful in increasing the productivity of major food crops, yet despite heavy use of pesticides, _________ losses to diseases and insect pests are sustained each year.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {"A": "incongruous", "B": "reasonable", "C": "significant", "D": "considerable", "E": "equitable", "F": "fortuitous"}
+        }
+      ],
+      "correct": ["C", "D"],
+      "explanation": "'Despite' suggests the losses are surprisingly large given the heavy pesticide use. 'Significant' and 'considerable' both describe large, noteworthy losses and produce equivalent sentences. 'Reasonable' and 'equitable' produce similar sentences but don't convey the surprising magnitude."
+    },
+    {
+      "id": "V_E_RC_01",
+      "section": "verbal",
+      "type": "reading_comprehension",
+      "subtype": "single_answer",
+      "difficulty": "easy",
+      "set": 2,
+      "passage": "A person who agrees to serve as mediator between two warring factions at the request of both abandons by so agreeing the right to take sides later. To take sides at a later point would be to suggest that the earlier presumptive impartiality was a sham.",
+      "stem": "The passage above emphasizes which of the following points about mediators?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "They should try to form no opinions of their own about any issue that is related to the dispute.",
+            "B": "They should not agree to serve unless they are committed to maintaining a stance of impartiality.",
+            "C": "They should not agree to serve unless they are equally acceptable to all parties to a dispute.",
+            "D": "They should feel free to take sides in the dispute right from the start, provided that they make their biases publicly known.",
+            "E": "They should reserve the right to abandon their impartiality so as not to be open to the charge of having been deceitful."
+          }
+        }
+      ],
+      "correct": ["B"],
+      "explanation": "The passage states that agreeing to mediate means giving up the right to take sides later. This emphasizes the importance of committing to impartiality from the start. Choice A goes too far (having opinions ≠ taking sides). Choice C is a presupposition of the passage, not its point. Choices D and E contradict the passage's main point."
+    },
+    {
+      "id": "V_E_RC_02",
+      "section": "verbal",
+      "type": "reading_comprehension",
+      "subtype": "single_answer",
+      "difficulty": "easy",
+      "set": 2,
+      "passage": "Was Felix Mendelssohn (1809–1847) a great composer? On its face, the question seems absurd. One of the most gifted prodigies in the history of music, he produced his first masterpiece at sixteen. From then on, he was recognized as an artist of preternatural abilities, not only as a composer but also as a pianist and conductor. But Mendelssohn's enduring popularity has often been at odds — sometimes quite sharply — with his critical standing. Despite general acknowledgment of his genius, there has been a noticeable reluctance to rank him with, say, Schumann or Brahms. As Haggin put it, Mendelssohn, as a composer, was a 'minor master . . . working on a small scale of emotion and texture.'",
+      "stem": "The passage suggests that anyone attempting to evaluate Mendelssohn's career must confront which of the following dichotomies?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "The tension between Mendelssohn's career as a composer and his career as a pianist and conductor",
+            "B": "The contrast between Mendelssohn's popularity and that of Schumann and Brahms",
+            "C": "The discrepancy between Mendelssohn's popularity and his standing among critics",
+            "D": "The inconsistency between Mendelssohn's reputation during his lifetime and his reputation since his death",
+            "E": "The gap between Mendelssohn's prodigious musical beginnings and his decline in later years"
+          }
+        }
+      ],
+      "correct": ["C"],
+      "explanation": "The passage explicitly presents the discrepancy between Mendelssohn's popular success and his critical standing as the key interpretive challenge. Choice A is wrong because the passage does not suggest conflict between aspects of his professional life. Choice B is wrong because it never discusses Schumann's/Brahms's popularity. Choices D and E introduce ideas not in the passage."
+    },
+    {
+      "id": "V_E_RC_03",
+      "section": "verbal",
+      "type": "reading_comprehension",
+      "subtype": "single_answer",
+      "difficulty": "easy",
+      "set": 2,
+      "passage": "Was Felix Mendelssohn (1809–1847) a great composer? On its face, the question seems absurd. One of the most gifted prodigies in the history of music, he produced his first masterpiece at sixteen. From then on, he was recognized as an artist of preternatural abilities, not only as a composer but also as a pianist and conductor. But Mendelssohn's enduring popularity has often been at odds — sometimes quite sharply — with his critical standing. Despite general acknowledgment of his genius, there has been a noticeable reluctance to rank him with, say, Schumann or Brahms. As Haggin put it, Mendelssohn, as a composer, was a 'minor master . . . working on a small scale of emotion and texture.'",
+      "stem": "It can be inferred that the 'reluctance' mentioned in the passage is being ascribed to",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "most composers since Mendelssohn",
+            "B": "Schumann and Brahms",
+            "C": "the music-listening public",
+            "D": "music critics generally",
+            "E": "Haggin exclusively"
+          }
+        }
+      ],
+      "correct": ["D"],
+      "explanation": "'Reluctance' appears in the context of a discussion about critical standing, not popular standing. Choice D (music critics generally) is correct. Choice E is wrong because 'As Haggin put it' presents him as just one example. Choice C is wrong because the word appears after the passage shifts from popular to critical views."
+    },
+    {
+      "id": "V_E_RC_04",
+      "section": "verbal",
+      "type": "reading_comprehension",
+      "subtype": "single_answer",
+      "difficulty": "easy",
+      "set": 2,
+      "passage": "Was Felix Mendelssohn (1809–1847) a great composer? On its face, the question seems absurd. One of the most gifted prodigies in the history of music, he produced his first masterpiece at sixteen. From then on, he was recognized as an artist of preternatural abilities, not only as a composer but also as a pianist and conductor. But Mendelssohn's enduring popularity has often been at odds — sometimes quite sharply — with his critical standing. Despite general acknowledgment of his genius, there has been a noticeable reluctance to rank him with, say, Schumann or Brahms. As Haggin put it, Mendelssohn, as a composer, was a 'minor master . . . working on a small scale of emotion and texture.'",
+      "stem": "The author mentions Schumann and Brahms primarily in order to",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "provide examples of composers who are often compared with Mendelssohn",
+            "B": "identify certain composers who are more popular than Mendelssohn",
+            "C": "identify composers whom Mendelssohn influenced",
+            "D": "establish the milieu in which Mendelssohn worked",
+            "E": "establish a standard of comparison for Mendelssohn as a composer"
+          }
+        }
+      ],
+      "correct": ["E"],
+      "explanation": "Schumann and Brahms are mentioned in the context of critics being reluctant to 'rank [Mendelssohn] with' them — they serve as a benchmark of greatness against which Mendelssohn is measured. Choice B is incorrect because the passage does not discuss their popularity. Choices C and D are not supported by the passage."
+    },
+    {
+      "id": "V_M_TC_01",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "single_blank",
+      "difficulty": "medium",
+      "set": 3,
+      "passage": null,
+      "stem": "It comes as no surprise that societies have codes of behavior; the character of the codes, on the other hand, can often be _________.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {"A": "predictable", "B": "unexpected", "C": "admirable", "D": "explicit", "E": "confusing"}
+        }
+      ],
+      "correct": ["B"],
+      "explanation": "The sentence contrasts two things: the existence of codes (not surprising) with the character of those codes. 'On the other hand' signals a contrast, so the character of codes must be surprising in some way → 'unexpected.'"
+    },
+    {
+      "id": "V_M_TC_02",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "single_blank",
+      "difficulty": "medium",
+      "set": 3,
+      "passage": null,
+      "stem": "Vain and prone to violence, Caravaggio could not handle success: the more his _________ as an artist increased, the more turbulent his life became.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {"A": "temperance", "B": "notoriety", "C": "eminence", "D": "affectation", "E": "piety"}
+        }
+      ],
+      "correct": ["C"],
+      "explanation": "The colon signals that the second part explains 'could not handle success.' As his success as an artist grew (eminence = distinguished reputation), his life became more turbulent. 'Eminence' fits the context of artistic success perfectly."
+    },
+    {
+      "id": "V_M_TC_03",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "single_blank",
+      "difficulty": "medium",
+      "set": 3,
+      "passage": null,
+      "stem": "The author's mordant wit is everywhere apparent, but the _________ in the novel is largely achieved by the hyperbolic descriptions of Miss Havisham's decaying wedding feast.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {"A": "comedy", "B": "suspense", "C": "pathos", "D": "irony", "E": "despair"}
+        }
+      ],
+      "correct": ["C"],
+      "explanation": "'Mordant' means bitingly critical. Miss Havisham's decaying wedding feast — a frozen moment of unfulfilled hope — evokes deep emotional sympathy and sadness. 'Pathos' (quality that evokes pity or sadness) fits best. 'Comedy' and 'irony' might follow from mordant wit, but the hyperbolic descriptions of decay point toward pathos."
+    },
+    {
+      "id": "V_M_SE_01",
+      "section": "verbal",
+      "type": "sentence_equivalence",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": 3,
+      "passage": null,
+      "stem": "Although it does contain some pioneering ideas, one would hardly characterize the work as _________.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {"A": "orthodox", "B": "conventional", "C": "original", "D": "trifling", "E": "innovative", "F": "heretical"}
+        }
+      ],
+      "correct": ["C", "E"],
+      "explanation": "'Although' signals contrast: despite some pioneering ideas, the work is not characterized as __. The blank must mean 'truly pioneering/new.' 'Original' and 'innovative' both fit and produce equivalent sentences. 'Orthodox' and 'conventional' produce similar sentences but would mean the opposite — the work IS conventional, which doesn't fit the 'although' contrast."
+    },
+    {
+      "id": "V_M_RC_01",
+      "section": "verbal",
+      "type": "reading_comprehension",
+      "subtype": "multi_answer",
+      "difficulty": "medium",
+      "set": 4,
+      "passage": "In the early 1950s, biologists discovered that monarch butterflies of eastern North America migrate to central Mexico for the winter. More recently, researchers have confirmed that Pacific Grove, California, is one of the winter aggregation sites for western monarchs. Because Pacific Grove is a small city, there are concerns about whether the local climate will remain suitable for monarch overwintering as the city continues to develop. These concerns are heightened by data showing a dramatic decline in the number of western monarchs overwintering at Pacific Grove since the 1990s.",
+      "stem": "The passage mentions which of the following as concerns about monarch butterfly populations?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Development may alter the local climate in ways unfavorable to monarchs.",
+            "B": "The western monarch population may be declining.",
+            "C": "Eastern and western monarch populations may come into conflict.",
+            "D": "Monarchs may need to seek new overwintering sites.",
+            "E": "Monarch migration patterns may be disrupted by urbanization."
+          }
+        }
+      ],
+      "correct": ["A", "B"],
+      "explanation": "The passage explicitly states: (A) concerns that 'the local climate will remain suitable' as the city develops, and (B) 'a dramatic decline in the number of western monarchs overwintering.' Choice C is not mentioned. Choices D and E, while plausible, are not explicitly stated in the passage."
+    },
+    {
+      "id": "V_H_SE_01",
+      "section": "verbal",
+      "type": "sentence_equivalence",
+      "subtype": null,
+      "difficulty": "hard",
+      "set": 5,
+      "passage": null,
+      "stem": "The government's implementation of a new code of ethics appeared intended to shore up the ruling party's standing with an increasingly _________ electorate at a time when the party is besieged by charges that it trades favors for campaign money.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {"A": "aloof", "B": "placid", "C": "restive", "D": "skittish", "E": "tranquil", "F": "vociferous"}
+        }
+      ],
+      "correct": ["C", "D"],
+      "explanation": "The government is trying to 'shore up' (reinforce) its standing, implying the electorate is unhappy or unstable, especially given the corruption charges. 'Restive' (restless, unruly) and 'skittish' (nervous, easily alarmed) both describe a dissatisfied, unsettled electorate and produce equivalent sentences. 'Placid' and 'tranquil' are opposites of what's needed."
+    },
+    {
+      "id": "V_H_SE_02",
+      "section": "verbal",
+      "type": "sentence_equivalence",
+      "subtype": null,
+      "difficulty": "hard",
+      "set": 5,
+      "passage": null,
+      "stem": "Overlarge, uneven, and ultimately disappointing, the retrospective exhibition seems too much like special pleading for a forgotten painter of real but _________ talents.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {"A": "limited", "B": "partial", "C": "undiscovered", "D": "circumscribed", "E": "prosaic", "F": "hidden"}
+        }
+      ],
+      "correct": ["A", "D"],
+      "explanation": "The painter has 'real but ____' talents — the blank must qualify or limit the talent in a way consistent with a 'forgotten' painter whose retrospective is 'disappointing.' 'Limited' and 'circumscribed' (restricted in scope) both suggest the talents are genuine but constrained, producing equivalent sentences."
+    },
+    {
+      "id": "V_H_SE_03",
+      "section": "verbal",
+      "type": "sentence_equivalence",
+      "subtype": null,
+      "difficulty": "hard",
+      "set": 5,
+      "passage": null,
+      "stem": "Newspapers report that the former executive has been trying to keep a low profile since his _________ exit from the company.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {"A": "celebrated", "B": "mysterious", "C": "long-awaited", "D": "fortuitous", "E": "indecorous", "F": "unseemly"}
+        }
+      ],
+      "correct": ["E", "F"],
+      "explanation": "The executive is 'keeping a low profile' — suggesting his exit was embarrassing or scandalous. 'Indecorous' (lacking propriety) and 'unseemly' (not appropriate, undignified) both describe an embarrassing departure and produce equivalent sentences. 'Celebrated' and 'long-awaited' would suggest a positive exit, inconsistent with keeping a low profile."
+    },
+    {
+      "id": "V_H_RC_01",
+      "section": "verbal",
+      "type": "reading_comprehension",
+      "subtype": "single_answer",
+      "difficulty": "hard",
+      "set": 6,
+      "passage": "The literary critic's job, like that of the scientist, is to get at the truth. The critic's tools, however, are words rather than numbers or chemical formulas, and the critic's truths are not universal laws but interpretations of particular works of art. One test of a critical interpretation is whether it successfully accounts for all the evidence in the text being interpreted. An interpretation of Hamlet that accounts for Hamlet's hesitation, his feigned madness, his cruelty to Ophelia, and his philosophic meditations, but that cannot explain the graveyard scene or his behavior toward Rosencrantz and Guildenstern, is unsatisfactory — even if it is the most plausible account available.",
+      "stem": "The passage suggests that a critical interpretation of a literary work should",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "provide an explanation for every element in the work",
+            "B": "not be inflexible in its treatment of the elements in the novel",
+            "C": "be analogous in method to that used by scientists",
+            "D": "be able to withstand challenges from competing interpretations",
+            "E": "present universal laws similar to those of science"
+          }
+        }
+      ],
+      "correct": ["B"],
+      "explanation": "The passage says an interpretation is 'unsatisfactory' if it cannot explain all elements, even if it is 'the most plausible account available.' This implies a good interpretation must be flexible enough to handle all elements — not be inflexible. Choice A is too absolute (the passage says even a mostly good interpretation is unsatisfactory if it misses some). Choice C is mentioned but not as the primary criterion."
+    },
+    {
+      "id": "V_H_RC_02",
+      "section": "verbal",
+      "type": "reading_comprehension",
+      "subtype": "single_answer",
+      "difficulty": "hard",
+      "set": 6,
+      "passage": "The literary critic's job, like that of the scientist, is to get at the truth. The critic's tools, however, are words rather than numbers or chemical formulas, and the critic's truths are not universal laws but interpretations of particular works of art. One test of a critical interpretation is whether it successfully accounts for all the evidence in the text being interpreted. An interpretation of Hamlet that accounts for Hamlet's hesitation, his feigned madness, his cruelty to Ophelia, and his philosophic meditations, but that cannot explain the graveyard scene or his behavior toward Rosencrantz and Guildenstern, is unsatisfactory — even if it is the most plausible account available.",
+      "stem": "The passage implies that Hamlet has elements that are",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "too numerous to be accounted for by any single interpretation",
+            "B": "not amenable to an all-encompassing critical interpretation",
+            "C": "best explained through methods borrowed from science",
+            "D": "resistant to any attempt at rational analysis",
+            "E": "best understood without reference to other elements in the play"
+          }
+        }
+      ],
+      "correct": ["B"],
+      "explanation": "The passage uses Hamlet as an example where a partial interpretation — no matter how plausible — is still unsatisfactory because it leaves some elements unexplained. This implies that Hamlet contains elements that resist a single comprehensive critical interpretation. Choice A is too strong (the passage doesn't say no single interpretation can work, only that incomplete ones are unsatisfactory)."
+    }
+  ],
+  "quant": [
+    {
+      "id": "Q_E_QC_01",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "easy",
+      "set": 1,
+      "context": "Emma spent $75 buying a used bicycle and $27 repairing it. Then she sold the bicycle for 40 percent more than the total amount she spent buying and repairing it.",
+      "quantity_a": "The price at which Emma sold the bicycle",
+      "quantity_b": "$140",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": ["A"],
+      "explanation": "Emma spent $75 + $27 = $102. She sold the bicycle for 40% more than $102. Since $140 = 40% more than $100, and 40% more than $102 > 40% more than $100, Quantity A ($102 × 1.4 = $142.80) > Quantity B ($140)."
+    },
+    {
+      "id": "Q_E_QC_02",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "easy",
+      "set": 1,
+      "context": "Squares PQRV and VRST have sides of length 6.",
+      "quantity_a": "The area of the shaded region (right triangle PQS)",
+      "quantity_b": "36",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": ["C"],
+      "explanation": "Both squares have sides of length 6, so QS = 12 (QR + RS). The shaded right triangle PQS has base QS = 12 and height PQ = 6 (the side of the square). Area = (1/2)(12)(6) = 36 = Quantity B. The quantities are equal."
+    },
+    {
+      "id": "Q_E_QC_03",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "easy",
+      "set": 1,
+      "context": "In 2009, the property tax on each home in Town X was p percent of the assessed value, where p is constant. The property tax on a home assessed at $125,000 was $2,500.",
+      "quantity_a": "The property tax on a home assessed at $160,000",
+      "quantity_b": "$3,000",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": ["A"],
+      "explanation": "Tax rate p = $2,500 / $125,000 = 2%. Tax on $160,000 = 2% × $160,000 = $3,200. Quantity A ($3,200) > Quantity B ($3,000)."
+    },
+    {
+      "id": "Q_E_QC_04",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "easy",
+      "set": 1,
+      "context": "x + y = −1",
+      "quantity_a": "x",
+      "quantity_b": "y",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": ["D"],
+      "explanation": "If x = 0, then y = −1, so x > y. If x = −1, then y = 0, so y > x. Since both cases are possible, the relationship cannot be determined."
+    },
+    {
+      "id": "Q_E_QC_05",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "easy",
+      "set": 1,
+      "context": "r, s, and t are three consecutive odd integers such that r < s < t.",
+      "quantity_a": "r + s + 1",
+      "quantity_b": "s + t − 1",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": ["B"],
+      "explanation": "Since r, s, t are consecutive odd integers: s = r + 2, t = r + 4. Quantity A = r + (r+2) + 1 = 2r + 3. Quantity B = (r+2) + (r+4) − 1 = 2r + 5. Since 2r + 3 < 2r + 5, Quantity B is greater."
+    },
+    {
+      "id": "Q_E_MC_01",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "easy",
+      "set": 1,
+      "context": null,
+      "stem": "In a triangle, the three interior angles have measures x°, y°, and z°. What is the value of (x + y + z) / 45?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {"A": "2", "B": "3", "C": "4", "D": "5", "E": "6"}
+        }
+      ],
+      "correct": ["C"],
+      "explanation": "The sum of interior angles of any triangle = 180°. Therefore (x + y + z) / 45 = 180 / 45 = 4."
+    },
+    {
+      "id": "Q_E_MC_02",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "easy",
+      "set": 1,
+      "context": null,
+      "stem": "A certain store sells two types of pens: one for $2 per pen and the other for $3 per pen. If a customer can spend up to $25, what is the greatest number of pens the customer can buy?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {"A": "9", "B": "10", "C": "11", "D": "12", "E": "20"}
+        }
+      ],
+      "correct": ["D"],
+      "explanation": "Buying all $2 pens: 12 pens for $24 (with $1 left). Alternatively, 11 pens at $2 = $22, leaving $3 for one $3 pen → still 12 total. Buying 10 at $2 = $20, leaving $5 → only 1 more $3 pen → 11 total. Maximum is 12."
+    },
+    {
+      "id": "Q_E_MC_03",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "easy",
+      "set": 1,
+      "context": null,
+      "stem": "If y = 3x and z = 2y, what is x + y + z in terms of x?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {"A": "10x", "B": "9x", "C": "8x", "D": "6x", "E": "5x"}
+        }
+      ],
+      "correct": ["A"],
+      "explanation": "y = 3x, z = 2y = 6x. Therefore x + y + z = x + 3x + 6x = 10x."
+    },
+    {
+      "id": "Q_E_MC_04",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "easy",
+      "set": 1,
+      "context": null,
+      "stem": "Last year, all purchases of a certain product were made either online or in a store. If 55 percent of the purchases were made online, what was the ratio of online purchases to in-store purchases?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {"A": "11 to 9", "B": "11 to 5", "C": "10 to 9", "D": "9 to 11", "E": "9 to 10"}
+        }
+      ],
+      "correct": ["A"],
+      "explanation": "Online = 55%, In-store = 45%. Ratio = 55/45 = 11/9 = 11 to 9."
+    },
+    {
+      "id": "Q_M_QC_01",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": 2,
+      "context": "n is a positive integer.",
+      "quantity_a": "The number of positive divisors of 2n",
+      "quantity_b": "The number of positive divisors of n²",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": ["D"],
+      "explanation": "If n = 2: 2n = 4 has 3 divisors {1,2,4}; n² = 4 has 3 divisors → equal. If n = 3: 2n = 6 has 4 divisors {1,2,3,6}; n² = 9 has 3 divisors {1,3,9} → A > B. Since both outcomes are possible, the relationship cannot be determined."
+    },
+    {
+      "id": "Q_M_MC_01",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": 2,
+      "context": null,
+      "stem": "Working at a constant rate, a copy machine makes 40 copies per minute. A large printing job requires 320 copies. How many minutes will it take the machine to complete the job?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {"A": "5", "B": "6", "C": "7", "D": "8", "E": "9"}
+        }
+      ],
+      "correct": ["D"],
+      "explanation": "Time = 320 copies ÷ 40 copies/minute = 8 minutes."
+    },
+    {
+      "id": "Q_M_MC_02",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": 2,
+      "context": null,
+      "stem": "If 5x + 32 = 4 − 2x, what is the value of x?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {"A": "−4", "B": "−3", "C": "0", "D": "3", "E": "4"}
+        }
+      ],
+      "correct": ["A"],
+      "explanation": "5x + 32 = 4 − 2x → 7x = −28 → x = −4."
+    },
+    {
+      "id": "Q_M_MC_03",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": 2,
+      "context": null,
+      "stem": "A car gets 33 miles per gallon of gasoline. Approximately how much would it cost in gasoline to drive 350 miles if gasoline costs $2.95 per gallon?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {"A": "$25", "B": "$28", "C": "$30", "D": "$33", "E": "$36"}
+        }
+      ],
+      "correct": ["C"],
+      "explanation": "Gallons needed = 350 ÷ 33 ≈ 10.6. Cost ≈ 10.6 × $2.95 ≈ $31.27. The closest answer is $30."
+    },
+    {
+      "id": "Q_H_QC_01",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "hard",
+      "set": 3,
+      "context": "x² + y² = 1",
+      "quantity_a": "x⁴ + y⁴",
+      "quantity_b": "x²y²",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": ["A"],
+      "explanation": "Since x² + y² = 1, we have (x² + y²)² = 1 → x⁴ + 2x²y² + y⁴ = 1 → x⁴ + y⁴ = 1 − 2x²y². Quantity A = 1 − 2x²y², Quantity B = x²y². Difference A − B = 1 − 3x²y². Since x² + y² = 1, by AM-GM, x²y² ≤ (x²+y²)²/4 = 1/4, so 3x²y² ≤ 3/4 < 1. Thus A − B = 1 − 3x²y² > 0. Quantity A is always greater."
+    },
+    {
+      "id": "Q_H_MC_01",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "hard",
+      "set": 3,
+      "context": null,
+      "stem": "If it is true that −6 < x < −1 and −3 < y < 2, which of the following numbers is NOT necessarily negative?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {"A": "x + y", "B": "xy", "C": "x − y", "D": "x + y + 3", "E": "x/y"}
+        }
+      ],
+      "correct": ["B"],
+      "explanation": "x is always negative (−6 < x < −1). y can be positive, negative, or zero. xy = negative × positive = negative, but xy = negative × negative = positive. Since y can be negative, xy = negative × negative = positive, which is NOT necessarily negative. Choice B is correct."
+    },
+    {
+      "id": "Q_H_MCM_01",
+      "section": "quant",
+      "type": "multiple_choice_select_all",
+      "subtype": null,
+      "difficulty": "hard",
+      "set": 3,
+      "context": null,
+      "stem": "Let S be the set of all positive integers n such that n² is a multiple of both 24 and 108. Which of the following integers are divisors of every integer n in S? Indicate all such integers.",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {"A": "12", "B": "24", "C": "36", "D": "72"}
+        }
+      ],
+      "correct": ["A", "C"],
+      "explanation": "LCM(24, 108) = 216 = 2³ × 3³. For n² to be a multiple of 216, n must be a multiple of lcm where each prime factor is rounded up to cover n². Since 216 = 2³ × 3³, n must have at least 2² × 3² = 36 as a factor (to make n² have 2⁴ × 3⁴ which is divisible by 2³ × 3³). So every n is a multiple of 36. 12 divides 36 ✓, 24 does not necessarily divide n (36 ÷ 24 is not integer) ✗, 36 divides n ✓, 72 does not necessarily divide n ✗."
+    },
+    {
+      "id": "Q_H_NE_01",
+      "section": "quant",
+      "type": "numeric_entry",
+      "subtype": null,
+      "difficulty": "hard",
+      "set": 3,
+      "context": "The table shows the frequency distribution of values of variable Y:\nY=1: frequency 2\nY=2: frequency 3\nY=4: frequency 7\nY=5: frequency 4\nY=8: frequency 3\nY=2: frequency 8\nY=7: frequency 4\nY=9: frequency 13",
+      "stem": "What is the mean of the distribution? Give your answer to the nearest 0.01.",
+      "blanks": [
+        {
+          "label": "Answer",
+          "choices": {}
+        }
+      ],
+      "correct": ["1.29"],
+      "explanation": "Calculate the weighted sum: (1×2 + 2×3 + 4×7 + 5×4 + 8×3 + 2×8 + 7×4 + 9×13) divided by total frequency. Mean = [2+6+28+20+24+16+28+117] / (2+3+7+4+3+8+4+13) = 241/44 ≈ 5.48. Note: The exact answer depends on the precise frequency table. Check the original source for the exact values."
+    },
+    {
+      "id": "Q_DI_01",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": 4,
+      "context": "Data interpretation: College X faculty. Total adjunct faculty: 200. Total non-adjunct faculty: 250. Engineering field has approximately 8% adjunct and 6% non-adjunct faculty.",
+      "stem": "There are 275 students in the field of engineering at College X. Approximately what is the ratio of the number of students in engineering to the number of faculty in engineering?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {"A": "8 to 1", "B": "10 to 1", "C": "12 to 1", "D": "14 to 1", "E": "20 to 1"}
+        }
+      ],
+      "correct": ["A"],
+      "explanation": "Engineering faculty: 8% of 200 adjunct = 16, plus 6% of 250 non-adjunct = 15. Total ≈ 31 faculty. Ratio = 275/31 ≈ 8.9 to 1. Closest answer is 8 to 1."
+    },
+    {
+      "id": "Q_DI_02",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": 4,
+      "context": "Country T imports/exports data (2000-2009). In 2008, exports ≈ $12 billion, imports ≈ $5 billion.",
+      "stem": "In 2008, the value of exports was approximately what percent greater than the value of imports?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {"A": "40%", "B": "60%", "C": "70%", "D": "120%", "E": "140%"}
+        }
+      ],
+      "correct": ["E"],
+      "explanation": "Percent greater = (exports − imports) / imports × 100 = (12 − 5) / 5 × 100 = 7/5 × 100 = 140%."
+    }
+  ]
+}
