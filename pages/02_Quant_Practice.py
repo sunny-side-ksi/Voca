@@ -1,5 +1,6 @@
 """GRE Quantitative Reasoning Practice — QC, MC, MCM, NE"""
 import json
+import random
 from pathlib import Path
 
 import streamlit as st
@@ -79,6 +80,7 @@ with st.sidebar:
         reset_session()
         filtered = [q for q in all_questions
                     if q["difficulty"] in sel_diff and q["type"] in sel_type]
+        random.shuffle(filtered)
         st.session_state.update({
             "qp_questions": filtered, "qp_idx": 0,
             "qp_answers": {}, "qp_submitted": {},

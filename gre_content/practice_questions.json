@@ -10202,6 +10202,3513 @@
         "E"
       ],
       "explanation": "Percent greater = (exports − imports) / imports × 100 = (12 − 5) / 5 × 100 = 7/5 × 100 = 140%."
+    },
+    {
+      "id": "Q_HW2_01",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW2",
+      "context": null,
+      "stem": "When x is divided by 13 the answer is y with a remainder of 3. When x is divided by 7 the answer is z with a remainder of 3. If x, y, and z are all positive integers, what is the remainder of yz/13?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "0",
+            "B": "3",
+            "C": "4",
+            "D": "7",
+            "E": "10"
+          }
+        }
+      ],
+      "correct": [
+        "A"
+      ],
+      "explanation": "x=13y+3=7z+3이므로 z=13y/7. x, y, z가 정수이므로 z는 13의 배수이다. yz/13=y(13y/7)/13=y²/7로 정리되며, 분자에서 13이 약분되므로 yz/13은 정수이다. 따라서 나머지는 0."
+    },
+    {
+      "id": "Q_HW2_02",
+      "section": "quant",
+      "type": "multiple_answer",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW2",
+      "context": null,
+      "stem": "Let S be the set of all positive integers n such that n² is a multiple of both 24 and 108. Which of the following integers are divisors of every integer n in S? (Indicate all such integers)",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "12",
+            "B": "24",
+            "C": "36",
+            "D": "72"
+          }
+        }
+      ],
+      "correct": [
+        "A",
+        "C"
+      ],
+      "explanation": "24와 108의 최소공배수=2³×3³. n이 정수이므로 n²은 완전제곱수여야 한다. n²의 최솟값=2⁴×3⁴, 즉 n의 최솟값=2²×3²=36. S의 모든 원소는 36의 배수이므로 36의 약수인 12와 36이 정답이다."
+    },
+    {
+      "id": "Q_HW2_03",
+      "section": "quant",
+      "type": "multiple_answer",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW2",
+      "context": null,
+      "stem": "Which of the following 12-digit numbers yields a remainder of 0 when divided by 8? (Indicate all such numbers)",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "403,127,531,808",
+            "B": "100,190,999,064",
+            "C": "325,121,750,548",
+            "D": "113,200,211,132",
+            "E": "431,333,209,112",
+            "F": "786,920,325,120"
+          }
+        }
+      ],
+      "correct": [
+        "A",
+        "B",
+        "E",
+        "F"
+      ],
+      "explanation": "8의 배수 판정법: 마지막 3자리가 8의 배수이면 그 수 전체가 8의 배수. 808÷8=101 ✓, 064÷8=8 ✓, 548÷8=68.5 ✗, 132÷8=16.5 ✗, 112÷8=14 ✓, 120÷8=15 ✓."
+    },
+    {
+      "id": "Q_HW2_04",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW2",
+      "context": null,
+      "quantity_a": "The remainder when 2²⁰ is divided by 3",
+      "quantity_b": "1",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "2ⁿ을 3으로 나눈 나머지: n이 홀수이면 2, n이 짝수이면 1. 20은 짝수이므로 2²⁰을 3으로 나눈 나머지=1. Quantity B와 같다."
+    },
+    {
+      "id": "Q_HW2_05",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW2",
+      "context": "x is a multiple of 12.",
+      "quantity_a": "The remainder when x is divided by 3",
+      "quantity_b": "The remainder when x is divided by 6",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "12의 배수는 3으로 나누어도 나머지 0, 6으로 나누어도 나머지 0이다. 두 Quantity 모두 0으로 같다."
+    },
+    {
+      "id": "Q_HW2_06",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW2",
+      "context": null,
+      "stem": "If k − 1 is a multiple of 4, what is the next larger multiple of 4?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "k + 1",
+            "B": "4k",
+            "C": "k − 5",
+            "D": "k + 3",
+            "E": "4(k − 1)"
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "k−1이 4의 배수이므로 다음으로 큰 4의 배수는 (k−1)+4=k+3."
+    },
+    {
+      "id": "Q_HW2_07",
+      "section": "quant",
+      "type": "numeric_entry",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW2",
+      "context": null,
+      "stem": "If the product of 7 consecutive integers is equal to the median of the integers, what is the least of the 7 integers?",
+      "correct": [
+        "-3"
+      ],
+      "explanation": "중간값을 x로 두면 나머지 수는 x−3, x−2, x−1, x, x+1, x+2, x+3. 이 7개의 곱=중간값 x. x=0일 때 조건 만족(곱=0=x). 가장 작은 수는 0−3=−3."
+    },
+    {
+      "id": "Q_HW2_08",
+      "section": "quant",
+      "type": "numeric_entry",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW2",
+      "context": null,
+      "stem": "When the decimal point of a certain positive decimal number is moved six places to the right, the resulting number is 9 times the reciprocal of the original number. What is the original number?",
+      "correct": [
+        "0.003"
+      ],
+      "explanation": "원래 수를 n이라 하면, 소수점 6자리 이동=n×10⁶. 이 값이 역수의 9배이므로 n×10⁶=9×(1/n). n²=9/10⁶. n=3/10³=0.003."
+    },
+    {
+      "id": "Q_HW3_01",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW3",
+      "context": null,
+      "stem": "A bookcase has s shelves with n books on each shelf, where n is a multiple of both s and s − 1. If all of the books on the highest shelf were removed and redistributed equally among the other shelves, which of the following represents the number of books on each of the remaining shelves?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "ns/(s − 1)",
+            "B": "n(s + 1)/s",
+            "C": "(n + 1)s/(s − 1)",
+            "D": "(n − 1)s/(s − 1)",
+            "E": "(n + 1)(s − 1)/s"
+          }
+        }
+      ],
+      "correct": [
+        "A"
+      ],
+      "explanation": "총 책 수=sn. 높은 칸 제거 후 남은 칸 수=s−1. 각 칸의 책 수=sn/(s−1)."
+    },
+    {
+      "id": "Q_HW3_02",
+      "section": "quant",
+      "type": "numeric_entry",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW3",
+      "context": null,
+      "stem": "P = (1 + 1/2)(1 + 1/3)(1 + 1/4)···(1 + 1/17), where each factor has the form (1 + 1/k) for consecutive integers k from 2 to 17. What is the value of P?",
+      "correct": [
+        "9"
+      ],
+      "explanation": "P=(3/2)(4/3)(5/4)···(18/17). 망원급수로 대부분 약분되어 18/2=9."
+    },
+    {
+      "id": "Q_HW3_03",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW3",
+      "context": null,
+      "stem": "If 10^x equals 0.1 percent of 10^y, where x and y are integers, which of the following must be true?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "y = x + 2",
+            "B": "y = x + 3",
+            "C": "x = y + 3",
+            "D": "y = 1,000x",
+            "E": "x = 1,000"
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "10^x=(0.1/100)×10^y=10^(y−3). 따라서 x=y−3, 즉 y=x+3."
+    },
+    {
+      "id": "Q_HW3_04",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW3",
+      "context": null,
+      "stem": "The expression √(2 + √(2 + √(2 + ···))) extends to an infinite number of roots. Which of the following choices most closely approximates the value of this expression?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "√3",
+            "B": "2",
+            "C": "1 + √2",
+            "D": "1 + √3",
+            "E": "2√3"
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "x=√(2+x)로 놓으면 x²=2+x. x²−x−2=0. (x−2)(x+1)=0. x는 양수이므로 x=2."
+    },
+    {
+      "id": "Q_HW4_01",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW4",
+      "context": "Anne pays 150 percent more for a wholesale widget than Bart pays. Anne's retail price per widget is 15 percent greater than the wholesale price she paid. Bart's retail price per widget is 185 percent greater than the wholesale price he paid.",
+      "quantity_a": "Anne's retail price",
+      "quantity_b": "Bart's retail price",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "A"
+      ],
+      "explanation": "Bart의 도매가를 w라 하면 Anne의 도매가=2.5w. Anne 소매가=2.5w×1.15=2.875w. Bart 소매가=w×2.85=2.85w. Anne이 더 크다."
+    },
+    {
+      "id": "Q_HW4_02",
+      "section": "quant",
+      "type": "numeric_entry",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW4",
+      "context": null,
+      "stem": "If a person has an income of $100,000, what percent of his income does he pay in federal income tax? Tax rate: 15% of the first $30,000; 28% of the next $30,000; 31% of all income in excess of $60,000.",
+      "correct": [
+        "25.3"
+      ],
+      "explanation": "(0.15×30,000)+(0.28×30,000)+(0.31×40,000)=4,500+8,400+12,400=25,300. 25,300/100,000=25.3%."
+    },
+    {
+      "id": "Q_HW4_03",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW4",
+      "context": null,
+      "stem": "A family paid 12 percent of its annual after-tax income on food last year. The amount was equal to 10 percent of its annual before-tax income last year. Which of the following is closest to the percent of the family's annual before-tax income that was paid for taxes last year?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "8%",
+            "B": "12%",
+            "C": "17%",
+            "D": "20%",
+            "E": "25%"
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "0.12×(after-tax)=0.10×(before-tax). after-tax/before-tax=10/12=83.3%. 세금 비율=100%−83.3%≈16.7%, 가장 가까운 값은 17%."
+    },
+    {
+      "id": "Q_HW4_04",
+      "section": "quant",
+      "type": "numeric_entry",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW4",
+      "context": null,
+      "stem": "In 1995, Diana read 10 English books and 7 French books. In 1996, she read twice as many French books as English books. If 60% of the books she read during the 2 years were French, how many total books (English + French) did she read in 1996?",
+      "correct": [
+        "48"
+      ],
+      "explanation": "1996년 English=x, French=2x. 전체=17+3x. French 합계=7+2x. (7+2x)/(17+3x)=3/5. 교차 곱: 35+10x=51+9x, x=16. 1996년 총=3x=48."
+    },
+    {
+      "id": "Q_HW4_05",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW4",
+      "context": null,
+      "stem": "Of the people in a certain survey, 58 percent were at most 40 years old and 70 percent were at most 60 years old. If 252 of the people in the survey were more than 40 years old and at most 60 years old, what was the total number of people in the survey?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "1,900",
+            "B": "2,100",
+            "C": "2,400",
+            "D": "2,700",
+            "E": "3,000"
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "40세 초과~60세 이하 비율=70%−58%=12%. 12%=252명. 총 인원=252/0.12=2,100."
+    },
+    {
+      "id": "Q_HW4_06",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW4",
+      "context": null,
+      "stem": "If a is 40% of b, then b exceeds a by what percent of a?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "60%",
+            "B": "100%",
+            "C": "140%",
+            "D": "150%",
+            "E": "250%"
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "a=0.4b. b−a=0.6b. (b−a)/a×100=0.6b/0.4b×100=150%."
+    },
+    {
+      "id": "Q_HW4_07",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW4",
+      "context": "Geoff used $630 to buy a new guitar. This amount was 15 percent of his earnings last summer.",
+      "quantity_a": "The amount of Geoff's earnings last summer not used to buy the new guitar",
+      "quantity_b": "$3,570",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "Geoff의 총 수입=$630/0.15=$4,200. 기타 구입 후 남은 금액=$4,200−$630=$3,570. Quantity B와 같다."
+    },
+    {
+      "id": "Q_HW5_01",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW5",
+      "context": null,
+      "stem": "What is the ratio of the sum of the even positive integers between 1 and 100 (inclusive) to the sum of the odd positive integers between 100 and 150?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "102 to 125",
+            "B": "50 to 51",
+            "C": "51 to 56",
+            "D": "202 to 251",
+            "E": "2 to 3"
+          }
+        }
+      ],
+      "correct": [
+        "A"
+      ],
+      "explanation": "짝수 합(2~100): 양 끝 합=102, 쌍 25개 → 합=102×25. 홀수 합(101~149): 양 끝 합=250, 쌍 12개+중간값 125 → 합=125×25. 비율=102:125."
+    },
+    {
+      "id": "Q_HW5_02",
+      "section": "quant",
+      "type": "numeric_entry",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW5",
+      "context": null,
+      "stem": "Karen played a game several times. She received $5 every time she won and had to pay $2 every time she lost. If the ratio of the number of times she won to the number of times she lost was 3:2, and if she won a total of $66, how many times did she play this game?",
+      "correct": [
+        "30"
+      ],
+      "explanation": "이긴 게임=3x, 진 게임=2x. 5(3x)−2(2x)=66. 11x=66. x=6. 총 게임=5×6=30."
+    },
+    {
+      "id": "Q_HW5_03",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW5",
+      "context": null,
+      "stem": "Jane has a 40-ounce mixture of apple juice and seltzer that is 30% apple juice. If she pours 10 more ounces of apple juice into the mixture, what percent of the mixture will be seltzer?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "33%",
+            "B": "44%",
+            "C": "50%",
+            "D": "56%",
+            "E": "67%"
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "원래 사과주스=12 oz, 탄산수=28 oz. 사과주스 10 oz 추가 후 총=50 oz, 탄산수=28 oz. 28/50=56%."
+    },
+    {
+      "id": "Q_HW5_04",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW5",
+      "context": null,
+      "stem": "A desert outpost has a water supply that is sufficient to last 21 days for 15 people. At the same average rate of water consumption per person, how many days would the water supply last for 9 people?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "28.0",
+            "B": "32.5",
+            "C": "35.0",
+            "D": "37.5",
+            "E": "42.0"
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "총 water supply=15×x×21. 9명이면: 9×x×t=15×x×21. t=315/9=35일."
+    },
+    {
+      "id": "Q_HW5_05",
+      "section": "quant",
+      "type": "multiple_answer",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW5",
+      "context": null,
+      "stem": "On his trip to the airport, Grant drove a total of 9 miles. His average speed on the trip was x miles per hour, where 30 ≤ x ≤ 35. Which of the following could be the total number of minutes that Grant took to make the trip? (Indicate all such statements.)",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "15",
+            "B": "16",
+            "C": "17",
+            "D": "18",
+            "E": "19"
+          }
+        }
+      ],
+      "correct": [
+        "B",
+        "C",
+        "D"
+      ],
+      "explanation": "총 시간(분)=9/x×60=540/x. 30≤x≤35이므로 540/35≤시간≤540/30, 즉 약 15.43≤시간≤18. 가능한 정수: 16, 17, 18."
+    },
+    {
+      "id": "Q_HW6_01",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW6",
+      "context": null,
+      "stem": "Machines A and B both shrink-wrap CDs continuously, each working at a constant rate, but Machine B works 50% faster than Machine A. If Machine B shrink-wraps 48,000 more CDs in a 24-hour period than Machine A does, what is Machine A's shrink-wrapping rate in CDs per hour?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "4,000",
+            "B": "6,000",
+            "C": "8,000",
+            "D": "12,000",
+            "E": "16,000"
+          }
+        }
+      ],
+      "correct": [
+        "A"
+      ],
+      "explanation": "A의 시간당 속도=r. B=1.5r. 24시간: 1.5r×24−r×24=12r=48,000. r=4,000."
+    },
+    {
+      "id": "Q_HW6_02",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW6",
+      "context": null,
+      "stem": "34 tasks are supposed to be assigned to 7 workers. The manager would like to give Tom more work than any other person and Mark less work than any other person. If each task should be completed by only one person, what is the least difference in the number of tasks between Tom and Mark?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "5"
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "가장 공평한 분배: 6명이 5개, 1명이 4개. 최소 차이를 만들려면 Tom=6개, Mark=3개. 차이=3."
+    },
+    {
+      "id": "Q_HW6_03",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW6",
+      "context": "Working at a constant rate, Sarita answered x verbal test questions in 3 hours. Separately, she solved math problems at a constant rate of y math problems every 30 minutes.",
+      "quantity_a": "The number of verbal test questions Sarita answered in 1 hour",
+      "quantity_b": "The number of math problems Sarita solved in 1 hour",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "x와 y가 어떤 값이든 될 수 있으므로 두 Quantity의 대소를 결정할 수 없다."
+    },
+    {
+      "id": "Q_HW6_04",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW6",
+      "context": "Two librarians, Robert and Patricia, cataloged a combined total of 180 new books, each cataloged by only one librarian. Although they spent the same amount of time cataloging, Robert spent an average of 15 minutes per book whereas Patricia spent an average of 12 minutes per book.",
+      "quantity_a": "The number of books cataloged by Robert",
+      "quantity_b": "60",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "A"
+      ],
+      "explanation": "x+y=180, 15x=12y. 연립방정식: x=80, y=100. Robert=80>60."
+    },
+    {
+      "id": "Q_HW7_01",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW7",
+      "context": null,
+      "stem": "Joy has a wall that is 100 inches long onto which she wishes to put 6 paintings that are each 6 inches wide. If the spaces between each painting and between the two end paintings and the ends of the wall are all the same, and each nail is placed exactly in the middle of each painting, how far from the left-hand wall will the nail holding up the far left painting be?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "6",
+            "B": "9",
+            "C": "10 2/7",
+            "D": "11 1/2",
+            "E": "12 1/7"
+          }
+        }
+      ],
+      "correct": [
+        "E"
+      ],
+      "explanation": "그림 총 폭=6×6=36인치. 남은 공간=100−36=64인치. 공간 7개(양 끝+그림 사이 5개). 각 공간=64/7인치. 왼쪽 벽에서 첫 번째 못까지=64/7+3=85/7=12 1/7인치."
+    },
+    {
+      "id": "Q_HW7_02",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW7",
+      "context": "a²b³c⁵ > 0 and a³b⁴c⁵ < 0",
+      "quantity_a": "ab",
+      "quantity_b": "0",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "a²b³c⁵>0이므로 bc>0 (b와 c 동부호). a³b⁴c⁵<0이므로 ac<0 (a와 c 이부호). 따라서 a와 b는 반대 부호이므로 ab<0. Quantity B(0)이 더 크다."
+    },
+    {
+      "id": "Q_HW7_03",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW7",
+      "context": "b ≠ 0, |a|/b > 1, a + b < 0",
+      "quantity_a": "a",
+      "quantity_b": "0",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "|a|/b>1이 성립하려면 b>0이어야 한다. 그러면 |a|>b>0이므로 a≠0. a+b<0이므로 a<−b<0. 따라서 a<0. Quantity B(0)이 더 크다."
+    },
+    {
+      "id": "Q_HW7_04",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW7",
+      "context": null,
+      "stem": "If |a/b| and |x/y| are reciprocals and (a/b)(x/y) < 0, which of the following must be true?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "ab < 0",
+            "B": "(a/b)(x/y) < −1",
+            "C": "a/b < 1",
+            "D": "a/b = −y/x",
+            "E": "y/x > a/b"
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "|a/b|×|x/y|=1이므로 |(a/b)(x/y)|=1. (a/b)(x/y)<0이므로 (a/b)(x/y)=−1. 따라서 a/b=−y/x."
+    },
+    {
+      "id": "Q_HW7_05",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW7",
+      "context": "x is an integer such that −x|x| > 4.",
+      "quantity_a": "x",
+      "quantity_b": "2",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "x>0이면 −x|x|=−x²<0으로 조건 불만족. x<0이면 −x|x|=x²>4이므로 |x|>2. x<0이고 |x|>2이므로 x<−2<2. Quantity B(2)가 더 크다."
+    },
+    {
+      "id": "Q_HW7_06",
+      "section": "quant",
+      "type": "multiple_answer",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW7",
+      "context": null,
+      "stem": "If a/b > c/d, which of the following statements must be true? (Indicate all such statements.)",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "a/b − c/d > 0",
+            "B": "ad < bc",
+            "C": "ad > bc"
+          }
+        }
+      ],
+      "correct": [
+        "A"
+      ],
+      "explanation": "A) a/b>c/d이므로 a/b−c/d>0은 항상 참. B)와 C)는 b, d의 부호에 따라 부등호 방향이 바뀔 수 있으므로 반드시 참이 아니다."
+    },
+    {
+      "id": "Q_HW8_01",
+      "section": "quant",
+      "type": "multiple_answer",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW8",
+      "context": null,
+      "stem": "Line ℓ, drawn in the xy-coordinate plane, has a slope of 2. If line K is the reflection of line ℓ across the y-axis, which of the following must be true? (Indicate all that apply.)",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "The y-intercepts of L and K are the same.",
+            "B": "The x-intercepts of L and K are the same.",
+            "C": "The slope of line K is −1/2."
+          }
+        }
+      ],
+      "correct": [
+        "A"
+      ],
+      "explanation": "y축 반사 시 y절편은 동일하다. x절편은 달라질 수 있다. 두 직선이 수직이라는 조건이 없으므로 기울기 곱이 항상 −1은 아니다."
+    },
+    {
+      "id": "Q_HW8_02",
+      "section": "quant",
+      "type": "multiple_answer",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW8",
+      "context": null,
+      "stem": "Which of the following could be the slope of a line that passes through the point (−2, −3) and crosses the y-axis above the origin? (Indicate all such values.)",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "3/7",
+            "B": "3/2",
+            "C": "5/3",
+            "D": "9/4",
+            "E": "4"
+          }
+        }
+      ],
+      "correct": [
+        "C",
+        "D",
+        "E"
+      ],
+      "explanation": "직선이 (−2,−3)과 (0,y)를 지나고 y>0이어야 한다. slope=(y+3)/2. A: y=−15/7<0 ✗. B: y=0 ✗. C: y=1/3>0 ✓. D: y=3/2>0 ✓. E: y=5>0 ✓."
+    },
+    {
+      "id": "Q_HW8_03",
+      "section": "quant",
+      "type": "multiple_answer",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW8",
+      "context": null,
+      "stem": "In the xy-plane, line k does not pass through the origin. Which of the following statements individually provide sufficient additional information to determine whether the slope of line k is negative? (Indicate all such statements.)",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "The x-intercept of line k is twice the y-intercept of line k.",
+            "B": "The product of the x-intercept and the y-intercept of line k is positive.",
+            "C": "Line k passes through the points (a, b) and (r, s) where (a − r)(b − s) < 0."
+          }
+        }
+      ],
+      "correct": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explanation": "A) x절편=2×y절편이면 두 절편 부호 동일 → 기울기 음수. B) 두 절편 곱>0이면 부호 동일 → 기울기 음수. C) 기울기=(b−s)/(a−r), (a−r)(b−s)<0이므로 기울기<0."
+    },
+    {
+      "id": "Q_HW8_04",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW8",
+      "context": "Point P is in the xy-plane at angle 48° from the positive x-axis, with y-coordinate positive and x-coordinate negative.",
+      "quantity_a": "The sum of the coordinates of point P",
+      "quantity_b": "0",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "A"
+      ],
+      "explanation": "각도 48°이므로 |y/x|>1 (기울기 절댓값>1). y좌표는 양수, x좌표는 음수. |y|>|x|이므로 y+x>0. Quantity A가 더 크다."
+    },
+    {
+      "id": "Q_HW9_01",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW9",
+      "context": null,
+      "stem": "In a figure with two intersecting lines and a transversal, angles are labeled such that two angles at one intersection sum to b (including angles x+10 and y+5), and angle a = x + 90. What is a in terms of b and y?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "b + y + 65",
+            "B": "b − y + 65",
+            "C": "b + y + 75",
+            "D": "b − 2y + 45",
+            "E": "b − y + 75"
+          }
+        }
+      ],
+      "correct": [
+        "E"
+      ],
+      "explanation": "{x+10+y+5=b, x+90=a}. x=b−15−y. a=x+90=(b−15−y)+90=b−y+75."
+    },
+    {
+      "id": "Q_HW9_02",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW9",
+      "context": null,
+      "stem": "BD is parallel to AE and triangle ACE is a right isosceles triangle. If the ratio of BD to AC is 1 to 2, what is the ratio of the area of triangle BCD to the area of trapezoid ABDE?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "1/2",
+            "B": "1/√2",
+            "C": "1/1",
+            "D": "√2/1",
+            "E": "2/1"
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "AC=2, BD=1 (1:2 비율). 직각이등변삼각형이므로 AE=CE=√2. CD=1. 삼각형 ACE 넓이=√2×√2×(1/2)=1. 삼각형 BCD 넓이=1×1×0.5=0.5. 사다리꼴 ABDE=1−0.5=0.5. 비율=0.5:0.5=1:1."
+    },
+    {
+      "id": "Q_HW9_03",
+      "section": "quant",
+      "type": "numeric_entry",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW9",
+      "context": null,
+      "stem": "In a figure, W is the foot of the altitude from Y to line XZ. XZ has a length of 6 and XY has length of √97. YW = 5. What is the area of triangle XYW?",
+      "correct": [
+        "18"
+      ],
+      "explanation": "WZ=x, YW=y라 하면. 삼각형 XYW: (6+x)²+y²=97. 삼각형 ZYW: x²+y²=25(YW=5). 빼면: 12x+36=72, x=3, y=4. 면적=(9×4)/2=18."
+    },
+    {
+      "id": "Q_HW9_04",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW9",
+      "context": "A line segment joins two points, each of which is the midpoint of two sides of an equilateral triangle, respectively. The length of the line segment is x.",
+      "quantity_a": "The length of a side of the triangle",
+      "quantity_b": "2x",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "정삼각형의 두 변의 중점을 잇는 선분(중선)의 길이는 해당 변 길이의 1/2이다. 따라서 변의 길이=2x. 두 Quantity가 같다."
+    },
+    {
+      "id": "Q_HW9_05",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW9",
+      "context": "In a polygon, exterior angle d is at one vertex; interior angles at the adjacent vertex include a and b, and c is another interior angle where c = a + b (exterior angle theorem). d > c.",
+      "quantity_a": "a",
+      "quantity_b": "d − b",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "삼각형 외각=두 비인접 내각의 합이므로 c=a+b. d>c이므로 d>a+b. d−b>a. Quantity B가 더 크다."
+    },
+    {
+      "id": "Q_HW9_06",
+      "section": "quant",
+      "type": "multiple_answer",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW9",
+      "context": null,
+      "stem": "If the length of one side of a triangle is 2, which of the following could be the perimeter of the triangle? (Indicate all that apply.)",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "4",
+            "B": "24",
+            "C": "44"
+          }
+        }
+      ],
+      "correct": [
+        "B",
+        "C"
+      ],
+      "explanation": "한 변=2이면 나머지 두 변 합>2. A) 둘레=4이면 나머지 두 변 합=2, 삼각형 성립 불가(등호 불허). B) 22>2 ✓, 나머지 두 변 약 11씩이면 삼각형 성립 ✓. C) 42>2 ✓, 나머지 두 변 약 21씩이면 삼각형 성립 ✓."
+    },
+    {
+      "id": "Q_HW9_07",
+      "section": "quant",
+      "type": "multiple_answer",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW9",
+      "context": null,
+      "stem": "If x > 0, and two sides of a certain triangle have lengths 2x + 1 and 3x + 4 respectively, which of the following could be the length of the third side of the triangle? (Indicate all possible lengths.)",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "4x + 5",
+            "B": "x + 2",
+            "C": "6x + 1",
+            "D": "5x + 6",
+            "E": "2x + 17"
+          }
+        }
+      ],
+      "correct": [
+        "A",
+        "C",
+        "E"
+      ],
+      "explanation": "세 변이 삼각형을 이루려면 가장 긴 변 < 나머지 두 변의 합. y를 제3변이라 하면 x+3 < y < 5x+5. B) x+2 < x+3 항상 ✗. D) 5x+6 > 5x+5 항상 ✗. A, C, E는 적절한 x에서 범위 안에 존재 ✓."
+    },
+    {
+      "id": "Q_HW9_08",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW9",
+      "context": "In triangle ABC, angle B = x°, angle C = z°, angle A = y°. x > z and z > 60°.",
+      "quantity_a": "The length of side AC",
+      "quantity_b": "The length of side AB",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "x+z>120°이므로 y<60°. AB는 각 C(z°)의 대변, AC는 각 B(x°)의 대변. z>y이므로 AB>AC. Quantity B가 더 크다."
+    },
+    {
+      "id": "Q_HW9_09",
+      "section": "quant",
+      "type": "numeric_entry",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW9",
+      "context": null,
+      "stem": "Lydia owns a triangular patch of land with height 24 feet. A walkway parallel to the base divides the triangle such that the walkway width w, lower portion (3/4 of slant), and upper portion (1/4 of slant) are proportional. What is the width w (in feet) of the walkway?",
+      "correct": [
+        "3"
+      ],
+      "explanation": "빗변 길이를 l이라 하면 총 빗변=l+(1/4)l+(3/4)l=2l. 높이=24이므로 2l=24, l=12. w=(1/4)l=(1/4)(12)=3."
+    },
+    {
+      "id": "Q_HW9_10",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW9",
+      "context": null,
+      "stem": "In △ABC, r < t < s (angles at vertices). Which of the following could be true?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "BC = 4 and AC = 5",
+            "B": "BC = 8 and AC = 9",
+            "C": "BC = 9 and AC = 8",
+            "D": "BC = 9 and AC = 11",
+            "E": "BC = 12 and AC = 11"
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "r<t<s이므로 각에 대응하는 대변: BC<AC<AB. B) BC=8<AC=9 ✓, AB>9인 유효 삼각형 존재(e.g., AB=10: 8+9>10 ✓)."
+    },
+    {
+      "id": "Q_HW10_01",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW10",
+      "context": null,
+      "stem": "In the figure, the area of square ABCD is half the area of rectangle AEFC (they share side AC). What is the ratio of AC to BE?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "1/4",
+            "B": "1/3",
+            "C": "1/2",
+            "D": "1/1",
+            "E": "2/1"
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "정사각형 변=a=AC, 직사각형 변=b=AE. a²=(1/2)ab → b=2a. BE=b−a=a. 따라서 AC:BE=a:a=1:1."
+    },
+    {
+      "id": "Q_HW10_02",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW10",
+      "context": null,
+      "stem": "A construction company will produce identical metal supports in the shape of a right triangle with legs of length 5 feet and 12 feet. If the company has 5,040 feet of metal stripping with no waste, what is the greatest possible number of supports?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "120",
+            "B": "130",
+            "C": "168",
+            "D": "225",
+            "E": "432"
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "피타고라스: 5²+12²=13². 둘레=5+12+13=30 ft. 5,040÷30=168."
+    },
+    {
+      "id": "Q_HW10_03",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW10",
+      "context": null,
+      "stem": "A picture is mounted in a frame 1 inch wide on all sides. The outer dimension in one direction is x+2 and the picture's shorter dimension is x−2 (the frame adds 1 inch each side). For what value of x (in inches) is the area of the frame equal to the area of the picture?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "7",
+            "E": "8"
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "프레임 넓이=x(x+2)−x(x−2)=4x. 그림 넓이=x(x−2). 4x=x(x−2). 4=x−2. x=6."
+    },
+    {
+      "id": "Q_HW10_04",
+      "section": "quant",
+      "type": "numeric_entry",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW10",
+      "context": null,
+      "stem": "A 4-foot by 8-foot piece of plywood has a strip x inches wide and 8-foot long removed from one edge, then a strip x inches wide removed from a perpendicular edge. For what value of x (in inches) will the remaining piece have width-to-length ratio of 2 to 5?",
+      "correct": [
+        "16"
+      ],
+      "explanation": "단위를 inch로 변환: 48×96. 잘라낸 후: (48−x)×(96−x). 비율: (96−x):(48−x)=5:2. 교차 곱: 2(96−x)=5(48−x), 192−2x=240−5x, 3x=48, x=16."
+    },
+    {
+      "id": "Q_HW10_05",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW10",
+      "context": null,
+      "stem": "A portion of a regular polygon can be seen beneath a rectangle. If angles B and C (formed between the rectangle's base and the polygon's sides) are 12° and 18° respectively, how many sides does the polygon have?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "10",
+            "B": "11",
+            "C": "12",
+            "D": "13",
+            "E": "14"
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "삼각형의 나머지 각도=180−12−18=150°. 정다각형 한 내각=(n×180−360)/n=150. 150n=180n−360. 30n=360. n=12."
+    },
+    {
+      "id": "Q_HW10_06",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW10",
+      "context": "A figure shows two polygons; one appears to be a non-regular hexagon (labeled with angle x) and another appears to be a non-regular heptagon (labeled with angle y). The polygons are not specified as regular.",
+      "quantity_a": "x",
+      "quantity_b": "y",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "두 도형이 정다각형인지 명시되지 않았다. 정다각형 조건 없이는 내각의 크기를 특정할 수 없으므로 비교 불가."
+    },
+    {
+      "id": "Q_HW10_07",
+      "section": "quant",
+      "type": "numeric_entry",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW10",
+      "context": null,
+      "stem": "A thin rectangular sheet of metal is 8 inches wide and x inches long. An open box is made by cutting a 2-inch square from each corner and folding up the sides. If the volume of the box is to be 48 cubic inches, what is the value of x?",
+      "correct": [
+        "10"
+      ],
+      "explanation": "박스 부피=2×(8−4)×(x−4)=2×4×(x−4)=48. 8(x−4)=48. x−4=6. x=10."
+    },
+    {
+      "id": "Q_HW10_08",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW10",
+      "context": "The length of each side of rectangle R is an integer, and the area of R is 36.",
+      "quantity_a": "The number of possible values of the perimeter of R",
+      "quantity_b": "6",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "36=1×36, 2×18, 3×12, 4×9, 6×6로 5가지 (a≤b 기준). 둘레는 74, 40, 30, 26, 24로 5가지. Quantity A=5 < Quantity B=6."
+    },
+    {
+      "id": "Q_HW10_09",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW10",
+      "context": null,
+      "quantity_a": "The length of the diagonal of a square with each side of length 2",
+      "quantity_b": "The height of an equilateral triangle with each side of length 3",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "A"
+      ],
+      "explanation": "QA=2√2≈2.83. QB=3×(√3/2)=1.5√3≈2.60. Quantity A가 더 크다."
+    },
+    {
+      "id": "Q_HW10_10",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW10",
+      "context": null,
+      "stem": "P, Q, and R are three non-collinear points in a plane. Which of the following is true about the set of all points in the plane that are the same distance from all three points?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "It contains no points.",
+            "B": "It contains one point.",
+            "C": "It contains two points.",
+            "D": "It is a line.",
+            "E": "It is a circle."
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "세 비공선 점에서 같은 거리에 있는 점은 외접원의 중심(외심)으로 오직 1개이다."
+    },
+    {
+      "id": "Q_HW11_01",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW11",
+      "context": null,
+      "stem": "Four circles of radius 6 inches are arranged in a 2×2 grid and bound together by a conveyor belt. Approximately how long is the conveyor belt (in inches)?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "73.7",
+            "B": "96.2",
+            "C": "109.7",
+            "D": "111.4",
+            "E": "150.8"
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "벨트는 4개의 직선 구간(각 2r=12인치, 6구간 합=72인치)과 원주 1개(2π×6≈37.7인치)로 구성. 총≈72+12π≈109.7."
+    },
+    {
+      "id": "Q_HW11_02",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW11",
+      "context": "Point O is the center of a circle with circumference 12. Point P is another point inside the circle.",
+      "quantity_a": "The greatest distance from P to a point on the circle plus the least distance from P to a point on the circle",
+      "quantity_b": "4",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "내부의 P에 대해 최대거리=r+OP, 최소거리=r−OP. 합=2r=지름=12/π≈3.82. Quantity B=4>3.82이므로 항상 B가 크다."
+    },
+    {
+      "id": "Q_HW11_03",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW11",
+      "context": "If 0 < x < y < 10, A(x, y) represents the area of the region bounded by the number line, the semicircle of diameter 10, and vertical segments at x and y. Conditions: 0 < a < b < c < 10.",
+      "quantity_a": "A(a, b) + A(b, c)",
+      "quantity_b": "A(a, c)",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "A(a,b)+A(b,c)는 a에서 b까지, b에서 c까지의 넓이의 합으로 곧 A(a,c)와 같다. 면적의 가법성에 의해 두 Quantity가 같다."
+    },
+    {
+      "id": "Q_HW11_04",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW11",
+      "context": null,
+      "stem": "A circular hoop is rolling along a flat surface in a straight line. A point A on the rim touches the surface at 25-inch intervals. The radius of the hoop is approximately",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "8 in",
+            "B": "7 in",
+            "C": "6 in",
+            "D": "5 in",
+            "E": "4 in"
+          }
+        }
+      ],
+      "correct": [
+        "E"
+      ],
+      "explanation": "한 바퀴 거리=원둘레=25인치. 2πr=25. r=25/(2π)≈3.98≈4인치."
+    },
+    {
+      "id": "Q_HW11_05",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW11",
+      "context": "The circumference of a circle is 7/8 the perimeter of a square.",
+      "quantity_a": "The area of the square",
+      "quantity_b": "The area of the circle",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "A"
+      ],
+      "explanation": "2πr=(7/8)(4l)=7l/2이므로 l=4πr/7. QA=l²=16π²r²/49. QB=πr². QA/QB=16π/49≈1.02>1. Quantity A가 더 크다."
+    },
+    {
+      "id": "Q_HW11_06",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW11",
+      "context": "R, U, T, and V are points on a circle. RUT and RVT are inscribed angles subtending the same arc RT.",
+      "quantity_a": "The measure of ∠RUT",
+      "quantity_b": "The measure of ∠RVT",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "같은 호 RT를 공유하는 원주각은 모두 같다. ∠RUT=∠RVT=90°(반원에 대한 원주각) 또는 동일 호에 대한 원주각으로 같다."
+    },
+    {
+      "id": "Q_HW11_07",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW11",
+      "context": "A regular 9-sided polygon is inscribed in a circle with center O. A and B are adjacent vertices of the polygon.",
+      "quantity_a": "The perimeter of the regular polygon",
+      "quantity_b": "3 times the perimeter of triangle OAB",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "정구각형을 9등분하면 9개의 이등변 삼각형(OAB). 각 AOB=40°<60°이므로 AB<OA=OB=r. QA=9×AB. QB=3×(AB+2r). QB−QA=3AB+6r−9AB=6r−6AB=6(r−AB)>0. Quantity B가 더 크다."
+    },
+    {
+      "id": "Q_HW11_08",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW11",
+      "context": null,
+      "stem": "Arc PBQ is one-quarter of a circle with center O, and OABC is a rectangle. AOC is an isosceles right triangle with AC = 8. What is the perimeter of the figure enclosing the shaded region?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "24 − 4π",
+            "B": "24 − 4√2 + 4π",
+            "C": "16 − 4√2 + 4π",
+            "D": "16 + 4π",
+            "E": "16√2 + 8π"
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "OC=x, x√2=8이므로 x=4√2. 호 PBQ의 반지름=OC=4√2, 호 길이=(1/4)×2π×4√2=2π√2... 재계산: 4π+2(4√2)+2(8−4√2)=4π+8√2+16−8√2=16+4π."
+    },
+    {
+      "id": "Q_HW11_09",
+      "section": "quant",
+      "type": "numeric_entry",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW11",
+      "context": null,
+      "stem": "AB is the diameter of the circle. AF = BF = 3√2 and AC = 5. What is the area of square BCDE?",
+      "correct": [
+        "11"
+      ],
+      "explanation": "AF=BF=3√2이고 직각이등변삼각형이므로 지름AB=6. BC²+AC²=AB²(반원의 원주각=90°). BC²=36−25=11. 정사각형 BCDE의 넓이=BC²=11."
+    },
+    {
+      "id": "Q_HW12_01",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW12",
+      "context": null,
+      "stem": "A cube whose volume is 1/8 cubic foot is placed on top of a cube whose volume is 1 cubic foot. Those two cubes are placed on top of a third cube whose volume is 8 cubic feet. What is the height, in inches, of the stacked cubes?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "30",
+            "B": "40",
+            "C": "42",
+            "D": "44",
+            "E": "64"
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "각 정육면체 한 변: (1/2)ft, 1ft, 2ft. 총 높이=0.5+1+2=3.5ft=42인치(1ft=12in)."
+    },
+    {
+      "id": "Q_HW12_02",
+      "section": "quant",
+      "type": "multiple_answer",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW12",
+      "context": null,
+      "stem": "Three cube-shaped aquariums that are 5 inches on each side are filled with water. The water is transferred into a larger cube aquarium that must be at least 50% filled to capacity. Which of the following could be the length (in inches) of a side of the larger aquarium? (Indicate all possible values.)",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "6.9",
+            "B": "8.4",
+            "C": "9.5"
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "물의 총 부피=3×5³=375인³. 큰 수조 부피를 V라 하면 V≥375(100% 기준)이면서 V/2≤375이므로 375≤V≤750. 즉 7.21≤변≤9.09. 이 범위에 있는 값은 8.4 뿐."
+    },
+    {
+      "id": "Q_HW12_03",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW12",
+      "context": null,
+      "stem": "A solid cube of metal has sides 18 cm long. A jeweler melts the cube and uses all the molten metal to make three smaller cubes, all exactly the same size. What is the length in centimeters of an edge of one of the smaller cubes?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "6∛3",
+            "B": "6∛9",
+            "C": "3∛3",
+            "D": "3∛9",
+            "E": "6"
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "원래 부피=18³=5832cm³. 각 작은 정육면체 부피=5832/3=1944. 변=∛1944=∛(6³×3²)=6×∛9=6∛9."
+    },
+    {
+      "id": "Q_HW12_04",
+      "section": "quant",
+      "type": "numeric_entry",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW12",
+      "context": null,
+      "stem": "A 5-foot-long cylindrical pipe has an inner diameter of 6 feet and an outer diameter of 8 feet. If the total surface area (inside and out, including the ends) is kπ, what is the value of k?",
+      "correct": [
+        "84"
+      ],
+      "explanation": "바깥 옆면=2π×4×5=40π. 안쪽 옆면=2π×3×5=30π. 양 끝면 두 개: 각각=π(4²−3²)=7π. 총=40π+30π+7π+7π=84π. k=84."
+    },
+    {
+      "id": "Q_HW12_05",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW12",
+      "context": null,
+      "stem": "A half-full box measuring 4 inches by 2 inches by 8 inches of soymilk is poured into a right circular cylindrical glass with radius 2 inches. How many inches high will the soymilk reach?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "8",
+            "B": "16",
+            "C": "4/π",
+            "D": "8/π",
+            "E": "16/π"
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "두유 부피=4×2×8×(1/2)=32인³. π(2²)h=32. 4πh=32. h=8/π."
+    },
+    {
+      "id": "Q_HW12_06",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW12",
+      "context": null,
+      "stem": "The length of one edge of a cube equals 4. What is the distance between the center of the cube and one of its vertices?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "2",
+            "B": "2√2",
+            "C": "2√3",
+            "D": "4√2",
+            "E": "4√3"
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "정육면체 한 변=a일 때 공간 대각선=a√3. 중심에서 꼭지점까지=a√3/2=4√3/2=2√3."
+    },
+    {
+      "id": "Q_HW13_01",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW13",
+      "context": null,
+      "stem": "Three married couples have bought 6 seats in a row. In how many ways can they be seated if each couple is to sit together?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "6",
+            "B": "12",
+            "C": "24",
+            "D": "48",
+            "E": "60"
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "3커플을 3묶음으로 배열: 3!=6. 커플 내 자리 바꾸기: 2³=8. 총=6×8=48."
+    },
+    {
+      "id": "Q_HW13_02",
+      "section": "quant",
+      "type": "numeric_entry",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW13",
+      "context": null,
+      "stem": "An Italian restaurant boasts 320 distinct pasta dishes. Each dish contains exactly one pasta, one meat, and one sauce. If there are 8 pastas and 4 meats available, how many sauces are there to choose from?",
+      "correct": [
+        "10"
+      ],
+      "explanation": "8×4×x=320. x=10."
+    },
+    {
+      "id": "Q_HW13_03",
+      "section": "quant",
+      "type": "numeric_entry",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW13",
+      "context": null,
+      "stem": "A coin has a 1/2 probability of landing on heads. If the coin is flipped 5 times, how many distinct outcomes are possible if the last flip must be heads?",
+      "correct": [
+        "16"
+      ],
+      "explanation": "마지막 5번째는 H로 고정. 앞 4번은 각각 H 또는 T. 2⁴=16."
+    },
+    {
+      "id": "Q_HW13_04",
+      "section": "quant",
+      "type": "multiple_answer",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW13",
+      "context": null,
+      "stem": "A palindrome is a positive integer that reads the same from left to right as from right to left (e.g., 77, 353, 74247). Let A, B, and C represent the number of palindromes between 100 and 1,000, between 1,000 and 10,000, and between 10,000 and 100,000, respectively. Which of the following statements are true? (Indicate all that apply.)",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "A < B < C",
+            "B": "B = 10A",
+            "C": "C = 10B"
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "A=9×10=90. B=9×10=90. C=9×10×10=900. C=10B=900 ✓. A=B이므로 A<B<C ✗. B=A이므로 B≠10A ✗."
+    },
+    {
+      "id": "Q_HW13_05",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW13",
+      "context": null,
+      "stem": "Ben has 30 pencils in a box. Each of the pencils is one of 5 different colors, and there are 6 pencils of each color. If Ben selects pencils one at a time without being able to see them, what is the minimum number of pencils he must select to ensure that he selects at least 2 pencils of each color?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "24",
+            "B": "25",
+            "C": "26",
+            "D": "27",
+            "E": "28"
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "최악의 경우: 4가지 색깔 6개씩 모두 뽑고(24개), 마지막 색깔을 2개 뽑을 때(2개). 총=24+2=26."
+    },
+    {
+      "id": "Q_HW13_06",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW13",
+      "context": null,
+      "stem": "The 28 members of a high school club include 4 seniors, 8 juniors, 10 sophomores, and 6 freshmen. In how many ways can a 5-person committee be formed consisting of 2 seniors, 1 junior, 1 sophomore, and 1 freshman?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "30",
+            "B": "480",
+            "C": "960",
+            "D": "2,880",
+            "E": "3,840"
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "4C2×8C1×10C1×6C1=6×8×10×6=2,880."
+    },
+    {
+      "id": "Q_HW13_07",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW13",
+      "context": null,
+      "stem": "In how many ways can the 18 members of a boy scout troop elect a president, a vice-president, and a secretary, assuming that no member can hold more than one office?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "1,246",
+            "B": "2,480",
+            "C": "3,156",
+            "D": "4,016",
+            "E": "4,896"
+          }
+        }
+      ],
+      "correct": [
+        "E"
+      ],
+      "explanation": "18P3=18×17×16=4,896."
+    },
+    {
+      "id": "Q_HW13_08",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW13",
+      "context": null,
+      "stem": "Three pennies are flipped. What is the probability of getting at least one heads?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "1/8",
+            "B": "1/6",
+            "C": "1/3",
+            "D": "3/4",
+            "E": "7/8"
+          }
+        }
+      ],
+      "correct": [
+        "E"
+      ],
+      "explanation": "P(at least one H)=1−P(all T)=1−(1/2)³=1−1/8=7/8."
+    },
+    {
+      "id": "Q_HW13_09",
+      "section": "quant",
+      "type": "multiple_answer",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW13",
+      "context": null,
+      "stem": "Some books will be chosen from a set of five books. Which of the following statements must be true? (Indicate all that apply.)",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "The number of combinations of 5 books taken 2 at a time is 10.",
+            "B": "The number of combinations of 5 books taken 3 at a time is 10.",
+            "C": "The number of combinations of 5 books taken 4 at a time is 10."
+          }
+        }
+      ],
+      "correct": [
+        "A",
+        "B"
+      ],
+      "explanation": "5C2=10 ✓. 5C3=10 ✓. 5C4=5 ✗."
+    },
+    {
+      "id": "Q_HW13_10",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW13",
+      "context": null,
+      "stem": "How many numbers greater than 400 but less than 9,999 can be formed using the digits 0, 1, 3, 4, and 5 if no digit may be used more than once in any number?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "24",
+            "B": "48",
+            "C": "96",
+            "D": "120",
+            "E": "180"
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "3자리(401~599 범위): 4 또는 5로 시작. [2][4][3]=24. 4자리: 0 제외 4개로 시작. [4][4][3][2]=96. 총=24+96=120."
+    },
+    {
+      "id": "Q_HW13_11",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW13",
+      "context": null,
+      "stem": "If k = 19!/16!, which of the following is the smallest choice that does not have a prime factor in common with k?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "19",
+            "B": "34",
+            "C": "77",
+            "D": "115",
+            "E": "133"
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "k=19×18×17. 소인수: 19, 17, 2, 3. A=19(공통 ✗). B=2×17(공통 ✗). C=7×11(공통 없음 ✓). 최소는 77."
+    },
+    {
+      "id": "Q_HW13_12",
+      "section": "quant",
+      "type": "numeric_entry",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW13",
+      "context": null,
+      "stem": "If O represents the number of integers between 10,000 and 100,000 all of whose digits are odd, and E represents the number of integers between 10,000 and 100,000 all of whose digits are even, what is O − E?",
+      "correct": [
+        "625"
+      ],
+      "explanation": "O: 각 자리에 1,3,5,7,9 가능. 5⁵=3,125. E: 첫 자리에 2,4,6,8(4개), 나머지 자리에 0,2,4,6,8(5개씩). 4×5⁴=2,500. O−E=625."
+    },
+    {
+      "id": "Q_HW13_13",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW13",
+      "context": null,
+      "stem": "In a video game, a player moves from A to B to C, then returns from C to A through B, without retracing any path. There are 5 paths from A to B and 8 paths from B to C. In how many different ways can the player accomplish the task?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "2,240",
+            "B": "1,600",
+            "C": "1,120",
+            "D": "68",
+            "E": "24"
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "A→B: 5가지. B→C: 8가지. C→B 귀환 시: 7가지(B→C와 다른 경로). B→A 귀환 시: 4가지(A→B와 다른 경로). 5×8×7×4=1,120."
+    },
+    {
+      "id": "Q_HW13_14",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW13",
+      "context": "An inventory of coins contains 100 different coins.",
+      "quantity_a": "The number of possible collections of 56 coins (order does not matter)",
+      "quantity_b": "The number of possible collections of 44 coins (order does not matter)",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "nCr=nC(n−r). 100C56=100C44. 두 값이 같다."
+    },
+    {
+      "id": "Q_HW13_15",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW13",
+      "context": null,
+      "stem": "Sid intended to type a seven-digit number, but the two '3's he meant to type did not appear. What appeared instead was the five-digit number 52115. How many different seven-digit numbers could Sid have meant to type?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "10",
+            "B": "16",
+            "C": "21",
+            "D": "24",
+            "E": "27"
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "7자리 중 두 개의 '3'을 넣을 위치를 선택. 7C2=21."
+    },
+    {
+      "id": "Q_HW13_16",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW13",
+      "context": null,
+      "stem": "Sophia has a set of five cards, each representing the numbers 0, 1, 2, 3, and 4. How many different two-digit numbers can she make by selecting 2 cards?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "6",
+            "B": "10",
+            "C": "16",
+            "D": "24",
+            "E": "120"
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "첫째 자리: 0 제외 4개. 둘째 자리: 첫째 자리 제외 4개(0 포함). 4×4=16."
+    },
+    {
+      "id": "Q_HW13_17",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW13",
+      "context": null,
+      "stem": "A group of 12 people who have never met are in a classroom. How many handshakes are exchanged if each pair shakes hands exactly once?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "12",
+            "B": "22",
+            "C": "66",
+            "D": "132",
+            "E": "244"
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "12C2=66."
+    },
+    {
+      "id": "Q_HW13_18",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW13",
+      "context": null,
+      "stem": "(60! − 59!) / 58! =",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "(59)(58)",
+            "B": "(60)(59)",
+            "C": "58²",
+            "D": "59²",
+            "E": "60²"
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "(60!−59!)/58!=(60−1)×59!/58!=59×59=59²."
+    },
+    {
+      "id": "Q_HW13_19",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW13",
+      "context": null,
+      "stem": "In how many ways can Ann, Bob, Chuck, Don, and Ed be seated in a row such that Ann and Bob are not seated next to each other?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "24",
+            "B": "48",
+            "C": "56",
+            "D": "72",
+            "E": "96"
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "전체=5!=120. Ann+Bob 인접: 4!×2=48. 인접하지 않는 경우=120−48=72."
+    },
+    {
+      "id": "Q_HW13_20",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW13",
+      "context": "Set S consists of 5 objects.",
+      "quantity_a": "The number of subsets of S that consist of 1 object",
+      "quantity_b": "The number of subsets of S that consist of 4 objects",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "5C1=5. 5C4=5. 두 값이 같다."
+    },
+    {
+      "id": "Q_HW15_01",
+      "section": "quant",
+      "type": "numeric_entry",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW15",
+      "context": null,
+      "stem": "The probability that event A occurs is 0.4, and the probability that events A and B both occur is 0.25. If the probability that either event A or event B occurs is 0.6, what is the probability that event B will occur?",
+      "correct": [
+        "0.45"
+      ],
+      "explanation": "P(A∪B)=P(A)+P(B)−P(A∩B). 0.6=0.4+P(B)−0.25. P(B)=0.45."
+    },
+    {
+      "id": "Q_HW15_02",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW15",
+      "context": null,
+      "stem": "All of the students in a history class are juniors or seniors. There are twice as many girls as boys in the class, and there are 3 times as many senior girls as junior girls. If a student is selected at random, what is the probability that the student is a junior girl?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "1/3",
+            "B": "1/6",
+            "C": "2/5",
+            "D": "3/7",
+            "E": "1/12"
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "주니어 여=1, 시니어 여=3, 여=4, 남=2, 총=6. P(주니어 여)=1/6."
+    },
+    {
+      "id": "Q_HW15_03",
+      "section": "quant",
+      "type": "numeric_entry",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW15",
+      "context": null,
+      "stem": "A certain roller coaster has 3 cars, and a passenger is equally likely to ride in any 1 of the 3 cars each time. If a certain passenger is to ride the roller coaster 3 times, what is the probability that the passenger will ride in each of the 3 cars?",
+      "correct": [
+        "2/9"
+      ],
+      "explanation": "전체 경우의 수=3³=27. 세 car를 각 한 번씩 탈 경우=3!=6. P=6/27=2/9."
+    },
+    {
+      "id": "Q_HW15_04",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW15",
+      "context": null,
+      "stem": "If an integer greater than 100 and less than 1,000 is selected at random, what is the probability that the integer selected will be a multiple of 7?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "142/999",
+            "B": "142/900",
+            "C": "142/899",
+            "D": "128/900",
+            "E": "128/899"
+          }
+        }
+      ],
+      "correct": [
+        "E"
+      ],
+      "explanation": "101~999: 899개 정수. 7의 배수: 105(=7×15)부터 994(=7×142)까지. 142−15+1=128개. P=128/899."
+    },
+    {
+      "id": "Q_HW15_05",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW15",
+      "context": null,
+      "stem": "A jar contains 54 marbles each of which is blue, green, or white. The probability of selecting a blue marble at random is 1/3 and the probability of selecting a green marble is 4/9. How many white marbles does the jar contain?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "6",
+            "B": "8",
+            "C": "9",
+            "D": "12",
+            "E": "18"
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "Blue=54×(1/3)=18. Green=54×(4/9)=24. White=54−18−24=12."
+    },
+    {
+      "id": "Q_HW15_06",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW15",
+      "context": null,
+      "stem": "A group of 4 male and 4 female board members elect a president and vice president. What is the probability that at least one elected candidate is female?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "5/9",
+            "B": "7/12",
+            "C": "11/14",
+            "D": "4/5",
+            "E": "5/6"
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "P(둘 다 남성)=(4/8)×(3/7)=3/14. P(최소 한 명 여성)=1−3/14=11/14."
+    },
+    {
+      "id": "Q_HW15_07",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW15",
+      "context": null,
+      "stem": "A checkerboard is 8×8 squares, half red and half black (red squares don't share edges). If Pamela randomly selects a square, what are the odds that it will be a red square NOT on the border?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "64",
+            "B": "16",
+            "C": "1/2",
+            "D": "9/32",
+            "E": "1/4"
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "총 64칸, 빨간 32칸. 테두리 빨간 칸=14개. 비테두리 빨간 칸=18개. P=18/64=9/32."
+    },
+    {
+      "id": "Q_HW15_08",
+      "section": "quant",
+      "type": "numeric_entry",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW15",
+      "context": null,
+      "stem": "At South Central High School, the names of 85 tenth-graders and 95 eleventh-graders who bought raffle tickets were placed in a bag, along with some twelfth-graders. If the probability of the winner being a twelfth-grader was 1/5, how many students total bought raffle tickets?",
+      "correct": [
+        "225"
+      ],
+      "explanation": "x/(85+95+x)=1/5. 5x=180+x. x=45. 총=85+95+45=225."
+    },
+    {
+      "id": "Q_HW15_09",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW15",
+      "context": null,
+      "stem": "Eight points are equally spaced on a circle. If 4 of the 8 points are chosen at random, what is the probability that a quadrilateral having the 4 chosen points as vertices will be a square?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "1/70",
+            "B": "1/35",
+            "C": "1/7",
+            "D": "1/4",
+            "E": "1/2"
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "8C4=70. 정사각형이 만들어지는 경우: ACEG, BDFH로 2가지. P=2/70=1/35."
+    },
+    {
+      "id": "Q_HW15_10",
+      "section": "quant",
+      "type": "multiple_answer",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW15",
+      "context": null,
+      "stem": "A and B are independent events, and the probability that both events occur is 1/2. Which of the following could be the probability that event A occurs? (Indicate all such probabilities.)",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "0",
+            "B": "1/4",
+            "C": "1/2",
+            "D": "3/4",
+            "E": "1"
+          }
+        }
+      ],
+      "correct": [
+        "C",
+        "D",
+        "E"
+      ],
+      "explanation": "P(A)×P(B)=1/2. A) P(A)=0이면 P(B)=∞ ✗. B) P(A)=1/4이면 P(B)=2>1 ✗. C) P(A)=1/2이면 P(B)=1 ✓. D) P(A)=3/4이면 P(B)=2/3 ✓. E) P(A)=1이면 P(B)=1/2 ✓."
+    },
+    {
+      "id": "Q_HW15_11",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW15",
+      "context": null,
+      "stem": "Bag A contains 3 white and 3 red marbles. Bag B contains 6 white and 3 red marbles. One bag is chosen at random, and then two marbles are drawn from that bag without replacement. What is the probability that the two marbles drawn will be the same color?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "7/20",
+            "B": "9/10",
+            "C": "9/20",
+            "D": "11/20",
+            "E": "13/20"
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "P(A선택)=1/2. P(같은 색|A)=(3C2+3C2)/6C2=6/15=2/5. P(같은 색|B)=(6C2+3C2)/9C2=18/36=1/2. P=1/2×2/5+1/2×1/2=1/5+1/4=9/20."
+    },
+    {
+      "id": "Q_HW15_12",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW15",
+      "context": "The probability of rain is 1/2 on any given day next week.",
+      "quantity_a": "The probability that it rains on at least one of the 7 days next week",
+      "quantity_b": "127/128",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "P(최소 하루 비)=1−(1/2)⁷=1−1/128=127/128. Quantity B와 같다."
+    },
+    {
+      "id": "Q_HW15_13",
+      "section": "quant",
+      "type": "numeric_entry",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW15",
+      "context": null,
+      "stem": "A fair coin is tossed 3 times. What is the probability of NOT getting zero tails across all three tosses?",
+      "correct": [
+        "7/8"
+      ],
+      "explanation": "P(뒷면 0개)=P(모두 앞면)=(1/2)³=1/8. P(뒷면 최소 1개)=1−1/8=7/8."
+    },
+    {
+      "id": "Q_HW16_01",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW16",
+      "context": "An office supply store carries 1,345 different products, categorized as 'business use,' 'personal use,' or both. 740 products are 'business use' ONLY and 520 products are categorized as both.",
+      "quantity_a": "The number of products characterized as personal use",
+      "quantity_b": "600",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "A"
+      ],
+      "explanation": "Total=business only+both+personal only. 1345=740+520+personal only. Personal only=85. Personal use total=520+85=605. QA=605>QB=600."
+    },
+    {
+      "id": "Q_HW16_02",
+      "section": "quant",
+      "type": "numeric_entry",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW16",
+      "context": null,
+      "stem": "In a vacation community, 75 residents play golf, 67 residents play tennis, and a total of 50 residents play either golf or tennis but not both. How many residents play both golf and tennis?",
+      "correct": [
+        "46"
+      ],
+      "explanation": "only golf + only tennis=50. (75−both)+(67−both)=50. 142−2(both)=50. both=46."
+    },
+    {
+      "id": "Q_HW16_03",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW16",
+      "context": null,
+      "stem": "One night a certain motel rented 3/4 of its rooms, including 2/3 of its air-conditioned rooms. If 3/5 of its rooms were air-conditioned, what percent of the rooms that were NOT rented were air-conditioned?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "20%",
+            "B": "33⅓%",
+            "C": "35%",
+            "D": "40%",
+            "E": "80%"
+          }
+        }
+      ],
+      "correct": [
+        "E"
+      ],
+      "explanation": "총=100. 렌트=75. 에어컨=60. 에어컨+렌트=40. 에어컨+비렌트=20. 비렌트=25. P=20/25=80%."
+    },
+    {
+      "id": "Q_HW16_04",
+      "section": "quant",
+      "type": "multiple_answer",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW16",
+      "context": null,
+      "stem": "In MMA, more than 30% of fighters are skilled in both Muy Thai and Jiu Jitsu. 20% of fighters NOT skilled in Jiu Jitsu are skilled in Muy Thai. 60% of all fighters are skilled in Jiu Jitsu. Which of the following could be the percent of fighters skilled in Muy Thai? (Indicate all that apply.)",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "37",
+            "B": "38",
+            "C": "40",
+            "D": "45",
+            "E": "50",
+            "F": "55",
+            "G": "60",
+            "H": "68"
+          }
+        }
+      ],
+      "correct": [
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "explanation": "MT 비율은 38 초과 68 이하. 주짓수 60%, 비주짓수 40%. 비주짓수의 20%=8%가 무에타이만. 최소(both=30+): MT=38+. 최대(모든 주짓수가 무에타이): MT=60+8=68. 따라서 38<MT≤68. 해당 보기: 40,45,50,55,60,68."
+    },
+    {
+      "id": "Q_HW16_05",
+      "section": "quant",
+      "type": "numeric_entry",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW16",
+      "context": null,
+      "stem": "In a survey of 25 students asking about juice preferences (apple, orange, grape, none): 15 like orange, 10 like grape, 10 like apple, 1 student likes no juice, 3 students like only grape. How many students like both orange and apple juice?",
+      "correct": [
+        "4"
+      ],
+      "explanation": "1(none)+3(only grape)=4명이 orange나 apple을 안 좋아함. 25−4=21명이 orange나 apple 좋아함. |O∪A|=|O|+|A|−|O∩A|. 21=15+10−|O∩A|. |O∩A|=4."
+    },
+    {
+      "id": "Q_HW16_06",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW16",
+      "context": null,
+      "stem": "Let T be the sum of a set of numbers, one of which is x. If x is p percent of the sum of all the other numbers in the set, then x is what fraction of T?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "p",
+            "B": "p/100",
+            "C": "p/(100T)",
+            "D": "p/(100+p)",
+            "E": "pT/(100+p)"
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "x=p/100×(T−x). 100x=pT−px. x(100+p)=pT. x/T=p/(100+p)."
+    },
+    {
+      "id": "Q_HW16_07",
+      "section": "quant",
+      "type": "numeric_entry",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW16",
+      "context": null,
+      "stem": "In a large jar of jelly beans, 30% are red, and 40% of the red jelly beans are cherry-flavored. If 25% of the non-cherry-flavored red jelly beans are raspberry, what percent of all jelly beans are either cherry or raspberry?",
+      "correct": [
+        "16.5"
+      ],
+      "explanation": "Red=30%. Cherry red=40%×30%=12%. Non-cherry red=60%×30%=18%. Raspberry=25%×18%=4.5%. Cherry+Raspberry=12%+4.5%=16.5%."
+    },
+    {
+      "id": "Q_HW16_08",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW16",
+      "context": null,
+      "stem": "Of the students in a school, 20 percent are in the science club and 30 percent are in the band. If 25 percent of the students are in the band but not in the science club, what percent of the students who are in the science club are not in the band?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "5%",
+            "B": "25%",
+            "C": "50%",
+            "D": "60%",
+            "E": "75%"
+          }
+        }
+      ],
+      "correct": [
+        "E"
+      ],
+      "explanation": "밴드+과학클럽=30%−25%=5%. 과학클럽만=20%−5%=15%. P=15/20=75%."
+    },
+    {
+      "id": "Q_HW16_09",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW16",
+      "context": null,
+      "stem": "On a certain road, 10 percent of the motorists exceed the posted speed limit and receive speeding tickets, but 20 percent of the motorists who exceed the posted speed limit do not receive speeding tickets. What percent of the motorists on that road exceed the posted speed limit?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "10½%",
+            "B": "12½%",
+            "C": "15%",
+            "D": "22%",
+            "E": "30%"
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "과속+티켓=10%T. 과속=x. 과속+티켓=80%x. 80%x=10%T. x=(1/8)T=12.5%."
+    },
+    {
+      "id": "Q_HW16_10",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW16",
+      "context": null,
+      "stem": "Each member of the Eastside Women's Club has at most two children, and no one has two children of the same sex. If 25 of the women have exactly one child and in total the women have 32 boys and 37 girls, how many of the women have both a boy and a girl?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "5",
+            "B": "7",
+            "C": "19",
+            "D": "22",
+            "E": "44"
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "총 자녀=32+37=69. 한 자녀 여성=25명(자녀 25명). 두 자녀 여성=w명(자녀 2w명). 25+2w=69. w=22."
+    },
+    {
+      "id": "Q_HW16_11",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW16",
+      "context": null,
+      "stem": "In a set of 50 different integers, 40 of them are greater than 19 and 30 of them are less than 50. How many of the integers have a tens digit equal to 2, 3, or 4 (i.e., are in the range 20–49)?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "10",
+            "B": "20",
+            "C": "25",
+            "D": "30",
+            "E": "40"
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "≤19인 수=10개. ≥50인 수=20개. 20~49 범위=50−10−20=20개."
+    },
+    {
+      "id": "Q_HW16_12",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW16",
+      "context": null,
+      "stem": "The number of cards that John has is 60% of the total number of cards that everyone else in the club has. What fraction of the total number of cards of everyone in the club belongs to John?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "1/4",
+            "B": "3/8",
+            "C": "2/5",
+            "D": "1/2",
+            "E": "3/5"
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "J=0.6(T−J). J=0.6T−0.6J. 1.6J=0.6T. J/T=0.6/1.6=3/8."
+    },
+    {
+      "id": "Q_HW17_01",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW17",
+      "context": null,
+      "stem": "The average of the test scores of a group of x students is 76 and the average of a group of y students is 90. When the scores of the two groups are combined, the average is 85. What is the value of x/y?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "4/7",
+            "B": "5/9",
+            "C": "2/3",
+            "D": "7/4",
+            "E": "9/5"
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "76x+90y=85(x+y). 76x+90y=85x+85y. 5y=9x. x/y=5/9."
+    },
+    {
+      "id": "Q_HW17_02",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW17",
+      "context": null,
+      "stem": "Sally's cheerleading squad has 10 cheerleaders. The average height of 5 cheerleaders is x feet, which is y feet shorter than the average height of the entire squad. Which of the following represents the average height of the remaining 5 cheerleaders?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "x + y",
+            "B": "y² − x",
+            "C": "x + 2y",
+            "D": "5x + 10y",
+            "E": "x² + y²"
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "분대 평균=x+y. 분대 총합=10(x+y). 5명 총합=5x. 나머지 5명 총합=10(x+y)−5x=5x+10y. 평균=(5x+10y)/5=x+2y."
+    },
+    {
+      "id": "Q_HW17_03",
+      "section": "quant",
+      "type": "multiple_answer",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW17",
+      "context": null,
+      "stem": "For a sample of 210 households, one-third have no pets, one-third each have 1 pet, and the rest each have 2 pets. Which of the following statistics for the sample are equal to 1? (Indicate all such statistics.)",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "The average (arithmetic mean) number of pets per household.",
+            "B": "The median number of pets per household.",
+            "C": "The range of the numbers of pets per household."
+          }
+        }
+      ],
+      "correct": [
+        "A",
+        "B"
+      ],
+      "explanation": "각 70세대. 평균=(70×0+70×1+70×2)/210=140/210=1 ✓. 중앙값=1 ✓. 범위=2−0=2 ✗."
+    },
+    {
+      "id": "Q_HW17_04",
+      "section": "quant",
+      "type": "numeric_entry",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW17",
+      "context": null,
+      "stem": "Three crates have an average weight of 70 pounds and a median weight of 90 pounds. What is the maximum possible weight, in pounds, of the lightest box?",
+      "correct": [
+        "30"
+      ],
+      "explanation": "총합=210. 순서: l≤90≤M. l+90+M=210. l+M=120. M≥90. M 최솟값=90. l 최댓값=120−90=30."
+    },
+    {
+      "id": "Q_HW17_05",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW17",
+      "context": null,
+      "quantity_a": "The average (arithmetic mean) of 3², 3⁴, and 3⁶",
+      "quantity_b": "3⁴",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "A"
+      ],
+      "explanation": "(3²+3⁴+3⁶)/3=(9+81+729)/3=819/3=273. 3⁴=81. QA=273>QB=81."
+    },
+    {
+      "id": "Q_HW17_06",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW17",
+      "context": null,
+      "stem": "List A consists of 15 positive numbers. The median of list A and the range of list A are equal. Each number in list A is multiplied by 4 to form list B. If m is the median of list B and r is the range of list B, which of the following shows the relationship between m and r?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "m = r",
+            "B": "m = 2r",
+            "C": "m = 4r",
+            "D": "m = r/2",
+            "E": "m = r/4"
+          }
+        }
+      ],
+      "correct": [
+        "A"
+      ],
+      "explanation": "List A의 median=range=a. 4배 하면 List B의 median=4a, range=4a. m=r."
+    },
+    {
+      "id": "Q_HW17_07",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW17",
+      "context": "The integer ages of the three children in the Chen family range from 2 to 13, and no two children are the same age.",
+      "quantity_a": "The average age of all three children in the Chen family",
+      "quantity_b": "10",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "한 아이=2, 한 아이=13. 세 번째 아이는 3~12 사이. 최대 평균=(2+13+12)/3=9. 모든 경우 평균<10. Quantity B가 더 크다."
+    },
+    {
+      "id": "Q_HW17_08",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW17",
+      "context": null,
+      "stem": "The average of a set of n numbers is what percent of the sum of those numbers?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "n",
+            "B": "1/n",
+            "C": "n/100",
+            "D": "100/n",
+            "E": "100n"
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "avg=sum/n. avg/sum×100=(1/n)×100=100/n%."
+    },
+    {
+      "id": "Q_HW17_09",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW17",
+      "context": null,
+      "stem": "Three people have $32, $72, and $98, respectively. If they pool their money and then redistribute it among them, what is the maximum value for the median amount of money?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "$72",
+            "B": "$85",
+            "C": "$100.50",
+            "D": "$101",
+            "E": "$202"
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "총합=$202. 중앙값을 최대화: 한 명이 $0, 나머지 두 명이 $101씩. 중앙값=$101."
+    },
+    {
+      "id": "Q_HW17_10",
+      "section": "quant",
+      "type": "multiple_answer",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW17",
+      "context": null,
+      "stem": "The average age of buildings on a certain city block is greater than 40 years old. Four of the buildings were built 2 years ago and none of the buildings are more than 80 years old. Which of the following could be the number of buildings on the block? (Indicate all such numbers.)",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "4",
+            "B": "6",
+            "C": "8",
+            "D": "11",
+            "E": "40"
+          }
+        }
+      ],
+      "correct": [
+        "C",
+        "D",
+        "E"
+      ],
+      "explanation": "[4(2)+(x−4)(80)]/x>40. 8+80x−320>40x. 40x>312. x>7.8. 이를 만족하는 값: 8✓, 11✓, 40✓."
+    },
+    {
+      "id": "Q_HW17_11",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW17",
+      "context": null,
+      "stem": "The average of a set of 25 positive integers is 25, and the median of those 25 integers is 25. What is the greatest possible sum of the 10 largest numbers in the set?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "250",
+            "B": "386",
+            "C": "498",
+            "D": "538",
+            "E": "586"
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "총합=625. 중앙값=13번째 수=25. 나머지 최소화: 1~12번째=1, 13~15번째=25. 최솟값 합=12×1+3×25=87. 10개 최댓값 합=625−87=538."
+    },
+    {
+      "id": "Q_HW17_12",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW17",
+      "context": null,
+      "stem": "R is a list of 15 consecutive integers, and T is a list of 21 consecutive integers. The median of the integers in list R equals the least integer in list T. If the two lists are combined into one list of 36 integers, how many different integers are on the combined list?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "25",
+            "B": "27",
+            "C": "28",
+            "D": "32",
+            "E": "36"
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "R의 중앙값=x. R: x−7~x+7. T: x~x+20. 중복: x~x+7=8개. 36−8=28."
+    },
+    {
+      "id": "Q_HW17_13",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW17",
+      "context": "Romero Automobiles sells cars from Manufacturer X (price range $22,000) and Manufacturer Y (price range $15,000).",
+      "quantity_a": "The range of list prices of all automobiles sold by Romero Automobiles",
+      "quantity_b": "$22,000",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "X와 Y의 가격 범위가 겹치는지 모르므로 전체 범위를 특정할 수 없다. 비교 불가."
+    },
+    {
+      "id": "Q_HW17_14",
+      "section": "quant",
+      "type": "numeric_entry",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW17",
+      "context": null,
+      "stem": "Four students contributed to a charity drive, and the average amount contributed by each student was $20. If no student gave more than $25, what is the minimum amount that any student could have contributed?",
+      "correct": [
+        "5"
+      ],
+      "explanation": "총합=$80. 나머지 3명 최대=$25씩=$75. 최솟값=$80−$75=$5."
+    },
+    {
+      "id": "Q_HW17_15",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW17",
+      "context": null,
+      "stem": "21 people per minute enter an empty train station beginning at 7:00:00 pm. Every 9 minutes starting at 7:04:00 pm, a train comes and everyone who entered in the last 9 minutes boards. If the last train comes at 8:25:00, what is the average number of people who get on each train?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "84",
+            "B": "136.5",
+            "C": "178.5",
+            "D": "189",
+            "E": "198.5"
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "총 85분×21명/분=1,785명. 기차 횟수=10번(7:04, 7:13, ..., 8:25). 평균=1,785/10=178.5명."
+    },
+    {
+      "id": "Q_HW17_16",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW17",
+      "context": "The average of x and y is 55. The average of y and z is 75.",
+      "quantity_a": "z − x",
+      "quantity_b": "40",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "x+y=110, y+z=150. z−x=(y+z)−(x+y)=150−110=40. Quantity B와 같다."
+    },
+    {
+      "id": "Q_HW17_17",
+      "section": "quant",
+      "type": "numeric_entry",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW17",
+      "context": null,
+      "stem": "The average of a set of 18 consecutive integers is 22.5. What is the smallest integer in the set?",
+      "correct": [
+        "14"
+      ],
+      "explanation": "18개 연속 정수의 평균=22.5이면 가운데 두 수=22와 23. 가장 작은 수=22−8=14."
+    },
+    {
+      "id": "Q_HW17_18",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW17",
+      "context": "3 numbers have a range of 2 and a median of 4.4.",
+      "quantity_a": "The greatest of the numbers",
+      "quantity_b": "5.4",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "순서: a≤4.4≤b, b−a=2. b는 4.4보다 크기만 하면 되고 정확한 값을 알 수 없다. b>4.4일 수도 있고 b<5.4일 수도 있으므로 비교 불가."
+    },
+    {
+      "id": "Q_HW17_19",
+      "section": "quant",
+      "type": "multiple_answer",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW17",
+      "context": null,
+      "stem": "Mike, Scott, Jim, Kate, and Pete each have a different number of assignments. Pete < Kate, Kate > Mike, Mike > Jim, Jim > Scott. Which of the following could be the person with the median number of assignments? (Indicate all that apply.)",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Mike",
+            "B": "Scott",
+            "C": "Jim",
+            "D": "Kate",
+            "E": "Pete"
+          }
+        }
+      ],
+      "correct": [
+        "A",
+        "C",
+        "E"
+      ],
+      "explanation": "확정 순서: Scott<Jim<Mike<Kate. Pete의 위치 불명. Kate=최다(median 불가). Scott=최소(median 불가). Mike, Jim, Pete는 중앙값 가능."
+    },
+    {
+      "id": "Q_HW17_20",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW17",
+      "context": null,
+      "stem": "The greatest of the 21 positive integers in a certain list is 16. The median of the 21 integers is 10. What is the least possible average (arithmetic mean) of the 21 integers?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "7",
+            "E": "8"
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "평균 최소화: 1~10번째=1, 11번째=10, 12~20번째=10, 21번째=16. 합=10×1+10+9×10+16=10+10+90+16=126. 평균=126/21=6."
+    },
+    {
+      "id": "Q_HW19_01",
+      "section": "quant",
+      "type": "multiple_answer",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW19",
+      "context": null,
+      "stem": "A researcher report states that the average of 120 measurements was 72.5, the greatest was 92.8, and the range was 51.6. Which of the following statistics can be determined from this information? (Indicate all such statistics.)",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "The least of the 120 measurements.",
+            "B": "The median of the 120 measurements.",
+            "C": "The standard deviation of the 120 measurements.",
+            "D": "The sum of the 120 measurements."
+          }
+        }
+      ],
+      "correct": [
+        "A",
+        "D"
+      ],
+      "explanation": "A) 최솟값=최댓값−범위=92.8−51.6=41.2 ✓. D) 합=평균×개수=72.5×120=8,700 ✓. B,C는 개별 값 없이는 알 수 없음."
+    },
+    {
+      "id": "Q_HW19_02",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW19",
+      "context": null,
+      "stem": "A company has 80 employees each with a different salary. Mark's salary is the second highest in the first quartile. If 8 new employees are hired at salaries lower than the lowest of the 80 salaries, what would Mark's salary rank be among the 88 salaries?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "4th highest in 1st quartile",
+            "B": "Highest in 1st quartile",
+            "C": "2nd lowest in 2nd quartile",
+            "D": "3rd lowest in 2nd quartile",
+            "E": "5th lowest in 2nd quartile"
+          }
+        }
+      ],
+      "correct": [
+        "E"
+      ],
+      "explanation": "Mark의 위치: 80명 중 19번째(밑에서). 8명 추가 후: 27번째. 88명 기준 Q1=1~22, Q2=23~44. Mark=Q2에서 27−22=5번째. 5th lowest in Q2."
+    },
+    {
+      "id": "Q_HW19_03",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW19",
+      "context": "List S: a, b, c, d, e (a < b < c < d < e). List T: a−2, b−1, c, d+1, e+2.",
+      "quantity_a": "The standard deviation of the numbers in list S",
+      "quantity_b": "The standard deviation of the numbers in list T",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "T는 c를 기준으로 S보다 값들이 더 퍼져 있다. 분산이 커지므로 표준편차도 크다. QB>QA."
+    },
+    {
+      "id": "Q_HW19_04",
+      "section": "quant",
+      "type": "multiple_answer",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW19",
+      "context": null,
+      "stem": "A and B are graphical representations of normally distributed variables X and Y, respectively. Y's graph is wider and shifted to the right compared to X's. Which of the following must be true? (Indicate all such statements.)",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Y has a larger standard deviation than X.",
+            "B": "The probability that Y falls within 2 standard deviations of its mean is larger than the probability that X falls within 2 standard deviations of its mean.",
+            "C": "Y has a larger mean than X."
+          }
+        }
+      ],
+      "correct": [
+        "A",
+        "C"
+      ],
+      "explanation": "A) Y 그래프가 더 넓게 퍼져 있으므로 표준편차 더 크다 ✓. B) 정규분포에서 평균 ±2SD 이내 확률은 항상 동일(~95.4%) ✗. C) Y 그래프가 오른쪽으로 이동했으므로 평균 더 크다 ✓."
+    },
+    {
+      "id": "Q_HW19_05",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "HW19",
+      "context": null,
+      "stem": "On a particular test whose scores are normally distributed, the 2nd percentile is 1,720 while the 84th percentile is 1,990. What score most closely corresponds to the 16th percentile?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "1,750",
+            "B": "1,770",
+            "C": "1,790",
+            "D": "1,810",
+            "E": "1,830"
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "2nd percentile≈mean−2SD=1720. 84th percentile=mean+1SD=1990. 3SD=270, SD=90, mean=1900. 16th percentile=mean−1SD=1900−90=1810."
+    },
+    {
+      "id": "Q_HW19_06",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW19",
+      "context": "The test scores at Millbrook High School are normally distributed, and the 60th percentile is equal to a score of 70.",
+      "quantity_a": "The 30th percentile score",
+      "quantity_b": "35",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "평균과 표준편차를 모르므로 30th percentile 점수를 특정할 수 없다. 비교 불가."
+    },
+    {
+      "id": "Q_HW19_07",
+      "section": "quant",
+      "type": "multiple_answer",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW19",
+      "context": null,
+      "stem": "Set S = {5, 10, 15}. If the number 15 is removed and replaced with the number 1,000, which of the following would change? (Indicate all such statements.)",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "The mean",
+            "B": "The median",
+            "C": "The standard deviation"
+          }
+        }
+      ],
+      "correct": [
+        "A",
+        "C"
+      ],
+      "explanation": "새 집합={5,10,1000}. A) 합이 달라지므로 평균 변함 ✓. B) 중앙값=10으로 유지 ✗. C) 평균이 달라지므로 표준편차 변함 ✓."
+    },
+    {
+      "id": "Q_HW19_08",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "HW19",
+      "context": "A random variable Y is normally distributed with a mean of 200 and a standard deviation of 10.",
+      "quantity_a": "The probability of the event that the value of Y is greater than 220",
+      "quantity_b": "1/6",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "220=mean+2SD. P(Y>220)≈2.5%. 1/6≈16.7%. Quantity B가 더 크다."
     }
   ]
 }
