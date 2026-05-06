@@ -6259,6 +6259,3459 @@
         "C"
       ],
       "explanation": ""
+    },
+    {
+      "id": "TCSE853",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "double_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "If all stars are fiery gas balls like our own sun, and if the principle that the situation of our own solar system is not (i)__________ is (ii)__________, then one might think that many other stars should be surrounded by a retinue of planets and moons.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "obvious",
+            "B": "permanent",
+            "C": "special"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "true",
+            "E": "redundant",
+            "F": "tested"
+          }
+        }
+      ],
+      "correct": [
+        "C",
+        "D"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE854",
+      "section": "verbal",
+      "type": "sentence_equivalence",
+      "subtype": "sentence_equivalence",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "As market forces penetrate firms and bid up the value of attributes of labor that are more measurable than is the knowledge born of experience, it can be expected that trends in wages will not __________ those whose main value lies in such experiential knowledge.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "favor",
+            "B": "aid",
+            "C": "affect",
+            "D": "forsake",
+            "E": "betray",
+            "F": "differentiate"
+          }
+        }
+      ],
+      "correct": [
+        "A",
+        "B"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE855",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "triple_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "The fall of the monarchical order in 1918 produced a score of fragile successor states in Eastern Europe that (i)__________ ethnic discontent and revanchism. This (ii)__________, when fused with their inherent feebleness, make for power voids and political (iii)__________.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "kept down",
+            "B": "overshadowed",
+            "C": "simmered with"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "cosmopolitanism",
+            "E": "hierarchy",
+            "F": "volatility"
+          }
+        },
+        {
+          "label": "Blank (iii)",
+          "choices": {
+            "G": "cures",
+            "H": "fluidities",
+            "I": "redundancies"
+          }
+        }
+      ],
+      "correct": [
+        "C",
+        "F",
+        "H"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE856",
+      "section": "verbal",
+      "type": "sentence_equivalence",
+      "subtype": "sentence_equivalence",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Fedigan argues that, in actuality, ethologists who claim to __________ anthropomorphism often end up simply substituting one set of anthropomorphic terms for another.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "eschew",
+            "B": "defend",
+            "C": "support",
+            "D": "appreciate",
+            "E": "denounce",
+            "F": "avoid"
+          }
+        }
+      ],
+      "correct": [
+        "A",
+        "F"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE857",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "double_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Except in times of (i)__________, we would scarcely allow public officials to declare states of emergency that replace some normal rules with those more (ii)__________ to extraordinary circumstances.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "serenity",
+            "B": "calamity",
+            "C": "debate"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "germane",
+            "E": "indifferent",
+            "F": "inimical"
+          }
+        }
+      ],
+      "correct": [
+        "B",
+        "D"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE858",
+      "section": "verbal",
+      "type": "sentence_equivalence",
+      "subtype": "sentence_equivalence",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "If animal parents were judged by human standards, the cuckoo would be one of nature's more __________ creatures, blithely laying its eggs in the nests of other birds, and leaving the incubating and nurturing to them.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "ineffective",
+            "B": "mettlesome",
+            "C": "irresponsible",
+            "D": "lackluster",
+            "E": "industrious",
+            "F": "feckless"
+          }
+        }
+      ],
+      "correct": [
+        "C",
+        "F"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE859",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "double_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Politicians and pollsters alike warn that the outcome of a presidential race remains (i)__________ until Election Day itself, and many races depend on factors that run from bad weather (ii)__________ voter turnout to last-minute scandals.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "unlikely",
+            "B": "fluid",
+            "C": "predetermined"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "decreasing",
+            "E": "affecting",
+            "F": "consolidating"
+          }
+        }
+      ],
+      "correct": [
+        "B",
+        "E"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE860",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "double_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Though the play crackles with humor, the dialogue is less (i)__________ when it comes to the drama's emotional core. There the players tend to spell out their emotions in (ii)__________ aphorisms, and repeat them as necessary.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "adroit",
+            "B": "ambiguous",
+            "C": "transparent"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "shrewd",
+            "E": "jejune",
+            "F": "riotous"
+          }
+        }
+      ],
+      "correct": [
+        "A",
+        "E"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE861",
+      "section": "verbal",
+      "type": "sentence_equivalence",
+      "subtype": "sentence_equivalence",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Although it initially seemed that the ideological gap between them was insurmountable—he believed in __________ while she believed in accumulating wealth, he in sensitivity towards others while she in self-interest—the marriage ultimately lasted 52 years until his death.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "largess",
+            "B": "avarice",
+            "C": "empathy",
+            "D": "parsimony",
+            "E": "cupidity",
+            "F": "philanthropy"
+          }
+        }
+      ],
+      "correct": [
+        "A",
+        "F"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE862",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "double_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "The insecticide proved (i)__________; by killing the weak adults of a species, it assured that the strong ones would mate among themselves and produce offspring still more (ii)__________ to its effects.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "cruel",
+            "B": "feasible",
+            "C": "counterproductive"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "resistant",
+            "E": "susceptible",
+            "F": "vulnerable"
+          }
+        }
+      ],
+      "correct": [
+        "C",
+        "D"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE863",
+      "section": "verbal",
+      "type": "sentence_equivalence",
+      "subtype": "sentence_equivalence",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "If Wilson's article style changed overtime, it was in the wrong retrograde direction, __________ experimentation and inclining toward works that seemed hobbled by a fear of risk.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "shunning",
+            "B": "overemphasizing",
+            "C": "aggrandizing",
+            "D": "eschewing",
+            "E": "mocking",
+            "F": "belaboring"
+          }
+        }
+      ],
+      "correct": [
+        "A",
+        "D"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE864",
+      "section": "verbal",
+      "type": "sentence_equivalence",
+      "subtype": "sentence_equivalence",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Films that critics have slumbered through rarely generate industry excitement, even though the critics' _________ reception may be less the fault of the movie than of its unfortunate time slot near a fatiguing film festival's conclusion.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "somnolent",
+            "B": "impartial",
+            "C": "lethargic",
+            "D": "laconic",
+            "E": "befuddled",
+            "F": "evenhanded"
+          }
+        }
+      ],
+      "correct": [
+        "A",
+        "C"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE865",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "triple_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "The research on otters' environmental requirements is surprisingly (i)________. One reason for this has to do with the estimation of how much they use different areas. Doing so may be (ii)________ in some kinds of terrain, such as Shetland where the Eurasian otters are active in daytime and have clear individual markings. There it is possible to identify the individuals over stretches of coast of a few kilometers and to see what kinds of coast they use. However, the field conditions are (iii)________.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "straight-forward",
+            "B": "controversial",
+            "C": "deceptive"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "quite problematic",
+            "E": "relatively simple",
+            "F": "difficult"
+          }
+        },
+        {
+          "label": "Blank (iii)",
+          "choices": {
+            "G": "routine",
+            "H": "exceptional",
+            "I": "largely unnecessary"
+          }
+        }
+      ],
+      "correct": [
+        "A",
+        "E",
+        "H"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE866",
+      "section": "verbal",
+      "type": "sentence_equivalence",
+      "subtype": "sentence_equivalence",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "The physics graveyard is strewn with the skeletons of failed theories, unexplained effects, and anomalous particles that briefly ________ the research spotlight, then rapidly fade from view.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "douse",
+            "B": "intensify",
+            "C": "perpetuate",
+            "D": "capture",
+            "E": "extinguish",
+            "F": "secure"
+          }
+        }
+      ],
+      "correct": [
+        "D",
+        "F"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE867",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "double_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Even though the idea that medical research should be rigorously objective is (i)________ one in the medical community, the editors of medical journals often display a disquieting (ii)________  when it comes to articles submitted by researchers who accept money from the makers of the products they evaluate in their research; editors rarely ask whether that research is truly disinterested.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "a neglected",
+            "B": "an uncontroversial",
+            "C": "an unproductive"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "capriciousness",
+            "E": "credulity",
+            "F": "stringency"
+          }
+        }
+      ],
+      "correct": [
+        "B",
+        "E"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE868",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "single_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "My grandma has a strong belief in all things ________: she insists, for example, that the house in which she lived as a child was haunted.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "clamorous",
+            "B": "invidious",
+            "C": "numinous",
+            "D": "empirical",
+            "E": "sonorous"
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE869",
+      "section": "verbal",
+      "type": "sentence_equivalence",
+      "subtype": "sentence_equivalence",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "What makes the precisely oriented flight of a honeybee swarm to its new home so ________ is that only a small percentage of its members know the swarm travel route and final destination.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "exact",
+            "B": "unpredictable",
+            "C": "amazing",
+            "D": "erratic",
+            "E": "reliable",
+            "F": "wondrous"
+          }
+        }
+      ],
+      "correct": [
+        "C",
+        "F"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE870",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "single_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Although New York exhilarated him, even at first Leger's reaction to it was not ________: he was initially bothered by its stunning verticality.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "unspontaneous",
+            "B": "unintentional",
+            "C": "unqualified",
+            "D": "unhopeful",
+            "E": "uninterested"
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE871",
+      "section": "verbal",
+      "type": "sentence_equivalence",
+      "subtype": "sentence_equivalence",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "In establishing that the dust she had observed constitutes two percent of the mass in the quadrant, the astronomer showed that the dust's extreme visual prominence ________ its relatively minor contribution to the total mass of the region.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "belies",
+            "B": "masks",
+            "C": "highlights",
+            "D": "nullifies",
+            "E": "disproves",
+            "F": "accentuates"
+          }
+        }
+      ],
+      "correct": [
+        "A",
+        "B"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE872",
+      "section": "verbal",
+      "type": "sentence_equivalence",
+      "subtype": "sentence_equivalence",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "When Kim Dae Jung was elected South Korea's president in December 1997, he was thought to be of a(an) ________, but nevertheless the right man for the time and the job. Mr Kim had campaigned unremittingly for democracy, even though his efforts had earned him a spell in jail and an attempt on his life by his own government.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "authority",
+            "B": "expert",
+            "C": "maverick",
+            "D": "unknown",
+            "E": "nonconformist",
+            "F": "dilettante"
+          }
+        }
+      ],
+      "correct": [
+        "C",
+        "E"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE873",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "single_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Some ethicists worry that a deeper understanding of the brain may be tantamount to _______: if we discover that free will is an illusion of neural circuitry, how will we hold people responsible for their action?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "vindication",
+            "B": "proscription",
+            "C": "ministration",
+            "D": "valediction",
+            "E": "exculpation"
+          }
+        }
+      ],
+      "correct": [
+        "E"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE874",
+      "section": "verbal",
+      "type": "sentence_equivalence",
+      "subtype": "sentence_equivalence",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "It remains to be shown how large the differences are between humans and other animals. Although Wynne claims to recognize that __________ data are available to make definitive statements, he offers them, nonetheless, arriving at some sweeping generalizations.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "meager",
+            "B": "appropriate",
+            "C": "suitable",
+            "D": "insufficient",
+            "E": "biased",
+            "F": "impartial"
+          }
+        }
+      ],
+      "correct": [
+        "A",
+        "D"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE875",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "double_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "The genius of the scientific method is that it (i)__________ the dictum of Aristotle that the goal of science is knowledge of the ultimate cause of things. True science, we now know, advances human knowledge by (ii)__________ ultimate causes and focusing instead on the testing of empirical hypotheses.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "qualifies",
+            "B": "jettisons",
+            "C": "affirms"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "ignoring",
+            "E": "predicting",
+            "F": "confirming"
+          }
+        }
+      ],
+      "correct": [
+        "B",
+        "D"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE876",
+      "section": "verbal",
+      "type": "sentence_equivalence",
+      "subtype": "sentence_equivalence",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "At first, most of the famous fairy tales seem so implausible and so irrelevant to contemporary life that their __________ is hard to understand.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "universality",
+            "B": "persistence",
+            "C": "appeal",
+            "D": "ephemerality",
+            "E": "survival",
+            "F": "transience"
+          }
+        }
+      ],
+      "correct": [
+        "B",
+        "E"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE877",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "single_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "The stories in Yiyun Li's recent collection are distinctive particularly for the strong contrast between their emotional intensity and their consistently __________ tone.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "affable",
+            "B": "ebullient",
+            "C": "measured",
+            "D": "irascible",
+            "E": "overwrought"
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE878",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "double_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "So, perhaps the lesson is that rather than wanting their monarchy to (i)__________ its modernized Scandinavian counterparts, the British public cherishes it most when it is most (ii)__________.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "commend",
+            "B": "discount",
+            "C": "emulate"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "egalitarian",
+            "E": "anachronistic",
+            "F": "regal"
+          }
+        }
+      ],
+      "correct": [
+        "C",
+        "E"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE879",
+      "section": "verbal",
+      "type": "sentence_equivalence",
+      "subtype": "sentence_equivalence",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Few ideas are more __________ than the notion that cultures evolve in Darwinian fashion; many academics have begun writing about cultural evolution, but few treat the underlying Darwinian logic with the care it deserves.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "abused",
+            "B": "archaic",
+            "C": "misused",
+            "D": "outdated",
+            "E": "divisive",
+            "F": "derivative"
+          }
+        }
+      ],
+      "correct": [
+        "A",
+        "C"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE880",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "triple_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Although political events in different countries were not (i)__________ in the nineteenth century, their interrelationship was (ii)__________ compared with the present, when interdependence has become far greater. (iii)__________ has ceased to be an option.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "unconnected",
+            "B": "trivial",
+            "C": "simultaneous"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "conditional",
+            "E": "superficial",
+            "F": "transparent"
+          }
+        },
+        {
+          "label": "Blank (iii)",
+          "choices": {
+            "G": "Isolationism",
+            "H": "Resilience",
+            "I": "Idealism"
+          }
+        }
+      ],
+      "correct": [
+        "A",
+        "E",
+        "G"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE881",
+      "section": "verbal",
+      "type": "sentence_equivalence",
+      "subtype": "sentence_equivalence",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Because its previously __________ beliefs had become core tenets of mainstream politics, the activist group disbanded; with no more skeptics to persuade, its purpose had evaporated.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "arcane",
+            "B": "seditious",
+            "C": "quixotic",
+            "D": "idealistic",
+            "E": "popular",
+            "F": "conventional"
+          }
+        }
+      ],
+      "correct": [
+        "C",
+        "D"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE882",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "single_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Common and easily accessible resources—prey for predators or hosts for parasites—should be, all other things being equal, used frequently. Still, some apparently accessible and suitable resources remain __________.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "vulnerable",
+            "B": "unobtainable",
+            "C": "sustainable",
+            "D": "depleted",
+            "E": "unexploited"
+          }
+        }
+      ],
+      "correct": [
+        "E"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE883",
+      "section": "verbal",
+      "type": "sentence_equivalence",
+      "subtype": "sentence_equivalence",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "In a field of egotists, Bloomfield is __________, often praising her competitors and punctuating her correspondence with self-deprecating remarks.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "unassuming",
+            "B": "complimentary",
+            "C": "acerbic",
+            "D": "ingenuous",
+            "E": "cutting",
+            "F": "modest"
+          }
+        }
+      ],
+      "correct": [
+        "A",
+        "F"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE884",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "triple_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "The limitations of human attention cause us to miss much of what goes on around us. The real problem here is that we are often (i)__________ these limitations: we think that we see the world as it really is, but our ostensibly reliable visual experience (ii)__________ striking mental (iii)__________.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "impatient with",
+            "B": "unaware of",
+            "C": "distracted by"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "belies",
+            "E": "unifies",
+            "F": "dispels"
+          }
+        },
+        {
+          "label": "Blank (iii)",
+          "choices": {
+            "G": "feats",
+            "H": "images",
+            "I": "lapses"
+          }
+        }
+      ],
+      "correct": [
+        "B",
+        "D",
+        "I"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE885",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "double_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Knowing how (i)__________ she was at work, her colleagues were surprised at her (ii)__________ throughout the dinner.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "dependable",
+            "B": "diffident",
+            "C": "diligent"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "timidity",
+            "E": "assertiveness",
+            "F": "punctiliousness"
+          }
+        }
+      ],
+      "correct": [
+        "B",
+        "E"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1771",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "double_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "(i) __________ the cumbersome phraseology of contemporary critical theory, her treatise is, stylistically at least, in sharp contrast with the (ii) __________ of the prose she is analyzing—prose reflective of a culture that values extreme linguistic compression.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "Dismissive of",
+            "B": "Replete with",
+            "C": "Indifferent to"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "floridness",
+            "E": "Intricacy",
+            "F": "brevity"
+          }
+        }
+      ],
+      "correct": [
+        "B",
+        "F"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1772",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "double_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "In the early 1990s, the discovery of a new microbe in wastewater led microbiologists to (i)__________ ammonia's conversion to nitrogen compounds. Called anammox (for anaerobic ammonia oxidation), the microbe was converting into nitrogen gas in the absence of oxygen, a reaction previously assumed to be (ii) __________.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "question existing dogma about",
+            "B": "abandon efforts to facilitate",
+            "C": "raise health concerns regarding"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "hazardous",
+            "E": "irreversible",
+            "F": "impossible"
+          }
+        }
+      ],
+      "correct": [
+        "A",
+        "F"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1773",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "single_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Many parents who attended the school board meeting ____________ the fact that emerging social problems in some way affected nearly every pupil at the school; nonetheless, these parents often acted with a view to helping only their own children.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "disregarded",
+            "B": "bemoaned",
+            "C": "ignored",
+            "D": "disputed",
+            "E": "embellished"
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1774",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "triple_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Japan's first university was more (i)_______________ than its Chinese counterparts in the same era, since the Chinese Tang system was highly (ii)_____________. However, this changed over time. As Japanese court offices became increasingly hereditary, the examination system, by which students from a wide range of social classes were admitted into the universities, (iii)____________.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "prestigious",
+            "B": "egalitarian",
+            "C": "profitable"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "aristocratic",
+            "E": "reputable",
+            "F": "unsystematic"
+          }
+        },
+        {
+          "label": "Blank (iii)",
+          "choices": {
+            "G": "became widely utilized",
+            "H": "advantaged the proletariat",
+            "I": "atrophied into insignificance"
+          }
+        }
+      ],
+      "correct": [
+        "B",
+        "D",
+        "I"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1775",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "double_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Translators are becoming less rather than more (i)____________. Few readers are (ii)____________ the person who translates their favorite foreign novelist, even though that person will have a huge influence on the tone and feel of every page.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "contentious",
+            "B": "insignificant",
+            "C": "visible"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "affected by",
+            "E": "content with",
+            "F": "aware of"
+          }
+        }
+      ],
+      "correct": [
+        "C",
+        "F"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1776",
+      "section": "verbal",
+      "type": "sentence_equivalence",
+      "subtype": "sentence_equivalence",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "In this otherwise ____________ study, the internal tensions resulting from the increasing integration of the United States with the world economy are simply mentioned rather than analyzed.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "tedious",
+            "B": "thorough",
+            "C": "biased",
+            "D": "exhaustive",
+            "E": "superficial",
+            "F": "shallow"
+          }
+        }
+      ],
+      "correct": [
+        "B",
+        "D"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1777",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "triple_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "One of the most widespread traits among animals is (i)____________. It runs from (ii)____________, such as yawning when others yawn, to emotional (iii)____________, in which the self resonates with fear or joy when it picks up fear or joy in others.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "selfishness",
+            "B": "wariness",
+            "C": "empathy"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "mimicry",
+            "E": "lethargy",
+            "F": "dissimulation"
+          }
+        },
+        {
+          "label": "Blank (iii)",
+          "choices": {
+            "G": "antagonism",
+            "H": "indifference",
+            "I": "contagion"
+          }
+        }
+      ],
+      "correct": [
+        "C",
+        "D",
+        "I"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1778",
+      "section": "verbal",
+      "type": "sentence_equivalence",
+      "subtype": "sentence_equivalence",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Neuroscientists are discovering that our sensory systems are much more interconnected than previously thought: even in ordinary circumstances, our senses can ____________ one another in extraordinary ways.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "overrule",
+            "B": "bypass",
+            "C": "abet",
+            "D": "improve",
+            "E": "circumvent",
+            "F": "support"
+          }
+        }
+      ],
+      "correct": [
+        "C",
+        "F"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1779",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "triple_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Precipitate interest in Jennifer Francis's theory that anomalously rapid warming of the Arctic disrupts weather patterns in temperate latitudes has (i)____________ the normal life cycle of a scientific controversy. Usually data are compiled, hypothesis is tested, and conclusions might then become news if deemed solid. Because Francis's idea links climate change to severe weather, it resonated immediately with the media and the public, and Francis has been forced to (ii)____________ before the scientific process has been (iii)____________.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "extended",
+            "B": "inverted",
+            "C": "subsumed"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "defend her findings",
+            "E": "challenge her colleagues",
+            "F": "withdraw her supposition"
+          }
+        },
+        {
+          "label": "Blank (iii)",
+          "choices": {
+            "G": "evaluated",
+            "H": "qualified",
+            "I": "concluded"
+          }
+        }
+      ],
+      "correct": [
+        "B",
+        "D",
+        "G"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1780",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "triple_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "In general, observational studies tend to (i)____________ the effect of diet on overall health because a healthy diet is often (ii)____________ a healthy lifestyle. People who watch what they eat probably exercise more, avoid smoking, and follow other behaviors (iii)____________ good health. Any of those behaviors might also help explain why these people have lower disease rates.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "overstate",
+            "B": "clarify",
+            "C": "discount"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "irrelevant to",
+            "E": "a marker for",
+            "F": "a substitute for"
+          }
+        },
+        {
+          "label": "Blank (iii)",
+          "choices": {
+            "G": "caused by",
+            "H": "unrelated to",
+            "I": "linked to"
+          }
+        }
+      ],
+      "correct": [
+        "A",
+        "E",
+        "I"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1781",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "single_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Though her works demonstrate a remarkable dexterity and command of technique with oil paint, as an artist Mangala Bai Thampuratty (1866–1953) was not ____________, having produced only a few paintings.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "influential",
+            "B": "prolific",
+            "C": "innovative",
+            "D": "eclectic",
+            "E": "proficient"
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1782",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "double_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "The (i)____________ of Polish immigration to Brazil are easy to (ii)____________, since at the time of the first Polish arrivals, in the nineteenth century, Poland was partitioned, which resulted in many ethnic Poles carrying German, Russian, or Prussian passports.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "historical contexts",
+            "B": "cultural ramifications",
+            "C": "cumulative volumes"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "misjudge",
+            "E": "justify",
+            "F": "predict"
+          }
+        }
+      ],
+      "correct": [
+        "C",
+        "D"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1783",
+      "section": "verbal",
+      "type": "sentence_equivalence",
+      "subtype": "sentence_equivalence",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "The convergence of two disparate sciences allows the imagining of new questions that cannot be addressed by knowledge and techniques ____________ either field.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "pioneered by",
+            "B": "sequestered within",
+            "C": "unsuitable for",
+            "D": "unique to",
+            "E": "crucial for",
+            "F": "important to"
+          }
+        }
+      ],
+      "correct": [
+        "B",
+        "D"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1784",
+      "section": "verbal",
+      "type": "sentence_equivalence",
+      "subtype": "sentence_equivalence",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Though ____________ in his musical expression, the American jazz bassist and composer Charles Mingus eventually developed a personal voice that proved to be much more than a simple mixture of jazz styles.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "eclectic",
+            "B": "idiosyncratic",
+            "C": "uncompromising",
+            "D": "virtuosic",
+            "E": "wide-ranging",
+            "F": "relentless"
+          }
+        }
+      ],
+      "correct": [
+        "A",
+        "E"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1785",
+      "section": "verbal",
+      "type": "sentence_equivalence",
+      "subtype": "sentence_equivalence",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Despite growing evidence of a positive association between consumption of whole grains and long-term health, a research gap exists between observational studies and the elucidation of the mechanism involved, mechanisms that in some cases are still quite____________.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "ineffective",
+            "B": "speculative",
+            "C": "unproductive",
+            "D": "obscure",
+            "E": "unsubstantiated",
+            "F": "controversial"
+          }
+        }
+      ],
+      "correct": [
+        "B",
+        "D"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1786",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "triple_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Despite the (i)____________ nature of contemporary science, the (ii)____________ of many individuals (iii)____________: the work of women and minority scientists has too often been exploited or deemed rudimentary and unworthy of inclusion into science history books.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "collaborative",
+            "B": "controversial",
+            "C": "sophisticated"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "motivations",
+            "E": "contributions",
+            "F": "idiosyncrasies"
+          }
+        },
+        {
+          "label": "Blank (iii)",
+          "choices": {
+            "G": "manifest themselves",
+            "H": "point to a solution",
+            "I": "remain overlooked"
+          }
+        }
+      ],
+      "correct": [
+        "A",
+        "E",
+        "I"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1787",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "triple_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "The message in Kaku's new book might be encouraging, but it is a shame that it is delivered in a rather (i)____________ manner: the book is never (ii)____________, but there is (iii)____________ that quickly becomes wearying. Every innovation or gadget has to be likened to something in film, as if we were incapable of understanding these things without endless prodding.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "speculative",
+            "B": "joking",
+            "C": "pedestrian"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "clear in its aims",
+            "E": "far from insipidity",
+            "F": "less than readable"
+          }
+        },
+        {
+          "label": "Blank (iii)",
+          "choices": {
+            "G": "an obscurity",
+            "H": "a repetitiveness",
+            "I": "a tendentiousness"
+          }
+        }
+      ],
+      "correct": [
+        "C",
+        "F",
+        "H"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1788",
+      "section": "verbal",
+      "type": "sentence_equivalence",
+      "subtype": "sentence_equivalence",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Though Edmurd certainly had a dignified bearing and made a great first impression, those who became acquainted with him soon realized he had an essentially ____________ nature.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "pugnacious",
+            "B": "deliberate",
+            "C": "punctilious",
+            "D": "courteous",
+            "E": "complacent",
+            "F": "truculent"
+          }
+        }
+      ],
+      "correct": [
+        "A",
+        "F"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1789",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "single_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "The author argues that the coinage was ____________ by the medieval practice of 'clipping' of coins, or shaving off the edges to save the silver.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "debased",
+            "B": "ameliorated",
+            "C": "exaggerated",
+            "D": "promulgated",
+            "E": "forged"
+          }
+        }
+      ],
+      "correct": [
+        "A"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1790",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "double_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "The geographer held a (i)____________ view of the succession of theoretical trends (environmental determinism, spatial determinism, and various types of critical theory) in her field, maintaining that theory can (ii)____________ what is transpiring in a complex environment by focusing excessively on the favored schemes and variables of the moment.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "self-contradictory",
+            "B": "sanguine",
+            "C": "deprecatory"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "exacerbate",
+            "E": "obfuscate",
+            "F": "magnify"
+          }
+        }
+      ],
+      "correct": [
+        "C",
+        "E"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1791",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "triple_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Although Sapir and Whorf's notion that different languages may impart different cognitive skills met with (i)____________ early on, they had little evidence to support their claim. By the 1970s many scientists had become (ii)____________ their hypothesis, and it was largely (iii)____________ as a new set of theories claiming that language and thought are universal came to dominate the field.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "skepticism",
+            "B": "excitement",
+            "C": "controversy"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "convinced of",
+            "E": "disenchanted with",
+            "F": "inured to"
+          }
+        },
+        {
+          "label": "Blank (iii)",
+          "choices": {
+            "G": "revived",
+            "H": "corroborated",
+            "I": "abandoned"
+          }
+        }
+      ],
+      "correct": [
+        "B",
+        "E",
+        "I"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1792",
+      "section": "verbal",
+      "type": "sentence_equivalence",
+      "subtype": "sentence_equivalence",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Myth and orality are ____________ in Africa: the former is ubiquitous in the African oral literary tradition, while the latter is almost always based on the former.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "interdependent",
+            "B": "didactic",
+            "C": "sententious",
+            "D": "paramount",
+            "E": "symbiotic",
+            "F": "ancient"
+          }
+        }
+      ],
+      "correct": [
+        "A",
+        "E"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1793",
+      "section": "verbal",
+      "type": "sentence_equivalence",
+      "subtype": "sentence_equivalence",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "By 1600, France's sense of itself as a nation bound by a shared destiny was ____________, but over the course of the seventeenth century French culture regained the strength it had had in the Middle Ages.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "absent",
+            "B": "innocuous",
+            "C": "benign",
+            "D": "unique",
+            "E": "precarious",
+            "F": "uncertain"
+          }
+        }
+      ],
+      "correct": [
+        "E",
+        "F"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1794",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "triple_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Why is the idea that self-deception contributes to happiness so (i)____________? The (ii)____________ of self-deception leads people to assume that it must have some function, that it is, in fact, adaptive in the sense that it helps us survive and thrive. But one could (iii)____________ by arguing that the capacity for self-deception is actually only a by-product of other features of the human mind that are beneficial for reasons other than their being implicated in producing self-deception.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "irrational",
+            "B": "repugnant",
+            "C": "attractive"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "triviality",
+            "E": "prevalence",
+            "F": "hazardousness"
+          }
+        },
+        {
+          "label": "Blank (iii)",
+          "choices": {
+            "G": "counter this logic",
+            "H": "dodge this question",
+            "I": "revitalize this theory"
+          }
+        }
+      ],
+      "correct": [
+        "C",
+        "E",
+        "G"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1795",
+      "section": "verbal",
+      "type": "sentence_equivalence",
+      "subtype": "sentence_equivalence",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "The author illustrates her book about mid-nineteenth-century Paris with photographs revealing the ____________ conditions that prevailed in the city: sewage can be seen draining onto streets lined with crumbling buildings.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "dreary",
+            "B": "ambiguous",
+            "C": "obscure",
+            "D": "noxious",
+            "E": "ramshackle",
+            "F": "insalubrious"
+          }
+        }
+      ],
+      "correct": [
+        "D",
+        "F"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1796",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "double_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "We won't know what the voters do until they do it, and this is a good time to recall that the accuracy of polls and prognostications depends on who votes. But defying expectations, the electorate seems poised to (i)____________ a number of political tenets so (ii)____________ that they are paraded as fact.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "propound",
+            "B": "reject",
+            "C": "uphold"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "entrenched",
+            "E": "intricate",
+            "F": "tenable"
+          }
+        }
+      ],
+      "correct": [
+        "B",
+        "D"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1797",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "double_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Technocrats and managers cloak contestable value judgements in the garb of 'science': thus the (i)____________ mathematical models that reframe (ii)____________ conclusions (such as the worth of a worker, service, article, or product) as the inevitable dictate of salient, measurable data.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "insatiable demand for",
+            "B": "manifest cynicism toward",
+            "C": "ambivalent faith in"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "trivial",
+            "E": "subjective",
+            "F": "foregone"
+          }
+        }
+      ],
+      "correct": [
+        "A",
+        "E"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1798",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "triple_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Whatever the level of the museum's past (i)____________ American art, it pales beside its current (ii) ____________. Since opening its renovated and expanded building, the museum has relegated American paintings to hard-to-find corners of the museum. It is as if American art is (iii) ____________ the overwhelmingly European narrative that dominates the permanent collection galleries.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "enthusiasm for",
+            "B": "advocacy of",
+            "C": "neglect of"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "craze",
+            "E": "disdain",
+            "F": "support"
+          }
+        },
+        {
+          "label": "Blank (iii)",
+          "choices": {
+            "G": "fundamental to",
+            "H": "excluded from",
+            "I": "privileged over"
+          }
+        }
+      ],
+      "correct": [
+        "A",
+        "E",
+        "H"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1799",
+      "section": "verbal",
+      "type": "sentence_equivalence",
+      "subtype": "sentence_equivalence",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "At first glance, the new CEO stands in stark contrast to his predecessor: while Simpkins came across as a scolding headmaster, his successor appears ____________.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "blithe",
+            "B": "judicious",
+            "C": "scrupulous",
+            "D": "winsome",
+            "E": "bland",
+            "F": "modest"
+          }
+        }
+      ],
+      "correct": [
+        "A",
+        "D"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1800",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "triple_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "The essays in this collection, which explore the adaptation of literary texts to film, all (i)____________ the view that the fidelity of film adaptations to their literary precursors is (ii)____________. In fact, the authors of these essays broadly concur that an emphasis on fidelity in film adaptations can be traced to an outmoded academic ideology that insistently prizes the literary in a way that (iii)____________ the value of the cinematic.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "contest",
+            "B": "reinforce",
+            "C": "sidestep"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "impossible to achieve",
+            "E": "a measure of success",
+            "F": "difficult to recognize"
+          }
+        },
+        {
+          "label": "Blank (iii)",
+          "choices": {
+            "G": "echoes",
+            "H": "enhances",
+            "I": "subordinates"
+          }
+        }
+      ],
+      "correct": [
+        "A",
+        "E",
+        "I"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1801",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "double_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Some researchers and educators have (i)____________ the argument for hands-on learning, (ii)____________ that a more straightforward approach—known as direct instruction—has potential to help students learn more effectively.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "challenged",
+            "B": "evaluated",
+            "C": "refined"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "conceding",
+            "E": "maintaining",
+            "F": "pretending"
+          }
+        }
+      ],
+      "correct": [
+        "A",
+        "E"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1802",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "double_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Confidence in the nation's finances, barely nailed together by international financial institutions a few weeks ago, is still such a (i)____________ structure that the slightest disturbance could set it (ii)____________.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "ramshackle",
+            "B": "labyrinthine",
+            "C": "rigid"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "quivering",
+            "E": "ablaze",
+            "F": "right"
+          }
+        }
+      ],
+      "correct": [
+        "A",
+        "D"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1803",
+      "section": "verbal",
+      "type": "sentence_equivalence",
+      "subtype": "sentence_equivalence",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "The negotiations would feature J.P. Morgan in his most famously ____________ mode: knocking heads together, barking out prices for properties, and forcing titans to truckle to his will.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "quixotic",
+            "B": "eccentric",
+            "C": "histrionic",
+            "D": "theatrical",
+            "E": "chivalrous",
+            "F": "gallant"
+          }
+        }
+      ],
+      "correct": [
+        "C",
+        "D"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1804",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "double_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Once Plowright's research is complete, she will be prepared to talk about it (i)____________, but for now, because she is discussing theories rather than facts and does not want to commit herself to an unsubstantiated claim, she prefers to make only the most (ii)____________ comments.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "authoritatively",
+            "B": "tentatively",
+            "C": "extemporaneously"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "provisional",
+            "E": "prescient",
+            "F": "germane"
+          }
+        }
+      ],
+      "correct": [
+        "A",
+        "D"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1805",
+      "section": "verbal",
+      "type": "sentence_equivalence",
+      "subtype": "sentence_equivalence",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Dogs' intake of olfactory information is less ____________ than that of humans because dogs exhale through the side slits of their nostrils, keeping a continuous flow of inhaled air in their snouts for smelling.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "strenuous",
+            "B": "mediated",
+            "C": "punctuated",
+            "D": "indirect",
+            "E": "deliberate",
+            "F": "Intermittent"
+          }
+        }
+      ],
+      "correct": [
+        "C",
+        "F"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1806",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "double_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "In a nation that has been reeling from one weather or climate disaster to another, with record tornado outbreaks, landfalling tropical storms and superstorms, record winter snowfalls, and severe droughts, persistent droughts appear almost (i)____________. They (ii)____________ of floods and storms, appearing instead slow-moving disasters whose beginnings and ends are even often hard to identify.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "incessant",
+            "B": "prosaic",
+            "C": "baneful"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "eclipse the devastating force",
+            "E": "lack the violent destructiveness",
+            "F": "underscore the benignity"
+          }
+        }
+      ],
+      "correct": [
+        "B",
+        "E"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1807",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "triple_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Surrealism sought to (i)____________ precisely the impulses that traditional or generally accepted thinking had (ii)____________. It was after instinctive, irrational awarenesses, which might come from dreams, or from accepting results derived by chance—or from a receptivity to what is taboo—that could (iii)____________ our sense of everyday reality.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "augment",
+            "B": "conceal",
+            "C": "affirm"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "marginalized",
+            "E": "assimilated",
+            "F": "propagated"
+          }
+        },
+        {
+          "label": "Blank (iii)",
+          "choices": {
+            "G": "reflect",
+            "H": "unsettle",
+            "I": "undergird"
+          }
+        }
+      ],
+      "correct": [
+        "A",
+        "D",
+        "H"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1808",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "triple_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Here is a basic point: reading itself a fundamentally (i)____________ act. Anyone who has ever taught a child to read will remember the difficulty involved in distinguishing, for instance, between lowercase b, d and p. After all, if you move them around or flip them over, they (ii)____________. We have to be taught to see them only as they appear, flat unnatural, upon the printed page. And we have to be taught also to (iii)____________ not just a few of these odd marks but the thousands that go into telling even the simplest children's story.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "substantial",
+            "B": "expanding",
+            "C": "unnatural"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "are the same",
+            "E": "become inexplicable",
+            "F": "are easily distinguishable"
+          }
+        },
+        {
+          "label": "Blank (iii)",
+          "choices": {
+            "G": "reverse",
+            "H": "combine",
+            "I": "comprehend"
+          }
+        }
+      ],
+      "correct": [
+        "C",
+        "G",
+        "I"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1809",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "triple_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "History is about recognizing continuities and therefore the historian must (i)____________ stories that rope together the disparate worlds of past and present. But it is also true that honest history arises from a sense of (ii)____________. It is the experience of discontinuity that alerts us to the (iii)____________ of the past and sets us looking for narratives to capture that unfamiliar entity.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "weave",
+            "B": "shun",
+            "C": "untangle"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "interruptedness",
+            "E": "powerlessness",
+            "F": "imperiousness"
+          }
+        },
+        {
+          "label": "Blank (iii)",
+          "choices": {
+            "G": "inexorableness",
+            "H": "strangeness",
+            "I": "lucidity"
+          }
+        }
+      ],
+      "correct": [
+        "A",
+        "D",
+        "H"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1810",
+      "section": "verbal",
+      "type": "sentence_equivalence",
+      "subtype": "sentence_equivalence",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "By eating tiny organisms and incorporating their prey's nutrients into their own bodies, large insects become 'nutrient packages' for larger insectivores for whom the pursuit of tiny organisms would be ____________.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "unwieldy",
+            "B": "insalubrious",
+            "C": "unremunerative",
+            "D": "unnecessary",
+            "E": "inopportune",
+            "F": "unprofitable"
+          }
+        }
+      ],
+      "correct": [
+        "C",
+        "F"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1811",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "triple_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "During the 1950s and 1960s, theory-minded neoclassical economists came to (i)____________ the field of labor economics, pushing their more fact-oriented colleagues to the margins. In more recent years, the theorists have become interested in just the sort of (ii)____________ issues they once associated with other economists and whose study they once (iii)____________.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "dominate",
+            "B": "popularize",
+            "C": "respect"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "notional",
+            "E": "quotidian",
+            "F": "unexamined"
+          }
+        },
+        {
+          "label": "Blank (iii)",
+          "choices": {
+            "G": "disdained",
+            "H": "monopolized",
+            "I": "promulgated"
+          }
+        }
+      ],
+      "correct": [
+        "A",
+        "E",
+        "G"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1812",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "single_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Contrary to what might be expected, having numerous relationships is not necessarily a ____________ loneliness since loneliness is determined by the way people experience relationships subjectively.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "measure of",
+            "B": "bulwark against",
+            "C": "catalyst for",
+            "D": "consequence of",
+            "E": "substitute for"
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1813",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "triple_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "George Eliot's biographer can be highly inventive, but, at the same time, somewhat (i)____________ in her approach to Eliot. She will hoist an alluring psychological flag concerning Eliot and then scrupulously take it down again, because the evidence will not serve to (ii)____________ it. But she takes it down only after it has taken an entirely (iii)____________ flutter in the breeze.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "sentimental",
+            "B": "irresponsible",
+            "C": "reproachful"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "embroider",
+            "E": "discount",
+            "F": "support"
+          }
+        },
+        {
+          "label": "Blank (iii)",
+          "choices": {
+            "G": "unwarranted",
+            "H": "accidental",
+            "I": "justified"
+          }
+        }
+      ],
+      "correct": [
+        "B",
+        "F",
+        "G"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1814",
+      "section": "verbal",
+      "type": "sentence_equivalence",
+      "subtype": "sentence_equivalence",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "In the ancient world, preferences concerning perfumery were ____________: the Roman author Pliny noted that the popular iris perfume of Corinth was eventually supplanted by a succession of other fragrances.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "idiosyncratic",
+            "B": "anomalous",
+            "C": "ephemeral",
+            "D": "eccentric",
+            "E": "transitory",
+            "F": "arbitrary"
+          }
+        }
+      ],
+      "correct": [
+        "C",
+        "E"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1815",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "single_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Baron's book implores scientists to present their work in ways that are accessible to the general public in order to save the world at large from scientific illiteracy, ______________ that is echoed in other recent publications.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "a query",
+            "B": "an analysis",
+            "C": "an exhortation",
+            "D": "an allurement",
+            "E": "an implication"
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1816",
+      "section": "verbal",
+      "type": "sentence_equivalence",
+      "subtype": "sentence_equivalence",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "The fact that no single Cantonese dictionary is seen as ____________ is one of the main reasons why most Hong Kong authors do not depend on formal reference tools when writing in Cantonese.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "dependable",
+            "B": "authoritative",
+            "C": "meticulous",
+            "D": "definitive",
+            "E": "topical",
+            "F": "comprehensive"
+          }
+        }
+      ],
+      "correct": [
+        "B",
+        "D"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1817",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "single_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Research indicates that the habitat ____________ commonly observed for meadow voles and prairie voles living in a single ecosystem results primarily from species differences in habitat tolerance, with interspecific competition playing a lesser role.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "degradation",
+            "B": "alteration",
+            "C": "saturation",
+            "D": "complexity",
+            "E": "segregation"
+          }
+        }
+      ],
+      "correct": [
+        "E"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1818",
+      "section": "verbal",
+      "type": "sentence_equivalence",
+      "subtype": "sentence_equivalence",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Although workers are eager to believe rumors that the manufacturer plans to invest in modernizing the local plant, the troubled auto company has made no public commitment that would ____________ the plant's future.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "illuminate",
+            "B": "endanger",
+            "C": "jeopardize",
+            "D": "affect",
+            "E": "clarify",
+            "F": "secure"
+          }
+        }
+      ],
+      "correct": [
+        "A",
+        "E"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1819",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "single_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "The phrase 'right to privacy' is used to refer to a variety of conflicting interests that are not easily subsumed under one definition—with the result that the meaning of the phrase itself has become quite ____________.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "archaic",
+            "B": "nebulous",
+            "C": "incendiary",
+            "D": "platitudinous",
+            "E": "plenitudinous"
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1820",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "triple_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Herbivorous vertebrates often influence the relative (i)____________ of plants with differing palatability within an ecosystem, even though their impact on system-level plant biomass is generally (ii)____________: predators control herbivore numbers, ensuring that the surviving herbivores have (iii)____________ marginally edible plants.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "abundance",
+            "B": "hardiness",
+            "C": "notoriousness"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "uncertain",
+            "E": "irreversible",
+            "F": "negligible"
+          }
+        },
+        {
+          "label": "Blank (iii)",
+          "choices": {
+            "G": "some ability to detect",
+            "H": "few reasons to avoid",
+            "I": "no need to consume"
+          }
+        }
+      ],
+      "correct": [
+        "A",
+        "F",
+        "I"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1821",
+      "section": "verbal",
+      "type": "sentence_equivalence",
+      "subtype": "sentence_equivalence",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Orbiting Jupiter just beyond Europa, the giant moon Ganymede—bigger than the planet Mercury—appears rather ____________ on the outside, but it may be warm and active within.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "desiccated",
+            "B": "forbidding",
+            "C": "weathered",
+            "D": "inert",
+            "E": "adamant",
+            "F": "dormant"
+          }
+        }
+      ],
+      "correct": [
+        "D",
+        "F"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1822",
+      "section": "verbal",
+      "type": "sentence_equivalence",
+      "subtype": "sentence_equivalence",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Producers are concerned about Broadway theater's economic straits, which, even setting aside current woe, could ____________ difficulty raising money for future productions.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "presage",
+            "B": "foretell",
+            "C": "preclude",
+            "D": "exacerbate",
+            "E": "belie",
+            "F": "prevent"
+          }
+        }
+      ],
+      "correct": [
+        "A",
+        "B"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1837a",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "triple_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Pine stumps have been found in discrete layers in peat deposits throughout western Europe and thus represent brief but distinct episodes of bog colonization by pine. Their occurrence implies conditions on the bog surface suitable for colonization, followed by inhospitable conditions for trees that nevertheless facilitated preservation of stumps. Thus, the (i)____________ of pine stumps can (ii)____________ climate change, by (iii)____________ the inference that bog surfaces had dried sufficiently to allow colonization and then became too wet to support the trees.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "loss",
+            "B": "resilience",
+            "C": "presence"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "proceed undetected by",
+            "E": "vary independently of",
+            "F": "function as a proxy for"
+          }
+        },
+        {
+          "label": "Blank (iii)",
+          "choices": {
+            "G": "supporting",
+            "H": "repudiating",
+            "I": "articulating"
+          }
+        }
+      ],
+      "correct": [
+        "C",
+        "F",
+        "I"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1824",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "triple_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Conservationists have proposed various strategies for tropical forest management, but after examining the ecology and economies of mahogany logging in Bolivia, a team of researchers recently concluded that most well-meaning efforts have slim chances for success and could even (i)____________. Not only is sustainable forestry management financially (ii)____________, they say, but adopting such methods could (iii)____________ forest damage.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "commence",
+            "B": "backfire",
+            "C": "flourish"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "compelling",
+            "E": "unattractive",
+            "F": "pragmatic"
+          }
+        },
+        {
+          "label": "Blank (iii)",
+          "choices": {
+            "G": "mitigate",
+            "H": "nullify",
+            "I": "increase"
+          }
+        }
+      ],
+      "correct": [
+        "B",
+        "E",
+        "I"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1825",
+      "section": "verbal",
+      "type": "sentence_equivalence",
+      "subtype": "sentence_equivalence",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Stacy Schiff, in Cleopatra: A Life, strips away the accretions of myth that have built up around the legendary figure and plucks off the imaginative embroiderings of Shakespeare, Shaw and Elizabeth Taylor.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "denigrates",
+            "B": "elucidates",
+            "C": "embellishes",
+            "D": "aggrandizes",
+            "E": "demystifies",
+            "F": "manipulates"
+          }
+        }
+      ],
+      "correct": [
+        "B",
+        "E"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1826",
+      "section": "verbal",
+      "type": "sentence_equivalence",
+      "subtype": "sentence_equivalence",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Whereas ground-based interferometers detect astrophysical events briefly and infrequently, space-based ones should hear a ____________ of signals as soon as they turn on, including a constant chorus from binary white dwarfs in our galaxy.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "smattering",
+            "B": "plethora",
+            "C": "profusion",
+            "D": "trickle",
+            "E": "range",
+            "F": "hum"
+          }
+        }
+      ],
+      "correct": [
+        "B",
+        "C"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1827",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "double_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Those who knew the senator well were convinced that in spite of his (i)____________ in larger political matters, there was no (ii)____________ in his expressions of feeling for his constituents.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "candor",
+            "B": "duplicity",
+            "C": "cooperation"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "dissemblance",
+            "E": "compassion",
+            "F": "fervency"
+          }
+        }
+      ],
+      "correct": [
+        "B",
+        "D"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1828",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "double_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Although its (i)____________ is (ii)____________, the musical style known as 'ragtime' has most often been described as an amalgamation of African American music with European forms.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "artistic diversity",
+            "B": "commercial appeal",
+            "C": "precise definition"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "exogenous",
+            "E": "settled",
+            "F": "elusive"
+          }
+        }
+      ],
+      "correct": [
+        "C",
+        "F"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1829",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "double_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Scientists have (i)____________ evidence to suggest a cause for the failure of the horse to become the predominant herbivore in central Alberta following glacial recession. A loss of optimal food resources was been cited as a possible cause of the decline of horse populations elsewhere, but the Albertan vegetation data for the period are (ii)____________.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "extensive",
+            "B": "little direct",
+            "C": "familiar"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "circumstantial",
+            "E": "misleading",
+            "F": "conflicting"
+          }
+        }
+      ],
+      "correct": [
+        "B",
+        "F"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1830",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "triple_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Direct imaging cannot yet be done for a terrestrial exoplanet because of the daunting optics challenges. For one thing, the glow of a terrestrial exoplanet could be much more (i)____________ than that of its host star. If this is the case, scientists would have to (ii)____________ much of the host star's light to (iii)____________ the exoplanet.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "intense",
+            "B": "uniform",
+            "C": "faint"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "detect",
+            "E": "occult",
+            "F": "measure"
+          }
+        },
+        {
+          "label": "Blank (iii)",
+          "choices": {
+            "G": "shroud",
+            "H": "analyze",
+            "I": "reveal"
+          }
+        }
+      ],
+      "correct": [
+        "C",
+        "E",
+        "I"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1831",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "single_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "In early twentieth-century India, the claim that films from the West screened by 'first-class theaters' were exclusively 'high-class features' was ____________, since a film's being screened by such theaters was interpreted as a confirmation of quality.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "controversial",
+            "B": "paradoxical",
+            "C": "anachronistic",
+            "D": "tautological",
+            "E": "prescient"
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1832",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "double_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Dr. Oransky and Mr. Marcus are partisans who editorialize sharply against poor oversight and vague retraction notices, yet their focus on evidence over accusations (i)____________ watchdog forerunners who sometimes seemed (ii)____________ personal animus.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "aligns them with",
+            "B": "exposes them to",
+            "C": "distinguishes them from"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "indifferent to",
+            "E": "motivated by",
+            "F": "appalled at"
+          }
+        }
+      ],
+      "correct": [
+        "C",
+        "E"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1833",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "triple_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Ultimately, the young idealists (i)____________ the society they so fervently desired to reform: in their frustration, they reacted to the immediate situation by removing themselves from the postwar social and political arena, where the future of their country was being decided. In doing so, they (ii)____________ the salutary effects their rebellion should have (iii)____________.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "were able to captivate",
+            "B": "paid excessive tribute to",
+            "C": "did a great disservice to"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "publicized",
+            "E": "nullified",
+            "F": "eschewed"
+          }
+        },
+        {
+          "label": "Blank (iii)",
+          "choices": {
+            "G": "subverted",
+            "H": "begotten",
+            "I": "superseded"
+          }
+        }
+      ],
+      "correct": [
+        "C",
+        "E",
+        "H"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1834",
+      "section": "verbal",
+      "type": "sentence_equivalence",
+      "subtype": "sentence_equivalence",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "For wily political press officers, the art of spin is not quite supplanting truth with lies, but instead it aspires to replace awkward complexity with catchy ____________; successful spin creates the impression of unavoidable common sense.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "novelties",
+            "B": "slogans",
+            "C": "falsehoods",
+            "D": "duplicity",
+            "E": "simplicity",
+            "F": "intelligibility"
+          }
+        }
+      ],
+      "correct": [
+        "E",
+        "F"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1835",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "triple_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Castillo's apparently inexhaustible posthumous career is about to have a significant second act: the large number of books written by Castillo already available is soon to double. While this prospect is bound to thrill many readers, we might (i)____________ our excitement with the recognition that when it comes to publishing the dead, the best is not often saved for last. Given the remarkable (ii)____________ of Castillo's publications to date, it seems unlikely that any of the looming titles could (iii)____________ the masterpieces we already know.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "convey",
+            "B": "temper",
+            "C": "amplify"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "abstruseness",
+            "E": "vacuity",
+            "F": "virtuosity"
+          }
+        },
+        {
+          "label": "Blank (iii)",
+          "choices": {
+            "G": "equal",
+            "H": "outsell",
+            "I": "undermine"
+          }
+        }
+      ],
+      "correct": [
+        "B",
+        "F",
+        "G"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1836",
+      "section": "verbal",
+      "type": "sentence_equivalence",
+      "subtype": "sentence_equivalence",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Although the use of cameras to study animal behavior was certainly not ____________, cameras were nevertheless not used to study individual frogs in their natural habitat until 2009.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "ideal",
+            "B": "unprecedented",
+            "C": "laborious",
+            "D": "impractical",
+            "E": "novel",
+            "F": "perfect"
+          }
+        }
+      ],
+      "correct": [
+        "B",
+        "E"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1837b",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "double_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "In light of Elizabeth's habitually (i)____________ nature, her friends were quite surprised by her (ii)____________ at the convention.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "ingenuous",
+            "B": "laconic",
+            "C": "intractable"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "garrulity",
+            "E": "ostentatiousness",
+            "F": "tenacity"
+          }
+        }
+      ],
+      "correct": [
+        "B",
+        "D"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1838",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "double_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "The (i)____________ of preserved plant remains found by archaeologists at late Pleistocene Paleoindian sites led them to hypothesize a Paleoindian lifestyle in which hunting (ii)____________ gathering, but it now appears that excavation techniques skewed the findings, leading to an underestimation of the use of plant foods.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "paucity",
+            "B": "ubiquity",
+            "C": "diversity"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "was succeeded by",
+            "E": "took precedence over",
+            "F": "merely supplemented"
+          }
+        }
+      ],
+      "correct": [
+        "A",
+        "E"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1839",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "single_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "Modern monetary systems are built on nothing more than governments' support of and people's faith in them; money is, in other words, a complete ____________.",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "encumbrance",
+            "B": "necessity",
+            "C": "abstraction",
+            "D": "anachronism",
+            "E": "misnomer"
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
+    },
+    {
+      "id": "TCSE1840",
+      "section": "verbal",
+      "type": "text_completion",
+      "subtype": "triple_blank",
+      "difficulty": "medium",
+      "set": null,
+      "passage": null,
+      "stem": "When there is less natural dust blowing into eastern China, the air quality for millions of people there (i)____________: natural dust plays an important role in determining air temperatures and thereby promotes winds to (ii)____________ human-made pollution. Less natural dust, therefore, means the air becomes (iii)____________, with pollution becoming more concentrated and sticking around longer.",
+      "blanks": [
+        {
+          "label": "Blank (i)",
+          "choices": {
+            "A": "worsens",
+            "B": "fluctuates",
+            "C": "Improves"
+          }
+        },
+        {
+          "label": "Blank (ii)",
+          "choices": {
+            "D": "accumulate",
+            "E": "exacerbate",
+            "F": "disperse"
+          }
+        },
+        {
+          "label": "Blank (iii)",
+          "choices": {
+            "G": "more unsettled",
+            "H": "increasingly stagnant",
+            "I": "less stable"
+          }
+        }
+      ],
+      "correct": [
+        "A",
+        "F",
+        "H"
+      ],
+      "explanation": "",
+      "source": "TCSE_v30_v2"
     }
   ],
   "quant": [

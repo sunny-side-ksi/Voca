@@ -180,6 +180,7 @@ div[data-testid="stProgressBar"] > div > div {
     font-size: 0.93rem;
     color: #374151;
     line-height: 1.9;
+    white-space: pre-wrap;
 }
 .stem-box {
     background: #fff;
