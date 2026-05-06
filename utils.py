@@ -167,6 +167,7 @@ div[data-testid="stProgressBar"] > div > div {
 .b-mc  { background: #ECFDF5; color: #065F46; }
 .b-mcm { background: #FDF4FF; color: #6B21A8; }
 .b-ne  { background: #FFF7ED; color: #9A3412; }
+.b-test { background: #FDF4FF; color: #6B21A8; }
 
 /* ═══════════════════════════════════════════════════
    VERBAL — passage & stem

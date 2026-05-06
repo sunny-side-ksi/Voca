@@ -1,9 +1,11 @@
 """GRE Verbal Reasoning Practice — TC, SE, RC"""
 import json
 import random
+import time
 from pathlib import Path
 
 import streamlit as st
+import streamlit.components.v1 as components
 
 from utils import inject_css, esc
 
@@ -18,16 +20,19 @@ TYPE_LABEL = {
     "text_completion":       "Text Completion",
     "sentence_equivalence":  "Sentence Equivalence",
     "reading_comprehension": "Reading Comprehension",
+    "test":                  "Test (모의고사)",
 }
 TYPE_CSS = {
     "text_completion":       "b-tc",
     "sentence_equivalence":  "b-se",
     "reading_comprehension": "b-rc",
+    "test":                  "b-test",
 }
 TYPE_SHORT = {
     "text_completion": "TC",
     "sentence_equivalence": "SE",
     "reading_comprehension": "RC",
+    "test": "TEST",
 }
 
 
@@ -71,6 +76,23 @@ def count_total_q(items):
     return n
 
 
+def build_test_items(all_q, n_test):
+    """Test 모드: TC/SE/RC 비례 샘플링 (12Q=5+2+5, 15Q=6+3+6)"""
+    if n_test == 12:
+        tc_n, se_n, rc_n = 5, 2, 5
+    else:
+        tc_n, se_n, rc_n = 6, 3, 6
+    tc_pool = [q for q in all_q if q["type"] == "text_completion"]
+    se_pool = [q for q in all_q if q["type"] == "sentence_equivalence"]
+    rc_pool = [q for q in all_q if q["type"] == "reading_comprehension"]
+    sampled = (
+        random.sample(tc_pool, min(tc_n, len(tc_pool))) +
+        random.sample(se_pool, min(se_n, len(se_pool))) +
+        random.sample(rc_pool, min(rc_n, len(rc_pool)))
+    )
+    return build_items(sampled)
+
+
 def reset_session():
     for k in list(st.session_state.keys()):
         if k.startswith("vp_"):
@@ -86,35 +108,64 @@ with st.sidebar:
     st.markdown("## 📝 Verbal")
     st.markdown('<hr class="sdiv">', unsafe_allow_html=True)
 
-    sel_diff = st.multiselect(
-        "난이도", options=["easy", "medium", "hard"],
-        default=["easy", "medium", "hard"],
-        format_func=lambda x: DIFF_LABEL[x],
-    )
     sel_type = st.multiselect(
         "문제 유형",
-        options=["text_completion", "sentence_equivalence", "reading_comprehension"],
+        options=["text_completion", "sentence_equivalence", "reading_comprehension", "test"],
         default=["text_completion", "sentence_equivalence", "reading_comprehension"],
         format_func=lambda x: TYPE_LABEL[x],
     )
+    is_test_only = set(sel_type) == {"test"}
+
+    if is_test_only:
+        n_test = st.radio(
+            "세트 크기",
+            options=[12, 15],
+            format_func=lambda x: f"{x}문제 ({'18' if x == 12 else '23'}분)",
+            horizontal=True,
+        )
+        sel_diff = ["easy", "medium", "hard"]
+    else:
+        n_test = None
+        sel_diff = st.multiselect(
+            "난이도", options=["easy", "medium", "hard"],
+            default=["easy", "medium", "hard"],
+            format_func=lambda x: DIFF_LABEL[x],
+        )
+
     st.markdown('<hr class="sdiv">', unsafe_allow_html=True)
 
     if st.button("🚀  Start / Restart", type="primary", use_container_width=True):
         reset_session()
-        filtered = [q for q in all_questions
-                    if q["difficulty"] in sel_diff and q["type"] in sel_type]
-        items = build_items(filtered)
-        st.session_state.update({
-            "vp_questions": items,
-            "vp_total_q":   count_total_q(items),
-            "vp_idx":       0,
-            "vp_answers":   {},
-            "vp_submitted": {},
-            "vp_score":     0,
-            "vp_done":      False,
-        })
+        if is_test_only:
+            duration = 18 * 60 if n_test == 12 else 23 * 60
+            items = build_test_items(all_questions, n_test)
+            st.session_state.update({
+                "vp_questions": items,
+                "vp_total_q":   count_total_q(items),
+                "vp_idx":       0,
+                "vp_answers":   {},
+                "vp_submitted": {},
+                "vp_score":     0,
+                "vp_done":      False,
+                "vp_is_test":   True,
+                "vp_test_end":  int(time.time()) + duration,
+            })
+        else:
+            filtered = [q for q in all_questions
+                        if q["difficulty"] in sel_diff and q["type"] in sel_type]
+            items = build_items(filtered)
+            st.session_state.update({
+                "vp_questions": items,
+                "vp_total_q":   count_total_q(items),
+                "vp_idx":       0,
+                "vp_answers":   {},
+                "vp_submitted": {},
+                "vp_score":     0,
+                "vp_done":      False,
+                "vp_is_test":   False,
+            })
         st.rerun()
-    st.caption("TC: 빈칸 완성 | SE: 문장 등가 | RC: 독해")
+    st.caption("TC: 빈칸 완성 | SE: 문장 등가 | RC: 독해 | TEST: 모의고사")
 
 # ── Guard ───────────────────────────────────────────────────────────────────────
 if "vp_questions" not in st.session_state:
@@ -159,10 +210,43 @@ if st.session_state.get("vp_done"):
     </div>
     """, unsafe_allow_html=True)
 
+    if st.session_state.get("vp_is_test"):
+        components.html("""<script>(function(){
+            var p=window.parent;
+            if(p._greTimerInterval){clearInterval(p._greTimerInterval);p._greTimerInterval=null;}
+            var el=p.document.getElementById('gre-countdown');
+            if(el)el.remove();
+        })();</script>""", height=0)
+
     if st.button("다시 풀기", use_container_width=True, type="primary"):
         reset_session()
         st.rerun()
     st.stop()
+
+# ── Timer (test mode) ────────────────────────────────────────────────────────────
+if st.session_state.get("vp_is_test") and not st.session_state.get("vp_done"):
+    end_ts = st.session_state.get("vp_test_end", 0)
+    components.html(f"""<script>(function(){{
+        var endTime={end_ts};
+        var p=window.parent;
+        if(p._greTimerInterval){{clearInterval(p._greTimerInterval);}}
+        var el=p.document.getElementById('gre-countdown');
+        if(!el){{
+            el=p.document.createElement('div');
+            el.id='gre-countdown';
+            el.style.cssText='position:fixed;top:60px;right:20px;background:#1E293B;color:white;padding:8px 18px;border-radius:10px;font-size:1.15rem;font-weight:700;font-family:monospace;z-index:99999;box-shadow:0 4px 12px rgba(0,0,0,0.3)';
+            p.document.body.appendChild(el);
+        }}
+        function update(){{
+            var r=endTime-Math.floor(Date.now()/1000);
+            if(r<=0){{el.textContent='⏰ 00:00';el.style.background='#DC2626';clearInterval(p._greTimerInterval);return;}}
+            var m=Math.floor(r/60),s=r%60;
+            el.textContent='⏱ '+String(m).padStart(2,'0')+':'+String(s).padStart(2,'0');
+            el.style.background=r<=120?'#DC2626':r<=300?'#D97706':'#1E293B';
+        }}
+        update();
+        p._greTimerInterval=setInterval(update,1000);
+    }})();</script>""", height=0)
 
 # ── Progress ────────────────────────────────────────────────────────────────────
 st.progress(idx / n_items)
