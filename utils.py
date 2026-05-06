@@ -344,6 +344,26 @@ div[data-testid="stProgressBar"] > div > div {
 .wi-sep  { color: #CBD5E1; margin: 0 10px; }
 .wi-ans  { color: #374151; flex: 1; }
 
+/* ── Answer card (오답 피드백) ───────────────────── */
+.answer-card {
+    background: #EFF6FF;
+    border: 1.5px solid #BFDBFE;
+    border-radius: 10px;
+    padding: 12px 18px;
+    margin: 10px 0 0;
+    font-size: 0.94rem;
+    line-height: 1.65;
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+.ac-label { font-size: 0.7rem; font-weight: 700; text-transform: uppercase;
+             letter-spacing: 0.07em; color: #93C5FD; margin-right: 4px; }
+.ac-word  { font-weight: 800; font-size: 1.05rem; color: #1E3A8A; }
+.ac-sep   { color: #93C5FD; margin: 0 6px; font-weight: 400; }
+.ac-meaning { color: #1E40AF; }
+
 /* ── Divider ─────────────────────────────────────── */
 .sdiv { border: none; border-top: 1px solid #E2E8F0; margin: 22px 0; }
 </style>"""

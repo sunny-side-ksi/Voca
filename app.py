@@ -322,9 +322,18 @@ if q["type"] == "ox":
             detail = f'<div class="fb-detail">정답: {"⭕" if q["answer"] else "❌"}</div>'
             st.markdown(f'<div class="fb-correct">✅ 정답!{detail}</div>', unsafe_allow_html=True)
         else:
-            detail = f'<div class="fb-detail">올바른 뜻: {esc(q["correct_meaning"])}</div>'
+            detail = f'<div class="fb-detail">정답: {"⭕" if q["answer"] else "❌"}</div>'
             st.markdown(
-                f'<div class="fb-wrong">❌ 오답 — 정답: {"⭕" if q["answer"] else "❌"}{detail}</div>',
+                f'<div class="fb-wrong">❌ 오답{detail}</div>',
+                unsafe_allow_html=True,
+            )
+            st.markdown(
+                f'<div class="answer-card">'
+                f'<span class="ac-label">정답</span>'
+                f'<span class="ac-word">{esc(q["word"])}</span>'
+                f'<span class="ac-sep">—</span>'
+                f'<span class="ac-meaning">{esc(q["correct_meaning"])}</span>'
+                f'</div>',
                 unsafe_allow_html=True,
             )
         if st.button("다음 →", use_container_width=True, type="primary"):
@@ -377,8 +386,14 @@ elif q["type"] == "choice_meaning":
         if st.session_state.last_correct:
             st.markdown('<div class="fb-correct">✅ 정답!</div>', unsafe_allow_html=True)
         else:
+            st.markdown('<div class="fb-wrong">❌ 오답</div>', unsafe_allow_html=True)
             st.markdown(
-                f'<div class="fb-wrong">❌ 오답<div class="fb-detail">정답: {esc(q["answer"])}</div></div>',
+                f'<div class="answer-card">'
+                f'<span class="ac-label">정답</span>'
+                f'<span class="ac-word">{esc(q["word"])}</span>'
+                f'<span class="ac-sep">—</span>'
+                f'<span class="ac-meaning">{esc(q["answer"])}</span>'
+                f'</div>',
                 unsafe_allow_html=True,
             )
         if st.button("다음 →", use_container_width=True, type="primary"):
@@ -430,8 +445,14 @@ elif q["type"] == "choice_word":
         if st.session_state.last_correct:
             st.markdown('<div class="fb-correct">✅ 정답!</div>', unsafe_allow_html=True)
         else:
+            st.markdown('<div class="fb-wrong">❌ 오답</div>', unsafe_allow_html=True)
             st.markdown(
-                f'<div class="fb-wrong">❌ 오답<div class="fb-detail">정답: {esc(q["answer"])}</div></div>',
+                f'<div class="answer-card">'
+                f'<span class="ac-label">정답</span>'
+                f'<span class="ac-word">{esc(q["answer"])}</span>'
+                f'<span class="ac-sep">—</span>'
+                f'<span class="ac-meaning">{esc(q["meaning"])}</span>'
+                f'</div>',
                 unsafe_allow_html=True,
             )
         if st.button("다음 →", use_container_width=True, type="primary"):
