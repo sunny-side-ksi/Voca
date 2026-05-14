@@ -141,9 +141,11 @@ with st.sidebar:
 
     if st.button("🚀  Start / Restart", type="primary", use_container_width=True):
         reset_session()
+        load_questions.clear()
+        fresh_q = load_questions()
         if is_test_only:
             duration = 18 * 60 if n_test == 12 else 23 * 60
-            items = build_test_items(all_questions, n_test)
+            items = build_test_items(fresh_q, n_test)
             st.session_state.update({
                 "vp_questions": items,
                 "vp_total_q":   count_total_q(items),
@@ -156,7 +158,7 @@ with st.sidebar:
                 "vp_test_end":  int(time.time()) + duration,
             })
         else:
-            filtered = [q for q in all_questions
+            filtered = [q for q in fresh_q
                         if q["difficulty"] in sel_diff and q["type"] in sel_type]
             items = build_items(filtered)
             st.session_state.update({
