@@ -163,6 +163,7 @@ div[data-testid="stProgressBar"] > div > div {
 .b-tc  { background: #EEF2FF; color: #3730A3; }
 .b-se  { background: #ECFDF5; color: #065F46; }
 .b-rc  { background: #FFF7ED; color: #9A3412; }
+.b-cr  { background: #F3E8FF; color: #6B21A8; }
 .b-qc  { background: #EEF2FF; color: #3730A3; }
 .b-mc  { background: #ECFDF5; color: #065F46; }
 .b-mcm { background: #FDF4FF; color: #6B21A8; }

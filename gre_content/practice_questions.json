@@ -17921,6 +17921,1518 @@
       ],
       "explanation": "",
       "source": "SE_0513"
+    },
+    {
+      "id": "CR5LB_01",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "The school board has responded to the new school lunch guidelines by replacing fried potatoes with fruit in a standard meal option that used to consist of a hamburger, fried potatoes, and milk. However, the guidelines specifically require that vegetables, not fruits, be included in every meal.",
+      "stem": "The information above most strongly supports which of the following conclusions?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "Fruit provides just as much nutritional value as vegetables.",
+            "B": "Students are more likely to eat fruit than vegetables.",
+            "C": "The school board is not following the new school lunch guidelines.",
+            "D": "The school board is responsible for the health of the student population.",
+            "E": "The new school lunch guidelines are unnecessarily strict."
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_02",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "While many people think of the lottery as a harmless way to have fun and possibly win some money, buying lottery tickets is a form of gambling. Therefore, public officials shouldn't buy lottery tickets.",
+      "stem": "The argument relies upon which of the following assumptions?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "Individuals who play the lottery are less likely to win a big payout than they are to be killed in a car crash.",
+            "B": "Some public officials are guilty of much more serious offenses than gambling.",
+            "C": "Some public officials shouldn't gamble.",
+            "D": "Many public officials are already tempted to violate rules governing their positions.",
+            "E": "Most lottery winners are not made as happy by their winnings as they expected."
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_03",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "Some say that Saddlebrook College provides the best value in our state. Yet, students of our state's Tunbridge College pay less, enjoy newer buildings and smaller class sizes, and earn larger incomes after graduation.",
+      "stem": "The information above most strongly supports which of the following judgments?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "Tunbridge College provides the best value in our state.",
+            "B": "Tunbridge College has more stringent entrance requirements than Saddlebrook, and thus attracts students of a higher caliber.",
+            "C": "It is not true that Saddlebrook College is the best value in our state.",
+            "D": "Students at Tunbridge College report higher rates of satisfaction than students at Saddlebrook.",
+            "E": "Earning a high income after graduation is a valid means of judging the value of a college education."
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_04",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "Students have long shown that people who drive red cars receive more speeding tickets from the police than people who drive cars of other colors. Researchers have thus concluded that the color of a car influences its driver's behavior.",
+      "stem": "The researchers' conclusion depends upon which of the following assumptions?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "Red cars do not attract more attention from the police than do cars of other colors.",
+            "B": "Police officers do not pull over red car drivers more often for reasons unrelated to the drivers' behavior.",
+            "C": "The color red does not cause drivers to feel more aggressive while driving.",
+            "D": "Red car drivers do not receive more expensive parking tickets on average than drivers of other colors.",
+            "E": "Drivers of red cars are not generally more risk-tolerant than drivers of other colors."
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_07",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "The fight against the drug trade in Country X should focus on the time being on tightening the country's borders and targeting major smugglers. Rather, the United Nations and the government of Country X should eventually replace the poppy fields with other farming ventures (\"agricultural infrastructure\"). Country X should eventually replace the poppy fields with other farming ventures.",
+      "stem": "What function do the two boldface sentences serve in the passage?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "The first is a short-term conclusion reached by the speaker; the second is a longer-term conclusion.",
+            "B": "The first is a short-term solution to a problem; the second is a longer-term solution to the same problem.",
+            "C": "The first presents a problem; the second sentence, rather than providing evidence, presents a solution.",
+            "D": "No information was given about the popularity of the solution, so this is incorrect.",
+            "E": "The first sentence presents an argument; the second sentence, rather than providing evidence, presents a solution."
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_08",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "In the 18th and 19th centuries, it was believed by many in coastal cities of the United States that the waterfront was an undesirable location for residential buildings. As a result, developers paid low prices for homes along the beach. Today, however, urban waterfront properties are generally seen as prestigious, as evidenced by the large sums paid for homes along the beach from a developer who wishes to make a large profit would be wise to buy urban waterfront properties.",
+      "stem": "Which of the following, if true, most strongly supports the chairman's argument?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "People today have more money, relatively speaking, to spend on real estate than they did in previous centuries.",
+            "B": "Homeowners will be willing to spend large sums of money on residential properties in traditionally industrial or commercial districts.",
+            "C": "Many urban waterfront lots are available for purchase.",
+            "D": "Many coastal cities are encouraging developers to rehabilitate the waterfront through tax incentives.",
+            "E": "Properties in interior residential districts in coastal cities are significantly more expensive than those on the waterfront."
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_09",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "Psychiatric research has shown that receiving high quality outpatient care, rather than being confined to an institution, produces the best quality of life for people who are mentally ill. Responding to this research, Congress allowed most of the mentally ill to leave mental institutions. In 1983, however, researchers discovered that, contrary to what they would have expected, the mentally ill who had been released were doing worse than those who had stayed. Congress has therefore proposed that all visitors from Country Y undergo a medical examination before entering Country X.",
+      "stem": "Which of the following, if true, resolves the paradox in the passage above?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "More people were diagnosed with psychiatric disorders in 1983 than in 1963.",
+            "B": "In 1983, men who had been released from mental institutions fared worse than their female counterparts.",
+            "C": "The discovery of new medications does not explain why the mentally ill were doing worse in 1983.",
+            "D": "Congress never supplied the funding that would have been necessary to provide high-quality outpatient care to the newly released patients.",
+            "E": "The specific diagnoses of those who fared worst in 1983 cannot be resolved under consideration."
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_10",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "In response to the increasing cost of producing energy through traditional means, such as combustion and solar power, hoping someday to rely on them completely and thus lower energy costs. The utility companies claim that, although these sources require significant initial capital investment, they will provide stable energy supplies at low cost. As a result, these sources will be less risky for certain utilities than non-renewable sources, such as oil and coal, whose prices can fluctuate dramatically according to availability.",
+      "stem": "The claim of the utility companies presupposes which of the following?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "The public will embrace the development of wind and solar power.",
+            "B": "No new deposits of gas, oil, and coal will be discovered in the near future.",
+            "C": "Weather patterns are consistent and predictable, so solar and wind energy supplies will be stable.",
+            "D": "The necessary technology for conversion to wind and solar power is not more expensive than the technology required to create energy through combustion.",
+            "E": "Obtaining energy from nonrenewable sources, such as gas, oil, and coal, cannot be made less risky."
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_11",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "Inorganic pesticides remain active on the surfaces of fruits and vegetables for several days after spraying, while organic pesticides dissipate within a few hours after leaving the surface of the sprayed produce. Therefore, one must be careful to wash the produce thoroughly before eating it to prevent the ingestion of pesticides. Therefore, when purchasing from a farm that uses only organic pesticides, one need not worry about ingesting pesticides.",
+      "stem": "The argument above assumes which of the following?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "All produce that has been treated with inorganic pesticides must be labeled as such at the point of sale.",
+            "B": "No farm that uses only organic pesticides also uses inorganic pesticides from other sources.",
+            "C": "The conclusion of the argument is already limited to those farms that use \"only organic pesticides.\"",
+            "D": "Organic pesticides are incapable of penetrating the skin of a fruit or vegetable; therefore, the organic pesticide will dissipate from the fruit a few hours after application.",
+            "E": "The use of either type of pesticide does not increase the cost of the produce."
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_12",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "Although the exact cause is unknown, Disease X generally occurs when various cell types become resistant to a naturally occurring hormone and the pancreas is unable to produce that hormone at a high enough rate to reduce the number of patients suffering complications from Disease X. The government thinks that the proposed education program will be effective, it should educate the public about appropriate medication usage.",
+      "stem": "Which of the following, if true, provides the strongest reasons to believe that the proposed education program will not be effective?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "School health programs already educate middle school students about the threat.",
+            "B": "The public already has access to this information through the internet.",
+            "C": "The government has not set aside money for such a program.",
+            "D": "Drug manufacturers lobby doctors to prescribe their company's brand of medication.",
+            "E": "If the proper medications are unaffordable, educating people about those medications will do little to increase their proper use and thus achieve the stated goal."
+          }
+        }
+      ],
+      "correct": [
+        "E"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_13",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "Every year, many people become ill because of airborne mold spores in their homes. After someone becomes ill, specialists look in damp areas of the house, since mold is almost always found in places where there is substantial moisture. If one wishes to avoid mold poisoning, then, one should make sure to keep all internal plumbing in good condition to prevent leakage and minimize mold growth.",
+      "stem": "Which of the following is an assumption on which the argument depends?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "Mold does not create moisture; therefore, wet areas as a result of mold is not a possibility.",
+            "B": "Most homeowners know enough about plumbing to determine whether theirs is in good condition.",
+            "C": "Mold cannot grow in dry areas, so the fact that mold is almost always found in wet areas is still valid.",
+            "D": "Even if some varieties of mold are harmless, the conclusion that one should keep plumbing in good condition to minimize mold growth could still be valid.",
+            "E": "Whether mold spores can be filtered from the air may be relevant to a conclusion about the health effects of mold in the home, but it is not directly relevant to the given conclusion."
+          }
+        }
+      ],
+      "correct": [
+        "A"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_14",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "To prevent overcrowding, last month the town zoning board limited the number of new buildings that can be constructed in town to two per year. Critics of the plan argue that this plan will not prevent overcrowding. The town currently has only a very modest rate of new building construction; the plan would allow the same rate of new construction to continue unimpeded by the new zoning restrictions.",
+      "stem": "Which of the following, if true, would most support the claims of the critics of the plan?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "Other towns funded under similar zoning plans have had mixed success with similar zoning plans.",
+            "B": "Since the construction of the last school in town is irrelevant to this argument.",
+            "C": "So how property taxes in this town compare to those in neighboring towns is irrelevant.",
+            "D": "The town zoning board states that 'the town zoning board limited the number of new buildings that can be constructed in the town in any given year.' The goal of this plan is to prevent overcrowding.",
+            "E": "The nearest garbage dump is several miles away from town."
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_15",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "Because of a new type of fungus that killed off cacao trees in Brazil, there was an unusually meager harvest of cacao beans this year. The wholesale price of cocoa solids and cocoa butter has increased significantly and is likely to stay high. Therefore, the retail price of chocolate is certain to increase within six months.",
+      "stem": "The answer to which of the following questions would provide information relevant to evaluating the argument above?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "Has the price of cocoa solids and cocoa butter remained steady during other periods of poor harvest?",
+            "B": "Are consumers willing to spend more for chocolate?",
+            "C": "Have the prices of other ingredients in the chocolate decreased recently?",
+            "D": "What percentage of cacao trees in Brazil were affected by the fungus?",
+            "E": "Can the fungus be eliminated within the next six months?"
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_20",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "Smoking is a known cause of serious health problems, including emphysema and lung cancer. Now, an additional concern can be added to the list of maladies caused by smoking. A recent study surveyed both smokers and nonsmokers, and found that smokers are significantly more anxious and nervous than nonsmokers.",
+      "stem": "Which of the following is an assumption on which the argument rests?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "Anxiety and nervousness can lead to serious health problems.",
+            "B": "Anxiety and nervousness do not make individuals more likely to start smoking.",
+            "C": "Equivalent numbers of smokers and nonsmokers were surveyed for the study.",
+            "D": "Smokers who had smoked a cigarette immediately before responding to the survey were more anxious and nervous than those who had not smoked for several hours.",
+            "E": "Smokers are aware of the serious health problems attributed to smoking, including lung cancer and emphysema."
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_21",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "The number of cases of tuberculosis diagnosed in Country X increased dramatically this year. The country's news media have speculated that the sharp increase in new cases is the result of the tuberculosis outbreak that occurred in neighboring Country Y last year. Health officials in Country X have therefore proposed that all visitors from Country Y undergo a medical examination before entering Country X.",
+      "stem": "Which of the following, if true, most strongly suggests that the proposed medical examinations will not help curb the spread of tuberculosis in Country X?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "Country Z, which also neighbors Country Y, has not experienced an increase in cases of tuberculosis.",
+            "B": "Current medical technology is not capable of detecting all carriers of tuberculosis.",
+            "C": "Tuberculosis is not spread through human contact.",
+            "D": "Visitors from Country Y are not the source of the disease. Thus, testing them would likely do little to curb the spread of the disease.",
+            "E": "If the visitors from Country Y are indeed carriers, then their refusal to visit Country X would help curb the spread."
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_22",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "The People of Prohibitionland are considering banning the service of alcoholic beverages in restaurants to curb unruly behavior and increase their revenues and profits. However, some restaurant proprietors in those areas claim there was a short-term negative impact on restaurant visitation in the beginning of last year. In contrast, the sales taxes paid by the restaurants in those provinces did not increase at a significantly higher rate than in other parts of Prohibitionland that did not have a ban.",
+      "stem": "Which of the following, if true, provides the strongest support for the restaurant proprietors' claim against the ban?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "In the provinces that enacted the restrictions on alcoholic beverages last year, there was a short-term negative impact on restaurant visitation.",
+            "B": "The relative tax rate on food and beverages as compared to other consumer goods is irrelevant.",
+            "C": "A gradual decline in alcohol consumption over the past 20 years would show that, over time, any ban on alcohol would have an increasingly small impact on restaurant visitation.",
+            "D": "This answer calls the evidence into question by indicating that any apparent increase in sales taxes and, presumably, revenues for restaurants that have been operating under the restrictions enacted last year is irrelevant.",
+            "E": "Overall sales tax revenue did not increase at a higher rate in the provinces that enacted the restrictions on alcoholic beverages, which makes the cited evidence more compelling by ruling out the possibility of different growth rates in the different areas."
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_23",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "Serious individual art collectors are usually discreet when making significant purchases or sales of major artworks. For instance, these collectors often place anonymous bids for major artworks at auction, while discreet in purchasing and selling their artwork, were relatively open about the artworks in their possession. Alternatively, one could weaken this claim using information that showed that serious art collectors possessed only a small fraction of the world's most valuable art.",
+      "stem": "Which of the following, if true, does NOT weaken the conclusion above?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "That the value of a piece of art is subjective is irrelevant to the reasoning of the argument. This choice does not present any information that weakens the link between serious art collectors and the discretion they employ when purchasing or selling such artwork.",
+            "B": "That serious art collectors publicize their art shortly after purchasing it means that the whereabouts of their valuable art must be widely known.",
+            "C": "If museums own the vast majority of the world's valuable artwork, then the practices of serious individual art collectors are essentially irrelevant to the location of most of the world's valuable artwork.",
+            "D": "Since the majority of the world's valuable privately held artwork is owned by individuals who are not considered serious collectors, then the practices of serious art collectors are essentially irrelevant.",
+            "E": "That the collections of most serious individual art collectors are often displayed in public settings means that the whereabouts of most of the world's most valuable artwork are widely known."
+          }
+        }
+      ],
+      "correct": [
+        "A"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_24",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "Last January, in an attempt to lower the number of traffic fatalities, the state legislature passed its new \"Click It or Ticket\" law. Under the new law, motorists can be cited for not wearing their seat belts, even in the absence of an additional driving infraction. Law enforcement groups and citizens groups are already protesting the new regulations, claiming that the new regulations will save countless additional lives by stating that the new regulations will save countless lives.",
+      "stem": "Which of the following inferences is best supported by the above passage?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "Prior to the \"Click It or Ticket\" law, motorists could not be stopped simply for not wearing a seat belt.",
+            "B": "Search and seizure laws are never mentioned in the text. This answer choice is outside the scope of the argument.",
+            "C": "Laws in other states are never mentioned in the text. This answer choice is outside the scope of the argument.",
+            "D": "Though the text states that the new regulation might save countless additional lives, the effectiveness of the previous laws is never mentioned.",
+            "E": "The argument does not compare or otherwise evaluate the competency or authority of law enforcement groups and citizens groups."
+          }
+        }
+      ],
+      "correct": [
+        "A"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_25",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "Calorie restriction, a diet high in nutrients but low in calories, has been shown to prolong the life of rats and mice by preventing diseases. In a study of moderately overweight humans, each who reduced their calorie intake by at least 25%, demonstrated decreases in insulin levels and body temperature. The study found that individuals with the greatest percentage decrease in their calorie intake demonstrated the greatest decrease in insulin levels and body temperature.",
+      "stem": "The two boldface portions in the argument above are best described by which of the following?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "The first is the conclusion reached by the researchers; the second is a consideration in support of that assertion.",
+            "B": "The first is a premise that is challenged by the argument; the second is a situation that the author uses to contradict that premise.",
+            "C": "The first provides specific information about the effects of calorie restriction. In rats and mice, this diet is shown to prolong life by preventing diseases.",
+            "D": "The first describes the cause of a particular strategy; the second describes a more direct connection between this strategy and longevity.",
+            "E": "The first provides specific information about the effects of calorie restriction; the second directly illustrates how weight loss efforts of a certain group failed for exactly that reason."
+          }
+        }
+      ],
+      "correct": [
+        "E"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_26",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "Recent research has indicated that married people are not only happier than unmarried people, but also healthier. This study has been widely reported by the media, which commentators have concluded that being married is good for one's health and attitude. To do so, the media commentators must reverse the causation: being happy and healthy makes a person more likely to marry.",
+      "stem": "The conclusion of the media commentators depends on rejecting which of the following assumptions?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "The research compared married people to unmarried people. Neither the researchers nor the media commentators made any distinction between newlyweds and those who had been married a long time.",
+            "B": "The type of wedding is outside the scope of this argument. The research compared married people to unmarried people, but no distinction was made based upon the type of wedding.",
+            "C": "At first, this statement may seem necessary; after all, if the commentators conclude that marriage causes happiness, a lack of depression in married people would certainly support that conclusion.",
+            "D": "This statement eliminates the alternative interpretation of the research findings — that being happy and healthy makes a person more likely to marry.",
+            "E": "The research compared married people to unmarried people. Neither the researchers nor the media commentators made any distinction between harmonious marriages and combative marriages."
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_27",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "For nearly a century, physiologists erroneously believed that a buildup of lactic acid in muscle tissue was responsible for the soreness that many people experience after strenuous exercise. The acid, they claimed, is the waste product produced by metabolic activity in the muscle and reaches \"threshold\" levels, causing soreness, when the muscle has depleted its oxygen supply. Researchers have recently discovered, however, that lactic acid is actually the fuel that powers muscular activity. Therefore, the cause of muscle soreness remains unknown.",
+      "stem": "In the argument above, the portions in boldface play which of the following roles?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "The first is an assertion that the author accepts as true; the second is a consideration in support of that assertion.",
+            "B": "The first is an assertion that the author accepts as true; the second describes a situation that the author poses as contrary to that assertion.",
+            "C": "The first is a claim that the author argues against; the second is presented as evidence contrary to the first.",
+            "D": "The first is a claim that the author believes to be invalid; the second is additional evidence that the author uses to support his main point.",
+            "E": "The first is evidence that the author believes is no longer valid; the second is the author's main point."
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_29",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "According to a recent study on financial roles, two thirds of all high school seniors say that they play significant financial responsibilities for their families. At the same time, a second study found that 80% of high school seniors have never opened a bank account, and of this 80%, one-third have bounced a check. The number of seniors that has bounced a check (one-third of 80%) is larger than the number of seniors who claim to contribute to their families financially.",
+      "stem": "Which of the following conclusions can be properly drawn from the statements above?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "Although it might be true that schools would be wise to incorporate finance into their core curricula, this is an opinion that does not have to be based upon the given evidence.",
+            "B": "That one-third of high school seniors claim to have \"significant financial responsibilities\" to their families does not necessarily mean that the same students might earn money for their families.",
+            "C": "The first study states that one-third of all high school seniors have significant financial responsibilities to their families. The second study states that 80% of high school seniors have opened a bank account, and of this 80%, one-third have bounced a check.",
+            "D": "The passage states that certain high school seniors who contribute to the food, shelter, or clothing for themselves or their families \"rate themselves\" as having significant financial responsibilities.",
+            "E": "Any high school senior who contributes to the food, shelter, or clothing for themselves or their families has significant financial responsibilities. This does not mean that any high school senior who contributes to these categories has significant financial responsibilities."
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_30",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "Federal law prohibits businesses from reimbursing any employees for the cost of owning and operating a private aircraft for business purposes. Most of the business activity of the United States is owned by small-and mid-size businesses. The planes owned by the companies discussed in the passage are owned by large companies, and flights taken in these planes are used for business purposes. Most mid-level executives on board are in full compliance with the law and their business associates on those flights.",
+      "stem": "Which of the following can be most properly inferred from the statements above?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "The federal law in question costs businesses money as no evidence about the relative costs is given.",
+            "B": "This choice is an irrelevant comparison as the preferences of the executives are not the concern of the statements.",
+            "C": "This choice does not have to follow as there is no information given about the travel arrangements made by large companies.",
+            "D": "There is no information given about the travel arrangements of upper level executives and no reason to believe that those with the companies discussed do not comply with their companies' policies.",
+            "E": "If, as the statements indicate, the companies are in full compliance with this law, it must be true that those with the guidelines also are."
+          }
+        }
+      ],
+      "correct": [
+        "E"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_31",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "Experts estimate that insurance companies' tardiness in paying doctors for legitimate medical claims results from billing errors amounting to 10% in overhead costs for physicians. Since dealing with these billing errors takes time and money and is clear that insurance companies do not have a significant economic incentive to delay claim payments to doctors.",
+      "stem": "Which of the following, if true, most strengthens the conclusion above?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "While the fact that some doctors who submit accurate bills to insurance companies still receive tardy payments seems to indicate that there must be something other than doctors causing delayed payments, it fails to prove that the insurance company has an economic motive to deliberately delay payments.",
+            "B": "This choice compares the costs insurance companies must absorb due to incorrect bills to the costs physicians must absorb due to tardy payments from insurance companies.",
+            "C": "The argument is focused on the payment of legitimate claims; the rising proportion of illegitimate claims does not present a clear economic incentive for insurance companies to delay payments of legitimate claims.",
+            "D": "The types of billing errors made by doctors' offices does not establish any economic motive for insurance companies to delay payments to doctors.",
+            "E": "If insurance companies delay payments to doctors for legitimate medical claims, this results in a 10% increase in overhead costs for physicians. These costs ultimately result in higher fees that doctors charge to insurance companies. Insurance companies, in turn, raise the premiums that they charge consumers for health coverage. This choice states that the insurance companies increase their fees to consumers far more than the doctors increase their fees to insurance companies."
+          }
+        }
+      ],
+      "correct": [
+        "E"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_32",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "Farmers in developing countries claim that the global price of wheat is low because American farmers produce too much of the grain. Because they have no incentive to manage their crops, since the U.S. government will buy any surplus wheat, American farmers routinely produce more wheat than the global market can absorb and the global price of wheat plummets. The question asks which choice weakens the claim that removing the American subsidy would cause the price of wheat to rise.",
+      "stem": "Which of the following, if true, most weakens the argument?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "The fact that there are uses for wheat that is not eaten is irrelevant. This does not address the farmers' claims.",
+            "B": "That buyers of wheat can predict their needs in advance is irrelevant, because the text indicates that American farmers do not pay attention to actual market demand.",
+            "C": "The global market for soybeans suggests that other countries would modify their output to counterbalance any reduction on the part of the United States.",
+            "D": "The farmers assume that the sole cause of the wheat surplus is the United States. Other countries, such as Canada and Russia, are also likely to produce more wheat if the United States stops subsidizing its wheat, keeping prices constant rather than allowing them to rise.",
+            "E": "The price of another crop is largely irrelevant. Moreover, the fact that the price of sorghum, a non-subsidized crop, is lower tends to weaken, rather than strengthen, the claims of the farmers."
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_33",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "Researchers studying the spread of the Black Plague in 16th-century England claim that certain people named after the plague by carrying a genetic mutation called Delta-32 prevented its carriers from contracting the plague. They support this claim by noting that a strikingly large percentage of descendants of plague survivors carry the mutation.",
+      "stem": "The researchers' hypothesis is based on which of the following assumptions?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "The argument is specific to the relationship between Delta-32 and resistance to the plague. Other diseases are irrelevant.",
+            "B": "The argument is specific to the relationship between Delta-32 and resistance to the plague. Other diseases are irrelevant.",
+            "C": "If Delta-32 existed in its current form before the 16th century, the conclusion would still stand, so this choice is not a necessary assumption.",
+            "D": "The argument does not claim that Delta-32 prevents all bacteria-caused disease.",
+            "E": "The researchers claim that Delta-32 prevented its carriers from contracting the plague on the basis of its presence in descendants of plague survivors. But it is theoretically possible that these descendants carry the mutation Delta-32 because the plague mutated the genes of their ancestors. In order to claim that the mutation prevented the plague, you must assume that the plague did not cause the mutation Delta-32."
+          }
+        }
+      ],
+      "correct": [
+        "E"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_34",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "The argument claims that wide dissemination of wireless access would be a practical way to meet urban needs, based on the evidence of its successful use in rural areas. The author must then assume that urban areas provide no additional problems for wireless use.",
+      "stem": "Which of the following, if true, most strengthens the conclusion above?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "This choice confirms an assumption of the argument and thus strengthens the conclusion.",
+            "B": "This choice weakens the argument because it damages the assumption that urban areas pose no extra problems for wireless use.",
+            "C": "This choice is an irrelevant distinction. The argument concerned all three groups needing this service.",
+            "D": "This choice is irrelevant because no information is specifically about one group needing the service more than others.",
+            "E": "The suggestion that one group needs it more than the others is irrelevant to the conclusion."
+          }
+        }
+      ],
+      "correct": [
+        "A"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_35",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "Studies have shown that people who keep daily diet records are far more successful at losing weight than people who don't keep track of what they eat. Researchers believe that many weight-loss efforts fail because people eat more calories than they intend to consume. One study followed a group of patients who reported that they could not lose weight when consuming only 1,200 calories a day. The study found that, on average, the dieters actually consumed 47% more than claimed.",
+      "stem": "The two boldface portions in the argument above are best described by which of the following?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "The first boldface is not the conclusion; it is an observed fact. The second boldface is evidence that the researchers' conclusion is correct, but it is not evidence that the first boldface is correct.",
+            "B": "The first boldface is a fact that supports the researchers' theory, but it does not explain why the theory is correct — the other premises do so.",
+            "C": "The first boldface is a fact that supports the researchers' theory, but it does not illustrate the truth of that theory — the second boldface does.",
+            "D": "The first boldface (diet record = diet success) is a basis for the researchers' conclusion that many weight loss efforts fail because people eat more calories than they intended. The second boldface directly illustrates how weight loss efforts of a certain group failed for exactly that reason.",
+            "E": "The first boldface is a factual statement, not a theory. Furthermore, the first boldface supports the theory of the researchers; it is not something that they have disproved."
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_36",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "The anticipated retirement of tens of thousands of baby boomers will create an unprecedented opportunity to provide jobs for unemployed young people. The argument's premise is that the retirement of the baby boomers will create shortages. The argument assumes the efficacy of its conclusion — in other words, that the conference will be effective in creating job opportunities.",
+      "stem": "The argument above depends on which of the following assumptions?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "If anything, this choice strengthens the argument. If immigration does not provide a labor pool, it is more likely that a shortage will ensue.",
+            "B": "The argument assumes that it is feasible to affect employment patterns by government encouragement and/or action. If that assumption is denied, the weakness is weakened, as the conference would be pointless.",
+            "C": "This choice makes an irrelevant distinction. It does not matter if the best positions require skills, as long as the majority are available to the unskilled unemployed in question.",
+            "D": "Knowing that a significant proportion of baby boomers will not retire on schedule does not significantly weaken the argument. The argument relies on general estimates, not on exact numbers.",
+            "E": "If anything, this choice strengthens the argument. If these people are unaware of these opportunities, it would be positive to convene to plan how to reach them."
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_37",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "The \"Doppler effect\" refers to the universal perceived change in the apparent pitch of a sound when the listener and the source of the sound are moving relative to one another. Specifically, whenever the distance between the listener and the source is increasing, the sound will be perceived by the listener as lower than its true pitch; whenever that distance is decreasing, the sound will be perceived as higher. If the above principles hold, which of the following should be observed as a westbound train is approached by an eastbound train blowing its horn?",
+      "stem": "Which of the following should be observed as a westbound train is approached by an eastbound train blowing its horn?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "Passengers in the eastbound train do not hear the true pitch of the horn; passengers in the westbound train do.",
+            "B": "It is true that the westbound passengers hear the true pitch; the eastbound passengers, however, hear a sound that is higher than the true pitch.",
+            "C": "Passengers in the eastbound train do not hear the true pitch of the horn of the horn; passengers in the westbound train do.",
+            "D": "Westbound passengers do hear the true pitch of the sound. Eastbound passengers do hear a sound that is higher in pitch than the true sound.",
+            "E": "It is true that eastbound passengers hear a sound that is higher than the true pitch; the westbound passengers, however, hear the true pitch."
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_38",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "The popular notion that a tree's age can be determined by counting the number of internal rings in a trunk is fact. In the 18th and 19th centuries, it was believed by many in coastal cities of the United States that the outermost layers of wood of the Brazilian jatoba tree often peel away when the temperature exceeds 95 degrees Fahrenheit, leaving the tree with fewer rings than it would otherwise have. If only the temperature factor is known, the rings will be a reliable measure only if the temperature never exceeds 95 degrees Fahrenheit.",
+      "stem": "Which of the following conclusions can be made on the basis of the information in the passage?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "The argument says nothing about precipitation. This answer choice is out of scope since it would require a number of other assumptions to make it relevant to the argument's conclusion.",
+            "B": "Whether other trees share this feature is irrelevant; the argument focuses only on the Brazilian ash.",
+            "C": "If it is the case that once above 95 degrees leads to one ring lost, then it might still be possible to predict the tree's age, as long as it is known on how many days the temperature exceeded 95 degrees.",
+            "D": "The thickness of the rings is irrelevant.",
+            "E": "The conclusion is that the rings will be a reliable measure only if the temperature never exceeds 95 degrees. This is only true if there is no way to predict how many rings would be lost when the temperature does exceed 95 degrees."
+          }
+        }
+      ],
+      "correct": [
+        "E"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_39",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "Celiac disease results from an inability of the digestive tract, specifically the small intestine, to tolerate gluten, a protein found in wheat, barley, and rye. The body's immune system attacks the intestinal lining, causing serious damage to the intestine. People who suffer from celiac disease must eliminate gluten from their diets. The symptoms of the disease include cramps, bloating, and anemia.",
+      "stem": "If the statements above are true, which of the following can be made on the basis of the statements above?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "Anyone who has celiac disease will experience anemia.",
+            "B": "People experiencing abdominal cramps, bloating, and anemia have celiac disease.",
+            "C": "Eliminating gluten from one's diet will cure celiac disease.",
+            "D": "Celiac disease can be found only in grains.",
+            "E": "It is not known whether gluten is found only in grains. It may exist in other foods as well."
+          }
+        }
+      ],
+      "correct": [
+        "E"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_40",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "All languages that have only three basic color terms describe the same six colors using those three terms: black, white, red, green, and blue. In addition, all languages that have only three color terms describe the same six colors. Among colored objects, the mind recognizes differences among colored objects, and therefore culture does not influence color perception.",
+      "stem": "Which of the following, if true, most strongly weakens the argument above?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "While language may affect how the mind distinguishes colored objects, it may have no effect on the conclusion.",
+            "B": "Irrelevant. In fact, this statement may slightly strengthen the argument: if every language permits speakers to see 6 color variations, then it might be argued that human color perception is independent of language.",
+            "C": "Irrelevant. The term red may encompass both red and yellow, but that doesn't mean that speakers of the language cannot see the difference between red and yellow.",
+            "D": "If speakers of languages with a blue-green distinction refer to the sky or tree leaves to clarify their meaning, then they obviously see a difference between the sky and tree leaves.",
+            "E": "If Tarahumara speakers are less able to identify differences between blue and green objects than Spanish speakers, then it can be argued that the blue-green distinction in the Tarahumara language influences how Tarahumara speakers actually perceive colors."
+          }
+        }
+      ],
+      "correct": [
+        "E"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_43",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "If it exists elsewhere in the solar system, scientists suspect it would most likely be on Europa, an icy moon of Jupiter. However, NASA recently scrapped an unmanned science mission to Europa and reassigned most of the employees who had been working on the project to a different project; it concerns landing an astronaut on Mars. Polls show that Americans are far more fascinated by space travel than by scientific research. In response, NASA's critics argue that the decision to scrap the mission was purely a public relations move designed to appeal to the public's fascination with space travel.",
+      "stem": "Which of the following, if true, most strongly weakens the argument that the critics are that NASA's decision was a public relations move?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "The conclusion is based on the critics' assumption of causation, and this choice fails to address the issue of the motivations underlying NASA's decision-making process.",
+            "B": "Weakens. If NASA consistently manages its budget, it is necessary to keep public interest high.",
+            "C": "Irrelevant. This statement differentiates between the opinions of some scientists and the opinions of others, but sheds no light on the motivations behind NASA's decisions.",
+            "D": "The Tokyo telescope will provide the information that NASA would have obtained from the mission, making the mission unnecessary.",
+            "E": "Irrelevant. The conclusion concerns NASA's motivations; this statement is about the motivations of American citizens."
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_48",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "In a recent poll, 71% of respondents reported that they cast votes in the most recent national election. Voting records show, however, that only 60% of eligible voters actually voted in that election. An explanation of a GRE discrepancy explains why the apparent conflict does not apply.",
+      "stem": "Which of the following, if true, most helps to explain the discrepancy between the poll results and the actual voting percentages?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "If the margin of error is ± 5%, then the 71% figure could be as low as 66% (or as high as 76%). This accounts for less than half of the discrepancy between 71% and 60%.",
+            "B": "This choice does not address the stated discrepancy between the percentage of voters who said that they voted and the percentage of voters who actually did vote.",
+            "C": "One explanation for the discrepancy between these two results is the possibility that people who do vote will respond to surveys at a higher rate than people who do not vote; in other words, people who do vote are overrepresented in the survey's results.",
+            "D": "While this may be true, the poll did not ask people if they intended to vote; rather, it asked people if they had already voted in a past election.",
+            "E": "While this may account for some percentage of the discrepancy, the numerical data is not sufficient to explain the entire discrepancy."
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_49",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "Scientists recently documented that influenza spreads around the world more efficiently in the modern era due to commercial air travel. Flu symptoms are severe enough that it would likely cancel or reschedule air travel if an infected person is on a plane. If the disease spreads before symptoms appear, then an infected person could travel across the globe before the first symptoms appear. Health officials in Country X have therefore proposed that all air travelers be required to receive flu vaccinations before boarding planes.",
+      "stem": "Which of the following, if true, best supports the proposed preventive measure of mandatory flu vaccinations before air travel?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "The passage states that the infection can be spread by coughing. The flu virus, therefore, can reach the other passengers in the 'closely packed environment' before it enters any filters that might kill the virus.",
+            "B": "Vaccines provide significant protection against developing the flu virus (not 100% protection, but the question concerns minimizing the impact of air travel, not eliminating it entirely). If all passengers are vaccinated against the flu, many of those who otherwise would have developed the disease will not, and therefore, will not spread it to others.",
+            "C": "You can contract the virus and subsequently spread it; the mentioned populations are 'especially vulnerable' to it.",
+            "D": "The passage states that the infection can be spread by coughing; while it may be true that the virus can also spread via direct contact, this information is not stated in the passage.",
+            "E": "The passage states that people who develop symptoms before travel begins would likely not make the trip; banning those with visible symptoms would not address the larger danger, since there are not that many people in this category."
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_52",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "Network executives have alleged that television viewership is decreasing due to the availability of alternative media, such as the internet and mobile devices. However, the cable industry argues that networks can actually increase their revenue through higher advertising rates, due to the fact that a larger audience has been lured to television by alternative media devices lead their users to watch more television.",
+      "stem": "The two boldface portions in the argument above are best described by which of the following?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "The first boldface portion does weigh against the argument, but it is a prediction, rather than 'an inevitable trend'; the second boldface supports the argument but is not the conclusion itself.",
+            "B": "The argument about potential increased network revenue is contrary to the first boldface's prediction of shrinking audiences and falling revenue; the argument indeed depends upon the second bold-face assertion that users of alternative devices will actually watch more hours of television.",
+            "C": "The first boldface portion clarifies the argument, rather than the second; the second boldface would suggest that the argument is sound, rather than clarifying it.",
+            "D": "The technology executives do not accept the prediction of the network executives; the second boldface contradicts that prediction and is not a consequence of it.",
+            "E": "The first boldface portion does not use an analogy; the second is in agreement with, not opposition to, the argument."
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_55",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "Most cable television companies currently require customers to subscribe to packages of channels, rather than allowing à la carte pricing. Consumer groups claim that à la carte pricing will reduce consumer costs, while the cable television industry claims that the current package pricing structure is most cost effective for consumers. If the goal is to reduce costs for cable television consumers, it is critical to determine whether à la carte pricing is likely to save consumers money.",
+      "stem": "Which of the following would be most important to determine before deciding whether to require à la carte pricing?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "According to the argument, the decision revolves around the costs to consumers, not the number of channels available to them. If there were some pricing consequences as a result of this loss of diversity, the point might be relevant, but no such information is given.",
+            "B": "According to the argument, the decision is based only on the costs to consumers, not the advertising profits of the cable television companies.",
+            "C": "If consumers would not choose to order all of the channels they currently watch and enjoy as part of a package subscription, then the cable television industry's claim that à la carte pricing would be more expensive is suspect. If many consumers only watch and pay for a few of their favorite channels, à la carte pricing is likely to save consumers money.",
+            "D": "According to the argument, the decision concerns only the costs to consumers, not the number of consumers who subscribe to cable. If there were some pricing consequences as a result of a loss of subscribers, the point might be relevant, but no such information is given.",
+            "E": "Irrelevant. According to the argument, the decision is based only on the basis of technical specifications for whether cable set-top boxes can handle à la carte pricing."
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_56",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "A certain pharmaceutical firm recently developed a new medicine, Dendazine, that provides highly effective treatment of severe stomach disorders that were previously thought untreatable. However, the company spent nearly $5 billion in research and to develop the new drug, then the company can also agree to sell Dendazine at a price that is at least five times greater than its variable costs to break even. Yet company management claims that Dendazine will soon become the most profitable drug in the firm's history.",
+      "stem": "Which of the following best reconciles the company management's evidence about the expenditures associated with the development of Dendazine?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "The pharmaceutical firm expects patent protection for Dendazine drugs under patent protection. The company can also agree to sell products that are approximately 10 times their variable costs.",
+            "B": "While this choice supports the idea that Dendazine will sell well, it does not specifically support the contention that the drug will be profitable in the face of unusually high costs.",
+            "C": "Although this choice supports the idea that Dendazine will sell well, it does not specifically support the contention that the drug will be profitable in the face of unusually high costs.",
+            "D": "Although this choice supports the idea that Dendazine will be the primary, if not only, treatment for this market niche, it does not support the contention that the drug will be profitable in the face of unusually high costs.",
+            "E": "Although this choice supports the idea that the market for Dendazine is very large and will generate great revenues, it does not specifically support the contention that the drug will be profitable in the face of unusually high costs."
+          }
+        }
+      ],
+      "correct": [
+        "A"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_05",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "A recent decline in the employment rate was spurred by predictions of slow economic growth in the coming year. However, these predictions would not have affected the employment rate if major industries had not lacked capital reserves. So if major industries increase their capital reserves, the employment rate will not decline in the future.",
+      "stem": "Which of the following, if true, most seriously calls into question the conclusion of the argument above?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "Major industries foresaw the drop in employment.",
+            "B": "Some major industries had appreciable capital reserves.",
+            "C": "The government could encourage major industries to maintain sufficient capital reserves.",
+            "D": "The government could pass legislation mandating that major industries set aside a fixed amount as capital reserves every year.",
+            "E": "The drop in the employment rate was more severe this year than last."
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_06",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "New methods of math education in this country do a disservice to our children. In the lower grades, math instruction should focus on the basic skills that students will need in higher grades. Learning basic math skills is like learning the scales and chords that one will later need to play the piano. Math educators in this country seem to have it backward: beginning in higher grades the same narrow, skills-based approach that students needed in lower grades, rather than the analytical tools that they will need to solve complex math problems.",
+      "stem": "Which of the following, if true, would most seriously weaken the conclusion drawn above?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "While math courses are often required in elementary school and high school, such classes are rarely taught at the college level.",
+            "B": "On international tests of complex math skills, high school students in this country performed worse than they used to, relative to their counterparts in countries in which problem-solving is emphasized in higher grades.",
+            "C": "When presented with a math problem to solve, students in higher grades are more likely to arrive at different answers than students in lower grades.",
+            "D": "Older students tend to receive higher grades in math than younger students do.",
+            "E": "Universities report a steady increase in the qualifications of applicants from this country who apply for courses that require analytical skills and advanced math."
+          }
+        }
+      ],
+      "correct": [
+        "E"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_16",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "Due to high jet fuel costs, airline carriers are looking for new ways to increase revenues and thereby counteract declining profits. Airline A has proposed increasing the number of standing room only 'seats' in which passengers would be packed into a plane as safely as possible. According to the proposal, since it relates to passenger safety, this arrangement cannot be implemented without prior approval by the Federal Aviation Administration.",
+      "stem": "The above statements, if true, indicate that which of the following has been concluded by Airline A?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "The addition of standing room only 'seats' will generate more revenue than the cost of ensuring that these seats meet all safety requirements.",
+            "B": "The Federal Aviation Administration will approve Airline A's specific proposal.",
+            "C": "The revenue generated by the addition of standing room 'seats' is greater than the current cost of jet fuel.",
+            "D": "There are no safe ways in which Airline A can increase revenues.",
+            "E": "Passenger safety is less important than increasing revenue."
+          }
+        }
+      ],
+      "correct": [
+        "A"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_17",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "According to a recent study, more than 50% of graduates of the private high schools in a certain county continue their education and are admitted to college and subsequently pursue college education. Therefore, if parents in the county wish to maximize the likelihood that their children will attend college, they should send them to private schools rather than public schools.",
+      "stem": "Which of the following statements, if true, would most seriously weaken the argument above?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "Graduates of private schools typically score higher on standardized tests and other tests of academic achievement.",
+            "B": "While private schools are typically very expensive, attendance at public school is free for the residents of the county.",
+            "C": "In comparison with graduates of private schools, a substantially greater proportion of public school graduates receive need-based financial aid for their college education.",
+            "D": "In comparison to private schools, public schools provide more opportunities for student involvement in sports and other athletic activities, which almost always increase the likelihood of students making new social friends.",
+            "E": "Most public schools are located in rural areas of the county populated primarily by farmers; nearly 50% of students from public high schools choose to pursue farming occupations rather than apply to colleges."
+          }
+        }
+      ],
+      "correct": [
+        "E"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_18",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "Two years ago, the cost of the raw material used in a particular product doubled after an earthquake disrupted production in the region where the material is mined. Since that time, the company that makes the product has seen its profit margins decline steadily. Aiming to improve profit margins, the company's board of engineers has decided that it must find a new source for the raw material.",
+      "stem": "Which of the following, if true, would cast the most doubt on the validity of the engineers' decision?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "New competitors have entered the market every six months for the past two years, resulting in price wars that have progressively driven down revenues across the market.",
+            "B": "Although the earthquake occurred two years ago, the region's mines have still not recovered to pre-earthquake production capacity.",
+            "C": "There are several other regions from which the raw material can be mined, but those regions do not produce as much of the raw material as the current source region.",
+            "D": "The company could use a completely different raw material to make its product.",
+            "E": "Recent advances in mining technology will make mining the raw material much more efficient and cost-effective in the future."
+          }
+        }
+      ],
+      "correct": [
+        "A"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_19",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "A recent development in the marketplace for consumer technology goods has been the premium placed on design—products with innovative and appealing designs relative to competing products often command substantially higher prices. However, some technology design innovations are quickly copied by other manufacturers. Though many consumer technology companies charge as much as possible to extract maximum value from their new designs, large profits generated by the innovative design will give competitors stronger incentives to copy the designs. Therefore, the best strategy to extract the greatest profit from an innovative new design is to charge less than the greatest possible price.",
+      "stem": "In the argument above, the two boldface portions play which of the following roles?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "The first is an assumption that assists a course of action stressed by the argument; the second presents an alternative strategy endorsed by the argument.",
+            "B": "The first provides a factual basis that supports a particular course of action; the second is the strategy that the argument recommends.",
+            "C": "The first is a consideration presented to demonstrate that a particular strategy will not apply; the second is a factor cited to support a contrasting strategy.",
+            "D": "The first is a factor cited to support a particular strategy; the second is a contrasting strategy.",
+            "E": "The first is a relevant consideration presented to demonstrate that a particular strategy will not apply; the second is the argument against that strategy."
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_28",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "An oil field prospector and developer reported a large oil deposit in southwestern Texas. As a result, a large oil and gas company purchased the field with the intention of drilling oil wells in the area soon afterwards. However, the company found that the oil deposit was actually much smaller than the prospector had indicated. Thus, the methods that the prospector had used to determine the size of the oil deposit must have been inaccurate.",
+      "stem": "Which of the following is an assumption on which the argument depends?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "The company's methods of measuring the size of the oil deposit were determined by a third party to be more accurate than those used by the prospector.",
+            "B": "The prospector did not purposefully fabricate or misrepresent the size of the oil deposit.",
+            "C": "Though smaller than originally thought, the oil deposit contained enough oil to make drilling profitable.",
+            "D": "The prospector did not explore other oil fields and use the same methods to determine the magnitude of the oil present, if any.",
+            "E": "The company had successfully drilled for oil in other large oil fields in Texas throughout the early 20th century."
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_41",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "In an attempt to discover the cause of malaria, a deadly infectious disease common in tropical areas, early European settlers in Hong Kong attributed the malady to poisonous gases supposed to be emanating from the feng valley, where Hong Kong was situated. They called it 'bad air.' In fact, the disease is actually caused by a specific parasite. The female of the species can carry a parasitic protozoa that is passed on to unsuspecting humans who are bitten.",
+      "stem": "What functions do the two boldface statements serve in the passage?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "The first follows from a mistaken conclusion about a topic in question; the second explicates the correct explanation for the topic.",
+            "B": "The first provides an initial conjecture; the second presents evidence that contradicts that conjecture.",
+            "C": "The first serves to investigate a common assumption; the second offers confirmation of that assumption.",
+            "D": "The first describes the cause of an erroneous conclusion; the second develops a premise to support the correct conclusion.",
+            "E": "The first presents a point about the original, and incorrect, school of thought; the second provides the judgment later found to be true."
+          }
+        }
+      ],
+      "correct": [
+        "A"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_42",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "Government restrictions have severely limited the amount of stem cell research companies in the United States can conduct. Because of these restrictions, many scientists previously based in the United States and specializing in the field of stem cell research have signed long-term contracts to work for foreign companies. Recently, Congress has proposed lifting all restrictions on stem cell research.",
+      "stem": "Which of the following conclusions can most properly be inferred from the information above?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "At least some foreign companies that conduct stem cell research work under fewer restrictions than some United States companies do.",
+            "B": "Because scientists previously based in the U.S. are under long-term contracts to foreign companies, there will be no immediate return of these professionals into the United States.",
+            "C": "In all parts of the world, stem cell research is dependent on the financial backing of local government.",
+            "D": "In the near future, U.S. companies will once again be at the forefront of stem cell research.",
+            "E": "If restrictions on stem cell research are lifted, many of the scientists previously based in the United States will break their contracts to return to U.S. companies."
+          }
+        }
+      ],
+      "correct": [
+        "A"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_44",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "Dengue fever is a viral infection transmitted by the Aedes mosquito, whereas malaria is a parasitic infection transmitted by the Anopheles mosquito. Since both types of mosquito are prevalent on Singapore's 'Mosquito Coast,' anyone with a compromised immune system should not travel to this region, particularly during the rainy season.",
+      "stem": "All of the following, if true, strengthen the argument EXCEPT:",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "Medicines taken to prevent or treat malaria can cause serious health complications for people with weak immune systems.",
+            "B": "The Nicaraguan government is trying to reduce the number of mosquitoes on the Mosquito Coast.",
+            "C": "A compromised immune system has difficulty fighting either viral or parasitic infections.",
+            "D": "During the rainy season, the populations of both Aedes and Anopheles mosquitoes multiply in the Mosquito Coast.",
+            "E": "The most effective chemical insect repellent has been shown to cause brain damage upon repeated application to the skin."
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_45",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "In 2001, the Peruvian government began requiring tourists to buy expensive permits to hike the remote Inca Trail, which goes to the ancient city of Machu Picchu. The total number of permits is strictly limited; in fact, only 500 people per day are now allowed to hike the Inca Trail, whereas before 2001, visitors numbered in the thousands. The stated purpose of the program is to preserve the archaeological treasures along the Inca Trail.",
+      "stem": "Which of the following, if true, most strengthens the argument that the program has successfully prevented deterioration of archaeological treasures along the Inca Trail?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "Since 2001, hotels near Machu Picchu have experienced declines in income, as fewer tourists means fewer sales of craft goods and refreshments.",
+            "B": "Since 2001, the sale of Inca Trail permits is used to staff a museum of Incan culture in Peru's capital city, Lima, and to hire guards for archaeological sites without permit programs.",
+            "C": "Since 2001, Incan ruins similar to Machu Picchu but not on the Inca Trail have deteriorated at a significantly greater rate than those on the trail.",
+            "D": "The total number of tourists visiting Peru has risen substantially since 2001, even as the number of tourists hiking the Inca Trail has remained constant.",
+            "E": "The Peruvian government has used revenue from Inca Trail permits to fund restoration efforts at other historical sites throughout the country."
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_46",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "The Farmacy Center for the Performing Arts, designed by a world-renowned architect, was built 15 years ago in downtown Metropolis. A recent study shows that, on average, a person who attends a performance at the Farmacy Center spends $83 at downtown businesses on the day of the performance. Following this report, the chairman of the Farmacy Center's Board of Trustees claims that the Farmacy Center has been a significant source of the economic revitalization of downtown Metropolis.",
+      "stem": "Which of the following, if true, most properly supports the chairman's contention?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "The Metropolis Chamber of Commerce honored the Farmacy chairman this year for his contributions to the city.",
+            "B": "Restaurants near the Farmacy Center tend to be more expensive than restaurants in outlying areas.",
+            "C": "The Farmacy Center is the only building in Metropolis designed by a world-renowned contemporary architect.",
+            "D": "For major theater companies on national tours, the Farmacy Center is the first choice among venues in downtown Metropolis.",
+            "E": "Many suburbanites visit downtown Metropolis on weekends in order to see performances at the Farmacy Center."
+          }
+        }
+      ],
+      "correct": [
+        "E"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_47",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "One retirement account option allows a worker to save money without paying taxes, but requires the worker to pay taxes on funds withdrawn from the account upon retirement. A second option requires the worker to pay taxes upfront, but allows the worker to withdraw funds tax-free upon retirement. Assuming the rate of return available in the worker's retirement account at retirement is higher than the total amount contributed prior to retirement, workers can expect to pay less in taxes overall if they choose the second option.",
+      "stem": "Which of the following pieces of information would be most useful in determining whether the conclusion is valid for an individual worker?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "The amount of money the worker will contribute to the retirement plan over his or her career.",
+            "B": "The amount that tax rates will increase in the future.",
+            "C": "Whether inflation will be lower than the retirement account's annual earnings.",
+            "D": "How the worker's tax bracket in retirement compares to his or her tax bracket while still employed.",
+            "E": "The dollar value of the worker's account upon retirement."
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_50",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "Male CEOs of major corporations are, on average, three inches taller than the average male. When data from the general population are analyzed and corrected for gender and age, a clear pattern emerges: for every extra inch of height, a person's annual salary increases by approximately $789. Citing these facts, a prominent journalist claims that most employers have an unconscious bias in favor of tall people.",
+      "stem": "Which of the following, if true, would most seriously undermine the journalist's argument?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "On average, a woman is shorter than her husband and earns less than he does.",
+            "B": "Socioeconomic status has been shown to have a strong positive correlation to both height and educational attainment.",
+            "C": "Professional basketball players, who are some of the tallest people in the labor force, have high incomes.",
+            "D": "Human resources professionals, who make many hiring decisions, are on average no taller than the general population.",
+            "E": "People who are taller than average tend to project greater confidence in professional settings."
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_51",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "Traditionally, public school instructors have been compensated according to seniority. Recently, the existing salary system has been increasingly criticized as an approach to compensation that rewards longevity in teaching and ignores instructional quality. Instead, educational experts argue that, to retain exceptional teachers and maintain quality instruction, teachers should receive salaries or bonuses based on merit, rather than seniority.",
+      "stem": "Which of the following, if true, most strengthens the conclusion of the educational experts?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "Some teachers believe that financial compensation is not the only factor contributing to job satisfaction and teaching performance.",
+            "B": "School districts will develop their own unique compensation structures that may differ greatly from those of other school districts.",
+            "C": "Upon leaving the teaching profession, many young teachers cite a lack of opportunity for more rapid financial advancement as a primary factor in their decisions to change careers.",
+            "D": "In school districts that have implemented pay-for-performance compensation structures, standardized test scores have dramatically increased.",
+            "E": "The average salary of public school teachers has not kept pace with inflation over the past decade."
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_53",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "According to a study of more than 50,000 Norwegian smokers, smokers who reduced their nicotine intake from cigarettes, even by up to 50%, did not achieve significant health benefits. The mortality rate for those who cut back on cigarettes was not lower than that for heavier smokers. Moreover, the rate of cardiovascular disease was similar across all subsets of smokers in the study. As a result, the authors of the study claim that reducing nicotine intake does not improve one's health.",
+      "stem": "Which of the following, if true, most seriously jeopardizes the findings of the study described above?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "The majority of study participants minimized their nicotine withdrawal symptoms through the use of nicotine patches and other nicotine replacement therapy products.",
+            "B": "Many of the study's participants periodically dined in restaurants in which smoking was permitted.",
+            "C": "Most study participants started smoking at a young age and smoked without taking breaks.",
+            "D": "Quitting smoking entirely results in a marked reduction in the ill effects of smoking.",
+            "E": "Men and women who smoked pipes and cigars were excluded from the study."
+          }
+        }
+      ],
+      "correct": [
+        "A"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
+    },
+    {
+      "id": "CR5LB_54",
+      "section": "verbal",
+      "type": "critical_reasoning",
+      "subtype": "cr",
+      "difficulty": "medium",
+      "set": null,
+      "passage": "In developed countries, such as Canada, the percentage of the population diagnosed with clinical depression is much greater than that in developing countries. Researchers hypothesize that this difference is due to the increased leisure time afforded to residents of developed countries.",
+      "stem": "The hypothesis of the researchers depends on which of the following assumptions?",
+      "blanks": [
+        {
+          "label": "Blank",
+          "choices": {
+            "A": "Clinical depression is a genetically transmitted malady.",
+            "B": "Access to accurate diagnostic procedures for depression is equal for residents of developing and developed countries.",
+            "C": "Certain medications that effectively treat clinical depression are not readily available in developing countries.",
+            "D": "Few residents of developing countries dedicate significant time to leisure activities.",
+            "E": "The stress associated with economic hardship in developing countries prevents the onset of clinical depression."
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "",
+      "source": "CR_5lb_Ch6"
     }
   ],
   "quant": [

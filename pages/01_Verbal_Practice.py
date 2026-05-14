@@ -20,18 +20,21 @@ TYPE_LABEL = {
     "text_completion":       "Text Completion",
     "sentence_equivalence":  "Sentence Equivalence",
     "reading_comprehension": "Reading Comprehension",
+    "critical_reasoning":    "Critical Reasoning",
     "test":                  "Test (모의고사)",
 }
 TYPE_CSS = {
     "text_completion":       "b-tc",
     "sentence_equivalence":  "b-se",
     "reading_comprehension": "b-rc",
+    "critical_reasoning":    "b-cr",
     "test":                  "b-test",
 }
 TYPE_SHORT = {
-    "text_completion": "TC",
+    "text_completion":    "TC",
     "sentence_equivalence": "SE",
     "reading_comprehension": "RC",
+    "critical_reasoning": "CR",
     "test": "TEST",
 }
 
@@ -77,18 +80,20 @@ def count_total_q(items):
 
 
 def build_test_items(all_q, n_test):
-    """Test 모드: TC/SE/RC 비례 샘플링 (12Q=5+2+5, 15Q=6+3+6)"""
+    """Test 모드: TC/SE/RC/CR 비례 샘플링 (12Q=5+2+4+1, 15Q=6+3+4+2)"""
     if n_test == 12:
-        tc_n, se_n, rc_n = 5, 2, 5
+        tc_n, se_n, rc_n, cr_n = 5, 2, 4, 1
     else:
-        tc_n, se_n, rc_n = 6, 3, 6
+        tc_n, se_n, rc_n, cr_n = 6, 3, 4, 2
     tc_pool = [q for q in all_q if q["type"] == "text_completion"]
     se_pool = [q for q in all_q if q["type"] == "sentence_equivalence"]
     rc_pool = [q for q in all_q if q["type"] == "reading_comprehension"]
+    cr_pool = [q for q in all_q if q["type"] == "critical_reasoning"]
     sampled = (
         random.sample(tc_pool, min(tc_n, len(tc_pool))) +
         random.sample(se_pool, min(se_n, len(se_pool))) +
-        random.sample(rc_pool, min(rc_n, len(rc_pool)))
+        random.sample(rc_pool, min(rc_n, len(rc_pool))) +
+        random.sample(cr_pool, min(cr_n, len(cr_pool)))
     )
     return build_items(sampled)
 
@@ -110,8 +115,8 @@ with st.sidebar:
 
     sel_type = st.multiselect(
         "문제 유형",
-        options=["text_completion", "sentence_equivalence", "reading_comprehension", "test"],
-        default=["text_completion", "sentence_equivalence", "reading_comprehension"],
+        options=["text_completion", "sentence_equivalence", "reading_comprehension", "critical_reasoning", "test"],
+        default=["text_completion", "sentence_equivalence", "reading_comprehension", "critical_reasoning"],
         format_func=lambda x: TYPE_LABEL[x],
     )
     is_test_only = set(sel_type) == {"test"}
@@ -165,7 +170,7 @@ with st.sidebar:
                 "vp_is_test":   False,
             })
         st.rerun()
-    st.caption("TC: 빈칸 완성 | SE: 문장 등가 | RC: 독해 | TEST: 모의고사")
+    st.caption("TC: 빈칸 완성 | SE: 문장 등가 | RC: 독해 | CR: 논리 추론 | TEST: 모의고사")
 
 # ── Guard ───────────────────────────────────────────────────────────────────────
 if "vp_questions" not in st.session_state:
@@ -318,6 +323,21 @@ def render_answer(q, q_id, submitted):
             )
             user_answers["RC_single"] = sel
 
+    elif q_type == "critical_reasoning":
+        choices = blanks[0]["choices"] if blanks else {}
+        keys    = list(choices.keys())
+        prev    = user_answers.get("CR_single")
+        prev_i  = keys.index(prev) if prev in keys else None
+        sel     = st.radio(
+            "정답 선택",
+            options=keys,
+            format_func=lambda k, c=choices: f"{k}.  {c[k]}",
+            index=prev_i,
+            key=f"{q_id}_CR_single",
+            disabled=submitted,
+        )
+        user_answers["CR_single"] = sel
+
     st.session_state["vp_answers"][q_id] = user_answers
     return user_answers
 
@@ -332,6 +352,9 @@ def get_user_list(q, ua):
         if q.get("subtype") == "multi_answer":
             return sorted(ua.get("RC", []))
         a = ua.get("RC_single")
+        return [a] if a else []
+    if qt == "critical_reasoning":
+        a = ua.get("CR_single")
         return [a] if a else []
     return []
 
