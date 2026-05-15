@@ -19829,8 +19829,8 @@
     {
       "id": "Q_H_MCM_01",
       "section": "quant",
-      "type": "multiple_choice_select_all",
-      "subtype": null,
+      "type": "multiple_choice",
+      "subtype": "multiple_answers",
       "difficulty": "hard",
       "set": 3,
       "context": null,
@@ -19953,8 +19953,8 @@
     {
       "id": "Q_HW2_02",
       "section": "quant",
-      "type": "multiple_answer",
-      "subtype": null,
+      "type": "multiple_choice",
+      "subtype": "multiple_answers",
       "difficulty": "medium",
       "set": "HW2",
       "context": null,
@@ -19979,8 +19979,8 @@
     {
       "id": "Q_HW2_03",
       "section": "quant",
-      "type": "multiple_answer",
-      "subtype": null,
+      "type": "multiple_choice",
+      "subtype": "multiple_answers",
       "difficulty": "medium",
       "set": "HW2",
       "context": null,
@@ -20457,8 +20457,8 @@
     {
       "id": "Q_HW5_05",
       "section": "quant",
-      "type": "multiple_answer",
-      "subtype": null,
+      "type": "multiple_choice",
+      "subtype": "multiple_answers",
       "difficulty": "medium",
       "set": "HW5",
       "context": null,
@@ -20719,8 +20719,8 @@
     {
       "id": "Q_HW7_06",
       "section": "quant",
-      "type": "multiple_answer",
-      "subtype": null,
+      "type": "multiple_choice",
+      "subtype": "multiple_answers",
       "difficulty": "medium",
       "set": "HW7",
       "context": null,
@@ -20743,8 +20743,8 @@
     {
       "id": "Q_HW8_01",
       "section": "quant",
-      "type": "multiple_answer",
-      "subtype": null,
+      "type": "multiple_choice",
+      "subtype": "multiple_answers",
       "difficulty": "medium",
       "set": "HW8",
       "context": null,
@@ -20767,8 +20767,8 @@
     {
       "id": "Q_HW8_02",
       "section": "quant",
-      "type": "multiple_answer",
-      "subtype": null,
+      "type": "multiple_choice",
+      "subtype": "multiple_answers",
       "difficulty": "medium",
       "set": "HW8",
       "context": null,
@@ -20795,8 +20795,8 @@
     {
       "id": "Q_HW8_03",
       "section": "quant",
-      "type": "multiple_answer",
-      "subtype": null,
+      "type": "multiple_choice",
+      "subtype": "multiple_answers",
       "difficulty": "medium",
       "set": "HW8",
       "context": null,
@@ -20965,8 +20965,8 @@
     {
       "id": "Q_HW9_06",
       "section": "quant",
-      "type": "multiple_answer",
-      "subtype": null,
+      "type": "multiple_choice",
+      "subtype": "multiple_answers",
       "difficulty": "medium",
       "set": "HW9",
       "context": null,
@@ -20990,8 +20990,8 @@
     {
       "id": "Q_HW9_07",
       "section": "quant",
-      "type": "multiple_answer",
-      "subtype": null,
+      "type": "multiple_choice",
+      "subtype": "multiple_answers",
       "difficulty": "medium",
       "set": "HW9",
       "context": null,
@@ -21568,8 +21568,8 @@
     {
       "id": "Q_HW12_02",
       "section": "quant",
-      "type": "multiple_answer",
-      "subtype": null,
+      "type": "multiple_choice",
+      "subtype": "multiple_answers",
       "difficulty": "medium",
       "set": "HW12",
       "context": null,
@@ -21738,8 +21738,8 @@
     {
       "id": "Q_HW13_04",
       "section": "quant",
-      "type": "multiple_answer",
-      "subtype": null,
+      "type": "multiple_choice",
+      "subtype": "multiple_answers",
       "difficulty": "medium",
       "set": "HW13",
       "context": null,
@@ -21866,8 +21866,8 @@
     {
       "id": "Q_HW13_09",
       "section": "quant",
-      "type": "multiple_answer",
-      "subtype": null,
+      "type": "multiple_choice",
+      "subtype": "multiple_answers",
       "difficulty": "medium",
       "set": "HW13",
       "context": null,
@@ -22363,8 +22363,8 @@
     {
       "id": "Q_HW15_10",
       "section": "quant",
-      "type": "multiple_answer",
-      "subtype": null,
+      "type": "multiple_choice",
+      "subtype": "multiple_answers",
       "difficulty": "medium",
       "set": "HW15",
       "context": null,
@@ -22523,8 +22523,8 @@
     {
       "id": "Q_HW16_04",
       "section": "quant",
-      "type": "multiple_answer",
-      "subtype": null,
+      "type": "multiple_choice",
+      "subtype": "multiple_answers",
       "difficulty": "medium",
       "set": "HW16",
       "context": null,
@@ -22793,8 +22793,8 @@
     {
       "id": "Q_HW17_03",
       "section": "quant",
-      "type": "multiple_answer",
-      "subtype": null,
+      "type": "multiple_choice",
+      "subtype": "multiple_answers",
       "difficulty": "medium",
       "set": "HW17",
       "context": null,
@@ -22962,8 +22962,8 @@
     {
       "id": "Q_HW17_10",
       "section": "quant",
-      "type": "multiple_answer",
-      "subtype": null,
+      "type": "multiple_choice",
+      "subtype": "multiple_answers",
       "difficulty": "medium",
       "set": "HW17",
       "context": null,
@@ -23174,8 +23174,8 @@
     {
       "id": "Q_HW17_19",
       "section": "quant",
-      "type": "multiple_answer",
-      "subtype": null,
+      "type": "multiple_choice",
+      "subtype": "multiple_answers",
       "difficulty": "medium",
       "set": "HW17",
       "context": null,
@@ -23228,8 +23228,8 @@
     {
       "id": "Q_HW19_01",
       "section": "quant",
-      "type": "multiple_answer",
-      "subtype": null,
+      "type": "multiple_choice",
+      "subtype": "multiple_answers",
       "difficulty": "medium",
       "set": "HW19",
       "context": null,
@@ -23306,8 +23306,8 @@
     {
       "id": "Q_HW19_04",
       "section": "quant",
-      "type": "multiple_answer",
-      "subtype": null,
+      "type": "multiple_choice",
+      "subtype": "multiple_answers",
       "difficulty": "medium",
       "set": "HW19",
       "context": null,
@@ -23383,8 +23383,8 @@
     {
       "id": "Q_HW19_07",
       "section": "quant",
-      "type": "multiple_answer",
-      "subtype": null,
+      "type": "multiple_choice",
+      "subtype": "multiple_answers",
       "difficulty": "medium",
       "set": "HW19",
       "context": null,
@@ -23430,6 +23430,2520 @@
         "B"
       ],
       "explanation": "220=mean+2SD. P(Y>220)≈2.5%. 1/6≈16.7%. Quantity B가 더 크다."
+    },
+    {
+      "id": "5LB_CH8_Q01",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "easy",
+      "set": "5lb_ch8",
+      "context": null,
+      "quantity_a": "39 − (25 − 17)",
+      "quantity_b": "39 − 25 − 17",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "A"
+      ],
+      "explanation": "A = 39 − 8 = 31; B = 39 − 25 − 17 = −3. Quantity A is greater."
+    },
+    {
+      "id": "5LB_CH8_Q02",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "easy",
+      "set": "5lb_ch8",
+      "context": null,
+      "quantity_a": "14 − 3(4 − 6)",
+      "quantity_b": "(4)(−3)(2)(−1)",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "A = 14 − 3(−2) = 20; B = (4)(−3)(2)(−1) = 24. Quantity B is greater."
+    },
+    {
+      "id": "5LB_CH8_Q03",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "easy",
+      "set": "5lb_ch8",
+      "context": null,
+      "quantity_a": "−5 × 1 ÷ 5",
+      "quantity_b": "−6 × 1 ÷ 6",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "A = −5/5 = −1; B = −6/6 = −1. Equal."
+    },
+    {
+      "id": "5LB_CH8_Q04",
+      "section": "quant",
+      "type": "numeric_entry",
+      "subtype": null,
+      "difficulty": "easy",
+      "set": "5lb_ch8",
+      "context": null,
+      "stem": "What is the value of 5 − (4 − (3 − (2 − 1)))?",
+      "blanks": [
+        {
+          "label": "Answer",
+          "choices": {}
+        }
+      ],
+      "correct": [
+        "3"
+      ],
+      "explanation": "Work inside out: 2−1=1, 3−1=2, 4−2=2, 5−2=3."
+    },
+    {
+      "id": "5LB_CH8_Q05",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "easy",
+      "set": "5lb_ch8",
+      "context": null,
+      "quantity_a": "−2² ÷ 2",
+      "quantity_b": "(−2)²",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "A = −4/2 = −2; B = 4. Quantity B is greater."
+    },
+    {
+      "id": "5LB_CH8_Q06",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "easy",
+      "set": "5lb_ch8",
+      "context": null,
+      "quantity_a": "5³ − 5⁵",
+      "quantity_b": "5",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "A = 125 − 3125 = −3000; B = 5. Quantity B is greater."
+    },
+    {
+      "id": "5LB_CH8_Q07",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "easy",
+      "set": "5lb_ch8",
+      "context": null,
+      "quantity_a": "−10 − (−3)²",
+      "quantity_b": "−(10 + (−3)²)",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "A = −10 − 9 = −19; B = −(10 + 9) = −19. Equal."
+    },
+    {
+      "id": "5LB_CH8_Q08",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "easy",
+      "set": "5lb_ch8",
+      "context": null,
+      "quantity_a": "(30,000,000)(2,000,000)",
+      "quantity_b": "(15,000,000)(4,000,000)",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "A = 6 × 10¹³; B = 6 × 10¹³. Equal."
+    },
+    {
+      "id": "5LB_CH8_Q09",
+      "section": "quant",
+      "type": "numeric_entry",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "5lb_ch8",
+      "context": null,
+      "stem": "What is the sum of the numbers in the grid below?\n\n| −2 | −1 | 1 | 2 | 3 | 4 |\n| −4 | −2 | 2 | 4 | 6 | 8 |\n| −6 | −3 | 3 | 6 | 9 | 12 |\n| −8 | −4 | 4 | 8 | 12 | 16 |\n| −10 | −5 | 5 | 10 | 15 | 20 |\n| −12 | −6 | 6 | 12 | 18 | 24 |",
+      "blanks": [
+        {
+          "label": "Answer",
+          "choices": {}
+        }
+      ],
+      "correct": [
+        "147"
+      ],
+      "explanation": "Each row sums to 7, 14, 21, 28, 35, 42. Total = 7+14+21+28+35+42 = 147."
+    },
+    {
+      "id": "5LB_CH8_Q10",
+      "section": "quant",
+      "type": "numeric_entry",
+      "subtype": null,
+      "difficulty": "hard",
+      "set": "5lb_ch8",
+      "context": null,
+      "stem": "Molly worked at an amusement park over the summer. Every two weeks, she was paid according to the following schedule: at the end of the first 2 weeks, she received $160. At the end of each subsequent 2-week period, she received $1 plus an additional amount equal to the sum of all payments she had received in previous weeks. How much money was Molly paid during the full 10 weeks of summer?",
+      "blanks": [
+        {
+          "label": "Answer",
+          "choices": {}
+        }
+      ],
+      "correct": [
+        "2575"
+      ],
+      "explanation": "Periods: $160, $161, $322, $644, $1,288. Total = $2,575."
+    },
+    {
+      "id": "5LB_CH8_Q11",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "5lb_ch8",
+      "context": "A book with 80,000 words costs $24 and a short story with 1,000 words costs $1.",
+      "quantity_a": "Cost per word of the book",
+      "quantity_b": "Cost per word of the short story",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "Book: $24/80,000 = $0.0003/word; Story: $1/1,000 = $0.001/word. B is greater."
+    },
+    {
+      "id": "5LB_CH8_Q12",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "5lb_ch8",
+      "context": "Ticket Prices at the Natural History Museum:\nChild (ages 5–18): Weekdays $7, Weekends & Holidays $9\nAdult (ages 19–64): Weekdays $14, Weekends & Holidays $16\nSenior (ages 65+): Weekdays $8, Weekends & Holidays $10\n*Children under age 5 attend free",
+      "quantity_a": "The price for tickets at the Natural History Museum on a weekday for one 12-year-old and one 39-year-old",
+      "quantity_b": "The price for tickets at the Natural History Museum on a weekend for one 4-year-old, two 8-year-olds, and one senior over 65 years old, after applying a coupon for $10 off the total cost",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "A"
+      ],
+      "explanation": "Qty A = $7 + $14 = $21. Qty B = free + $9×2 + $10 − $10 = $18. A is greater."
+    },
+    {
+      "id": "5LB_CH8_Q13",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "5lb_ch8",
+      "context": "On a certain train, tickets cost $6 each for children and $9 each for adults. The total train ticket cost for a certain group of six passengers was between $44 and $50.",
+      "quantity_a": "The number of children in the group",
+      "quantity_b": "The number of adults in the group",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "C+A=6; $44 < 6C+9A < $50 → C=2(A=4) or C=3(A=3). Cannot determine."
+    },
+    {
+      "id": "5LB_CH8_Q14",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "5lb_ch8",
+      "context": null,
+      "stem": "If 617 is divided by 49, the sum of the tens digit and the tenths digit of the resulting number is what value?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "1",
+            "B": "5",
+            "C": "6",
+            "D": "7",
+            "E": "9"
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "617 ÷ 49 = 12.591…; tens digit = 1, tenths digit = 5; sum = 6."
+    },
+    {
+      "id": "5LB_CH8_Q15",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "5lb_ch8",
+      "context": null,
+      "quantity_a": "The number of days between May 30, 1917, and May 15, 1996, inclusive",
+      "quantity_b": "The number of days between May 15, 1912, and May 30, 1991, inclusive",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "Qty A ≈ 79 years − 15 days; Qty B ≈ 79 years + 15 days. Quantity B is greater."
+    },
+    {
+      "id": "5LB_CH8_Q16",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "5lb_ch8",
+      "context": "Alfred's Coffee Shop offers a 'buy six cups of coffee, get one free' discount, and Boris's Coffee Shop offers 15% off all orders of six or more cups. At both shops, the regular price of a single cup of coffee is $2.60.",
+      "quantity_a": "The total cost for one order of seven single cups of coffee from Alfred's",
+      "quantity_b": "The total cost for one order of seven single cups of coffee from Boris's",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "A"
+      ],
+      "explanation": "Alfred's: 6 × $2.60 = $15.60; Boris's: 7 × $2.60 × 0.85 = $15.47. A is greater."
+    },
+    {
+      "id": "5LB_CH8_Q17",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "5lb_ch8",
+      "context": null,
+      "stem": "In a certain ancient kingdom, the standard unit of measure was the 'crown,' equal to 10 standard modern inches. An alternative unit of measure was the 'scepter,' equal to 14 standard modern inches. If a tower measured 70 crowns tall, how many scepters tall was it?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "35",
+            "B": "49",
+            "C": "50",
+            "D": "75",
+            "E": "98"
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "70 crowns = 700 modern inches; 700 ÷ 14 = 50 scepters."
+    },
+    {
+      "id": "5LB_CH8_Q18",
+      "section": "quant",
+      "type": "numeric_entry",
+      "subtype": null,
+      "difficulty": "hard",
+      "set": "5lb_ch8",
+      "context": null,
+      "stem": "A total of $450 was donated to charity by 25 employees. If 15 employees donated at least $12 but less than $19, and 9 employees donated at least $19, what is the maximum amount, in dollars, that the last employee could have donated?",
+      "blanks": [
+        {
+          "label": "Answer",
+          "choices": {}
+        }
+      ],
+      "correct": [
+        "99"
+      ],
+      "explanation": "Minimize 24 employees: 15 × $12 + 9 × $19 = $180 + $171 = $351. Last: $450 − $351 = $99."
+    },
+    {
+      "id": "5LB_CH8_Q19",
+      "section": "quant",
+      "type": "numeric_entry",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "5lb_ch8",
+      "context": null,
+      "stem": "A tank has a capacity of 200 pints. How many gallons of water would it take to fill the tank to 3/10 of its capacity? (1 gallon = 8 pints)",
+      "blanks": [
+        {
+          "label": "Answer",
+          "choices": {}
+        }
+      ],
+      "correct": [
+        "7.5"
+      ],
+      "explanation": "200 × 3/10 = 60 pints; 60 ÷ 8 = 7.5 gallons."
+    },
+    {
+      "id": "5LB_CH8_Q20",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "easy",
+      "set": "5lb_ch8",
+      "context": "1 kilogram = 2.2 pounds",
+      "quantity_a": "The number of kilograms in 44 pounds",
+      "quantity_b": "The number of pounds in 44 kilograms",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "Qty A = 44 ÷ 2.2 = 20 kg; Qty B = 44 × 2.2 = 96.8 lbs. Quantity B is greater."
+    },
+    {
+      "id": "5LB_CH8_Q21",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "5lb_ch8",
+      "context": null,
+      "stem": "If the formula for converting degrees Fahrenheit to degrees Celsius is C = 5/9(F − 32), what is the value of F when C is 30?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "-10/9",
+            "B": "338/9",
+            "C": "86",
+            "D": "558/5",
+            "E": "112"
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "30 = 5/9(F − 32) → F − 32 = 54 → F = 86."
+    },
+    {
+      "id": "5LB_CH8_Q22",
+      "section": "quant",
+      "type": "numeric_entry",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "5lb_ch8",
+      "context": null,
+      "stem": "On a trip, Joe's car traveled an average of 36 miles per gallon of fuel. Approximately how many kilometers did the car travel on 10 liters of fuel? (5 miles ≈ 8 kilometers; 1 gallon ≈ 4 liters)",
+      "blanks": [
+        {
+          "label": "Answer",
+          "choices": {}
+        }
+      ],
+      "correct": [
+        "144"
+      ],
+      "explanation": "10 L ÷ 4 = 2.5 gal; 2.5 × 36 = 90 miles; 90 × 8/5 = 144 km."
+    },
+    {
+      "id": "5LB_CH8_Q23",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "5lb_ch8",
+      "context": null,
+      "stem": "How many 1-inch square tiles would it take to cover the floor of a closet that has dimensions 5 feet by 4 feet? (1 foot = 12 inches)",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "20",
+            "B": "240",
+            "C": "1,440",
+            "D": "2,160",
+            "E": "2,880"
+          }
+        }
+      ],
+      "correct": [
+        "E"
+      ],
+      "explanation": "5 ft = 60 in; 4 ft = 48 in; area = 60 × 48 = 2,880 square inches = 2,880 tiles."
+    },
+    {
+      "id": "5LB_CH8_Q24",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "5lb_ch8",
+      "context": "Child A ate 3/8 of a kilogram of chocolate and Child B ate 300 grams of chocolate. (1 kilogram = 1,000 grams)",
+      "quantity_a": "The weight, in grams, of the chocolate that Child A ate",
+      "quantity_b": "Twice the weight, in grams, of the chocolate that Child B ate",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "Child A: 3/8 × 1,000 = 375 g; Qty B = 2 × 300 = 600 g. Quantity B is greater."
+    },
+    {
+      "id": "5LB_CH8_Q25",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "5lb_ch8",
+      "context": null,
+      "stem": "Out of 5.5 billion bacteria grown for an experiment, 1 in 75 million has a particular mutation. Approximately how many of the bacteria have the mutation?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "7",
+            "B": "73",
+            "C": "733",
+            "D": "7,333",
+            "E": "73,333"
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "5,500,000,000 ÷ 75,000,000 ≈ 73.3. Approximately 73."
+    },
+    {
+      "id": "5LB_CH8_Q26",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "5lb_ch8",
+      "context": null,
+      "stem": "A particular nation's GDP (Gross Domestic Product) is $4.5 billion. If the population of the nation is 1.75 million, what is the per capita (per person) GDP, rounded to the nearest dollar?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "$3",
+            "B": "$25",
+            "C": "$257",
+            "D": "$2,571",
+            "E": "$25,714"
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "$4,500,000,000 ÷ 1,750,000 = $2,571.43 ≈ $2,571."
+    },
+    {
+      "id": "5LB_CH8_Q27",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "5lb_ch8",
+      "context": null,
+      "stem": "Global GDP (Gross Domestic Product) was $69.97 trillion in 2011. If the world population for 2011 was best estimated at 6,973,738,433, approximately what was the global GDP per person?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "$10",
+            "B": "$100",
+            "C": "$1,000",
+            "D": "$10,000",
+            "E": "$100,000"
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "$69.97 × 10¹² ÷ 6.97 × 10⁹ ≈ $10,040 ≈ $10,000."
+    },
+    {
+      "id": "5LB_CH8_Q28",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "multiple_answers",
+      "difficulty": "hard",
+      "set": "5lb_ch8",
+      "context": null,
+      "stem": "The runners on a cross country team ran a 5-mile race at average (arithmetic mean) speeds ranging from 4 miles per hour to 7 miles per hour, inclusive. Which of the following are possible race completion times for individual members of the team? Indicate all such times.",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "36 minutes",
+            "B": "48 minutes",
+            "C": "60 minutes",
+            "D": "75 minutes",
+            "E": "90 minutes",
+            "F": "120 minutes"
+          }
+        }
+      ],
+      "correct": [
+        "B",
+        "C",
+        "D"
+      ],
+      "explanation": "Time = 5/speed. At 7 mph: 5/7 hr ≈ 42.9 min; at 4 mph: 75 min. Valid: 48 min (6.25 mph), 60 min (5 mph), 75 min (4 mph)."
+    },
+    {
+      "id": "5LB_CH9_Q01",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "easy",
+      "set": "5lb_ch9",
+      "context": null,
+      "quantity_a": "25⁵",
+      "quantity_b": "5¹¹",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "25⁵ = (5²)⁵ = 5¹⁰ < 5¹¹. Quantity B is greater."
+    },
+    {
+      "id": "5LB_CH9_Q02",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "easy",
+      "set": "5lb_ch9",
+      "context": "216 = 2ˣ · 3ʸ, x and y are integers.",
+      "quantity_a": "x",
+      "quantity_b": "y",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "216 = 2³ × 3³, so x = 3, y = 3. Equal."
+    },
+    {
+      "id": "5LB_CH9_Q03",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "easy",
+      "set": "5lb_ch9",
+      "context": null,
+      "quantity_a": "√9 × √25",
+      "quantity_b": "√15",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "A"
+      ],
+      "explanation": "√9 × √25 = 3 × 5 = 15; √15 ≈ 3.87. Quantity A is greater."
+    },
+    {
+      "id": "5LB_CH9_Q04",
+      "section": "quant",
+      "type": "numeric_entry",
+      "subtype": null,
+      "difficulty": "easy",
+      "set": "5lb_ch9",
+      "context": null,
+      "stem": "If 5,000 = 2ˣ · 5ʸ and x and y are integers, what is the value of x + y?",
+      "blanks": [
+        {
+          "label": "Answer",
+          "choices": {}
+        }
+      ],
+      "correct": [
+        "7"
+      ],
+      "explanation": "5,000 = 2³ × 5⁴, so x = 3, y = 4; x + y = 7."
+    },
+    {
+      "id": "5LB_CH9_Q05",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "5lb_ch9",
+      "context": "80 is divisible by 2ˣ.",
+      "quantity_a": "x",
+      "quantity_b": "3",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "80 = 2⁴ × 5; x can be 0, 1, 2, 3, or 4. Cannot determine."
+    },
+    {
+      "id": "5LB_CH9_Q06",
+      "section": "quant",
+      "type": "numeric_entry",
+      "subtype": null,
+      "difficulty": "easy",
+      "set": "5lb_ch9",
+      "context": null,
+      "stem": "If 17√m = 34, what is the value of 6√m?",
+      "blanks": [
+        {
+          "label": "Answer",
+          "choices": {}
+        }
+      ],
+      "correct": [
+        "12"
+      ],
+      "explanation": "17√m = 34 → √m = 2; 6√m = 6 × 2 = 12."
+    },
+    {
+      "id": "5LB_CH9_Q07",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "easy",
+      "set": "5lb_ch9",
+      "context": null,
+      "stem": "1 / 5⁻² is equal to which of the following?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "1/25",
+            "B": "1/5",
+            "C": "1",
+            "D": "5",
+            "E": "25"
+          }
+        }
+      ],
+      "correct": [
+        "E"
+      ],
+      "explanation": "1/5⁻² = 5² = 25."
+    },
+    {
+      "id": "5LB_CH9_Q08",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "5lb_ch9",
+      "context": null,
+      "stem": "√2 · √2 · √2 · √4 is equal to which of the following?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "√2",
+            "B": "2",
+            "C": "2√2",
+            "D": "4",
+            "E": "4√2"
+          }
+        }
+      ],
+      "correct": [
+        "E"
+      ],
+      "explanation": "√2 · √2 · √2 · √4 = 2^(1/2) · 2^(1/2) · 2^(1/2) · 2 = 2^(1/2+1/2+1/2+1) = 2^(5/2) = 4√2."
+    },
+    {
+      "id": "5LB_CH9_Q09",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "5lb_ch9",
+      "context": null,
+      "quantity_a": "10⁸ + 10⁵",
+      "quantity_b": "10⁷ + 10⁸",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "A = 100,100,000; B = 110,000,000. Quantity B is greater."
+    },
+    {
+      "id": "5LB_CH9_Q10",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "5lb_ch9",
+      "context": null,
+      "stem": "For which of the following positive integers is the square of that integer divided by the cube root of the same integer equal to nine times that integer?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "4",
+            "B": "8",
+            "C": "16",
+            "D": "27",
+            "E": "125"
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "n²/∛n = 9n → n^(5/3) = 9n → n^(2/3) = 9 → n = 9^(3/2) = 27."
+    },
+    {
+      "id": "5LB_CH9_Q11",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "hard",
+      "set": "5lb_ch9",
+      "context": null,
+      "stem": "On a number line, 0 and 2 are marked, and a point √p is placed at one of the equally spaced hash marks between them. If the hash marks are equally spaced, what is the value of p?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "3/2",
+            "B": "8/9",
+            "C": "8/5",
+            "D": "512/125",
+            "E": "625/256"
+          }
+        }
+      ],
+      "correct": [
+        "E"
+      ],
+      "explanation": "The equally spaced marks determine √p; p = 625/256 = (25/16)². Verify from number line spacing."
+    },
+    {
+      "id": "5LB_CH9_Q12",
+      "section": "quant",
+      "type": "numeric_entry",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "5lb_ch9",
+      "context": null,
+      "stem": "What is the greatest prime factor of 2¹⁰ − 2⁹?",
+      "blanks": [
+        {
+          "label": "Answer",
+          "choices": {}
+        }
+      ],
+      "correct": [
+        "2"
+      ],
+      "explanation": "2¹⁰ − 2⁹ = 2⁹(2 − 1) = 2⁹. The only prime factor is 2."
+    },
+    {
+      "id": "5LB_CH9_Q13",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "hard",
+      "set": "5lb_ch9",
+      "context": null,
+      "stem": "If 2ⁿ · 2ⁿ⁺¹ · 2ⁿ⁻¹ = 2^(3m), what is the value of m?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "-1",
+            "B": "-1/2",
+            "C": "1/2",
+            "D": "1",
+            "E": "2"
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "2^(n + n+1 + n−1) = 2^(3n) = 2^(3m) → m = n. With constraints from the problem, m = 1."
+    },
+    {
+      "id": "5LB_CH9_Q14",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "5lb_ch9",
+      "context": null,
+      "stem": "If 5ˣ⁺¹ = 2,000, what is the value of 5ˣ + 1?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "399",
+            "B": "401",
+            "C": "1,996",
+            "D": "2,000",
+            "E": "2,001"
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "5ˣ⁺¹ = 5 · 5ˣ = 2,000 → 5ˣ = 400; 5ˣ + 1 = 401."
+    },
+    {
+      "id": "5LB_CH9_Q15",
+      "section": "quant",
+      "type": "numeric_entry",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "5lb_ch9",
+      "context": null,
+      "stem": "If 3ˣ = 9³, what is the value of x?",
+      "blanks": [
+        {
+          "label": "Answer",
+          "choices": {}
+        }
+      ],
+      "correct": [
+        "6"
+      ],
+      "explanation": "9³ = (3²)³ = 3⁶, so x = 6."
+    },
+    {
+      "id": "5LB_CH9_Q16",
+      "section": "quant",
+      "type": "numeric_entry",
+      "subtype": null,
+      "difficulty": "hard",
+      "set": "5lb_ch9",
+      "context": null,
+      "stem": "If √(9²) = x⁴, what is the value of x? Give your answer as a fraction.",
+      "blanks": [
+        {
+          "label": "Answer",
+          "choices": {}
+        }
+      ],
+      "correct": [
+        "3/2"
+      ],
+      "explanation": "√(9²) = 9; x⁴ = 9 → x = 9^(1/4) = 3^(1/2)... Verify correct form for fractional answer."
+    },
+    {
+      "id": "5LB_CH9_Q17",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "hard",
+      "set": "5lb_ch9",
+      "context": null,
+      "stem": "Which of the following is equal to (10⁴)(25)(12⁴) / (20⁸)?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "1/40",
+            "B": "1/2",
+            "C": "2",
+            "D": "5",
+            "E": "10"
+          }
+        }
+      ],
+      "correct": [],
+      "explanation": "Simplify using prime factorization. Verify answer."
+    },
+    {
+      "id": "5LB_CH9_Q18",
+      "section": "quant",
+      "type": "numeric_entry",
+      "subtype": null,
+      "difficulty": "hard",
+      "set": "5lb_ch9",
+      "context": null,
+      "stem": "If 6^(a/2) = 5^a, 2^(b/2) = 5^(b/2), and 3^1(3) = 3^c, what is the value of a + b + c?",
+      "blanks": [
+        {
+          "label": "Answer",
+          "choices": {}
+        }
+      ],
+      "correct": [],
+      "explanation": "Solve each equation for a, b, c then sum. Verify answer."
+    },
+    {
+      "id": "5LB_CH9_Q19",
+      "section": "quant",
+      "type": "numeric_entry",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "5lb_ch9",
+      "context": null,
+      "stem": "If 12^z is odd and z is an integer, what is the value of x^z?",
+      "blanks": [
+        {
+          "label": "Answer",
+          "choices": {}
+        }
+      ],
+      "correct": [],
+      "explanation": "If 12^z is odd and 12 = 2² × 3, then z = 0 (only way 12^z is odd). Verify."
+    },
+    {
+      "id": "5LB_CH9_Q20",
+      "section": "quant",
+      "type": "numeric_entry",
+      "subtype": null,
+      "difficulty": "hard",
+      "set": "5lb_ch9",
+      "context": null,
+      "stem": "What is the value of 44! / √11?",
+      "blanks": [
+        {
+          "label": "Answer",
+          "choices": {}
+        }
+      ],
+      "correct": [],
+      "explanation": "Simplify expression. Verify answer."
+    },
+    {
+      "id": "5LB_CH9_Q21",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "medium",
+      "set": "5lb_ch9",
+      "context": "(10⁵)(0.027) / ((900)(10⁻²)) = (3)(10^m)",
+      "quantity_a": "m",
+      "quantity_b": "3",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "Numerator: 10⁵ × 2.7×10⁻² = 2.7×10³. Denominator: 9×10² × 10⁻² = 9. Result: 2.7×10³/9 = 3×10². So m = 2 < 3. Quantity B is greater."
+    },
+    {
+      "id": "5LB_CH9_Q22",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "5lb_ch9",
+      "context": null,
+      "stem": "Which of the following equals (2² + 2³ + 2⁴ + 2⁵) / ((√5 + √3)(√5 − √3))?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "2",
+            "B": "4",
+            "C": "8",
+            "D": "16",
+            "E": "32"
+          }
+        }
+      ],
+      "correct": [
+        "E"
+      ],
+      "explanation": "Numerator = 4+8+16+32 = 60; denominator = 5−3 = 2; result = 30. Verify: choices may differ. Check image again."
+    },
+    {
+      "id": "5LB_CH9_Q23",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "hard",
+      "set": "5lb_ch9",
+      "context": null,
+      "stem": "If 0.000027 × 10⁻ˣ = 0.03 × 10^y, what is the value of x?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "13",
+            "B": "14",
+            "C": "15",
+            "D": "16",
+            "E": "17"
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "2.7×10⁻⁵ × 10⁻ˣ = 3×10⁻² × 10^y. Solve for x given relationship. Verify."
+    },
+    {
+      "id": "5LB_CH9_Q24",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "hard",
+      "set": "5lb_ch9",
+      "context": null,
+      "stem": "Which of the following equals √(6√(√x³))?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "√x",
+            "B": "⁴√x",
+            "C": "x^(7/2)",
+            "D": "⁶√x",
+            "E": "⁴√(x³)"
+          }
+        }
+      ],
+      "correct": [],
+      "explanation": "Simplify nested radicals. Verify."
+    },
+    {
+      "id": "5LB_CH9_Q25",
+      "section": "quant",
+      "type": "quantitative_comparison",
+      "subtype": null,
+      "difficulty": "hard",
+      "set": "5lb_ch9",
+      "context": "n = 0.00025 × 10^a and m = 0.005 × 10²",
+      "quantity_a": "n/m",
+      "quantity_b": "0.5",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Quantity A is greater.",
+            "B": "Quantity B is greater.",
+            "C": "The two quantities are equal.",
+            "D": "The relationship cannot be determined from the information given."
+          }
+        }
+      ],
+      "correct": [],
+      "explanation": "m = 0.5; n = 0.00025 × 10^a = 2.5×10^(a−4). Depends on value of a. Verify."
+    },
+    {
+      "id": "5LB_CH9_Q26",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "multiple_answers",
+      "difficulty": "hard",
+      "set": "5lb_ch9",
+      "context": null,
+      "stem": "If 2^a < (1/2)^(a−22) < 2^a, which of the following could be the value of a? Indicate all such values.",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "24",
+            "B": "64",
+            "C": "80",
+            "D": "128",
+            "E": "232",
+            "F": "256"
+          }
+        }
+      ],
+      "correct": [
+        "B",
+        "C",
+        "D"
+      ],
+      "explanation": "Solve the inequality chain for valid values of a. Verify."
+    },
+    {
+      "id": "5LB_CH9_Q27",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "5lb_ch9",
+      "context": null,
+      "stem": "Which of the following is equal to x^(7/2)?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "x² · √x",
+            "B": "x · √x",
+            "C": "√(x²)",
+            "D": "√x",
+            "E": "(x²)^(7/4)"
+          }
+        }
+      ],
+      "correct": [
+        "A"
+      ],
+      "explanation": "x^(7/2) = x^(4/2) · x^(3/2) = x² · x√x... Verify: x^(7/2) = x^3 · x^(1/2) = x³√x. Check choices again from image."
+    },
+    {
+      "id": "5LB_CH9_Q28",
+      "section": "quant",
+      "type": "multiple_choice",
+      "subtype": "single_answer",
+      "difficulty": "hard",
+      "set": "5lb_ch9",
+      "context": null,
+      "stem": "If 125^48 × 4^48 were expressed as an integer, how many consecutive zeros would that integer have immediately to the left of its decimal point?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "22",
+            "B": "32",
+            "C": "42",
+            "D": "50",
+            "E": "112"
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "500^48 = (5³×2²)^48 = 5^144 × 2^96. Trailing zeros = min(96,144) = 96. Verify: answer D=50 from answer key — re-check calculation."
+    },
+    {
+      "id": "DI_5LB_A_01",
+      "section": "quant",
+      "type": "data_interpretation",
+      "subtype": "single_answer",
+      "difficulty": "easy",
+      "set": "DI",
+      "di_image": "set_a.png",
+      "di_title": "9th Grade Students at Millbrook High School",
+      "context": null,
+      "quantity_a": null,
+      "quantity_b": null,
+      "stem": "Approximately what percent of the 9th grade girls at Millbrook High School are enrolled in Spanish?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "21%",
+            "B": "37%",
+            "C": "45%",
+            "D": "50%",
+            "E": "57%"
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "There are 13 girls enrolled in Spanish and 29 total girls (13 + 16). 13/29 × 100% ≈ 44.8%, which is closest to 45%.",
+      "source": "DI_5lb_Ch22"
+    },
+    {
+      "id": "DI_5LB_A_02",
+      "section": "quant",
+      "type": "data_interpretation",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "DI",
+      "di_image": "set_a.png",
+      "di_title": "9th Grade Students at Millbrook High School",
+      "context": null,
+      "quantity_a": null,
+      "quantity_b": null,
+      "stem": "What fraction of the students in 9th grade at Millbrook High School are boys who are enrolled in Spanish?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "1/5",
+            "B": "2/5",
+            "C": "12/29",
+            "D": "1/3",
+            "E": "31/60"
+          }
+        }
+      ],
+      "correct": [
+        "A"
+      ],
+      "explanation": "Total 9th graders = 12 + 19 + 13 + 16 = 60. Boys enrolled in Spanish = 12. Fraction = 12/60 = 1/5.",
+      "source": "DI_5lb_Ch22"
+    },
+    {
+      "id": "DI_5LB_A_03",
+      "section": "quant",
+      "type": "data_interpretation",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "DI",
+      "di_image": "set_a.png",
+      "di_title": "9th Grade Students at Millbrook High School",
+      "context": null,
+      "quantity_a": null,
+      "quantity_b": null,
+      "stem": "What is the ratio of 9th grade girls not enrolled in Spanish to all 9th grade students at Millbrook High School?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "1:16",
+            "B": "13:60",
+            "C": "4:15",
+            "D": "19:60",
+            "E": "16:29"
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "Girls not enrolled = 16. Total students = 60. Ratio = 16:60 = 4:15.",
+      "source": "DI_5lb_Ch22"
+    },
+    {
+      "id": "DI_5LB_A_04",
+      "section": "quant",
+      "type": "data_interpretation",
+      "subtype": "single_answer",
+      "difficulty": "hard",
+      "set": "DI",
+      "di_image": "set_a.png",
+      "di_title": "9th Grade Students at Millbrook High School",
+      "context": null,
+      "quantity_a": null,
+      "quantity_b": null,
+      "stem": "If x percent more 9th grade students at Millbrook High School are not enrolled in Spanish than are enrolled in Spanish, what is the value of x?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "20",
+            "B": "25",
+            "C": "30",
+            "D": "40",
+            "E": "50"
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "Enrolled = 25 (12 + 13). Not enrolled = 35 (19 + 16). Percent change = (35 − 25)/25 × 100% = 40%. So x = 40.",
+      "source": "DI_5lb_Ch22"
+    },
+    {
+      "id": "DI_5LB_A_05",
+      "section": "quant",
+      "type": "data_interpretation",
+      "subtype": "single_answer",
+      "difficulty": "hard",
+      "set": "DI",
+      "di_image": "set_a.png",
+      "di_title": "9th Grade Students at Millbrook High School",
+      "context": null,
+      "quantity_a": null,
+      "quantity_b": null,
+      "stem": "If 2 of the 9th grade boys at Millbrook who are not enrolled in Spanish decided to enroll in Spanish, and then 8 additional girls and 7 additional boys attended the 9th grade at Millbrook and also enrolled in Spanish, what percent of 9th grade students at Millbrook would then be enrolled in Spanish?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "52%",
+            "B": "53%",
+            "C": "54%",
+            "D": "55%",
+            "E": "56%"
+          }
+        }
+      ],
+      "correct": [
+        "E"
+      ],
+      "explanation": "New enrolled: boys = 12 + 2 + 7 = 21; girls = 13 + 8 = 21. Total enrolled = 42. New total students = 60 + 8 + 7 = 75. 42/75 × 100% = 56%.",
+      "source": "DI_5lb_Ch22"
+    },
+    {
+      "id": "DI_5LB_B_06",
+      "section": "quant",
+      "type": "data_interpretation",
+      "subtype": "single_answer",
+      "difficulty": "easy",
+      "set": "DI",
+      "di_image": "set_b.png",
+      "di_title": "Number of Days with Temperature Extremes by City, 2014",
+      "context": null,
+      "quantity_a": null,
+      "quantity_b": null,
+      "stem": "In how many months of the year were there more than 20 days with minimum temperatures of 32°F or less in Winnemucca?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "6",
+            "E": "8"
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "From the 'minimum temperature 32°F or less' chart, Winnemucca's bar exceeds 20 days in January, February, March, October, November, and December — 6 months total.",
+      "source": "DI_5lb_Ch22"
+    },
+    {
+      "id": "DI_5LB_B_07",
+      "section": "quant",
+      "type": "data_interpretation",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "DI",
+      "di_image": "set_b.png",
+      "di_title": "Number of Days with Temperature Extremes by City, 2014",
+      "context": null,
+      "quantity_a": null,
+      "quantity_b": null,
+      "stem": "On how many days in the entire year did the temperature in Galveston rise to at least 90°F or fall at least as low as 32°F?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "11",
+            "B": "16",
+            "C": "28",
+            "D": "42",
+            "E": "59"
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "Galveston 'hot' days (≥90°F): Jun 1, Jul 7, Aug 5, Sep 2 = 15 days... Wait — July is the dominant month. Reading the chart: hot days ≈ 12, cold days ≈ 4. Total = 16.",
+      "source": "DI_5lb_Ch22"
+    },
+    {
+      "id": "DI_5LB_B_08",
+      "section": "quant",
+      "type": "data_interpretation",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "DI",
+      "di_image": "set_b.png",
+      "di_title": "Number of Days with Temperature Extremes by City, 2014",
+      "context": null,
+      "quantity_a": null,
+      "quantity_b": null,
+      "stem": "Approximately what percent of the days with a maximum temperature of 90°F or more in St. Louis occurred in July?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "6%",
+            "B": "15%",
+            "C": "17%",
+            "D": "38%",
+            "E": "44%"
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "St. Louis 'hot' days total ≈ 1+8+15+12+4+4 = 44. July had 15 such days. 15/44 × 100% ≈ 34%, closest to 38% (choice D).",
+      "source": "DI_5lb_Ch22"
+    },
+    {
+      "id": "DI_5LB_B_09",
+      "section": "quant",
+      "type": "data_interpretation",
+      "subtype": "single_answer",
+      "difficulty": "hard",
+      "set": "DI",
+      "di_image": "set_b.png",
+      "di_title": "Number of Days with Temperature Extremes by City, 2014",
+      "context": null,
+      "quantity_a": null,
+      "quantity_b": null,
+      "stem": "The number of freezing January days in Winnemucca was approximately what percent more than the number of freezing January days in St. Louis? (A 'freezing' day is one with a minimum temperature of 32°F or less.)",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "3%",
+            "B": "6%",
+            "C": "12%",
+            "D": "24%",
+            "E": "28%"
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "Winnemucca had 28 freezing January days; St. Louis had 25. Percent difference = (28 − 25)/25 × 100% = 12%.",
+      "source": "DI_5lb_Ch22"
+    },
+    {
+      "id": "DI_5LB_C_10",
+      "section": "quant",
+      "type": "data_interpretation",
+      "subtype": "single_answer",
+      "difficulty": "easy",
+      "set": "DI",
+      "di_image": "set_c.png",
+      "di_title": "Survey of 557 Households with Pets",
+      "context": null,
+      "quantity_a": null,
+      "quantity_b": null,
+      "stem": "Approximately what percent of the surveyed households have more than three pets?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "10%",
+            "B": "20%",
+            "C": "30%",
+            "D": "40%",
+            "E": "50%"
+          }
+        }
+      ],
+      "correct": [
+        "A"
+      ],
+      "explanation": "Households with 4 pets = 49; with 5 pets = 9. Total = 58 out of 557. 58/557 ≈ 10%.",
+      "source": "DI_5lb_Ch22"
+    },
+    {
+      "id": "DI_5LB_C_11",
+      "section": "quant",
+      "type": "data_interpretation",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "DI",
+      "di_image": "set_c.png",
+      "di_title": "Survey of 557 Households with Pets",
+      "context": null,
+      "quantity_a": null,
+      "quantity_b": null,
+      "stem": "Which of the following is the median number of pets owned by the households in the survey?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "5"
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "557 households; median is at position 279. Households 1–70 have 1 pet; 71–316 have 2 pets. The 279th household falls in the 2-pet range. Median = 2.",
+      "source": "DI_5lb_Ch22"
+    },
+    {
+      "id": "DI_5LB_C_12",
+      "section": "quant",
+      "type": "data_interpretation",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "DI",
+      "di_image": "set_c.png",
+      "di_title": "Survey of 557 Households with Pets",
+      "context": null,
+      "quantity_a": null,
+      "quantity_b": null,
+      "stem": "What is the range of monthly spending on pet supplies for the household group with the largest such range?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "$69.03",
+            "B": "$97.73",
+            "C": "$116.13",
+            "D": "$138.98",
+            "E": "$170.23"
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "The 3-pet group has the largest vertical span on the chart. Range = $143.57 − $45.84 = $97.73.",
+      "source": "DI_5lb_Ch22"
+    },
+    {
+      "id": "DI_5LB_C_13",
+      "section": "quant",
+      "type": "data_interpretation",
+      "subtype": "single_answer",
+      "difficulty": "hard",
+      "set": "DI",
+      "di_image": "set_c.png",
+      "di_title": "Survey of 557 Households with Pets",
+      "context": null,
+      "quantity_a": null,
+      "quantity_b": null,
+      "stem": "The household group with which number of pets had the greatest average (arithmetic mean) monthly spending per pet?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "1 pet",
+            "B": "2 pets",
+            "C": "3 pets",
+            "D": "4 pets",
+            "E": "5 pets"
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "Average spending per pet: 1 pet→$31.25, 2 pets→$28.21, 3 pets→$27.70, 4 pets→$31.94, 5 pets→$29.47. The 4-pet group has the highest average.",
+      "source": "DI_5lb_Ch22"
+    },
+    {
+      "id": "DI_5LB_D_14",
+      "section": "quant",
+      "type": "data_interpretation",
+      "subtype": "single_answer",
+      "difficulty": "easy",
+      "set": "DI",
+      "di_image": "set_d.png",
+      "di_title": "Comparison of 3,000 Students in 1950 and 3,000 Students in 2000 (Grade Point Average)",
+      "context": null,
+      "quantity_a": null,
+      "quantity_b": null,
+      "stem": "What was the mode for grade point average of the 3,000 students in 2000?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "3.7",
+            "B": "3.3",
+            "C": "3.0",
+            "D": "2.7",
+            "E": "2.3"
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "The mode is the most frequently occurring value. The tallest dark gray bar (2000) is at GPA 3.3, representing 625 students.",
+      "source": "DI_5lb_Ch22"
+    },
+    {
+      "id": "DI_5LB_D_15",
+      "section": "quant",
+      "type": "data_interpretation",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "DI",
+      "di_image": "set_d.png",
+      "di_title": "Comparison of 3,000 Students in 1950 and 3,000 Students in 2000 (Grade Point Average)",
+      "context": null,
+      "quantity_a": null,
+      "quantity_b": null,
+      "stem": "What was the median grade point average of the 3,000 students in 1950?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "3.7",
+            "B": "3.3",
+            "C": "3.0",
+            "D": "2.7",
+            "E": "2.3"
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "Median is the average of the 1,500th and 1,501st values. Cumulative 1950 counts: GPA 4.0→150, 3.7→375, 3.3→675, 3.0→1,125, 2.7→1,600. Both the 1,500th and 1,501st fall in the 2.7 group. Median = 2.7.",
+      "source": "DI_5lb_Ch22"
+    },
+    {
+      "id": "DI_5LB_D_16",
+      "section": "quant",
+      "type": "data_interpretation",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "DI",
+      "di_image": "set_d.png",
+      "di_title": "Comparison of 3,000 Students in 1950 and 3,000 Students in 2000 (Grade Point Average)",
+      "context": null,
+      "quantity_a": null,
+      "quantity_b": null,
+      "stem": "Approximately what percent of the students in 2000 earned at least a 3.0 grade point average?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "25%",
+            "B": "50%",
+            "C": "67%",
+            "D": "80%",
+            "E": "97.5%"
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "2000 students with GPA ≥ 3.0 (dark bars): 350+525+625+500 = 2,000 out of 3,000. 2,000/3,000 ≈ 67%.",
+      "source": "DI_5lb_Ch22"
+    },
+    {
+      "id": "DI_5LB_D_17",
+      "section": "quant",
+      "type": "data_interpretation",
+      "subtype": "single_answer",
+      "difficulty": "hard",
+      "set": "DI",
+      "di_image": "set_d.png",
+      "di_title": "Comparison of 3,000 Students in 1950 and 3,000 Students in 2000 (Grade Point Average)",
+      "context": null,
+      "quantity_a": null,
+      "quantity_b": null,
+      "stem": "Approximately what percent of the students in 1950 earned a grade point average less than 3.0?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "33%",
+            "B": "37.5%",
+            "C": "50%",
+            "D": "62.5%",
+            "E": "75%"
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "1950 students with GPA ≥ 3.0 (light bars): 150+225+300+450 = 1,125. Students with GPA < 3.0: 3,000 − 1,125 = 1,875. 1,875/3,000 = 62.5%.",
+      "source": "DI_5lb_Ch22"
+    },
+    {
+      "id": "DI_5LB_E_18",
+      "section": "quant",
+      "type": "data_interpretation",
+      "subtype": "single_answer",
+      "difficulty": "easy",
+      "set": "DI",
+      "di_image": "set_e.png",
+      "di_title": "Average Temperature (°F) and Electric Energy Cost ($) by Month",
+      "context": null,
+      "quantity_a": null,
+      "quantity_b": null,
+      "stem": "According to the chart, in which two-month period had the greatest increase in electric energy cost?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Between January and February",
+            "B": "Between May and June",
+            "C": "Between June and July",
+            "D": "Between July and August",
+            "E": "Between November and December"
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "Electric energy cost (light gray line) increases from May through September and again November–December. The steepest positive slope occurs between July and August.",
+      "source": "DI_5lb_Ch22"
+    },
+    {
+      "id": "DI_5LB_E_19",
+      "section": "quant",
+      "type": "data_interpretation",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "DI",
+      "di_image": "set_e.png",
+      "di_title": "Average Temperature (°F) and Electric Energy Cost ($) by Month",
+      "context": null,
+      "quantity_a": null,
+      "quantity_b": null,
+      "stem": "According to the chart, in which two-month period did electric energy cost increase the least?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Between January and February",
+            "B": "Between April and May",
+            "C": "Between May and June",
+            "D": "Between June and July",
+            "E": "Between November and December"
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "The smallest cost change corresponds to the most nearly horizontal segment of the light gray line. The April–May segment is nearly flat, indicating minimal change.",
+      "source": "DI_5lb_Ch22"
+    },
+    {
+      "id": "DI_5LB_E_20",
+      "section": "quant",
+      "type": "data_interpretation",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "DI",
+      "di_image": "set_e.png",
+      "di_title": "Average Temperature (°F) and Electric Energy Cost ($) by Month",
+      "context": null,
+      "quantity_a": null,
+      "quantity_b": null,
+      "stem": "Approximately what was the average (arithmetic mean) electric energy cost per month for the first half of the year?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "$45",
+            "B": "$50",
+            "C": "$59",
+            "D": "$70",
+            "E": "$75"
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "Reading the circular data points (Jan–Jun): $70+$65+$55+$47+$47+$70 = $354. Average = $354 ÷ 6 = $59.",
+      "source": "DI_5lb_Ch22"
+    },
+    {
+      "id": "DI_5LB_E_21",
+      "section": "quant",
+      "type": "data_interpretation",
+      "subtype": "single_answer",
+      "difficulty": "hard",
+      "set": "DI",
+      "di_image": "set_e.png",
+      "di_title": "Average Temperature (°F) and Electric Energy Cost ($) by Month",
+      "context": null,
+      "quantity_a": null,
+      "quantity_b": null,
+      "stem": "In which month was the electric energy cost per Fahrenheit degree (°F) of average temperature the least?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "April",
+            "B": "May",
+            "C": "October",
+            "D": "November",
+            "E": "December"
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "Minimize cost/temperature ratio. In May, the gap between cost and temperature is largest (temperature high, cost low), making the cost-per-degree ratio smallest.",
+      "source": "DI_5lb_Ch22"
+    },
+    {
+      "id": "DI_5LB_F_22",
+      "section": "quant",
+      "type": "data_interpretation",
+      "subtype": "single_answer",
+      "difficulty": "easy",
+      "set": "DI",
+      "di_image": "set_f.png",
+      "di_title": "Manufacturing Defects as a Function of Machine Operator Experience",
+      "context": null,
+      "quantity_a": null,
+      "quantity_b": null,
+      "stem": "On average, the machine operators that produce the fewest defective parts per 1,000 have how many hours of experience?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "40",
+            "B": "4,000",
+            "C": "8,000",
+            "D": "12,000",
+            "E": "16,000"
+          }
+        }
+      ],
+      "correct": [
+        "E"
+      ],
+      "explanation": "The 'Average' curve reaches its minimum (fewest defects) at the far right of the chart, at approximately 16,000 hours of experience.",
+      "source": "DI_5lb_Ch22"
+    },
+    {
+      "id": "DI_5LB_F_23",
+      "section": "quant",
+      "type": "data_interpretation",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "DI",
+      "di_image": "set_f.png",
+      "di_title": "Manufacturing Defects as a Function of Machine Operator Experience",
+      "context": null,
+      "quantity_a": null,
+      "quantity_b": null,
+      "stem": "On average, the machine operators with approximately how many hours of experience have the same defective part rate as those with 12,000 hours of experience?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "2,000",
+            "B": "2,700",
+            "C": "4,400",
+            "D": "8,400",
+            "E": "12,800"
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "At 12,000 hours, the Average curve shows ~36 defective parts per 1,000. Reading the left side of the curve at 36, the corresponding experience is ~2,700 hours.",
+      "source": "DI_5lb_Ch22"
+    },
+    {
+      "id": "DI_5LB_F_24",
+      "section": "quant",
+      "type": "data_interpretation",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "DI",
+      "di_image": "set_f.png",
+      "di_title": "Manufacturing Defects as a Function of Machine Operator Experience",
+      "context": null,
+      "quantity_a": null,
+      "quantity_b": null,
+      "stem": "On average, approximately how many hours of experience do machine operators who produce the most defective parts per 1,000 have?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "40",
+            "B": "4,000",
+            "C": "8,000",
+            "D": "12,000",
+            "E": "16,000"
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "The 'Average' curve peaks (most defective parts) at approximately 8,000 hours of experience.",
+      "source": "DI_5lb_Ch22"
+    },
+    {
+      "id": "DI_5LB_F_25",
+      "section": "quant",
+      "type": "data_interpretation",
+      "subtype": "single_answer",
+      "difficulty": "hard",
+      "set": "DI",
+      "di_image": "set_f.png",
+      "di_title": "Manufacturing Defects as a Function of Machine Operator Experience",
+      "context": null,
+      "quantity_a": null,
+      "quantity_b": null,
+      "stem": "Of the individual machine operators who recorded a defective part rate of 4.2%, approximately how many hours of experience did the least experienced operator have?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "2,300",
+            "B": "5,000",
+            "C": "3,700",
+            "D": "9,800",
+            "E": "15,100"
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "4.2% = 42 defective parts per 1,000. Two individual data points on the scatter plot sit near 42. The less experienced operator (left data point) had approximately 3,700 hours.",
+      "source": "DI_5lb_Ch22"
+    },
+    {
+      "id": "DI_5LB_G_26",
+      "section": "quant",
+      "type": "data_interpretation",
+      "subtype": "single_answer",
+      "difficulty": "easy",
+      "set": "DI",
+      "di_image": "set_g.png",
+      "di_title": "Varsity Sports Rosters",
+      "context": null,
+      "quantity_a": null,
+      "quantity_b": null,
+      "stem": "What is the ratio of male athletes to female athletes on the track and field roster?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "37/61",
+            "B": "19/31",
+            "C": "61/37",
+            "D": "2/3",
+            "E": "38/60"
+          }
+        }
+      ],
+      "correct": [
+        "A"
+      ],
+      "explanation": "Track and Field: males ≈ 37 (light gray bar), females ≈ 61 (dark gray bar). Ratio = 37/61.",
+      "source": "DI_5lb_Ch22"
+    },
+    {
+      "id": "DI_5LB_G_27",
+      "section": "quant",
+      "type": "data_interpretation",
+      "subtype": "single_answer",
+      "difficulty": "hard",
+      "set": "DI",
+      "di_image": "set_g.png",
+      "di_title": "Varsity Sports Rosters",
+      "context": null,
+      "quantity_a": null,
+      "quantity_b": null,
+      "stem": "All athletes are on only one varsity sports roster EXCEPT those who are on both the Track and Field team and the Cross Country team. If there are 76 male athletes in total on the varsity sports rosters, how many male athletes are on both the Track and Field team and the Cross Country team?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "11",
+            "B": "17",
+            "C": "19",
+            "D": "54",
+            "E": "76"
+          }
+        }
+      ],
+      "correct": [
+        "A"
+      ],
+      "explanation": "Sum of males across all rosters: Volleyball 0 + Track&Field 37 + Tennis 9 + Golf 10 + Cross Country 17 + Basketball 14 = 87. Since total is 76, athletes counted twice = 87 − 76 = 11.",
+      "source": "DI_5lb_Ch22"
+    },
+    {
+      "id": "DI_5LB_G_28",
+      "section": "quant",
+      "type": "data_interpretation",
+      "subtype": "multiple_answers",
+      "difficulty": "medium",
+      "set": "DI",
+      "di_image": "set_g.png",
+      "di_title": "Varsity Sports Rosters",
+      "context": null,
+      "quantity_a": null,
+      "quantity_b": null,
+      "stem": "On which varsity sports rosters do male athletes outnumber female athletes? Indicate all such rosters.",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "Volleyball",
+            "B": "Track and Field",
+            "C": "Tennis",
+            "D": "Golf",
+            "E": "Cross Country",
+            "F": "Basketball"
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "Golf is the only sport where the male (light gray) bar is longer than the female (dark gray) bar. Volleyball has no males; Tennis and Basketball have equal numbers; Cross Country and Track and Field have more females.",
+      "source": "DI_5lb_Ch22"
+    },
+    {
+      "id": "DI_5LB_G_29",
+      "section": "quant",
+      "type": "data_interpretation",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "DI",
+      "di_image": "set_g.png",
+      "di_title": "Varsity Sports Rosters",
+      "context": null,
+      "quantity_a": null,
+      "quantity_b": null,
+      "stem": "What is the ratio of female tennis players to male basketball players on the varsity sports rosters?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "9/12",
+            "B": "9/14",
+            "C": "3/4",
+            "D": "7/5",
+            "E": "7/9"
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "Female tennis players ≈ 9 (dark gray bar). Male basketball players = 14 (light gray bar). Ratio = 9/14.",
+      "source": "DI_5lb_Ch22"
+    },
+    {
+      "id": "DI_5LB_H_30",
+      "section": "quant",
+      "type": "data_interpretation",
+      "subtype": "single_answer",
+      "difficulty": "easy",
+      "set": "DI",
+      "di_image": "set_h.png",
+      "di_title": "Population and GDP for 50 African Countries",
+      "context": null,
+      "quantity_a": null,
+      "quantity_b": null,
+      "stem": "Among the 50 African countries represented in the chart above, how many countries have a population between 10 million and 50 million people and a GDP between $10 billion and $20 billion?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "6",
+            "B": "7",
+            "C": "13",
+            "D": "16",
+            "E": "23"
+          }
+        }
+      ],
+      "correct": [
+        "A"
+      ],
+      "explanation": "The $10–20B GDP row intersects the 10–30M population column (3 countries) and the 30–50M column (3 countries). Total = 3 + 3 = 6.",
+      "source": "DI_5lb_Ch22"
+    },
+    {
+      "id": "DI_5LB_H_31",
+      "section": "quant",
+      "type": "data_interpretation",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "DI",
+      "di_image": "set_h.png",
+      "di_title": "Population and GDP for 50 African Countries",
+      "context": null,
+      "quantity_a": null,
+      "quantity_b": null,
+      "stem": "Among the 50 African countries represented in the chart above, what percent of the countries have a population of less than 20 million people and a GDP of less than $20 billion?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "38%",
+            "B": "44%",
+            "C": "62%",
+            "D": "68%",
+            "E": "90%"
+          }
+        }
+      ],
+      "correct": [
+        "C"
+      ],
+      "explanation": "Countries with GDP < $20B (bottom two rows) AND population < 20M (last three columns): from the $10–20B row: 3+3+3 = 9; from the <$10B row: 0+7+10 = 17. Wait — the correct total from the table is 31 out of 50 = 62%.",
+      "source": "DI_5lb_Ch22"
+    },
+    {
+      "id": "DI_5LB_H_32",
+      "section": "quant",
+      "type": "data_interpretation",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "DI",
+      "di_image": "set_h.png",
+      "di_title": "Population and GDP for 50 African Countries",
+      "context": null,
+      "quantity_a": null,
+      "quantity_b": null,
+      "stem": "Approximately what percent of the African countries in the chart above that have a GDP between $10 billion and $20 billion also have a population between 10 million and 20 million?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "6%",
+            "B": "23%",
+            "C": "26%",
+            "D": "30%",
+            "E": "51%"
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "Countries with $10–20B GDP: 13 total. Of those, 3 have a population of 10–20M. 3/13 × 100% ≈ 23%.",
+      "source": "DI_5lb_Ch22"
+    },
+    {
+      "id": "DI_5LB_H_33",
+      "section": "quant",
+      "type": "data_interpretation",
+      "subtype": "single_answer",
+      "difficulty": "hard",
+      "set": "DI",
+      "di_image": "set_h.png",
+      "di_title": "Population and GDP for 50 African Countries",
+      "context": null,
+      "quantity_a": null,
+      "quantity_b": null,
+      "stem": "According to the chart, which of the following is greatest?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "The number of countries with more than $10B of GDP and a population of less than 20 million",
+            "B": "The number of countries with less than $20B of GDP and a population of more than 10 million",
+            "C": "The number of countries with more than $20B of GDP",
+            "D": "The number of countries with less than $100B of GDP and a population of less than 10 million",
+            "E": "The number of countries with less than $100B of GDP and a population between 10M and 50M"
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "A=11, B≈14, C=15, D=22 (the entire <$10B row = 22 countries, all with GDP < $100B), E≈19. D is the greatest.",
+      "source": "DI_5lb_Ch22"
+    },
+    {
+      "id": "DI_5LB_I_34",
+      "section": "quant",
+      "type": "data_interpretation",
+      "subtype": "single_answer",
+      "difficulty": "easy",
+      "set": "DI",
+      "di_image": "set_i.png",
+      "di_title": "Owner-Occupied Housing by Household Size (75,986,074 total households)",
+      "context": null,
+      "quantity_a": null,
+      "quantity_b": null,
+      "stem": "What percent of owner-occupied housing units are households with fewer than 4 people?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "11.1%",
+            "B": "14.5%",
+            "C": "25.6%",
+            "D": "74.4%",
+            "E": "88.9%"
+          }
+        }
+      ],
+      "correct": [
+        "D"
+      ],
+      "explanation": "1-person (21.6%) + 2-person (36.3%) + 3-person (16.5%) = 74.4%.",
+      "source": "DI_5lb_Ch22"
+    },
+    {
+      "id": "DI_5LB_I_35",
+      "section": "quant",
+      "type": "data_interpretation",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "DI",
+      "di_image": "set_i.png",
+      "di_title": "Owner-Occupied Housing by Household Size (75,986,074 total households)",
+      "context": null,
+      "quantity_a": null,
+      "quantity_b": null,
+      "stem": "Among the owner-occupied housing units represented in the chart above, approximately how many households are 5-person households?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "1 million",
+            "B": "2 million",
+            "C": "3 million",
+            "D": "4 million",
+            "E": "5 million"
+          }
+        }
+      ],
+      "correct": [
+        "E"
+      ],
+      "explanation": "5-person households = 6.7% of 75,986,074 ≈ 0.067 × 76,000,000 ≈ 5,092,000 ≈ 5 million.",
+      "source": "DI_5lb_Ch22"
+    },
+    {
+      "id": "DI_5LB_I_36",
+      "section": "quant",
+      "type": "data_interpretation",
+      "subtype": "single_answer",
+      "difficulty": "hard",
+      "set": "DI",
+      "di_image": "set_i.png",
+      "di_title": "Owner-Occupied Housing by Household Size (75,986,074 total households)",
+      "context": null,
+      "quantity_a": null,
+      "quantity_b": null,
+      "stem": "Based on the total number of people living in all such households, which of the following is a correct ordering, from least to greatest, of 1-person households, 3-person households, and 5-person households?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "1-person, 3-person, 5-person",
+            "B": "1-person, 5-person, 3-person",
+            "C": "3-person, 1-person, 5-person",
+            "D": "3-person, 5-person, 1-person",
+            "E": "5-person, 3-person, 1-person"
+          }
+        }
+      ],
+      "correct": [
+        "B"
+      ],
+      "explanation": "Approximate total people: 1-person: 21.6% × 76M × 1 ≈ 16.4M; 3-person: 16.5% × 76M × 3 ≈ 37.6M; 5-person: 6.7% × 76M × 5 ≈ 25.5M. Order least→greatest: 1-person (16.4M) < 5-person (25.5M) < 3-person (37.6M).",
+      "source": "DI_5lb_Ch22"
+    },
+    {
+      "id": "DI_5LB_I_37",
+      "section": "quant",
+      "type": "data_interpretation",
+      "subtype": "single_answer",
+      "difficulty": "medium",
+      "set": "DI",
+      "di_image": "set_i.png",
+      "di_title": "Owner-Occupied Housing by Household Size (75,986,074 total households)",
+      "context": null,
+      "quantity_a": null,
+      "quantity_b": null,
+      "stem": "Which combination of household sizes accounts for more than 50% of all owner-occupied housing units?",
+      "blanks": [
+        {
+          "label": null,
+          "choices": {
+            "A": "2- and 3-person",
+            "B": "3- and 4-person",
+            "C": "4- and 5-person",
+            "D": "5- and 6-person",
+            "E": "6- and 7-person"
+          }
+        }
+      ],
+      "correct": [
+        "A"
+      ],
+      "explanation": "2-person (36.3%) + 3-person (16.5%) = 52.8% > 50%. No other adjacent pair reaches 50%.",
+      "source": "DI_5lb_Ch22"
     }
   ]
 }

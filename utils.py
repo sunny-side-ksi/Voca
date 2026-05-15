@@ -367,6 +367,19 @@ div[data-testid="stProgressBar"] > div > div {
 
 /* ── Divider ─────────────────────────────────────── */
 .sdiv { border: none; border-top: 1px solid #E2E8F0; margin: 22px 0; }
+
+/* ── DI chart title ──────────────────────────────── */
+.di-title {
+    background: #F1F5F9;
+    border-left: 4px solid #6366F1;
+    border-radius: 0 8px 8px 0;
+    padding: 8px 14px;
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: #3730A3;
+    letter-spacing: 0.01em;
+    margin-bottom: 10px;
+}
 </style>"""
 
 
