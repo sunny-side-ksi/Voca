@@ -72,24 +72,13 @@ def reset_session():
             del st.session_state[k]
 
 
-def _all_topics():
-    qs = load_questions()
-    return sorted({str(q.get("set", "")) for q in qs if q.get("set")})
-
-
 def reset_filters():
-    """필터 세션 상태 전체 초기화."""
-    st.session_state["qp_f_type"]  = ALL_TYPES
-    st.session_state["qp_f_diff"]  = ALL_DIFFS
-    st.session_state["qp_f_topic"] = _all_topics()
+    st.session_state["qp_f_type"] = ALL_TYPES
+    st.session_state["qp_f_diff"] = ALL_DIFFS
 
 
-# 타입 또는 토픽 세션이 없거나 새 항목이 누락된 경우 전체 리셋
-_cur_types  = st.session_state.get("qp_f_type", [])
-_cur_topics = st.session_state.get("qp_f_topic", [])
-_all_t      = _all_topics()
-if (not set(ALL_TYPES).issubset(set(_cur_types))
-        or not set(_all_t).issubset(set(_cur_topics))):
+# 타입 세션이 없거나 새 유형이 누락된 경우 전체 리셋
+if not set(ALL_TYPES).issubset(set(st.session_state.get("qp_f_type", []))):
     reset_filters()
 
 all_questions = load_questions()
@@ -117,16 +106,6 @@ with st.sidebar:
         key="qp_f_diff",
     )
 
-    # 항상 최신 데이터 기준으로 topic 목록 생성 (DI 포함)
-    fresh_for_topics = load_questions()
-    topics_available = sorted({str(q.get("set", "기타")) for q in fresh_for_topics if q.get("set")})
-    sel_topic = st.multiselect(
-        "토픽/출처",
-        options=topics_available,
-        default=topics_available,
-        key="qp_f_topic",
-    )
-
     n_max = st.slider("최대 문제 수", 5, 50, 20)
 
     st.markdown('<hr class="sdiv">', unsafe_allow_html=True)
@@ -138,7 +117,6 @@ with st.sidebar:
             q for q in fresh_q
             if any(fn(q) for fn in type_fns)
             and q["difficulty"] in sel_diff
-            and str(q.get("set", "")) in sel_topic
             and q.get("correct")
         ]
         random.shuffle(filtered)
@@ -161,7 +139,7 @@ if "qp_questions" not in st.session_state:
     <div style="text-align:center; padding:60px 20px;">
       <div style="font-size:3.5rem;">🔢</div>
       <h2 style="color:#1E293B; margin-top:12px;">Quantitative Reasoning</h2>
-      <p style="color:#64748B;">사이드바에서 유형·난이도·출처를 선택하고<br><strong>Start</strong>를 눌러 시작하세요.</p>
+      <p style="color:#64748B;">사이드바에서 유형·난이도를 선택하고<br><strong>Start</strong>를 눌러 시작하세요.</p>
       <div style="margin-top:24px; display:flex; gap:8px; justify-content:center; flex-wrap:wrap;">
         <span class="badge b-qc">QC</span>
         <span class="badge b-mc">MC·Single</span>
