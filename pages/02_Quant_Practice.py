@@ -91,7 +91,9 @@ with st.sidebar:
         format_func=lambda x: DIFF_LABEL[x],
     )
 
-    topics_available = sorted({str(q.get("set", "기타")) for q in all_questions if q.get("set")})
+    # 항상 최신 데이터 기준으로 topic 목록 생성 (DI 포함)
+    fresh_for_topics = load_questions()
+    topics_available = sorted({str(q.get("set", "기타")) for q in fresh_for_topics if q.get("set")})
     sel_topic = st.multiselect(
         "토픽/출처",
         options=topics_available,
@@ -103,13 +105,15 @@ with st.sidebar:
     st.markdown('<hr class="sdiv">', unsafe_allow_html=True)
     if st.button("🚀  Start / Restart", type="primary", use_container_width=True):
         reset_session()
+        load_questions.clear()
+        fresh_q = load_questions()
         type_fns = [FILTER_TO_TYPE[k] for k in sel_type_keys if k in FILTER_TO_TYPE]
         filtered = [
-            q for q in all_questions
+            q for q in fresh_q
             if any(fn(q) for fn in type_fns)
             and q["difficulty"] in sel_diff
             and str(q.get("set", "")) in sel_topic
-            and q.get("correct")   # 정답 미확인 문제 제외
+            and q.get("correct")
         ]
         random.shuffle(filtered)
         filtered = filtered[:n_max]
