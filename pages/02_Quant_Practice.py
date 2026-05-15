@@ -77,8 +77,8 @@ def reset_filters():
     st.session_state["qp_f_diff"] = ALL_DIFFS
 
 
-# 타입 세션이 없거나 새 유형이 누락된 경우 전체 리셋
-if not set(ALL_TYPES).issubset(set(st.session_state.get("qp_f_type", []))):
+# 세션 키가 없을 때만 기본값 세팅
+if "qp_f_type" not in st.session_state or "qp_f_diff" not in st.session_state:
     reset_filters()
 
 all_questions = load_questions()
