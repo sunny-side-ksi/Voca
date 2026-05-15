@@ -72,14 +72,24 @@ def reset_session():
             del st.session_state[k]
 
 
+def _all_topics():
+    qs = load_questions()
+    return sorted({str(q.get("set", "")) for q in qs if q.get("set")})
+
+
 def reset_filters():
-    """필터 세션 상태 초기화 — 옵션 목록이 바뀌었을 때 stale 값 제거."""
-    st.session_state["qp_f_type"] = ALL_TYPES
-    st.session_state["qp_f_diff"] = ALL_DIFFS
+    """필터 세션 상태 전체 초기화."""
+    st.session_state["qp_f_type"]  = ALL_TYPES
+    st.session_state["qp_f_diff"]  = ALL_DIFFS
+    st.session_state["qp_f_topic"] = _all_topics()
 
 
-# 필터 세션 초기화: qp_f_type에 새 유형이 누락된 경우 전체 리셋
-if "qp_f_type" not in st.session_state or not set(ALL_TYPES).issubset(set(st.session_state["qp_f_type"])):
+# 타입 또는 토픽 세션이 없거나 새 항목이 누락된 경우 전체 리셋
+_cur_types  = st.session_state.get("qp_f_type", [])
+_cur_topics = st.session_state.get("qp_f_topic", [])
+_all_t      = _all_topics()
+if (not set(ALL_TYPES).issubset(set(_cur_types))
+        or not set(_all_t).issubset(set(_cur_topics))):
     reset_filters()
 
 all_questions = load_questions()
