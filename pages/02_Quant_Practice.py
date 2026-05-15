@@ -8,7 +8,7 @@ from PIL import Image
 
 from utils import inject_css, esc
 
-DI_IMAGES_DIR = Path(__file__).parent.parent / "di_images"
+DI_IMAGES_DIR = Path(__file__).resolve().parent.parent / "di_images"
 
 st.set_page_config(page_title="Quant Practice", page_icon="🔢", layout="centered")
 inject_css()
@@ -238,14 +238,17 @@ if q.get("context"):
 # ── DI chart image ────────────────────────────────────────────────────────────
 if q.get("di_image"):
     img_path = DI_IMAGES_DIR / q["di_image"]
-    if img_path.exists():
-        di_title = q.get("di_title", "")
-        if di_title:
-            st.markdown(
-                f'<div class="di-title">{esc(di_title)}</div>',
-                unsafe_allow_html=True,
-            )
-        st.image(str(img_path), use_container_width=True)
+    di_title = q.get("di_title", "")
+    if di_title:
+        st.markdown(
+            f'<div class="di-title">{esc(di_title)}</div>',
+            unsafe_allow_html=True,
+        )
+    try:
+        pil_img = Image.open(img_path)
+        st.image(pil_img, use_container_width=True)
+    except Exception:
+        st.warning(f"이미지를 불러올 수 없습니다: {img_path}")
 
 # ── QC grid ───────────────────────────────────────────────────────────────────
 if q["type"] == "quantitative_comparison":
