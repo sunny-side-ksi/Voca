@@ -62,11 +62,25 @@ def load_questions():
         return json.load(f)["quant"]
 
 
+ALL_TYPES = [k for k, _ in FILTER_OPTIONS]
+ALL_DIFFS = ["easy", "medium", "hard"]
+
+
 def reset_session():
     for k in list(st.session_state.keys()):
         if k.startswith("qp_"):
             del st.session_state[k]
 
+
+def reset_filters():
+    """필터 세션 상태 초기화 — 옵션 목록이 바뀌었을 때 stale 값 제거."""
+    st.session_state["qp_f_type"] = ALL_TYPES
+    st.session_state["qp_f_diff"] = ALL_DIFFS
+
+
+# 필터 세션 초기화: qp_f_type에 새 유형이 누락된 경우 전체 리셋
+if "qp_f_type" not in st.session_state or not set(ALL_TYPES).issubset(set(st.session_state["qp_f_type"])):
+    reset_filters()
 
 all_questions = load_questions()
 
@@ -79,16 +93,18 @@ with st.sidebar:
 
     sel_type_keys = st.multiselect(
         "문제 유형",
-        options=[k for k, _ in FILTER_OPTIONS],
-        default=[k for k, _ in FILTER_OPTIONS],
+        options=ALL_TYPES,
+        default=ALL_TYPES,
         format_func=lambda k: dict(FILTER_OPTIONS)[k],
+        key="qp_f_type",
     )
 
     sel_diff = st.multiselect(
         "난이도",
-        options=["easy", "medium", "hard"],
-        default=["easy", "medium", "hard"],
+        options=ALL_DIFFS,
+        default=ALL_DIFFS,
         format_func=lambda x: DIFF_LABEL[x],
+        key="qp_f_diff",
     )
 
     # 항상 최신 데이터 기준으로 topic 목록 생성 (DI 포함)
@@ -98,6 +114,7 @@ with st.sidebar:
         "토픽/출처",
         options=topics_available,
         default=topics_available,
+        key="qp_f_topic",
     )
 
     n_max = st.slider("최대 문제 수", 5, 50, 20)
@@ -105,7 +122,6 @@ with st.sidebar:
     st.markdown('<hr class="sdiv">', unsafe_allow_html=True)
     if st.button("🚀  Start / Restart", type="primary", use_container_width=True):
         reset_session()
-        load_questions.clear()
         fresh_q = load_questions()
         type_fns = [FILTER_TO_TYPE[k] for k in sel_type_keys if k in FILTER_TO_TYPE]
         filtered = [
